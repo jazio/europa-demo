@@ -6,4 +6,4 @@ Feature: Setup
 
   Scenario: The demo site is installed
     When I am on the homepage
-    Then I should see the "Europa Demo" header
+    Then I should see "Europa Demo"
