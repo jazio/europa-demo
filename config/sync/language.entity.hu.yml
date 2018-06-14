@@ -1,0 +1,11 @@
+uuid: 7d6a02e8-ab32-4af7-a75a-08ada05b1f0d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: TGNqDIkYQxAPpz22PE4iwdfmVGXV0TNg4Pzk-uEN_Ss
+id: hu
+label: Hungarian
+direction: ltr
+weight: 4
+locked: false

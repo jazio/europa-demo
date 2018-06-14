@@ -1,0 +1,11 @@
+uuid: abb3161d-50ca-4d16-9ffd-5db82de3919d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j3cykDOaH_yvQUyv1cQD_2pSW87NpAlqQ4QRgCyws9U
+id: mt
+label: Maltese
+direction: ltr
+weight: 5
+locked: false

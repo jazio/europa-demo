@@ -1,0 +1,11 @@
+uuid: 5e860acc-1447-402a-a614-c46c042ab4bb
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: J6ue4DkfS135i5e5-5CMn4PXFWzzEP0KQxwpadR-V50
+id: pt
+label: Portuguese
+direction: ltr
+weight: 8
+locked: false

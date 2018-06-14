@@ -1,0 +1,11 @@
+uuid: f627232d-ec32-4514-ba60-4f6469f39a32
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 7iJbiogPTs4o-Q1tbowf4DjFpXZjk0LFqLY8OXaS_vw
+id: oe_links_block
+label: 'Links block'
+icon_uuid: null
+description: 'A set of links with an optional title.'
+behavior_plugins: {  }

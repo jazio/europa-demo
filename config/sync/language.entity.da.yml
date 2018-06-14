@@ -1,0 +1,11 @@
+uuid: 35975709-ef61-4eee-ad68-9932a575c713
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: S3SF7-iSjNu1oBDP_gv4wFmFQGtTGS_ZEi_ea0aPQEM
+id: da
+label: Danish
+direction: ltr
+weight: -8
+locked: false

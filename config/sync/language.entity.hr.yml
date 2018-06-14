@@ -1,0 +1,11 @@
+uuid: 51f5c40c-0474-4663-82d3-ed53947f816e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: d6t797lPEKSclSV9tPQP8WGFlyeHTZGYG8ySBVe09xc
+id: hr
+label: Croatian
+direction: ltr
+weight: 0
+locked: false

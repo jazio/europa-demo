@@ -1,0 +1,11 @@
+uuid: 418e3b8b-5d37-47e3-9207-5ad88da1a285
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: FkNn9rACHdQl1EWruSy3tu5GE4x-Z-gJqXGva_XcKzE
+id: el
+label: Greek
+direction: ltr
+weight: -5
+locked: false

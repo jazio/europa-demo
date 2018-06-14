@@ -1,0 +1,11 @@
+uuid: 04c23619-1886-4b69-843b-a21a96a6d823
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: hZupNEnebbw9GDMneob4XlPgjnRCObsUO-gU3Kp6FX8
+id: it
+label: Italian
+direction: ltr
+weight: 1
+locked: false

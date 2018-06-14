@@ -1,0 +1,11 @@
+uuid: 1317ef15-b951-42af-9059-1ec57792f19f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: q2BOv84B_Ut-N1L4ZjVT-x-dBYr0xlPCOmE56rE-k8U
+id: fr
+label: French
+direction: ltr
+weight: -2
+locked: false

@@ -1,0 +1,22 @@
+uuid: 5aeb2588-e959-44d8-ac79-5b754039f111
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_multilingual
+  theme:
+    - oe_theme
+_core:
+  default_config_hash: 25g_t0VuM1bjxTgL69nU29TUgSacREaadlxPUWzD_AY
+id: oe_multilingual_content_language_switcher
+theme: oe_theme
+region: breadcrumb
+weight: 1
+provider: null
+plugin: oe_multilingual_content_language_switcher
+settings:
+  id: oe_multilingual_content_language_switcher
+  label: 'OpenEuropa Content Language Switcher'
+  provider: oe_multilingual
+  label_display: '0'
+visibility: {  }

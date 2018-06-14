@@ -1,0 +1,37 @@
+uuid: 1a9b265d-4676-494c-976b-117d3b80619a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.oe_accordion.field_oe_paragraphs
+    - paragraphs.paragraphs_type.oe_accordion
+  module:
+    - paragraphs
+_core:
+  default_config_hash: Ro0qHXZbptnSyNMSRxhmMzl6oe4L3wj-aemvM7WPfCo
+id: paragraph.oe_accordion.default
+targetEntityType: paragraph
+bundle: oe_accordion
+mode: default
+content:
+  field_oe_paragraphs:
+    type: entity_reference_paragraphs
+    weight: 0
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  translation:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

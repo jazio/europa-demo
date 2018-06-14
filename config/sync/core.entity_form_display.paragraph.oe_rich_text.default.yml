@@ -1,0 +1,28 @@
+uuid: 921043bc-2f51-414e-97c2-cd35d2c01064
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.oe_rich_text.field_oe_text_long
+    - paragraphs.paragraphs_type.oe_rich_text
+  module:
+    - text
+_core:
+  default_config_hash: e8EcxSWoWVhTn-tDNNP_ubkaD0LyXXRL5fbvdZS4aKY
+id: paragraph.oe_rich_text.default
+targetEntityType: paragraph
+bundle: oe_rich_text
+mode: default
+content:
+  field_oe_text_long:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true
