@@ -1,4 +1,4 @@
-uuid: 603320e9-f480-47a8-8eb6-55e06779f4f8
+uuid: 2850f1b6-02d2-4145-9feb-184eeb724c3a
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
   module:
     - link
 _core:
-  default_config_hash: lYztg2V7Gw3pOAbUwULdjl3sl6rro3rlg1hPFlItI_M
+  default_config_hash: _Vgr9imidIeQ6LWaHQ8lxeoXEOIhGe8CT00ebIp2zrI
 id: paragraph.oe_links_block.default
 targetEntityType: paragraph
 bundle: oe_links_block

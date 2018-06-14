@@ -1,4 +1,4 @@
-uuid: 21d56374-dd25-475b-ad38-ea30e0e4b92d
+uuid: ad16b953-77c8-4f2c-bf45-5c94eac007fb
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
   module:
     - text
 _core:
-  default_config_hash: zjnhOEplXwi2NwDcBp-SSQh8KekksCb5PePAB4XGoDE
+  default_config_hash: e_Po4sWclcOlsXxqpYCz66vr91cThU1lZJYDSCcuLmI
 id: paragraph.oe_quote.default
 targetEntityType: paragraph
 bundle: oe_quote
