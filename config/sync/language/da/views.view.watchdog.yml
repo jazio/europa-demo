@@ -1,0 +1,48 @@
+label: Hændelseslog
+description: 'Seneste logmeddelelser'
+display:
+  default:
+    display_title: Master
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Filter
+          reset_button_label: Gendan
+          exposed_sorts_label: 'Sortér efter'
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Antal elementer'
+            items_per_page_options_all_label: '- Alle -'
+          tags:
+            previous: ‹‹
+            next: ››
+      fields:
+        wid:
+          label: WID
+        severity:
+          label: Grad
+        type:
+          label: Type
+        timestamp:
+          label: Dato
+        message:
+          label: Meddelelse
+        name:
+          label: Bruger
+        link:
+          label: Handlinger
+      filters:
+        type:
+          expose:
+            label: Type
+        severity:
+          expose:
+            label: Grad
+      title: 'Seneste logmeddelelser'
+      empty:
+        area:
+          admin_label: 'Ingen logbeskeder til rådighed.'
+          content: 'Ingen logbeskeder til rådighed.'
+  page:
+    display_title: Side

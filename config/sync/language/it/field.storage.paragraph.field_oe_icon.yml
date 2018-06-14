@@ -1,0 +1,36 @@
+settings:
+  allowed_values:
+    4:
+      label: Book
+    11:
+      label: Chiudi
+    13:
+      label: Copia
+    14:
+      label: Dati
+    17:
+      label: Scarica
+    18:
+      label: Modifica
+    20:
+      label: Errore
+    25:
+      label: File
+    27:
+      label: Globale
+    30:
+      label: Immagine
+    32:
+      label: Informazioni
+    34:
+      label: Lingua
+    35:
+      label: Sinistra
+    38:
+      label: Posizione
+    44:
+      label: Destra
+    46:
+      label: Cerca
+    56:
+      label: Avviso

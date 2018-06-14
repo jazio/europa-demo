@@ -1,0 +1,19 @@
+display:
+  default:
+    display_title: Peamine
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Rakenda
+          reset_button_label: Tühista
+          exposed_sorts_label: 'Sorteerimise alus'
+      filters:
+        access:
+          expose:
+            label: 'Viimane külastus'
+            description: 'Pärast viimase lehe vaatamist on kasutaja online'
+      title: 'Lehel olevad kasutajad'
+  who_s_online_block:
+    display_title: 'Lehel olevad kasutajad'
+    display_options:
+      block_description: 'Lehel olevad kasutajad'

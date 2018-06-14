@@ -1,0 +1,66 @@
+label: Dateien
+display:
+  default:
+    display_title: Master
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Filter
+          reset_button_label: Zurücksetzen
+          exposed_sorts_label: 'Sortieren nach'
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Elemente pro Seite'
+            items_per_page_options_all_label: '- Alle -'
+      fields:
+        filename:
+          label: Name
+        filemime:
+          label: MIME-Typ
+        filesize:
+          label: Größe
+        status:
+          label: Status
+          settings:
+            format_custom_false: Temporär
+            format_custom_true: Dauerhaft
+        created:
+          label: 'Upload Datum'
+        count:
+          label: 'Verwendet in'
+      filters:
+        filename:
+          expose:
+            label: Dateiname
+        filemime:
+          expose:
+            label: MIME-Typ
+        status:
+          expose:
+            label: Status
+      title: Dateien
+  page_1:
+    display_options:
+      menu:
+        title: Dateien
+  page_2:
+    display_title: Dateinutzung
+    display_options:
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Elemente pro Seite'
+            items_per_page_options_all_label: '- Alle -'
+      fields:
+        entity_label:
+          label: Entität
+        type:
+          label: Entitätstyp
+        count:
+          label: 'Anzahl der Verwendung'
+      title: Dateinutzung
+      arguments:
+        fid:
+          exception:
+            title: Alle
