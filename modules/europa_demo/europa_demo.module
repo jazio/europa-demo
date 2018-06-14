@@ -1,0 +1,58 @@
+<?php
+
+/**
+ * @file
+ * Contains code and hook implementation for the Europa demo module.
+ */
+
+declare(strict_types = 1);
+
+use Drupal\Component\Utility\Html;
+use Drupal\Core\Url;
+
+/**
+ * Implements hook_theme().
+ */
+function europa_demo_theme($existing, $type, $theme, $path): array {
+  return [
+    'europa_demo_site_switcher' => [
+      'render element' => 'element',
+    ],
+    'europa_demo_footer_corporate_top' => [
+      'render element' => 'element',
+    ],
+    'europa_demo_footer_corporate_bottom' => [
+      'render element' => 'element',
+    ],
+    'europa_demo_site_banner' => [
+      'variables' => [
+        'title' => NULL,
+        'uri' => NULL,
+        'background' => NULL,
+      ],
+    ],
+  ];
+}
+
+/**
+ * Prepares variables for the site banner template.
+ *
+ * Default template: europa-demo-site-banner.html.twig.
+ *
+ * @param array $variables
+ *   An associative array containing:
+ *   - link_title: The text to be used for the link.
+ *   - link: The location where the link should point to.
+ *   - background: A path to an image to use as background.
+ */
+function template_preprocess_europa_demo_site_banner(array &$variables): void {
+  $variables['link'] = [
+    '#type' => 'link',
+    '#url' => Url::fromUri($variables['uri']),
+    '#title' => $variables['title'],
+  ];
+
+  if (!empty($variables['background'])) {
+    $variables['attributes']['style'] = 'background-image: url(' . Html::escape($variables['background']) . ')';
+  }
+}
