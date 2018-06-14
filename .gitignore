@@ -7,6 +7,9 @@
 # Ignore build directories.
 /build/
 
+# Ignore files generated during site installation
+/config/sync/.htaccess
+
 # Ignore local configuration files
 grumphp.yml
 behat.yml
