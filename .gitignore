@@ -6,8 +6,6 @@
 
 # Ignore build directories.
 /build/
-/files/
-/dist/
 
 # Ignore local configuration files
 grumphp.yml
