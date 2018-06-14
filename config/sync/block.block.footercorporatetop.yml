@@ -1,0 +1,20 @@
+uuid: a627d1c3-fed4-481e-8d36-3881784c339d
+langcode: en
+status: true
+dependencies:
+  module:
+    - europa_demo
+  theme:
+    - oe_theme
+id: footercorporatetop
+theme: oe_theme
+region: footer_corporate_top
+weight: 0
+provider: null
+plugin: europa_demo_footer_corporate_top
+settings:
+  id: europa_demo_footer_corporate_top
+  label: 'Footer corporate - top'
+  provider: europa_demo
+  label_display: '0'
+visibility: {  }
