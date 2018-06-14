@@ -1,0 +1,25 @@
+drupal:
+  root: "build"
+  base_url: "http://web:8080/build"
+  database:
+    host: "mysql"
+    port: "3306"
+    name: "drupal"
+    user: "root"
+    password: ""
+  site:
+    profile: "config_installer"
+    name: "Europa Demo"
+  settings:
+    config_directories:
+      sync: '../config/sync'
+
+commands:
+  drupal:site-setup:
+    - { task: "symlink", from: "../../modules", to: "${drupal.root}/modules/custom" }
+    - { task: "symlink", from: "../../themes", to: "${drupal.root}/themes/custom" }
+    - { task: "run", command: "drupal:drush-setup" }
+    - { task: "run", command: "drupal:settings-setup" }
+    - { task: "run", command: "setup:behat" }
+  setup:behat:
+    - { task: "process", source: "behat.yml.dist", destination: "behat.yml" }
