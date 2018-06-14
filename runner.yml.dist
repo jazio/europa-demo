@@ -10,6 +10,9 @@ drupal:
   site:
     profile: "config_installer"
     name: "Europa Demo"
+  pre_install:
+    - { task: "chmod", permissions: 0775, file: "${drupal.root}/sites/default", recursive: true }
+    - { task: "remove", file: "${drupal.root}/sites/default/settings.php" }
   settings:
     config_directories:
       sync: '../config/sync'
