@@ -12,6 +12,7 @@
         "openeuropa/oe_paragraphs": "dev-master",
         "openeuropa/oe_profile": "dev-OPENEUROPA-575",
         "openeuropa/oe_theme": "^0.3",
+        "openeuropa/oe_webtools": "dev-master",
         "php": "^7.1"
     },
     "require-dev": {
