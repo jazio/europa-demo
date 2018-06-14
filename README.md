@@ -2,11 +2,11 @@
 
 [![Build Status](https://drone.fpfis.eu/api/badges/ec-europa/europa-demo/status.svg?branch=master)](https://drone.fpfis.eu/ec-europa/europa-demo)
 
-Europa demo site, based on [OpenEuropa][4] components.
+Europa demo site, based on [OpenEuropa][1] components.
 
 ## Installation
 
-The recommended way of installing the Europa demo site is via a [Composer-based workflow][1].
+The Europa demo site can be set up using [Composer][2].
 
 In the project root run:
 
@@ -40,12 +40,14 @@ This will install the site using the configuration exported in `./config/sync`.
 
 ### Using Docker Compose
 
-The setup procedure described above can be sensitively simplified by using Docker Compose.
+The project offers a set of containers for software packages that are close to the versions that are in use on the
+production servers. If you want to run the site on an environment that closely mimics production, you can follow these
+steps to install it using Docker Compose.
 
 Requirements:
 
-- [Docker][2]
-- [Docker-compose][3]
+- [Docker][3]
+- [Docker-compose][4]
 
 Run:
 
@@ -76,7 +78,7 @@ Or when using Docker Compose:
 $ docker-compose exec -u web web ./vendor/bin/behat
 ```
 
-[1]: https://www.drupal.org/docs/develop/using-composer/using-composer-to-manage-drupal-site-dependencies#managing-contributed
-[2]: https://www.docker.com/get-docker
-[3]: https://docs.docker.com/compose
-[4]: https://github.com/openeuropa/openeuropa
+[1]: https://github.com/openeuropa/openeuropa
+[2]: https://getcomposer.org
+[3]: https://www.docker.com/get-docker
+[4]: https://docs.docker.com/compose
