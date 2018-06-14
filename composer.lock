@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "95caca6a38d83a142bae95f63e190620",
+    "content-hash": "3df653660275fe9c3274caaceb753dbf",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2057,16 +2057,16 @@
         },
         {
             "name": "openeuropa/oe_profile",
-            "version": "dev-OPENEUROPA-575",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/openeuropa/oe_profile.git",
-                "reference": "889ed829addd07a4e1a921e3ed3d7e8c7b3b87d8"
+                "reference": "8895954cb65c09c22704d9c2492e24cadb75c249"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openeuropa/oe_profile/zipball/889ed829addd07a4e1a921e3ed3d7e8c7b3b87d8",
-                "reference": "889ed829addd07a4e1a921e3ed3d7e8c7b3b87d8",
+                "url": "https://api.github.com/repos/openeuropa/oe_profile/zipball/8895954cb65c09c22704d9c2492e24cadb75c249",
+                "reference": "8895954cb65c09c22704d9c2492e24cadb75c249",
                 "shasum": ""
             },
             "require": {
@@ -2116,20 +2116,20 @@
                 "EUPL-1.2"
             ],
             "description": "OpenEuropa installation profile.",
-            "time": "2018-06-11T18:21:29+00:00"
+            "time": "2018-06-14T10:17:19+00:00"
         },
         {
             "name": "openeuropa/oe_theme",
-            "version": "0.3.0",
+            "version": "0.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/openeuropa/oe_theme.git",
-                "reference": "5e55bee3ed374e9e9316a9b6362a6c4c0bea6bbd"
+                "reference": "2efb1a13c1bc5e94da2d03ae4c5d62b024c33538"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://github.com/openeuropa/oe_theme/releases/download/0.3.0/oe_theme-0.3.0.tar.gz",
-                "reference": "5e55bee3ed374e9e9316a9b6362a6c4c0bea6bbd",
+                "url": "https://github.com/openeuropa/oe_theme/releases/download/0.3.1/oe_theme-0.3.1.tar.gz",
+                "reference": "2efb1a13c1bc5e94da2d03ae4c5d62b024c33538",
                 "shasum": ""
             },
             "require": {
@@ -2160,16 +2160,7 @@
                 "composer-exit-on-patch-failure": true,
                 "patches": {
                     "drupal/core": {
-                        "https://www.drupal.org/project/drupal/issues/474684": "https://www.drupal.org/files/issues/2018-06-04/474684-183.patch",
-                        "https://www.drupal.org/project/drupal/issues/1988968": "https://www.drupal.org/files/issues/2018-03-21/1988968-113.patch",
                         "https://www.drupal.org/project/drupal/issues/2943172": "https://www.drupal.org/files/issues/2018-04-15/2943172-kernel-test-base-2.patch"
-                    }
-                },
-                "patches-ignore": {
-                    "openeuropa/oe_multilingual": {
-                        "drupal/core": {
-                            "https://www.drupal.org/project/drupal/issues/474684": "https://www.drupal.org/files/issues/2018-05-02/474684-165.patch"
-                        }
                     }
                 },
                 "installer-paths": {
@@ -2197,7 +2188,7 @@
                 "EUPL-1.1"
             ],
             "description": "OpenEuropa base theme.",
-            "time": "2018-06-12T13:11:26+00:00"
+            "time": "2018-06-14T08:24:36+00:00"
         },
         {
             "name": "openeuropa/oe_webtools",
@@ -9884,7 +9875,6 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "openeuropa/oe_paragraphs": 20,
-        "openeuropa/oe_profile": 20,
         "openeuropa/oe_webtools": 20,
         "drupal/drupal-extension": 15
     },
