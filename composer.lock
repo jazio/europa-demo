@@ -689,12 +689,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "0ae43ad26bb098a02e647c574276f82cd6648d27"
+                "reference": "cdf36869978dcfb1b5c4421ea9e2c9b7a5e841d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/0ae43ad26bb098a02e647c574276f82cd6648d27",
-                "reference": "0ae43ad26bb098a02e647c574276f82cd6648d27",
+                "url": "https://api.github.com/repos/drupal/core/zipball/cdf36869978dcfb1b5c4421ea9e2c9b7a5e841d9",
+                "reference": "cdf36869978dcfb1b5c4421ea9e2c9b7a5e841d9",
                 "shasum": ""
             },
             "require": {
@@ -917,7 +917,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2018-06-14T14:18:41+00:00"
+            "time": "2018-06-14T16:09:11+00:00"
         },
         {
             "name": "drupal/ctools",
@@ -2134,7 +2134,7 @@
                 "reference": "7d389d12a6884dd8031b7c54edf9dbef8a043979"
             },
             "dist": {
-                "type": "zip",
+                "type": "tar",
                 "url": "https://api.github.com/repos/openeuropa/oe_theme/zipball/7d389d12a6884dd8031b7c54edf9dbef8a043979",
                 "reference": "7d389d12a6884dd8031b7c54edf9dbef8a043979",
                 "shasum": ""
