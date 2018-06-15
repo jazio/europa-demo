@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * @file
+ * Functions to support the Europa Demo sub-theme.
+ */
+
+declare(strict_types = 1);

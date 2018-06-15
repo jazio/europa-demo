@@ -1,0 +1,22 @@
+name: Europa Demo Theme
+type: theme
+description: Sub theme of OpenEuropa.
+package: OpenEuropa
+core: 8.x
+
+libraries:
+  - europa_demo_theme/global-styling
+
+base theme: oe_theme
+
+regions:
+  site_top_bar: "Site top bar"
+  site_header: "Site header"
+  breadcrumb: "Breadcrumb"
+  page_header: "Page header"
+  navigation: "Navigation"
+  content: "Content"
+  footer_custom: "Footer: Custom"
+  footer_corporate_top: "Footer: Corporate top"
+  footer_corporate_bottom: "Footer: Corporate bottom"
+
