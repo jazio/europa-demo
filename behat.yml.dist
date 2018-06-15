@@ -5,6 +5,25 @@ default:
         - Behat\MinkExtension\Context\MinkContext
         - Drupal\DrupalExtension\Context\DrupalContext
         - Drupal\DrupalExtension\Context\MarkupContext
+        - Ec\Europa\EuropaDemo\Behat\TransformationContext:
+            elements:
+              logo: "a.ecl-logo"
+              breadcrumb: "nav.ecl-breadcrumb"
+              corporate top block: ".demo-block-footer-corporate-top"
+              corporate bottom block: ".demo-block-footer-corporate-bottom"
+              custom block: ".demo-block-footer-custom"
+              sites switcher: ".demo-block-site-switcher"
+              search box: ".demo-block-header-search"
+              language switcher: ".ecl-language-list"
+              language switcher overlay: ".ecl-dialog__body"
+              language switcher link: ".ecl-lang-select-sites__link .ecl-lang-select-sites__label"
+              page header: ".ecl-page-header__body"
+              about dropdown menu: "#nav-menu-expandable-group-2 .ecl-navigation-menu__links"
+              priorities dropdown menu: "#nav-menu-expandable-group-3 .ecl-navigation-menu__links"
+              hero: ".page-header__hero-title"
+            pages:
+              front: "/en/node"
+              ECL components overview: "/en/components"
   extensions:
     Behat\MinkExtension:
       goutte: ~

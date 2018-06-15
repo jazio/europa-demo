@@ -7,3 +7,12 @@ Feature: Setup
   Scenario: The demo site is installed
     When I am on the homepage
     Then I should see "Europa Demo"
+
+  Scenario: The demo blocks are correctly displayed
+    When I am on "the front page"
+    Then I should see the "sites switcher" element in the "header"
+    And I should see the "search box" element in the "header"
+    And I should see the "language switcher" element in the "header"
+    And I should see the "hero" element in the "page header"
+    And I should see the "corporate top block" element in the "corporate top footer"
+    And I should see the "corporate bottom block" element in the "corporate bottom footer"
