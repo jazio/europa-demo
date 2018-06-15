@@ -16,10 +16,12 @@ module:
   filter: 0
   image: 0
   language: 0
+  language_selection_page: 0
   link: 0
   locale: 0
   node: 0
   oe_multilingual: 0
+  oe_multilingual_selection_page: 0
   oe_paragraphs: 0
   oe_theme_helper: 0
   oe_webtools: 0
