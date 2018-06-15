@@ -24,6 +24,9 @@ function europa_demo_theme($existing, $type, $theme, $path): array {
     'europa_demo_footer_corporate_bottom' => [
       'render element' => 'element',
     ],
+    'europa_demo_search' => [
+      'render element' => 'element',
+    ],
     'europa_demo_site_banner' => [
       'variables' => [
         'title' => NULL,
