@@ -21,10 +21,12 @@ negotiation:
     enabled:
       administration-language-negotiation: -20
       language-url: -19
+      language-selection-page: -18
       language-selected: 20
     method_weights:
       administration-language-negotiation: -20
       language-url: -19
+      language-selection-page: -18
       language-selected: 20
 _core:
   default_config_hash: dqouFqVseNJNvEjsoYKxbinFOITuCxYhi4y2OTNQP_8
