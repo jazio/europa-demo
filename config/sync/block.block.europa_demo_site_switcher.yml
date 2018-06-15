@@ -6,7 +6,7 @@ dependencies:
     - europa_demo
   theme:
     - oe_theme
-id: europa_demo_site_witcher
+id: europa_demo_site_switcher
 theme: oe_theme
 region: site_top_bar
 weight: 0
@@ -14,7 +14,7 @@ provider: null
 plugin: europa_demo_site_switcher
 settings:
   id: europa_demo_site_switcher
-  label: 'EC Site switcher'
+  label: 'Site switcher'
   provider: europa_demo
   label_display: '0'
 visibility: {  }
