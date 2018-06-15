@@ -11,7 +11,7 @@ use Drupal\Core\Block\BlockBase;
  *
  * @Block(
  *   id = "europa_demo_site_switcher",
- *   admin_label = @Translation("EC Site switcher"),
+ *   admin_label = @Translation("Site switcher"),
  *   category = @Translation("Europa Demo")
  * )
  */

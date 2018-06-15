@@ -11,7 +11,7 @@ use Drupal\Core\Block\BlockBase;
  *
  * @Block(
  *   id = "europa_demo_footer_corporate_top",
- *   admin_label = @Translation("Footer corporate - top"),
+ *   admin_label = @Translation("Footer corporate: top"),
  *   category = @Translation("Europa Demo")
  * )
  */
