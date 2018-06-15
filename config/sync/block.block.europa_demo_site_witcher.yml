@@ -6,7 +6,7 @@ dependencies:
     - europa_demo
   theme:
     - oe_theme
-id: ecsiteswitcher
+id: europa_demo_site_witcher
 theme: oe_theme
 region: site_top_bar
 weight: 0

@@ -7,7 +7,7 @@ dependencies:
     - system
   theme:
     - oe_theme
-id: sitebanner
+id: europa_demo_site_banner
 theme: oe_theme
 region: page_header
 weight: -4

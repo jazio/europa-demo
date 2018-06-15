@@ -6,7 +6,7 @@ dependencies:
     - europa_demo
   theme:
     - oe_theme
-id: search
+id: europa_demo_search
 theme: oe_theme
 region: site_header
 weight: 0

@@ -6,7 +6,7 @@ dependencies:
     - europa_demo
   theme:
     - oe_theme
-id: footercorporatebottom
+id: europa_demo_footer_corporate_bottom
 theme: oe_theme
 region: footer_corporate_bottom
 weight: 0
