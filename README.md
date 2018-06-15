@@ -14,8 +14,9 @@ In the project root run:
 $ composer install
 ```
 
-Before setting up and installing the site make sure to customize default configuration values by copying `./runner.yml.dist`
-to `./runner.yml` and override relevant properties.
+Before setting up and installing the site make sure to copy `./runner.yml.dist` to `./runner.yml` and edit the values in
+it to match your environment. Typically you will have to change the value for the `base_url` as well as the database
+credentials.
 
 To set up the site run:
 
@@ -61,6 +62,10 @@ Then:
 $ docker-compose exec -u web web composer install
 $ docker-compose exec -u web web ./vendor/bin/run drupal:site-install
 ```
+
+Note that if you have compatible versions of PHP and Composer installed on your host system you can download the
+dependencies by running `composer install` on the host system instead of through `docker-compose`. This will greatly speed
+up the process since this will make use of the Composer cache on the host system.
 
 The demo site will be available at [http://localhost:8080/build](http://localhost:8080/build).
 
