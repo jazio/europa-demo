@@ -11,7 +11,7 @@ _core:
 id: oe_multilingual_language_switcher
 theme: oe_theme
 region: site_header
-weight: 1
+weight: -4
 provider: null
 plugin: 'language_block:language_interface'
 settings:

@@ -1,0 +1,18 @@
+{#
+/**
+ * @file
+ * Site switcher block template.
+ */
+#}
+{% include '@ecl/ec-component-site-switcher' with {
+  political: {
+    'href': '#',
+    'label': 'Commission and its priorities'|t
+  },
+  info: {
+    'href': '#',
+    'label': 'Policies, information and services'|t,
+    'is_active': true,
+  },
+  extra_classes: 'ecl-site-switcher--header demo-block-site-switcher'
+} %}

@@ -1,0 +1,20 @@
+uuid: d5ff99c4-1f37-4fbf-b77a-06df3bf546fe
+langcode: en
+status: true
+dependencies:
+  module:
+    - europa_demo_core
+  theme:
+    - oe_theme
+id: europa_demo_search
+theme: oe_theme
+region: site_header
+weight: 0
+provider: null
+plugin: europa_demo_search
+settings:
+  id: europa_demo_search
+  label: Search
+  provider: europa_demo_core
+  label_display: '0'
+visibility: {  }

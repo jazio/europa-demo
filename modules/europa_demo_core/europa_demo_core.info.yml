@@ -1,0 +1,5 @@
+name: Europa demo core
+type: module
+description: Main module for the Europa demo project.
+package: Custom
+core: 8.x
