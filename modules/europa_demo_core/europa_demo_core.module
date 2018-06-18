@@ -49,13 +49,16 @@ function europa_demo_core_theme($existing, $type, $theme, $path): array {
  *   - background: A path to an image to use as background.
  */
 function template_preprocess_europa_demo_site_banner(array &$variables): void {
+  global $base_root, $base_path;
+
   $variables['link'] = [
     '#type' => 'link',
     '#url' => Url::fromUri($variables['uri']),
     '#title' => $variables['title'],
   ];
 
+  $background = $base_root . $base_path . $variables['background'];
   if (!empty($variables['background'])) {
-    $variables['attributes']['style'] = 'background-image: url(' . Html::escape($variables['background']) . ')';
+    $variables['attributes']['style'] = 'background-image: url(' . Html::escape($background) . ')';
   }
 }

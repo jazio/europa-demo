@@ -20,7 +20,7 @@ settings:
   label_display: '0'
   title: 'Future of Europe'
   uri: 'https://ec.europa.eu/commission/future-europe_en'
-  background: 'https://ec.europa.eu/commission/sites/beta-political/files/styles/header_image_breakpoints_theme_europa_wide_2x/public/homepage_banner_roadmap_2400x900_no_txt_1.png'
+  background: 'modules/custom/europa_demo_core/images/homepage-banner.png'
 visibility:
   request_path:
     id: request_path

@@ -52,7 +52,7 @@ class SiteBannerBlock extends BlockBase {
     $form['background'] = [
       '#type' => 'textfield',
       '#title' => $this->t('Background'),
-      '#description' => $this->t('A path to an image to show as background for the entire block.'),
+      '#description' => $this->t('A path to an image to show as background for the entire block, relative to Drupal root.'),
       '#default_value' => $this->configuration['background'],
       '#maxlength' => 255,
     ];

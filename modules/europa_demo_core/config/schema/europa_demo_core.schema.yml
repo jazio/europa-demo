@@ -2,11 +2,11 @@ block.settings.europa_demo_site_banner:
   type: block_settings
   label: 'Site banner block'
   mapping:
-    link_title:
+    title:
       type: string
       label: Link title
       translatable: true
-    link:
+    uri:
       type: uri
       label: Link
       translatable: true
