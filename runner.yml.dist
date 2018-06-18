@@ -18,6 +18,11 @@ drupal:
   settings:
     config_directories:
       sync: '../config/sync'
+    # Example for configuration
+    # config:
+    #   oe_webtools_analytics.settings:
+    #     siteID: '<your siteId>'
+    #     sitePath: '<your sitePath>'
 
 commands:
   drupal:site-setup:

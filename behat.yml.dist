@@ -5,6 +5,7 @@ default:
         - Behat\MinkExtension\Context\MinkContext
         - Drupal\DrupalExtension\Context\DrupalContext
         - Drupal\DrupalExtension\Context\MarkupContext
+        - Ec\Europa\EuropaDemo\Behat\WebtoolsContext
   extensions:
     Behat\MinkExtension:
       goutte: ~
