@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
-    - europa_demo
+    - europa_demo_core
   theme:
     - oe_theme
 id: europa_demo_search
@@ -15,6 +15,6 @@ plugin: europa_demo_search
 settings:
   id: europa_demo_search
   label: Search
-  provider: europa_demo
+  provider: europa_demo_core
   label_display: '0'
 visibility: {  }

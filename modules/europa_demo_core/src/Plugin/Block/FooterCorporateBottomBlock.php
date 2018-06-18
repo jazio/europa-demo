@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Drupal\europa_demo\Plugin\Block;
+namespace Drupal\europa_demo_core\Plugin\Block;
 
 use Drupal\Core\Block\BlockBase;
 

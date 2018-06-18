@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
-    - europa_demo
+    - europa_demo_core
     - system
   theme:
     - oe_theme
@@ -16,7 +16,7 @@ plugin: europa_demo_site_banner
 settings:
   id: europa_demo_site_banner
   label: 'Site banner'
-  provider: europa_demo
+  provider: europa_demo_core
   label_display: '0'
   title: 'Future of Europe'
   uri: 'https://ec.europa.eu/commission/future-europe_en'

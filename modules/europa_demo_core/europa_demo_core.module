@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Contains code and hook implementation for the Europa demo module.
+ * Contains code and hook implementation for the Europa demo core module.
  */
 
 declare(strict_types = 1);
@@ -13,7 +13,7 @@ use Drupal\Core\Url;
 /**
  * Implements hook_theme().
  */
-function europa_demo_theme($existing, $type, $theme, $path): array {
+function europa_demo_core_theme($existing, $type, $theme, $path): array {
   return [
     'europa_demo_site_switcher' => [
       'render element' => 'element',

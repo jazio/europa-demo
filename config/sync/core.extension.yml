@@ -11,7 +11,7 @@ module:
   dynamic_page_cache: 0
   editor: 0
   entity_reference_revisions: 0
-  europa_demo: 0
+  europa_demo_core: 0
   field: 0
   file: 0
   filter: 0
