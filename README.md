@@ -69,6 +69,16 @@ up the process since this will make use of the Composer cache on the host system
 
 The demo site will be available at [http://localhost:8080/build](http://localhost:8080/build).
 
+### Webtools Analytics configuration
+
+To configure the webtools Analytics, you can add the configuration on the runner.yml file:
+```
+    config:
+      oe_webtools_analytics.settings:
+        siteID: '<your siteId>'
+        sitePath: '<your sitePath>'
+```
+
 ### Tests
 
 Run tests as follows:
