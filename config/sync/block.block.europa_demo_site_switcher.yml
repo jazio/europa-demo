@@ -5,9 +5,9 @@ dependencies:
   module:
     - europa_demo_core
   theme:
-    - oe_theme
+    - europa_demo_theme
 id: europa_demo_site_switcher
-theme: oe_theme
+theme: europa_demo_theme
 region: site_top_bar
 weight: 0
 provider: null
