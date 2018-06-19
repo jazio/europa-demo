@@ -2,7 +2,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: Europa demo core\n"
 "POT-Creation-Date: 2018-06-19 14:29+0200\n"
 "PO-Revision-Date: 2018-06-19 14:29+0200\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
