@@ -5,10 +5,10 @@ Feature: Landing page
   I want to make sure that I can create landing pages that contain fully functional page headers.
 
   Scenario: I can create and translate a landing page content
-    When I am logged in as a user with the "authenticated" role
+    When I am logged in as a user with the "authenticated user" role
     When I am at "node/add/landing_page"
     And I fill in "Title" with "Homepage"
     And I fill in "Introduction" with "This is the home page of the site"
-    And I click "Save"
-    Then I should see the "Homepage" element in the "page header title"
-    And I should see the "This is the home page of the site" element in the "page header introduction"
+    And I press "Save"
+    Then I should see "Homepage" in the "page header"
+    And I should see "This is the home page of the site" in the "page header"
