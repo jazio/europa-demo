@@ -5,7 +5,6 @@ default:
         - Behat\MinkExtension\Context\MinkContext
         - Drupal\DrupalExtension\Context\DrupalContext
         - Drupal\DrupalExtension\Context\MarkupContext
-        - Ec\Europa\EuropaDemo\Behat\WebtoolsContext
         - Ec\Europa\EuropaDemo\Behat\TransformationContext:
             elements:
               logo: "a.ecl-logo"
@@ -25,6 +24,8 @@ default:
             pages:
               front: "/en/node"
               ECL components overview: "/en/components"
+              non-existing: "/non-existing"
+              administrative: "/en/admin"
         - Ec\Europa\EuropaDemo\Behat\WebtoolsContext
 
   extensions:

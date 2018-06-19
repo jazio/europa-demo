@@ -71,8 +71,10 @@ The demo site will be available at [http://localhost:8080/build](http://localhos
 
 ### Webtools Analytics configuration
 
-To configure the webtools Analytics, you can add the configuration on the runner.yml file:
+To setup the [Webtools Analytics](https://github.com/openeuropa/oe_webtools) module add the following configuration to your `runner.yml` file before installing the site:
 ```
+drupal:
+  settings:
     config:
       oe_webtools_analytics.settings:
         siteID: '<your siteId>'
