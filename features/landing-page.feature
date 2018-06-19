@@ -12,3 +12,10 @@ Feature: Landing page
     And I press "Save"
     Then I should see "Homepage" in the "page header"
     And I should see "This is the home page of the site" in the "page header"
+    When I click "Translate"
+    And I click "Add" in the "Spanish" row
+    And I fill in "Título" with "Página principal"
+    And I fill in "Introduction" with "Esta es la página principal del sitio"
+    And I press "Guardar (this translation)"
+    Then I should see "Página principal" in the "page header"
+    And I should see "Esta es la página principal del sitio" in the "page header"
