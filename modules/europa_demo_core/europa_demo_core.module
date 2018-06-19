@@ -57,8 +57,5 @@ function template_preprocess_europa_demo_site_banner(array &$variables): void {
     '#title' => $variables['title'],
   ];
 
-  $background = $base_root . $base_path . $variables['background'];
-  if (!empty($variables['background'])) {
-    $variables['attributes']['style'] = 'background-image: url(' . Html::escape($background) . ')';
-  }
+  $variables['background'] = $base_root . $base_path . Html::escape($variables['background']);
 }
