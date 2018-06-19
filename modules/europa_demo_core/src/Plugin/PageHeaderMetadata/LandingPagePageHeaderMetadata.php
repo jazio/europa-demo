@@ -4,7 +4,6 @@ declare(strict_types = 1);
 
 namespace Drupal\europa_demo_core\Plugin\PageHeaderMetadata;
 
-use Drupal\Core\Cache\CacheableMetadata;
 use Drupal\oe_theme_helper\Plugin\PageHeaderMetadata\EntityCanonicalRoutePageHeaderMetadata;
 
 /**
@@ -29,21 +28,12 @@ class LandingPagePageHeaderMetadata extends EntityCanonicalRoutePageHeaderMetada
    * {@inheritdoc}
    */
   public function getMetadata(): array {
+    $metadata = parent::getMetadata();
+
     $entity = $this->getEntityFromCurrentRoute();
-
-    // Get values from entity.
-    $title = $entity->label();
-    $introduction = !$entity->get('field_introduction')->isEmpty() ? $entity->get('field_introduction')->getString() : '';
-    $metadata = [
-      'title' => $title,
-      'introduction' => $introduction,
-    ];
-
-    $cacheability = new CacheableMetadata();
-    $cacheability
-      ->addCacheableDependency($entity)
-      ->addCacheContexts(['route'])
-      ->applyTo($metadata);
+    if (!$entity->get('field_introduction')->isEmpty()) {
+      $metadata['introduction'] = $entity->get('field_introduction')->getString();
+    }
 
     return $metadata;
   }
