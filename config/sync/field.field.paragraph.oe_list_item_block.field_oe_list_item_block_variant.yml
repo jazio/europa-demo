@@ -17,9 +17,7 @@ label: Variant
 description: 'Choose in how many columns the list items should be organised.'
 required: true
 translatable: true
-default_value:
-  -
-    value: one_column
+default_value: {  }
 default_value_callback: ''
 settings: {  }
 field_type: list_string
