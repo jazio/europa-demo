@@ -9,12 +9,12 @@ use Behat\Behat\Hook\Scope\BeforeScenarioScope;
 use Drupal\DrupalExtension\Context\ConfigContext;
 
 /**
- * Context for configuring the WebtoolsContext.
+ * Webtools Analytics configuration context.
  */
 class WebtoolsContext extends ConfigContext {
 
   /**
-   * The Webtools analytics entrance in settings.php.
+   * WebTools Analytics configuration name.
    */
   private const CONFIG_NAME = 'oe_webtools_analytics.settings';
 
@@ -24,26 +24,26 @@ class WebtoolsContext extends ConfigContext {
   private const SITE_ID = 'siteID';
 
   /**
-   * The site unique identifier.
+   * The site path.
    */
   private const SITE_PATH = 'sitePath';
 
   /**
-   * The value configuration of oe_webtools_analytics.settings['siteID'].
+   * Site ID test value.
    *
    * @var string
    */
   private $siteId = '123';
 
   /**
-   * The value configuration of oe_webtools_analytics.settings['sitePath'].
+   * Site path test value.
    *
    * @var string
    */
   private $sitePath = 'ec.europa.eu';
 
   /**
-   * Check if the Piwik Script is present in the page.
+   * Check whereas the Piwik Script is present on the page.
    *
    * @Then the page should contain the Piwik script
    */
@@ -62,7 +62,7 @@ class WebtoolsContext extends ConfigContext {
   }
 
   /**
-   * Check if the Piwik detect a type of the current page.
+   * Assert Piwik HTTP response detection.
    *
    * @Then the Piwik script should detect a :type page
    */
@@ -97,7 +97,7 @@ class WebtoolsContext extends ConfigContext {
   }
 
   /**
-   * Setup the Webtools Analytics module.
+   * Setup the Webtools Analytics test configuration.
    *
    * @param \Behat\Behat\Hook\Scope\BeforeScenarioScope $scope
    *   The Hook scope.
