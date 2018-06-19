@@ -15,9 +15,6 @@ use Drupal\Core\Url;
  */
 function europa_demo_core_theme($existing, $type, $theme, $path): array {
   return [
-    'europa_demo_site_switcher' => [
-      'render element' => 'element',
-    ],
     'europa_demo_footer_corporate_top' => [
       'render element' => 'element',
     ],
