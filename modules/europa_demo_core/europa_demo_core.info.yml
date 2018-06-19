@@ -3,3 +3,6 @@ type: module
 description: Main module for the Europa demo project.
 package: Custom
 core: 8.x
+
+'interface translation project': europa_demo_core
+'interface translation server pattern': 'modules/custom/europa_demo_core/translations/%language.po'
