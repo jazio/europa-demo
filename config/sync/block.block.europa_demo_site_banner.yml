@@ -6,9 +6,9 @@ dependencies:
     - europa_demo_core
     - system
   theme:
-    - oe_theme
+    - europa_demo_theme
 id: europa_demo_site_banner
-theme: oe_theme
+theme: europa_demo_theme
 region: page_header
 weight: -4
 provider: null
