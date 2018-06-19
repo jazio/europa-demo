@@ -21,3 +21,22 @@ Scenario: Visitors can see interface translated correctly in french
   And I should see the link "À propos de la nouvelle présence de la Commission sur le web" in the "corporate bottom footer" region
   And I should see the link "Ressources pour les partenaires" in the "corporate bottom footer" region
   And I should see the link "Avis juridique" in the "corporate bottom footer" region
+  And I should see the link "Contact" in the "corporate bottom footer" region
+  
+Scenario: Visitors can see interface translated correctly in italian
+  Given I am on the homepage
+  When I click "Italiano"
+  Then the url should match "/it"
+  And I should see the link "Le priorità della Commissione" in the "header" region
+  And I should see the link "Politiche, informazioni e servizi" in the "header" region
+  And I should see "Cerca" in the "header" region
+  And I should see "Commissione europea" in the "corporate top footer" region
+  And I should see the link "Le priorità della Commissione" in the "corporate top footer" region
+  And I should see the link "Politiche, informazioni e servizi" in the "corporate top footer" region
+  And I should see "Segui la Commissione europea" in the "corporate top footer" region
+  And I should see "Unione europea" in the "corporate top footer" region
+  And I should see the link "Istituzioni dell'UE" in the "corporate top footer" region
+  And I should see the link "La nuova presenza online della Commissione" in the "corporate bottom footer" region
+  And I should see the link "Resources for partners" in the "corporate bottom footer" region
+  And I should see the link "Note legali" in the "corporate bottom footer" region
+  And I should see the link "Contatti" in the "corporate bottom footer" region
