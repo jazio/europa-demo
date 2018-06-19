@@ -1,0 +1,16 @@
+europa_demo_content.commission:
+  title: 'Commission and its priorities'
+  route_name: "<none>"
+#  route_name: 'entity.node.canonical'
+#  route_parameters:
+#    node: 1
+  menu_name: "site-switcher"
+  weight: 0
+europa_demo_content.info:
+  title: 'Policies, information and services'
+  route_name: "<none>"
+#  route_name: 'entity.node.canonical'
+#  route_parameters:
+#    node: 2
+  menu_name: "site-switcher"
+  weight: 1

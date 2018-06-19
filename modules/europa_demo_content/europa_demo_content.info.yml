@@ -1,0 +1,8 @@
+name: Europa demo content
+type: module
+description: MProvide default content for the Eruopa demo site.
+package: Custom
+core: 8.x
+
+dependencies:
+  - europa_demo_content:europa_demo_content
