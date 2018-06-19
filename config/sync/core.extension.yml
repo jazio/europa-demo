@@ -8,6 +8,7 @@ module:
   ctools: 0
   datetime: 0
   dblog: 0
+  default_content: 0
   dynamic_page_cache: 0
   editor: 0
   entity_reference_revisions: 0
@@ -15,7 +16,9 @@ module:
   europa_demo_core: 0
   field: 0
   file: 0
+  file_entity: 0
   filter: 0
+  hal: 0
   image: 0
   language: 0
   language_selection_page: 0
@@ -31,6 +34,7 @@ module:
   options: 0
   page_cache: 0
   path: 0
+  serialization: 0
   system: 0
   taxonomy: 0
   text: 0
