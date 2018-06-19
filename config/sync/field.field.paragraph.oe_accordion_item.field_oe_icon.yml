@@ -16,7 +16,7 @@ bundle: oe_accordion_item
 label: Icon
 description: 'The icons accordingly to the ECL.'
 required: true
-translatable: false
+translatable: true
 default_value:
   -
     value: arrow-down
