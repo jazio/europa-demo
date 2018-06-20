@@ -81,6 +81,18 @@ $ ./vendor/bin/run drupal:export-content
 
 Content export/import functionality is provided by the [Default Content module][5].
 
+### Webtools Analytics configuration
+
+To setup the [Webtools Analytics](https://github.com/openeuropa/oe_webtools) module add the following configuration to your `runner.yml` file before installing the site:
+```
+drupal:
+  settings:
+    config:
+      oe_webtools_analytics.settings:
+        siteID: '<your siteId>'
+        sitePath: '<your sitePath>'
+```
+
 ### Tests
 
 Run tests as follows:

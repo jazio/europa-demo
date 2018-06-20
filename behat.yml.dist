@@ -26,6 +26,9 @@ default:
               create Landing: "/en/node/add/landing_page"
               ECL components overview: "/en/components"
               front: "/en/node/1"
+              non-existing: "/non-existing"
+              administrative: "/en/admin"
+        - Ec\Europa\EuropaDemo\Behat\WebtoolsContext
   extensions:
     Behat\MinkExtension:
       goutte: ~
@@ -34,7 +37,7 @@ default:
       selenium2:
         wd_host: 'http://selenium:4444/wd/hub'
         capabilities: { "browser": "chrome", "version": "*" }
-      base_url: "http://web:8080/build"
+      base_url: "${drupal.base_url}"
     Drupal\DrupalExtension:
       api_driver: "drupal"
       drupal:
