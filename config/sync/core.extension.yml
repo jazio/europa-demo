@@ -27,6 +27,7 @@ module:
   oe_paragraphs: 0
   oe_theme_helper: 0
   oe_webtools: 0
+  oe_webtools_analytics: 0
   options: 0
   page_cache: 0
   path: 0

@@ -77,6 +77,18 @@ up the process since this will make use of the Composer cache on the host system
 
 The demo site will be available at [http://localhost:8080/build](http://localhost:8080/build).
 
+### Webtools Analytics configuration
+
+To setup the [Webtools Analytics](https://github.com/openeuropa/oe_webtools) module add the following configuration to your `runner.yml` file before installing the site:
+```
+drupal:
+  settings:
+    config:
+      oe_webtools_analytics.settings:
+        siteID: '<your siteId>'
+        sitePath: '<your sitePath>'
+```
+
 ### Tests
 
 Run tests as follows:

@@ -2,28 +2,34 @@ default:
   suites:
     default:
       contexts:
-        - Drupal\DrupalExtension\Context\MinkContext
         - Drupal\DrupalExtension\Context\DrupalContext
         - Drupal\DrupalExtension\Context\MarkupContext
+        - Drupal\DrupalExtension\Context\MinkContext
         - Ec\Europa\EuropaDemo\Behat\TransformationContext:
             elements:
-              logo: "a.ecl-logo"
+              about dropdown menu: "#nav-menu-expandable-group-2 .ecl-navigation-menu__links"
+              banner title: ".ecl-banner__title"
               breadcrumb: "nav.ecl-breadcrumb"
               corporate top block: ".demo-block-footer-corporate-top"
               corporate bottom block: ".demo-block-footer-corporate-bottom"
               custom block: ".demo-block-footer-custom"
-              sites switcher: ".demo-block-site-switcher"
-              search box: ".demo-block-header-search"
+              hero: ".page-header__hero-title"
               language switcher: ".ecl-language-list"
               language switcher overlay: ".ecl-dialog__body"
               language switcher link: ".ecl-lang-select-sites__link .ecl-lang-select-sites__label"
+              logo: "a.ecl-logo"
               page header: ".ecl-page-header__body"
-              about dropdown menu: "#nav-menu-expandable-group-2 .ecl-navigation-menu__links"
               priorities dropdown menu: "#nav-menu-expandable-group-3 .ecl-navigation-menu__links"
-              banner title: ".ecl-banner__title"
+              sites switcher: ".demo-block-site-switcher"
+              search box: ".demo-block-header-search"
             pages:
-              front: "/en/node"
+              create Landing: "/en/node/add/landing_page"
               ECL components overview: "/en/components"
+              front: "/en/node"
+              non-existing: "/non-existing"
+              administrative: "/en/admin"
+        - Ec\Europa\EuropaDemo\Behat\WebtoolsContext
+
   extensions:
     Behat\MinkExtension:
       goutte: ~
@@ -38,12 +44,14 @@ default:
       drupal:
         drupal_root: "build"
       region_map:
-        page: "body"
-        header: ".ecl-site-header"
         banner: ".ecl-banner"
-        navigation: ".ecl-navigation-menu"
         custom footer: ".ecl-footer__custom"
         corporate top footer: ".ecl-footer__corporate-top"
         corporate bottom footer: ".ecl-footer__corporate-bottom"
+        header: ".ecl-site-header"
+        message: ".ecl-message"
+        navigation: ".ecl-navigation-menu"
+        page: "body"
+        page header: ".ecl-page-header__body"
   formatters:
     progress: ~
