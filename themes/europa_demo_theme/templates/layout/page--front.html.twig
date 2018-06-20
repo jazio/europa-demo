@@ -1,0 +1,16 @@
+{#
+/**
+ * @file
+ * Theme override to display a single page.
+ *
+ * @see ./core/themes/stable/templates/layout/page.html.twig
+ */
+#}
+
+{% extends '@oe_theme/layout/page.html.twig' %}
+
+{% block page_header %}
+  {% if page.page_header %}
+    {{ page.page_header }}
+  {% endif %}
+{% endblock %}

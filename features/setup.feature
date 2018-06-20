@@ -13,6 +13,6 @@ Feature: Setup
     Then I should see the "sites switcher" element in the "header"
     And I should see the "search box" element in the "header"
     And I should see the "language switcher" element in the "header"
-    And I should see the "hero" element in the "page header"
+    And I should see the "banner title" element in the "banner"
     And I should see the "corporate top block" element in the "corporate top footer"
     And I should see the "corporate bottom block" element in the "corporate bottom footer"
