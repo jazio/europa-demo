@@ -2,7 +2,7 @@
     "name": "ec-europa/europa-demo",
     "description": "Europa demo site, based on OpenEuropa components.",
     "type": "project",
-    "license": "EUPL",
+    "license": "EUPL-1.2",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
@@ -11,6 +11,7 @@
         "drupal/core": "~8.6",
         "drupal/default_content": "^1.0@alpha",
         "drupal/file_entity": "^2.0@beta",
+        "openeuropa/oe_auth": "^0.1",
         "openeuropa/oe_multilingual": "^0.1",
         "openeuropa/oe_paragraphs": "^0.1",
         "openeuropa/oe_profile": "^0.1",
