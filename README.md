@@ -38,12 +38,7 @@ $ ./vendor/bin/run drupal:site-install
 ```
 
 This will install the site using the configuration exported in `./config/sync`.
-
-```
-$ ./vendor/bin/run drupal:import-interface-translations
-```
-
-This will import interface translations (fr,it).
+And will import interface translations.
 
 
 ### Using Docker Compose
@@ -68,7 +63,6 @@ Then:
 ```
 $ docker-compose exec -u web web composer install
 $ docker-compose exec -u web web ./vendor/bin/run drupal:site-install
-$ docker-compose exec -u web web ./vendor/bin/run drupal:import-interface-translations
 ```
 
 Note that if you have compatible versions of PHP and Composer installed on your host system you can download the
@@ -76,6 +70,15 @@ dependencies by running `composer install` on the host system instead of through
 up the process since this will make use of the Composer cache on the host system.
 
 The demo site will be available at [http://localhost:8080/build](http://localhost:8080/build).
+
+
+### Update interface translations
+
+Update .po files located in your modules/europa_demo_core/translations/ folder.
+And execute this:
+```
+$ docker-compose exec -u web web ./vendor/bin/run drupal:import-interface-translations
+```
 
 ### Webtools Analytics configuration
 
