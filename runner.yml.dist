@@ -22,6 +22,11 @@ drupal:
   settings:
     config_directories:
       sync: '../config/sync'
+    # Configuration for the OpenEuropa Webtools Analytics module:
+    # config:
+    #   oe_webtools_analytics.settings:
+    #     siteID: '<your siteId>'
+    #     sitePath: '<your sitePath>'
 
 commands:
   drupal:site-setup:
