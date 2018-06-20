@@ -9,6 +9,10 @@
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/uid": [
             {
                 "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "fr"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
                 "lang": "en"
             }
         ],
@@ -30,10 +34,14 @@
     ],
     "revision_id": [
         {
-            "value": 55
+            "value": 70
         }
     ],
     "langcode": [
+        {
+            "value": "fr",
+            "lang": "fr"
+        },
         {
             "value": "en",
             "lang": "en"
@@ -46,6 +54,22 @@
     ],
     "_embedded": {
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "af3d74d3-73a7-4a14-92be-dea1ec8f6d4c"
+                    }
+                ],
+                "lang": "fr"
+            },
             {
                 "_links": {
                     "self": {
@@ -84,10 +108,19 @@
     "status": [
         {
             "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
             "lang": "en"
         }
     ],
     "created": [
+        {
+            "value": "2018-06-20T10:40:47+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
         {
             "value": "2018-06-20T10:40:47+00:00",
             "lang": "en",
@@ -116,6 +149,10 @@
     ],
     "default_langcode": [
         {
+            "value": false,
+            "lang": "fr"
+        },
+        {
             "value": true,
             "lang": "en"
         }
@@ -123,10 +160,14 @@
     "revision_translation_affected": [
         {
             "value": true,
-            "lang": "en"
+            "lang": "fr"
         }
     ],
     "content_translation_source": [
+        {
+            "value": "en",
+            "lang": "fr"
+        },
         {
             "value": "und",
             "lang": "en"
@@ -135,10 +176,19 @@
     "content_translation_outdated": [
         {
             "value": false,
+            "lang": "fr"
+        },
+        {
+            "value": false,
             "lang": "en"
         }
     ],
     "content_translation_changed": [
+        {
+            "value": "2018-06-20T10:45:21+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
         {
             "value": "2018-06-20T10:45:21+00:00",
             "lang": "en",
@@ -150,16 +200,32 @@
             "uri": "internal:\/",
             "title": "",
             "options": [],
+            "lang": "fr"
+        },
+        {
+            "uri": "internal:\/",
+            "title": "",
+            "options": [],
             "lang": "en"
         }
     ],
     "field_oe_list_item_variant": [
         {
             "value": "list_item_default",
+            "lang": "fr"
+        },
+        {
+            "value": "list_item_default",
             "lang": "en"
         }
     ],
     "field_oe_text_long": [
+        {
+            "value": "Organisation, services, r\u00f4les et responsabilit\u00e9s, principes directeurs et modalit\u00e9s de visite et de participation.",
+            "format": "plain_text",
+            "processed": "<p>Organisation, services, r\u00f4les et responsabilit\u00e9s, principes directeurs et modalit\u00e9s de visite et de participation.<\/p>\n",
+            "lang": "fr"
+        },
         {
             "value": "Organisation, departments, roles and responsibilities, governing principles, and how to visit and get involved.",
             "format": "plain_text",
@@ -168,6 +234,10 @@
         }
     ],
     "field_oe_title": [
+        {
+            "value": "\u00c0 propos de la Commission europ\u00e9enne",
+            "lang": "fr"
+        },
         {
             "value": "About the European Commission",
             "lang": "en"

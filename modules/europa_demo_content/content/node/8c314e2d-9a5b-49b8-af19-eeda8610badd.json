@@ -14,6 +14,10 @@
         "http:\/\/drupal.org\/rest\/relation\/node\/landing_page\/uid": [
             {
                 "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "fr"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
                 "lang": "en"
             }
         ],
@@ -35,10 +39,14 @@
     ],
     "vid": [
         {
-            "value": 6
+            "value": 7
         }
     ],
     "langcode": [
+        {
+            "value": "fr",
+            "lang": "fr"
+        },
         {
             "value": "en",
             "lang": "en"
@@ -51,7 +59,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2018-06-20T10:45:21+00:00",
+            "value": "2018-06-20T10:55:20+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -88,6 +96,22 @@
                         "value": "af3d74d3-73a7-4a14-92be-dea1ec8f6d4c"
                     }
                 ],
+                "lang": "fr"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "af3d74d3-73a7-4a14-92be-dea1ec8f6d4c"
+                    }
+                ],
                 "lang": "en"
             }
         ],
@@ -106,11 +130,15 @@
                         "value": "a00813f4-9a40-4cdd-b099-0c75a2d32a59"
                     }
                 ],
-                "target_revision_id": "66"
+                "target_revision_id": "81"
             }
         ]
     },
     "status": [
+        {
+            "value": true,
+            "lang": "fr"
+        },
         {
             "value": true,
             "lang": "en"
@@ -119,10 +147,19 @@
     "title": [
         {
             "value": "Info",
+            "lang": "fr"
+        },
+        {
+            "value": "Info",
             "lang": "en"
         }
     ],
     "created": [
+        {
+            "value": "2018-06-20T10:50:25+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
         {
             "value": "2018-06-20T10:38:24+00:00",
             "lang": "en",
@@ -130,6 +167,11 @@
         }
     ],
     "changed": [
+        {
+            "value": "2018-06-20T10:55:20+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
         {
             "value": "2018-06-20T10:45:21+00:00",
             "lang": "en",
@@ -139,16 +181,28 @@
     "promote": [
         {
             "value": false,
+            "lang": "fr"
+        },
+        {
+            "value": false,
             "lang": "en"
         }
     ],
     "sticky": [
         {
             "value": false,
+            "lang": "fr"
+        },
+        {
+            "value": false,
             "lang": "en"
         }
     ],
     "default_langcode": [
+        {
+            "value": false,
+            "lang": "fr"
+        },
         {
             "value": true,
             "lang": "en"
@@ -157,10 +211,18 @@
     "revision_translation_affected": [
         {
             "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
             "lang": "en"
         }
     ],
     "content_translation_source": [
+        {
+            "value": "en",
+            "lang": "fr"
+        },
         {
             "value": "und",
             "lang": "en"
@@ -169,10 +231,18 @@
     "content_translation_outdated": [
         {
             "value": false,
+            "lang": "fr"
+        },
+        {
+            "value": false,
             "lang": "en"
         }
     ],
     "field_introduction": [
+        {
+            "value": "Politiques, informations et services en un coup d'\u0153il",
+            "lang": "fr"
+        },
         {
             "value": "Your guide to policies,\r\ninformation and services",
             "lang": "en"

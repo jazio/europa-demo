@@ -9,6 +9,10 @@
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/uid": [
             {
                 "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "fr"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
                 "lang": "en"
             }
         ],
@@ -30,10 +34,14 @@
     ],
     "revision_id": [
         {
-            "value": 53
+            "value": 68
         }
     ],
     "langcode": [
+        {
+            "value": "fr",
+            "lang": "fr"
+        },
         {
             "value": "en",
             "lang": "en"
@@ -46,6 +54,22 @@
     ],
     "_embedded": {
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "af3d74d3-73a7-4a14-92be-dea1ec8f6d4c"
+                    }
+                ],
+                "lang": "fr"
+            },
             {
                 "_links": {
                     "self": {
@@ -84,10 +108,19 @@
     "status": [
         {
             "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
             "lang": "en"
         }
     ],
     "created": [
+        {
+            "value": "2018-06-20T10:40:03+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
         {
             "value": "2018-06-20T10:40:03+00:00",
             "lang": "en",
@@ -116,6 +149,10 @@
     ],
     "default_langcode": [
         {
+            "value": false,
+            "lang": "fr"
+        },
+        {
             "value": true,
             "lang": "en"
         }
@@ -123,10 +160,14 @@
     "revision_translation_affected": [
         {
             "value": true,
-            "lang": "en"
+            "lang": "fr"
         }
     ],
     "content_translation_source": [
+        {
+            "value": "en",
+            "lang": "fr"
+        },
         {
             "value": "und",
             "lang": "en"
@@ -135,10 +176,19 @@
     "content_translation_outdated": [
         {
             "value": false,
+            "lang": "fr"
+        },
+        {
+            "value": false,
             "lang": "en"
         }
     ],
     "content_translation_changed": [
+        {
+            "value": "2018-06-20T10:45:21+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
         {
             "value": "2018-06-20T10:45:21+00:00",
             "lang": "en",
@@ -150,16 +200,32 @@
             "uri": "internal:\/",
             "title": "",
             "options": [],
+            "lang": "fr"
+        },
+        {
+            "uri": "internal:\/",
+            "title": "",
+            "options": [],
             "lang": "en"
         }
     ],
     "field_oe_list_item_variant": [
         {
             "value": "list_item_default",
+            "lang": "fr"
+        },
+        {
+            "value": "list_item_default",
             "lang": "en"
         }
     ],
     "field_oe_text_long": [
+        {
+            "value": "Conseils pour les citoyens de l\u2019UE qui veulent vivre, travailler ou voyager dans un autre pays de l\u2019UE, et informations sur les visas, l\u2019immigration et la culture europ\u00e9enne pour les ressortissants de pays hors UE.",
+            "format": "plain_text",
+            "processed": "<p>Conseils pour les citoyens de l\u2019UE qui veulent vivre, travailler ou voyager dans un autre pays de l\u2019UE, et informations sur les visas, l\u2019immigration et la culture europ\u00e9enne pour les ressortissants de pays hors UE.<\/p>\n",
+            "lang": "fr"
+        },
         {
             "value": "Advice on living, working or travelling in the EU, on visas and immigration for non-EU citizens, European culture.",
             "format": "plain_text",
@@ -168,6 +234,10 @@
         }
     ],
     "field_oe_title": [
+        {
+            "value": "Vivre, travailler et voyager dans l\u2019UE",
+            "lang": "fr"
+        },
         {
             "value": "Live, work, travel in the EU",
             "lang": "en"
