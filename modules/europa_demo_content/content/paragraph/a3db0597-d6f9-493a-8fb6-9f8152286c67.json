@@ -12,13 +12,13 @@
                 "lang": "fr"
             },
             {
-                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "href": "http:\/\/web:8080\/en\/user\/0?_format=hal_json",
                 "lang": "en"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
             {
-                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                "href": "http:\/\/web:8080\/en\/user\/0?_format=hal_json"
             }
         ]
     },
@@ -34,7 +34,7 @@
     ],
     "revision_id": [
         {
-            "value": 50
+            "value": 132
         }
     ],
     "langcode": [
@@ -65,7 +65,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "2a4cfd28-45b9-4254-b7e6-e2b738793a99"
+                        "value": "51252751-5ab3-4221-9c38-b7b79c1172c2"
                     }
                 ],
                 "lang": "fr"
@@ -73,7 +73,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                        "href": "http:\/\/web:8080\/en\/user\/0?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -81,7 +81,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "af3d74d3-73a7-4a14-92be-dea1ec8f6d4c"
+                        "value": "c59d22c9-abb5-4a3c-9083-d175ae84c88e"
                     }
                 ],
                 "lang": "en"
@@ -91,7 +91,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                        "href": "http:\/\/web:8080\/en\/user\/0?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -99,7 +99,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "af3d74d3-73a7-4a14-92be-dea1ec8f6d4c"
+                        "value": "c59d22c9-abb5-4a3c-9083-d175ae84c88e"
                     }
                 ]
             }
@@ -117,7 +117,7 @@
     ],
     "created": [
         {
-            "value": "2018-06-20T10:26:45+00:00",
+            "value": "2018-06-20T12:17:41+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
@@ -157,16 +157,6 @@
             "lang": "en"
         }
     ],
-    "revision_translation_affected": [
-        {
-            "value": true,
-            "lang": "fr"
-        },
-        {
-            "value": true,
-            "lang": "en"
-        }
-    ],
     "content_translation_source": [
         {
             "value": "und",
@@ -189,7 +179,7 @@
     ],
     "content_translation_changed": [
         {
-            "value": "2018-06-20T10:26:45+00:00",
+            "value": "2018-06-20T12:17:41+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
