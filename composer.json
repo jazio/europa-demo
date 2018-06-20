@@ -13,6 +13,7 @@
         "openeuropa/oe_profile": "^0.1",
         "openeuropa/oe_theme": "^0.4",
         "openeuropa/oe_webtools": "^0.1",
+        "openeuropa/oe_auth": "^0.1",
         "php": "^7.1"
     },
     "require-dev": {
