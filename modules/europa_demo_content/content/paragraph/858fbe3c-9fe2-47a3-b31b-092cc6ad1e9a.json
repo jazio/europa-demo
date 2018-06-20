@@ -8,7 +8,7 @@
         },
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/uid": [
             {
-                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "href": "http:\/\/web:8080\/en\/user\/0?_format=hal_json",
                 "lang": "fr"
             },
             {
@@ -57,7 +57,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                        "href": "http:\/\/web:8080\/en\/user\/0?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -65,7 +65,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "c3066730-ac8f-487e-933d-f81d1502ce59"
+                        "value": "2a4cfd28-45b9-4254-b7e6-e2b738793a99"
                     }
                 ],
                 "lang": "fr"
@@ -81,7 +81,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "c3066730-ac8f-487e-933d-f81d1502ce59"
+                        "value": "af3d74d3-73a7-4a14-92be-dea1ec8f6d4c"
                     }
                 ],
                 "lang": "en"
@@ -99,7 +99,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "c3066730-ac8f-487e-933d-f81d1502ce59"
+                        "value": "af3d74d3-73a7-4a14-92be-dea1ec8f6d4c"
                     }
                 ]
             }
@@ -117,7 +117,7 @@
     ],
     "created": [
         {
-            "value": "2018-06-20T10:06:44+00:00",
+            "value": "2018-06-20T10:26:45+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
@@ -157,9 +157,19 @@
             "lang": "en"
         }
     ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
     "content_translation_source": [
         {
-            "value": "en",
+            "value": "und",
             "lang": "fr"
         },
         {
@@ -179,7 +189,7 @@
     ],
     "content_translation_changed": [
         {
-            "value": "2018-06-20T10:08:12+00:00",
+            "value": "2018-06-20T10:26:45+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },

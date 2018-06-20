@@ -11,9 +11,8 @@ europa_demo_content.commission:
   weight: 0
 europa_demo_content.info:
   title: 'Policies, information and services'
-  route_name: "<none>"
-#  route_name: 'entity.node.canonical'
-#  route_parameters:
-#    node: 2
+  route_name: 'entity.node.canonical'
+  route_parameters:
+    node: 2
   menu_name: "site-switcher"
   weight: 1

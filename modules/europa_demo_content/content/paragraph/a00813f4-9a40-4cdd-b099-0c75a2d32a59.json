@@ -8,10 +8,6 @@
         },
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item_block\/uid": [
             {
-                "href": "http:\/\/web:8080\/en\/user\/0?_format=hal_json",
-                "lang": "fr"
-            },
-            {
                 "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
                 "lang": "en"
             }
@@ -51,29 +47,37 @@
             },
             {
                 "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
             }
         ]
     },
     "id": [
         {
-            "value": 9
+            "value": 26
         }
     ],
     "uuid": [
         {
-            "value": "e9a036b6-c71b-46cd-a366-69ec6c9f3a31"
+            "value": "a00813f4-9a40-4cdd-b099-0c75a2d32a59"
         }
     ],
     "revision_id": [
         {
-            "value": 51
+            "value": 66
         }
     ],
     "langcode": [
-        {
-            "value": "fr",
-            "lang": "fr"
-        },
         {
             "value": "en",
             "lang": "en"
@@ -86,22 +90,6 @@
     ],
     "_embedded": {
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item_block\/uid": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "http:\/\/web:8080\/en\/user\/0?_format=hal_json"
-                    },
-                    "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "2a4cfd28-45b9-4254-b7e6-e2b738793a99"
-                    }
-                ],
-                "lang": "fr"
-            },
             {
                 "_links": {
                     "self": {
@@ -148,10 +136,10 @@
                 },
                 "uuid": [
                     {
-                        "value": "f66d2099-59f4-47b6-99c2-4481064d4ee4"
+                        "value": "0d39d8ed-2432-436e-bdca-810e2c2cbc48"
                     }
                 ],
-                "target_revision_id": "41"
+                "target_revision_id": "52"
             },
             {
                 "_links": {
@@ -164,10 +152,10 @@
                 },
                 "uuid": [
                     {
-                        "value": "bb20bee9-8fc9-4d6b-8f52-e398b60f865c"
+                        "value": "72da2398-b2fd-4bb9-8d49-49669e5773b1"
                     }
                 ],
-                "target_revision_id": "42"
+                "target_revision_id": "53"
             },
             {
                 "_links": {
@@ -180,10 +168,10 @@
                 },
                 "uuid": [
                     {
-                        "value": "f24c4036-6b78-48aa-b061-edb7b530ecae"
+                        "value": "22a77340-6f5a-4860-b814-19d51ac44c55"
                     }
                 ],
-                "target_revision_id": "43"
+                "target_revision_id": "54"
             },
             {
                 "_links": {
@@ -196,10 +184,10 @@
                 },
                 "uuid": [
                     {
-                        "value": "98b49097-0f5e-4e61-a20c-b5684c6c3b00"
+                        "value": "3c68d4aa-daa4-4b0d-91bd-eecaad402553"
                     }
                 ],
-                "target_revision_id": "44"
+                "target_revision_id": "55"
             },
             {
                 "_links": {
@@ -212,10 +200,10 @@
                 },
                 "uuid": [
                     {
-                        "value": "3c025d06-b8d9-46c9-9fdb-ce75846e9ed3"
+                        "value": "66e54c7f-debd-4897-839d-5562dd6fd492"
                     }
                 ],
-                "target_revision_id": "45"
+                "target_revision_id": "56"
             },
             {
                 "_links": {
@@ -228,10 +216,10 @@
                 },
                 "uuid": [
                     {
-                        "value": "858fbe3c-9fe2-47a3-b31b-092cc6ad1e9a"
+                        "value": "92c541b8-d4eb-443d-8f04-a13615fc33d2"
                     }
                 ],
-                "target_revision_id": "46"
+                "target_revision_id": "57"
             },
             {
                 "_links": {
@@ -244,10 +232,10 @@
                 },
                 "uuid": [
                     {
-                        "value": "fc75e554-562f-4a9d-97ce-05fad13a5e5d"
+                        "value": "5926f498-ea7d-4406-87f1-a08b5c704ec1"
                     }
                 ],
-                "target_revision_id": "47"
+                "target_revision_id": "58"
             },
             {
                 "_links": {
@@ -260,10 +248,10 @@
                 },
                 "uuid": [
                     {
-                        "value": "c119778e-2a29-472f-86ac-273bacdd31ff"
+                        "value": "64e0281b-beb1-459b-a8e3-203b47e75577"
                     }
                 ],
-                "target_revision_id": "48"
+                "target_revision_id": "59"
             },
             {
                 "_links": {
@@ -276,10 +264,10 @@
                 },
                 "uuid": [
                     {
-                        "value": "da06e3f8-5a1d-4af9-adbf-7d855a78b7c8"
+                        "value": "e2a0da35-8b85-4ed8-b729-448d43570d21"
                     }
                 ],
-                "target_revision_id": "49"
+                "target_revision_id": "60"
             },
             {
                 "_links": {
@@ -292,18 +280,78 @@
                 },
                 "uuid": [
                     {
-                        "value": "a3db0597-d6f9-493a-8fb6-9f8152286c67"
+                        "value": "3f00309b-cc60-47bb-9af1-c2f21dd9c3b1"
                     }
                 ],
-                "target_revision_id": "50"
+                "target_revision_id": "61"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e70797cb-5de4-417e-b5cc-7eafa2616eb6"
+                    }
+                ],
+                "target_revision_id": "62"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "daf7d824-addf-4461-8fd8-62ef8db6f958"
+                    }
+                ],
+                "target_revision_id": "63"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1bc6975a-0e18-49f7-a582-f43a8910d7b3"
+                    }
+                ],
+                "target_revision_id": "64"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "223f74db-e184-4072-941f-6aba83749578"
+                    }
+                ],
+                "target_revision_id": "65"
             }
         ]
     },
     "status": [
-        {
-            "value": true,
-            "lang": "fr"
-        },
         {
             "value": true,
             "lang": "en"
@@ -311,19 +359,14 @@
     ],
     "created": [
         {
-            "value": "2018-06-20T10:26:45+00:00",
-            "lang": "fr",
-            "format": "Y-m-d\\TH:i:sP"
-        },
-        {
-            "value": "2018-06-20T10:04:06+00:00",
+            "value": "2018-06-20T10:39:10+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "parent_id": [
         {
-            "value": "1"
+            "value": "2"
         }
     ],
     "parent_type": [
@@ -343,19 +386,11 @@
     ],
     "default_langcode": [
         {
-            "value": false,
-            "lang": "fr"
-        },
-        {
             "value": true,
             "lang": "en"
         }
     ],
     "revision_translation_affected": [
-        {
-            "value": true,
-            "lang": "fr"
-        },
         {
             "value": true,
             "lang": "en"
@@ -364,18 +399,10 @@
     "content_translation_source": [
         {
             "value": "und",
-            "lang": "fr"
-        },
-        {
-            "value": "und",
             "lang": "en"
         }
     ],
     "content_translation_outdated": [
-        {
-            "value": false,
-            "lang": "fr"
-        },
         {
             "value": false,
             "lang": "en"
@@ -383,47 +410,14 @@
     ],
     "content_translation_changed": [
         {
-            "value": "2018-06-20T10:26:45+00:00",
-            "lang": "fr",
-            "format": "Y-m-d\\TH:i:sP"
-        },
-        {
-            "value": "2018-06-20T10:22:50+00:00",
+            "value": "2018-06-20T10:45:21+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
-    "field_oe_link": [
-        {
-            "uri": "internal:\/",
-            "title": "En savoir plus sur les priorit\u00e9s",
-            "options": [],
-            "lang": "fr"
-        },
-        {
-            "uri": "internal:\/",
-            "title": "More about the priorities",
-            "options": [],
-            "lang": "en"
-        }
-    ],
     "field_oe_list_item_block_variant": [
         {
-            "value": "two_columns",
-            "lang": "fr"
-        },
-        {
-            "value": "two_columns",
-            "lang": "en"
-        }
-    ],
-    "field_oe_title": [
-        {
-            "value": "Les priorit\u00e9s de la Commission europ\u00e9enne",
-            "lang": "fr"
-        },
-        {
-            "value": "The European Commission's priorities",
+            "value": "three_columns",
             "lang": "en"
         }
     ]

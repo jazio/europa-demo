@@ -16,8 +16,9 @@ drupal:
     - { task: "chmod", permissions: 0664, file: "${drupal.root}/sites/default/settings.php" }
     - { task: "remove", file: "${drupal.root}/sites/default/settings.php" }
   post_install:
-    # @todo: We set theme as default here as it does not happen at installation. Fix this.
-    - "./vendor/bin/drush config-set system.theme default europa_demo_theme -y"
+    # OpenEuropa Profile overrides some configuration values in its hook_install(), so we re-run configuration import.
+    # @todo: Fix this.
+    - "./vendor/bin/drush cim -y"
     - "./vendor/bin/drush cr"
   settings:
     config_directories:
