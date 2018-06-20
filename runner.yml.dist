@@ -19,6 +19,9 @@ drupal:
     # @todo: We set theme as default here as it does not happen at installation. Fix this.
     - "./vendor/bin/drush config-set system.theme default europa_demo_theme -y"
     - "./vendor/bin/drush cr"
+    - "./vendor/bin/drush locale:check"
+    - "./vendor/bin/drush locale:update  --langcodes=it,fr"
+    - "./vendor/bin/drush cr"
   settings:
     config_directories:
       sync: '../config/sync'
