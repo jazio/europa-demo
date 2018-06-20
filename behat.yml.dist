@@ -25,7 +25,7 @@ default:
             pages:
               create Landing: "/en/node/add/landing_page"
               ECL components overview: "/en/components"
-              front: "/en/node"
+              front: "/en/node/1"
   extensions:
     Behat\MinkExtension:
       goutte: ~
