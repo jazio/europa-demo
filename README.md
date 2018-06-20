@@ -71,7 +71,7 @@ The demo site will be available at [http://localhost:8080/build](http://localhos
 
 ### Working with content
 
-THe Europa demo site ships with default content bundled in the [Europa demo content module](./modules/europa_demo_content).
+The Europa demo site ships with default content bundled in the [Europa demo content module](./modules/europa_demo_content).
 
 After adding or updating site content you can export it by running:
 
