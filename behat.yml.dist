@@ -4,7 +4,6 @@ default:
       contexts:
         - Drupal\DrupalExtension\Context\DrupalContext
         - Drupal\DrupalExtension\Context\MarkupContext
-        - Drupal\DrupalExtension\Context\MinkContext
         - Ec\Europa\EuropaDemo\Behat\TransformationContext:
             elements:
               about dropdown menu: "#nav-menu-expandable-group-2 .ecl-navigation-menu__links"
@@ -29,6 +28,7 @@ default:
               non-existing: "/non-existing"
               administrative: "/en/admin"
         - Ec\Europa\EuropaDemo\Behat\WebtoolsContext
+        - Ec\Europa\EuropaDemo\Behat\MinkContext
   extensions:
     Behat\MinkExtension:
       goutte: ~
@@ -52,5 +52,7 @@ default:
         navigation: ".ecl-navigation-menu"
         page: "body"
         page header: ".ecl-page-header__body"
+        content: "section.main-content"
+        language switcher: ".ecl-language-list .ecl-dialog"
   formatters:
     progress: ~
