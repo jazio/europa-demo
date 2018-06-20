@@ -59,3 +59,4 @@ display:
         title: Liste
       tab_options:
         title: Benutzer
+        description: 'Verwalten von Benutzerkonten, Rollen und Zugriffsrechten.'
