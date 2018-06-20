@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b221e823c3baf58739dcf1542b8c43e0",
+    "content-hash": "945f6dd8e0cfca901a581541d9c23d5b",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -7548,6 +7548,39 @@
             "time": "2017-06-30T04:02:48+00:00"
         },
         {
+            "name": "jakeasmith/http_build_url",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jakeasmith/http_build_url.git",
+                "reference": "93c273e77cb1edead0cf8bcf8cd2003428e74e37"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jakeasmith/http_build_url/zipball/93c273e77cb1edead0cf8bcf8cd2003428e74e37",
+                "reference": "93c273e77cb1edead0cf8bcf8cd2003428e74e37",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/http_build_url.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jake A. Smith",
+                    "email": "theman@jakeasmith.com"
+                }
+            ],
+            "description": "Provides functionality for http_build_url() to environments without pecl_http.",
+            "time": "2017-05-01T15:36:40+00:00"
+        },
+        {
             "name": "jakub-onderka/php-console-color",
             "version": "0.1",
             "source": {
@@ -8339,21 +8372,22 @@
         },
         {
             "name": "openeuropa/task-runner",
-            "version": "0.5.0",
+            "version": "0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/openeuropa/task-runner.git",
-                "reference": "f4b99be46902a85ffd36f30f3791637506a773ca"
+                "reference": "603991b749fad1e7ee088f5cce7dbad504061623"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openeuropa/task-runner/zipball/f4b99be46902a85ffd36f30f3791637506a773ca",
-                "reference": "f4b99be46902a85ffd36f30f3791637506a773ca",
+                "url": "https://api.github.com/repos/openeuropa/task-runner/zipball/603991b749fad1e7ee088f5cce7dbad504061623",
+                "reference": "603991b749fad1e7ee088f5cce7dbad504061623",
                 "shasum": ""
             },
             "require": {
                 "consolidation/robo": "^1.2",
                 "gitonomy/gitlib": "~1",
+                "jakeasmith/http_build_url": "^1.0",
                 "nuvoleweb/robo-config": "~0.2"
             },
             "require-dev": {
@@ -8373,7 +8407,7 @@
             "license": [
                 "EUPL-1.1"
             ],
-            "time": "2018-04-19T13:49:55+00:00"
+            "time": "2018-06-19T08:35:44+00:00"
         },
         {
             "name": "pdepend/pdepend",
