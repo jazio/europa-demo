@@ -39,6 +39,13 @@ $ ./vendor/bin/run drupal:site-install
 
 This will install the site using the configuration exported in `./config/sync`.
 
+```
+$ ./vendor/bin/run drupal:import-interface-translations
+```
+
+This will import interface translations (fr,it).
+
+
 ### Using Docker Compose
 
 The project offers a set of containers for software packages that are close to the versions that are in use on the
@@ -61,6 +68,7 @@ Then:
 ```
 $ docker-compose exec -u web web composer install
 $ docker-compose exec -u web web ./vendor/bin/run drupal:site-install
+$ docker-compose exec -u web web ./vendor/bin/run drupal:import-interface-translations
 ```
 
 Note that if you have compatible versions of PHP and Composer installed on your host system you can download the
