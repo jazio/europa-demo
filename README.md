@@ -69,6 +69,18 @@ up the process since this will make use of the Composer cache on the host system
 
 The demo site will be available at [http://localhost:8080/build](http://localhost:8080/build).
 
+### Working with content
+
+THe Europa demo site ships with default content bundled in the [Europa demo content module](./modules/europa_demo_content).
+
+After adding or updating site content you can export it by running:
+
+```
+$ ./vendor/bin/run drupal:export-content
+```
+
+Content export/import functionality is provided by the [Default Content module][5].
+
 ### Tests
 
 Run tests as follows:
@@ -87,3 +99,4 @@ $ docker-compose exec -u web web ./vendor/bin/behat
 [2]: https://getcomposer.org
 [3]: https://www.docker.com/get-docker
 [4]: https://docs.docker.com/compose
+[5]: https://www.drupal.org/project/default_content

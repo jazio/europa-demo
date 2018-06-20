@@ -31,5 +31,8 @@ commands:
     - { task: "run", command: "drupal:drush-setup" }
     - { task: "run", command: "drupal:settings-setup" }
     - { task: "run", command: "setup:behat" }
+  drupal:export-content:
+    - './vendor/bin/drush dcer node --folder modules/custom/europa_demo_content/content'
+    - { task: "remove", file: "modules/custom/europa_demo_content/user" }
   setup:behat:
     - { task: "process", source: "behat.yml.dist", destination: "behat.yml" }
