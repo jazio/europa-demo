@@ -22,6 +22,8 @@ Scenario: Visitors can see interface translated correctly in french
   And I should see the link "Ressources pour les partenaires" in the "corporate bottom footer" region
   And I should see the link "Avis juridique" in the "corporate bottom footer" region
   And I should see the link "Contact" in the "corporate bottom footer" region
+  And I should see the link "L'avenir de l'Europe" in the "banner" region
+  And I should see "À LA UNE" in the "banner" region
   
 Scenario: Visitors can see interface translated correctly in italian
   Given I am on the homepage
@@ -40,3 +42,5 @@ Scenario: Visitors can see interface translated correctly in italian
   And I should see the link "Resources for partners" in the "corporate bottom footer" region
   And I should see the link "Note legali" in the "corporate bottom footer" region
   And I should see the link "Contatti" in the "corporate bottom footer" region
+  And I should see the link "Il futuro dell'Europa" in the "banner" region
+  And I should see "IN PRIMO PIANO" in the "banner" region
