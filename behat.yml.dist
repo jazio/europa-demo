@@ -20,7 +20,7 @@ default:
               page header: ".ecl-page-header__body"
               about dropdown menu: "#nav-menu-expandable-group-2 .ecl-navigation-menu__links"
               priorities dropdown menu: "#nav-menu-expandable-group-3 .ecl-navigation-menu__links"
-              hero: ".page-header__hero-title"
+              banner title: ".ecl-banner__title"
             pages:
               front: "/en/node"
               ECL components overview: "/en/components"
@@ -40,7 +40,7 @@ default:
       region_map:
         page: "body"
         header: ".ecl-site-header"
-        page header: ".ecl-page-header__body"
+        banner: ".ecl-banner"
         navigation: ".ecl-navigation-menu"
         custom footer: ".ecl-footer__custom"
         corporate top footer: ".ecl-footer__corporate-top"
