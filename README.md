@@ -74,7 +74,7 @@ The demo site will be available at [http://localhost:8080/build](http://localhos
 
 ### Update interface translations
 
-Update .po files located in your modules/europa_demo_core/translations/ folder.
+Update .po files located in your `modules/europa_demo_core/translations/` folder.
 And execute this:
 ```
 $ docker-compose exec -u web web ./vendor/bin/run drupal:import-interface-translations
