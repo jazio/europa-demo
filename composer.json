@@ -8,6 +8,7 @@
     "require": {
         "drupal/config_installer": "~1.8",
         "drupal/core": "~8.6",
+        "drupal/drush_language": "^1.0",
         "openeuropa/oe_multilingual": "^0.1",
         "openeuropa/oe_paragraphs": "^0.1",
         "openeuropa/oe_profile": "^0.1",

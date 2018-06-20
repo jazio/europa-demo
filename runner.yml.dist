@@ -18,9 +18,9 @@ drupal:
   post_install:
     # @todo: We set theme as default here as it does not happen at installation. Fix this.
     - "./vendor/bin/drush config-set system.theme default europa_demo_theme -y"
-    - "./vendor/bin/drush cr"
-    - "./vendor/bin/drush locale:check"
-    - "./vendor/bin/drush locale:update  --langcodes=it,fr"
+    - "./vendor/bin/drush en -y drush_language"
+    - "./vendor/bin/drush language-import modules/custom/europa_demo_core/translations/fr.po"
+    - "./vendor/bin/drush language-import modules/custom/europa_demo_core/translations/it.po"
     - "./vendor/bin/drush cr"
   settings:
     config_directories:
