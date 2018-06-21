@@ -1,0 +1,11 @@
+parameters:
+  europa_demo_content.url_aliases:
+    a28cd5b4-8435-4cea-b209-ffe5995f7ee4: '/commission'
+    8c314e2d-9a5b-49b8-af19-eeda8610badd: '/info'
+
+services:
+  europa_demo_content.event_subscriber.content_import:
+    class: '\Drupal\europa_demo_content\EventSubscriber\ContentImportSubscriber'
+    arguments: ['%europa_demo_content.url_aliases%']
+    tags:
+      - { name: 'event_subscriber' }
