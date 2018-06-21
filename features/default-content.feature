@@ -89,3 +89,23 @@ Feature: Default content
       | Statistiques                                                |
       | Alimentation, agriculture, pêche                            |
       | Développement régional et urbain de l’UE                    |
+
+  @javascript
+  Scenario: Landing pages should have meaningful URL aliases
+    When I am on the homepage
+    And I click "English"
+
+    When I click "Policies, information and services"
+    Then I should be on "/en/info"
+
+    And I click "Commission and its priorities"
+    Then I should be on "/en/commission"
+
+    When I open the language switcher dialog
+    And I click "Français" in the "language switcher"
+
+    When I click "Politiques, informations et services"
+    Then I should be on "/fr/info"
+
+    And I click "La Commission et ses priorités"
+    Then I should be on "/fr/commission"
