@@ -1,5 +1,5 @@
 @api
-Feature: Translation
+Feature: Interface translation
   In order to be able to appreciate the showcase of the site's features
   As a visitor
   I want to make sure that the demo site is correctly translated.
