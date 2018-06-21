@@ -30,6 +30,10 @@ drupal:
     #     siteID: '<your siteId>'
     #     sitePath: '<your sitePath>'
 
+selenium:
+  host: "http://selenium"
+  port: "4444"
+
 commands:
   drupal:import-interface-translations:
      - "./vendor/bin/drush language-import modules/custom/europa_demo_core/translations/fr.po"
