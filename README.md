@@ -38,6 +38,8 @@ $ ./vendor/bin/run drupal:site-install
 ```
 
 This will install the site using the configuration exported in `./config/sync`.
+And will import interface translations.
+
 
 ### Using Docker Compose
 
@@ -80,6 +82,15 @@ $ ./vendor/bin/run drupal:export-content
 ```
 
 Content export/import functionality is provided by the [Default Content module][5].
+
+
+### Update interface translations
+
+Update .po files located in your `modules/europa_demo_core/translations/` folder.
+And execute this:
+```
+$ docker-compose exec -u web web ./vendor/bin/run drupal:import-interface-translations
+```
 
 ### Webtools Analytics configuration
 

@@ -20,6 +20,7 @@ drupal:
     # @todo: Fix this.
     - "./vendor/bin/drush cim -y"
     - "./vendor/bin/drush cr"
+    - "./vendor/bin/run drupal:import-interface-translations"
   settings:
     config_directories:
       sync: '../config/sync'
@@ -30,6 +31,9 @@ drupal:
     #     sitePath: '<your sitePath>'
 
 commands:
+  drupal:import-interface-translations:
+     - "./vendor/bin/drush language-import modules/custom/europa_demo_core/translations/fr.po"
+     - "./vendor/bin/drush language-import modules/custom/europa_demo_core/translations/it.po"
   drupal:site-setup:
     - { task: "symlink", from: "../../modules", to: "${drupal.root}/modules/custom" }
     - { task: "symlink", from: "../../themes", to: "${drupal.root}/themes/custom" }

@@ -4,3 +4,5 @@ settings:
       label: 'Par défaut'
     -
       label: Date
+    -
+      label: 'À la une'

@@ -14,6 +14,8 @@ settings:
       label: Modifier
     20:
       label: Erreur
+    22:
+      label: Facebook
     25:
       label: Fichier
     27:
@@ -31,6 +33,8 @@ settings:
     44:
       label: Droit
     46:
-      label: Rechercher
+      label: Recherche
+    53:
+      label: Twitter
     56:
       label: Avertissement
