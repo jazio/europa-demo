@@ -12,9 +12,11 @@ Feature: Landing page
     And I fill in "Introduction" with "This is the home page of the site"
     And I press the "Add Rich text" button
     And I fill in "Text" with "This is the content of the page."
+    And I press "Save"
     Then I should see "Landing page Homepage has been created." in the "message"
     And I should see "Homepage" in the "page header"
     And I should see "This is the home page of the site" in the "page header"
+    And I should see "This is the content of the page." in the "content"
 
     # Translate the Landing page content into Spanish.
     When I click "Translate"
@@ -26,3 +28,4 @@ Feature: Landing page
     Then I should see "Landing page Página principal ha sido actualizado." in the "message"
     And I should see "Página principal" in the "page header"
     And I should see "Esta es la página principal del sitio" in the "page header"
+    And I should see "Este es el contenido de la pagina." in the "content"
