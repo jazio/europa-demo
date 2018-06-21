@@ -5,7 +5,6 @@ block.settings.europa_demo_site_banner:
     title:
       type: label
       label: Link title
-      translatable: true
     uri:
       type: uri
       label: Link
@@ -13,3 +12,4 @@ block.settings.europa_demo_site_banner:
     background:
       type: string
       label: Background
+      translatable: true
