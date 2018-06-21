@@ -3,7 +3,7 @@ block.settings.europa_demo_site_banner:
   label: 'Site banner block'
   mapping:
     title:
-      type: string
+      type: label
       label: Link title
       translatable: true
     uri:
@@ -11,6 +11,5 @@ block.settings.europa_demo_site_banner:
       label: Link
       translatable: true
     background:
-      tyoe: string
+      type: string
       label: Background
-      translatable: true

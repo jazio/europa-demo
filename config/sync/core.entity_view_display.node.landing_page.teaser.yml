@@ -20,4 +20,5 @@ content:
     region: content
 hidden:
   field_introduction: true
+  field_landing_page_body: true
   langcode: true

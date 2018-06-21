@@ -4,7 +4,6 @@ Feature: Translation
   As a visitor
   I want to make sure that the demo site is correctly translated.
 
-
 Scenario: Visitors can see interface translated correctly in french
   Given I am on the homepage
   When I click "Français"
@@ -23,8 +22,8 @@ Scenario: Visitors can see interface translated correctly in french
   And I should see the link "Avis juridique" in the "corporate bottom footer" region
   And I should see the link "Contact" in the "corporate bottom footer" region
   And I should see the link "L'avenir de l'Europe" in the "banner" region
-  And I should see "À LA UNE" in the "banner" region
-  
+  And I should see "À la une" in the "banner" region
+
 Scenario: Visitors can see interface translated correctly in italian
   Given I am on the homepage
   When I click "Italiano"
@@ -39,8 +38,8 @@ Scenario: Visitors can see interface translated correctly in italian
   And I should see "Unione europea" in the "corporate top footer" region
   And I should see the link "Istituzioni dell'UE" in the "corporate top footer" region
   And I should see the link "La nuova presenza online della Commissione" in the "corporate bottom footer" region
-  And I should see the link "Resources for partners" in the "corporate bottom footer" region
+  And I should see the link "Risorse per i partner" in the "corporate bottom footer" region
   And I should see the link "Note legali" in the "corporate bottom footer" region
   And I should see the link "Contatti" in the "corporate bottom footer" region
   And I should see the link "Il futuro dell'Europa" in the "banner" region
-  And I should see "IN PRIMO PIANO" in the "banner" region
+  And I should see "In primo piano" in the "banner" region
