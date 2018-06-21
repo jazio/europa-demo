@@ -10,7 +10,8 @@ Feature: Landing page
     When I am on "the create Landing page"
     And I fill in "Title" with "Homepage"
     And I fill in "Introduction" with "This is the home page of the site"
-    And I press "Save"
+    And I press the "Add Rich text" button
+    And I fill in "Text" with "This is the content of the page."
     Then I should see "Landing page Homepage has been created." in the "message"
     And I should see "Homepage" in the "page header"
     And I should see "This is the home page of the site" in the "page header"
@@ -20,6 +21,7 @@ Feature: Landing page
     And I click "Add" in the "Spanish" row
     And I fill in "Título" with "Página principal"
     And I fill in "Introduction" with "Esta es la página principal del sitio"
+    And I fill in "Texto" with "Este es el contenido de la pagina."
     And I press "Guardar (this translation)"
     Then I should see "Landing page Página principal ha sido actualizado." in the "message"
     And I should see "Página principal" in the "page header"
