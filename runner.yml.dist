@@ -19,8 +19,9 @@ drupal:
     # OpenEuropa Profile overrides some configuration values in its hook_install(), so we re-run configuration import.
     # @todo: Fix this.
     - "./vendor/bin/drush cim -y"
-    - "./vendor/bin/drush cr"
+    - "./vendor/bin/drush en europa_demo_content -y"
     - "./vendor/bin/run drupal:import-interface-translations"
+    - "./vendor/bin/drush cr"
   settings:
     config_directories:
       sync: '../config/sync'
