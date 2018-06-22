@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d85214f98f948ea318266147258f6478",
+    "content-hash": "67ba5a77be0b71ba5d8629347529a1f6",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -810,12 +810,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "eb5d6c307e08980c3f39253955a4281964dfb3a4"
+                "reference": "742c329fb8f53bd94f12f57ead45053d7dc84537"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/eb5d6c307e08980c3f39253955a4281964dfb3a4",
-                "reference": "eb5d6c307e08980c3f39253955a4281964dfb3a4",
+                "url": "https://api.github.com/repos/drupal/core/zipball/742c329fb8f53bd94f12f57ead45053d7dc84537",
+                "reference": "742c329fb8f53bd94f12f57ead45053d7dc84537",
                 "shasum": ""
             },
             "require": {
@@ -933,6 +933,7 @@
                 "drupal/link": "self.version",
                 "drupal/locale": "self.version",
                 "drupal/media": "self.version",
+                "drupal/media_library": "self.version",
                 "drupal/menu_link_content": "self.version",
                 "drupal/menu_ui": "self.version",
                 "drupal/migrate": "self.version",
@@ -1038,7 +1039,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2018-06-22T12:18:43+00:00"
+            "time": "2018-06-22T14:05:00+00:00"
         },
         {
             "name": "drupal/ctools",
@@ -2222,16 +2223,16 @@
         },
         {
             "name": "openeuropa/oe_multilingual",
-            "version": "0.1.2",
+            "version": "0.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/openeuropa/oe_multilingual.git",
-                "reference": "9d43772ad7d64dec556fb0acea076ef145f1ccf2"
+                "reference": "312437fe555c5adf558556fcdf1df4da5eb9f42e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openeuropa/oe_multilingual/zipball/9d43772ad7d64dec556fb0acea076ef145f1ccf2",
-                "reference": "9d43772ad7d64dec556fb0acea076ef145f1ccf2",
+                "url": "https://api.github.com/repos/openeuropa/oe_multilingual/zipball/312437fe555c5adf558556fcdf1df4da5eb9f42e",
+                "reference": "312437fe555c5adf558556fcdf1df4da5eb9f42e",
                 "shasum": ""
             },
             "require": {
@@ -2298,20 +2299,20 @@
                 "EUPL-1.2"
             ],
             "description": "Multilingual features for the OpenEuropa project.",
-            "time": "2018-06-15T11:22:08+00:00"
+            "time": "2018-06-22T13:50:40+00:00"
         },
         {
             "name": "openeuropa/oe_paragraphs",
-            "version": "0.1.1",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/openeuropa/oe_paragraphs.git",
-                "reference": "360583b8f60cbfce2b7decb1fd999860beef18eb"
+                "reference": "8a2130a1add8901ab8e5390bb083cc7bc2fa3c7c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openeuropa/oe_paragraphs/zipball/360583b8f60cbfce2b7decb1fd999860beef18eb",
-                "reference": "360583b8f60cbfce2b7decb1fd999860beef18eb",
+                "url": "https://api.github.com/repos/openeuropa/oe_paragraphs/zipball/8a2130a1add8901ab8e5390bb083cc7bc2fa3c7c",
+                "reference": "8a2130a1add8901ab8e5390bb083cc7bc2fa3c7c",
                 "shasum": ""
             },
             "require": {
@@ -2363,7 +2364,7 @@
                 "EUPL-1.1"
             ],
             "description": "Drupal module providing a collection of Paragraph types based on ECL components.",
-            "time": "2018-06-18T12:30:50+00:00"
+            "time": "2018-06-22T15:00:23+00:00"
         },
         {
             "name": "openeuropa/oe_profile",
@@ -2430,16 +2431,16 @@
         },
         {
             "name": "openeuropa/oe_theme",
-            "version": "0.4.1",
+            "version": "0.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/openeuropa/oe_theme.git",
-                "reference": "3cbec4fdb4745120bacb661b138e4c868a937cca"
+                "reference": "f6be9763fc239432c9f0a09b0bce7468a5af2170"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://api.github.com/repos/openeuropa/oe_theme/zipball/3cbec4fdb4745120bacb661b138e4c868a937cca",
-                "reference": "3cbec4fdb4745120bacb661b138e4c868a937cca",
+                "url": "https://github.com/openeuropa/oe_theme/releases/download/0.5.0/oe_theme-0.5.0.tar.gz",
+                "reference": "f6be9763fc239432c9f0a09b0bce7468a5af2170",
                 "shasum": ""
             },
             "require": {
@@ -2459,9 +2460,9 @@
                 "drush/drush": "^9",
                 "nikic/php-parser": "~3",
                 "openeuropa/code-review": "^0.2",
-                "openeuropa/oe_multilingual": "dev-master",
-                "openeuropa/oe_paragraphs": "^0.1",
-                "openeuropa/task-runner": "^0.5",
+                "openeuropa/oe_multilingual": "^0.1",
+                "openeuropa/oe_paragraphs": "^0.2",
+                "openeuropa/task-runner": "^0.6",
                 "symfony/dom-crawler": "^3",
                 "webflo/drupal-core-require-dev": "~8.6"
             },
@@ -2498,7 +2499,7 @@
                 "EUPL-1.1"
             ],
             "description": "OpenEuropa base theme.",
-            "time": "2018-06-18T13:23:16+00:00"
+            "time": "2018-06-22T16:29:04+00:00"
         },
         {
             "name": "openeuropa/oe_webtools",
@@ -6745,6 +6746,307 @@
                 "standards"
             ],
             "time": "2017-03-18T10:28:49+00:00"
+        },
+        {
+            "name": "drupal/config_distro",
+            "version": "1.0.0-alpha2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/config_distro",
+                "reference": "8.x-1.0-alpha2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/config_distro-8.x-1.0-alpha2.zip",
+                "reference": "8.x-1.0-alpha2",
+                "shasum": "ce4bf096d8c99e48095c919c61ba27d38dbe5cc7"
+            },
+            "require": {
+                "drupal/config_filter": "*",
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha2",
+                    "datestamp": "1523029384",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Nedjo Rogers (nedjo)",
+                    "homepage": "https://www.drupal.org/u/nedjo",
+                    "email": "nedjo@4481.no-reply.drupal.org",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Fabian Bircher",
+                    "homepage": "https://www.drupal.org/u/bircher",
+                    "email": "opensource@fabianbircher.com",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Framework for managing configuration updates from distributions.",
+            "homepage": "https://www.drupal.org/project/config_distro",
+            "support": {
+                "source": "https://cgit.drupalcode.org/config_distro",
+                "issues": "https://drupal.org/project/issues/config_distro",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
+            "name": "drupal/config_merge",
+            "version": "1.0.0-alpha2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/config_merge",
+                "reference": "8.x-1.0-alpha2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/config_merge-8.x-1.0-alpha2.zip",
+                "reference": "8.x-1.0-alpha2",
+                "shasum": "6f34123f0353395c67a540e1233e0b609f0188f5"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha2",
+                    "datestamp": "1528237080",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "bircher",
+                    "homepage": "https://www.drupal.org/user/1344166"
+                },
+                {
+                    "name": "mlncn",
+                    "homepage": "https://www.drupal.org/user/64383"
+                },
+                {
+                    "name": "nedjo",
+                    "homepage": "https://www.drupal.org/user/4481"
+                }
+            ],
+            "description": "Enables three-way merges of configuration items. This is useful for safely merging configuration updates while retaining any customizations.",
+            "homepage": "https://www.drupal.org/project/config_merge",
+            "support": {
+                "source": "http://cgit.drupalcode.org/config_merge"
+            }
+        },
+        {
+            "name": "drupal/config_provider",
+            "version": "2.0.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/config_provider",
+                "reference": "8.x-2.0-alpha1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/config_provider-8.x-2.0-alpha1.zip",
+                "reference": "8.x-2.0-alpha1",
+                "shasum": "5b69c1ac071b6773f5af7a43801f74aa8e832aa7"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.0-alpha1",
+                    "datestamp": "1522220584",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "mlncn",
+                    "homepage": "https://www.drupal.org/user/64383"
+                },
+                {
+                    "name": "nedjo",
+                    "homepage": "https://www.drupal.org/user/4481"
+                },
+                {
+                    "name": "pfrenssen",
+                    "homepage": "https://www.drupal.org/user/382067"
+                }
+            ],
+            "description": "Enables provision of configuration by extensions.",
+            "homepage": "https://www.drupal.org/project/config_provider",
+            "support": {
+                "source": "http://cgit.drupalcode.org/config_provider"
+            }
+        },
+        {
+            "name": "drupal/config_sync",
+            "version": "2.0.0-alpha6",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/config_sync",
+                "reference": "8.x-2.0-alpha6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/config_sync-8.x-2.0-alpha6.zip",
+                "reference": "8.x-2.0-alpha6",
+                "shasum": "f54e5800c2d4015b2de279d9ec35b951fa08980c"
+            },
+            "require": {
+                "drupal/config_distro": "*",
+                "drupal/config_filter": "*",
+                "drupal/config_merge": "*",
+                "drupal/config_provider": "^2",
+                "drupal/config_update": "*",
+                "drupal/core": "^8.3",
+                "symfony/yaml": "~2.7.14|~2.8.7|~3.0.7|^3.1.1"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.0-alpha6",
+                    "datestamp": "1528236784",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Nedjo Rogers (nedjo)",
+                    "homepage": "https://www.drupal.org/u/nedjo",
+                    "email": "nedjo@4481.no-reply.drupal.org",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "flocondetoile",
+                    "homepage": "https://www.drupal.org/user/2006064"
+                },
+                {
+                    "name": "mlncn",
+                    "homepage": "https://www.drupal.org/user/64383"
+                },
+                {
+                    "name": "mtift",
+                    "homepage": "https://www.drupal.org/user/751908"
+                },
+                {
+                    "name": "nedjo",
+                    "homepage": "https://www.drupal.org/user/4481"
+                },
+                {
+                    "name": "pfrenssen",
+                    "homepage": "https://www.drupal.org/user/382067"
+                }
+            ],
+            "description": "Synchronize your site with updated configuration provided by modules and themes.",
+            "homepage": "https://www.drupal.org/project/config_sync",
+            "support": {
+                "source": "https://cgit.drupalcode.org/config_sync",
+                "issues": "https://drupal.org/project/issues/config_sync",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
+            "name": "drupal/config_update",
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/config_update",
+                "reference": "8.x-1.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/config_update-8.x-1.5.zip",
+                "reference": "8.x-1.5",
+                "shasum": "2f7ae5f90b1c0ab8edf84680d2651e81fab6a126"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.5",
+                    "datestamp": "1512587912",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "jhodgdon",
+                    "homepage": "https://www.drupal.org/user/155601"
+                },
+                {
+                    "name": "nedjo",
+                    "homepage": "https://www.drupal.org/user/4481"
+                }
+            ],
+            "description": "Provides basic revert and update functionality for other modules",
+            "homepage": "https://www.drupal.org/project/config_update",
+            "support": {
+                "source": "http://cgit.drupalcode.org/config_update"
+            }
         },
         {
             "name": "drupal/console",
@@ -11085,6 +11387,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/file_entity": 10,
+        "drupal/config_distro": 15,
+        "drupal/config_sync": 15,
         "drupal/default_content": 15,
         "drupal/drupal-extension": 15
     },
