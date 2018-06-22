@@ -7,6 +7,7 @@
     "prefer-stable": true,
     "require": {
         "php": "^7.1",
+        "drupal/config_filter": "^1.2",
         "drupal/config_installer": "~1.8",
         "drupal/core": "~8.6",
         "drupal/default_content": "^1.0@alpha",
