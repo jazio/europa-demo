@@ -8,12 +8,16 @@
         },
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item_block\/uid": [
             {
-                "href": "http:\/\/web:8080\/en\/user\/0?_format=hal_json",
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
                 "lang": "fr"
             },
             {
                 "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
-                "lang": "en"
+                "lang": "it"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item_block\/revision_uid": [
@@ -66,17 +70,21 @@
     ],
     "revision_id": [
         {
-            "value": 144
+            "value": 879
         }
     ],
     "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        },
         {
             "value": "fr",
             "lang": "fr"
         },
         {
-            "value": "en",
-            "lang": "en"
+            "value": "it",
+            "lang": "it"
         }
     ],
     "type": [
@@ -89,7 +97,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/web:8080\/en\/user\/0?_format=hal_json"
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -97,7 +105,23 @@
                 },
                 "uuid": [
                     {
-                        "value": "f78a9fdf-79c7-40d6-90a4-d5ba880fe28a"
+                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
                     }
                 ],
                 "lang": "fr"
@@ -113,10 +137,10 @@
                 },
                 "uuid": [
                     {
-                        "value": "606aa4da-60cc-4bd9-bcdc-ba4d50cdfe88"
+                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
                     }
                 ],
-                "lang": "en"
+                "lang": "it"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item_block\/revision_uid": [
@@ -131,7 +155,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "606aa4da-60cc-4bd9-bcdc-ba4d50cdfe88"
+                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
                     }
                 ]
             }
@@ -151,7 +175,7 @@
                         "value": "f66d2099-59f4-47b6-99c2-4481064d4ee4"
                     }
                 ],
-                "target_revision_id": "134"
+                "target_revision_id": "869"
             },
             {
                 "_links": {
@@ -167,7 +191,7 @@
                         "value": "bb20bee9-8fc9-4d6b-8f52-e398b60f865c"
                     }
                 ],
-                "target_revision_id": "135"
+                "target_revision_id": "870"
             },
             {
                 "_links": {
@@ -183,7 +207,7 @@
                         "value": "f24c4036-6b78-48aa-b061-edb7b530ecae"
                     }
                 ],
-                "target_revision_id": "136"
+                "target_revision_id": "871"
             },
             {
                 "_links": {
@@ -199,7 +223,7 @@
                         "value": "98b49097-0f5e-4e61-a20c-b5684c6c3b00"
                     }
                 ],
-                "target_revision_id": "137"
+                "target_revision_id": "872"
             },
             {
                 "_links": {
@@ -215,7 +239,7 @@
                         "value": "3c025d06-b8d9-46c9-9fdb-ce75846e9ed3"
                     }
                 ],
-                "target_revision_id": "138"
+                "target_revision_id": "873"
             },
             {
                 "_links": {
@@ -231,7 +255,7 @@
                         "value": "858fbe3c-9fe2-47a3-b31b-092cc6ad1e9a"
                     }
                 ],
-                "target_revision_id": "139"
+                "target_revision_id": "874"
             },
             {
                 "_links": {
@@ -247,7 +271,7 @@
                         "value": "fc75e554-562f-4a9d-97ce-05fad13a5e5d"
                     }
                 ],
-                "target_revision_id": "140"
+                "target_revision_id": "875"
             },
             {
                 "_links": {
@@ -263,7 +287,7 @@
                         "value": "c119778e-2a29-472f-86ac-273bacdd31ff"
                     }
                 ],
-                "target_revision_id": "141"
+                "target_revision_id": "876"
             },
             {
                 "_links": {
@@ -279,7 +303,7 @@
                         "value": "da06e3f8-5a1d-4af9-adbf-7d855a78b7c8"
                     }
                 ],
-                "target_revision_id": "142"
+                "target_revision_id": "877"
             },
             {
                 "_links": {
@@ -295,29 +319,38 @@
                         "value": "a3db0597-d6f9-493a-8fb6-9f8152286c67"
                     }
                 ],
-                "target_revision_id": "143"
+                "target_revision_id": "878"
             }
         ]
     },
     "status": [
         {
             "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
             "lang": "fr"
         },
         {
             "value": true,
-            "lang": "en"
+            "lang": "it"
         }
     ],
     "created": [
         {
-            "value": "2018-06-20T13:07:21+00:00",
+            "value": "2018-06-20T10:04:06+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T15:18:49+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-20T10:04:06+00:00",
-            "lang": "en",
+            "value": "2018-06-25T15:18:49+00:00",
+            "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -343,57 +376,84 @@
     ],
     "default_langcode": [
         {
+            "value": true,
+            "lang": "en"
+        },
+        {
             "value": false,
             "lang": "fr"
         },
         {
-            "value": true,
-            "lang": "en"
+            "value": false,
+            "lang": "it"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
             "lang": "fr"
         },
         {
             "value": true,
-            "lang": "en"
+            "lang": "it"
         }
     ],
     "content_translation_source": [
         {
             "value": "und",
+            "lang": "en"
+        },
+        {
+            "value": "und",
             "lang": "fr"
         },
         {
             "value": "und",
-            "lang": "en"
+            "lang": "it"
         }
     ],
     "content_translation_outdated": [
         {
             "value": false,
+            "lang": "en"
+        },
+        {
+            "value": false,
             "lang": "fr"
         },
         {
             "value": false,
-            "lang": "en"
+            "lang": "it"
         }
     ],
     "content_translation_changed": [
         {
-            "value": "2018-06-20T13:23:48+00:00",
+            "value": "2018-06-20T10:22:50+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T15:18:49+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-20T10:22:50+00:00",
-            "lang": "en",
+            "value": "2018-06-25T15:18:49+00:00",
+            "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "field_oe_link": [
+        {
+            "uri": "internal:\/",
+            "title": "More about the priorities",
+            "options": [],
+            "lang": "en"
+        },
         {
             "uri": "internal:\/",
             "title": "En savoir plus sur les priorit\u00e9s",
@@ -402,29 +462,37 @@
         },
         {
             "uri": "internal:\/",
-            "title": "More about the priorities",
+            "title": "Per saperne di pi\u00f9 sulle priorit\u00e0",
             "options": [],
-            "lang": "en"
+            "lang": "it"
         }
     ],
     "field_oe_list_item_block_variant": [
         {
             "value": "two_columns",
+            "lang": "en"
+        },
+        {
+            "value": "two_columns",
             "lang": "fr"
         },
         {
             "value": "two_columns",
-            "lang": "en"
+            "lang": "it"
         }
     ],
     "field_oe_title": [
+        {
+            "value": "The European Commission's priorities",
+            "lang": "en"
+        },
         {
             "value": "Les priorit\u00e9s de la Commission europ\u00e9enne",
             "lang": "fr"
         },
         {
-            "value": "The European Commission's priorities",
-            "lang": "en"
+            "value": "Le priorit\u00e0 della Commissione europea",
+            "lang": "it"
         }
     ]
 }

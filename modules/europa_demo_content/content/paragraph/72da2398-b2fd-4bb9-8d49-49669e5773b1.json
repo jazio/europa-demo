@@ -8,12 +8,16 @@
         },
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/uid": [
             {
-                "href": "http:\/\/web:8080\/en\/user\/0?_format=hal_json",
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
                 "lang": "fr"
             },
             {
                 "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
-                "lang": "en"
+                "lang": "it"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
@@ -34,17 +38,21 @@
     ],
     "revision_id": [
         {
-            "value": 161
+            "value": 1071
         }
     ],
     "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        },
         {
             "value": "fr",
             "lang": "fr"
         },
         {
-            "value": "en",
-            "lang": "en"
+            "value": "it",
+            "lang": "it"
         }
     ],
     "type": [
@@ -57,7 +65,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/web:8080\/en\/user\/0?_format=hal_json"
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -65,7 +73,23 @@
                 },
                 "uuid": [
                     {
-                        "value": "f78a9fdf-79c7-40d6-90a4-d5ba880fe28a"
+                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
                     }
                 ],
                 "lang": "fr"
@@ -81,10 +105,10 @@
                 },
                 "uuid": [
                     {
-                        "value": "606aa4da-60cc-4bd9-bcdc-ba4d50cdfe88"
+                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
                     }
                 ],
-                "lang": "en"
+                "lang": "it"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
@@ -99,7 +123,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "606aa4da-60cc-4bd9-bcdc-ba4d50cdfe88"
+                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
                     }
                 ]
             }
@@ -108,22 +132,31 @@
     "status": [
         {
             "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
             "lang": "fr"
         },
         {
             "value": true,
-            "lang": "en"
+            "lang": "it"
         }
     ],
     "created": [
         {
-            "value": "2018-06-20T13:07:21+00:00",
+            "value": "2018-06-20T10:40:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T15:18:49+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-20T10:40:03+00:00",
-            "lang": "en",
+            "value": "2018-06-25T15:18:49+00:00",
+            "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -149,71 +182,110 @@
     ],
     "default_langcode": [
         {
+            "value": true,
+            "lang": "en"
+        },
+        {
             "value": false,
             "lang": "fr"
         },
         {
+            "value": false,
+            "lang": "it"
+        }
+    ],
+    "revision_translation_affected": [
+        {
             "value": true,
-            "lang": "en"
+            "lang": "it"
         }
     ],
     "content_translation_source": [
         {
             "value": "und",
+            "lang": "en"
+        },
+        {
+            "value": "und",
             "lang": "fr"
         },
         {
             "value": "und",
-            "lang": "en"
+            "lang": "it"
         }
     ],
     "content_translation_outdated": [
         {
             "value": false,
+            "lang": "en"
+        },
+        {
+            "value": false,
             "lang": "fr"
         },
         {
             "value": false,
-            "lang": "en"
+            "lang": "it"
         }
     ],
     "content_translation_changed": [
         {
-            "value": "2018-06-20T13:07:21+00:00",
+            "value": "2018-06-25T15:34:27+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T15:37:26+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-20T10:45:21+00:00",
-            "lang": "en",
+            "value": "2018-06-25T15:39:26+00:00",
+            "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "field_oe_link": [
         {
-            "uri": "internal:\/",
+            "uri": "internal:\/info",
+            "title": "",
+            "options": [],
+            "lang": "en"
+        },
+        {
+            "uri": "internal:\/info",
             "title": "",
             "options": [],
             "lang": "fr"
         },
         {
-            "uri": "internal:\/",
+            "uri": "internal:\/info",
             "title": "",
             "options": [],
-            "lang": "en"
+            "lang": "it"
         }
     ],
     "field_oe_list_item_variant": [
         {
             "value": "list_item_default",
+            "lang": "en"
+        },
+        {
+            "value": "list_item_default",
             "lang": "fr"
         },
         {
             "value": "list_item_default",
-            "lang": "en"
+            "lang": "it"
         }
     ],
     "field_oe_text_long": [
+        {
+            "value": "Advice on living, working or travelling in the EU, on visas and immigration for non-EU citizens, European culture.",
+            "format": "plain_text",
+            "processed": "<p>Advice on living, working or travelling in the EU, on visas and immigration for non-EU citizens, European culture.<\/p>\n",
+            "lang": "en"
+        },
         {
             "value": "Conseils pour les citoyens de l\u2019UE qui veulent vivre, travailler ou voyager dans un autre pays de l\u2019UE, et informations sur les visas, l\u2019immigration et la culture europ\u00e9enne pour les ressortissants de pays hors UE.",
             "format": "plain_text",
@@ -221,20 +293,24 @@
             "lang": "fr"
         },
         {
-            "value": "Advice on living, working or travelling in the EU, on visas and immigration for non-EU citizens, European culture.",
+            "value": "Consigli per i cittadini europei su come vivere, lavorare o viaggiare nell'UE, nonch\u00e9 su visti e immigrazione per i cittadini extra UE, cultura europea.",
             "format": "plain_text",
-            "processed": "<p>Advice on living, working or travelling in the EU, on visas and immigration for non-EU citizens, European culture.<\/p>\n",
-            "lang": "en"
+            "processed": "<p>Consigli per i cittadini europei su come vivere, lavorare o viaggiare nell&#039;UE, nonch\u00e9 su visti e immigrazione per i cittadini extra UE, cultura europea.<\/p>\n",
+            "lang": "it"
         }
     ],
     "field_oe_title": [
+        {
+            "value": "Live, work, travel in the EU",
+            "lang": "en"
+        },
         {
             "value": "Vivre, travailler et voyager dans l\u2019UE",
             "lang": "fr"
         },
         {
-            "value": "Live, work, travel in the EU",
-            "lang": "en"
+            "value": "Vivere, lavorare, viaggiare nell'UE",
+            "lang": "it"
         }
     ]
 }

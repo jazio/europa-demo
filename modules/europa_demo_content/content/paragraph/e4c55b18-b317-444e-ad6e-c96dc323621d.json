@@ -1,0 +1,156 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_rich_text"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_rich_text\/uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_rich_text\/revision_uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 61
+        }
+    ],
+    "uuid": [
+        {
+            "value": "e4c55b18-b317-444e-ad6e-c96dc323621d"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 1485
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "oe_rich_text"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_rich_text\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_rich_text\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-06-25T16:53:36+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "56"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "paragraph"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_oe_paragraphs"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": "a:0:{}"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "content_translation_changed": [
+        {
+            "value": "2018-06-25T16:53:36+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "field_oe_text_long": [
+        {
+            "value": "Objectives\r\nOffering loans or guarantees with greater risk capacity\r\nUsing the 2016 review of the EU's long-term budget (multiannual financial framework) to steer EU funds towards jobs, growth and competitiveness\r\nEncouraging national governments to boost growth and investment, within the limits of the EU\u2019s stability and growth pact\r\nFreeing small and medium-sized businesses (SMEs) from red tape, to promote entrepreneurship and job creation",
+            "format": "plain_text",
+            "processed": "Objectives\nOffering loans or guarantees with greater risk capacity\nUsing the 2016 review of the EU&#039;s long-term budget (multiannual financial framework) to steer EU funds towards jobs, growth and competitiveness\nEncouraging national governments to boost growth and investment, within the limits of the EU\u2019s stability and growth pact\nFreeing small and medium-sized businesses (SMEs) from red tape, to promote entrepreneurship and job creation",
+            "lang": "en"
+        }
+    ],
+    "field_oe_title": [
+        {
+            "value": "Background",
+            "lang": "en"
+        }
+    ]
+}
