@@ -6,6 +6,7 @@ dependencies:
     - field.storage.node.field_landing_page_body
     - node.type.landing_page
     - paragraphs.paragraphs_type.oe_accordion
+    - paragraphs.paragraphs_type.oe_content_row
     - paragraphs.paragraphs_type.oe_links_block
     - paragraphs.paragraphs_type.oe_list_item_block
     - paragraphs.paragraphs_type.oe_quote
@@ -29,6 +30,7 @@ settings:
     target_bundles:
       oe_accordion: oe_accordion
       oe_links_block: oe_links_block
+      oe_content_row: oe_content_row
       oe_list_item_block: oe_list_item_block
       oe_quote: oe_quote
       oe_rich_text: oe_rich_text
@@ -42,6 +44,9 @@ settings:
       oe_links_block:
         enabled: true
         weight: 10
+      oe_content_row:
+        enabled: true
+        weight: 11
       oe_list_item:
         weight: 11
         enabled: false
