@@ -27,7 +27,7 @@ Feature: Default content
     And I should see the link "More about the priorities" in the "content" region
 
     When I open the language switcher dialog
-    And I click "Français" in the "language switcher"
+    And I click "français" in the "language switcher"
 
     Then I should see the heading "Les priorités de la Commission européenne" in the "content" region
     And I should see the following links in the "content" region:
@@ -71,7 +71,7 @@ Feature: Default content
       | EU regional and urban development                 |
 
     When I open the language switcher dialog
-    And I click "Français" in the "language switcher"
+    And I click "français" in the "language switcher"
 
     Then I should see the heading "Politiques, informations et services en un coup d'œil" in the "page header" region
     And I should see the following links in the "content" region:
@@ -102,7 +102,7 @@ Feature: Default content
     Then I should be on "/en/commission"
 
     When I open the language switcher dialog
-    And I click "Français" in the "language switcher"
+    And I click "français" in the "language switcher"
 
     When I click "Politiques, informations et services"
     Then I should be on "/fr/info"
