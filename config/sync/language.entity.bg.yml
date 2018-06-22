@@ -7,5 +7,5 @@ _core:
 id: bg
 label: Bulgarian
 direction: ltr
-weight: -10
+weight: -6
 locked: false

@@ -7,5 +7,5 @@ _core:
 id: el
 label: Greek
 direction: ltr
-weight: -5
+weight: -1
 locked: false
