@@ -20,6 +20,11 @@ drupal:
     - "./vendor/bin/drush config-set system.theme default europa_demo_theme -y"
     - "./vendor/bin/drush cr"
   settings:
+    settings:
+      # @todo: We add the default services.yml. Fix this.
+      container_yamls:
+        - "$app_root . '/' . $site_path . '/services.yml'"
+        - "DRUPAL_ROOT . '/../services.yml'"
     config_directories:
       sync: '../config/sync'
     # Configuration for the OpenEuropa Webtools Analytics module:
@@ -28,6 +33,10 @@ drupal:
     #     siteID: '<your siteId>'
     #     sitePath: '<your sitePath>'
 
+authentication:
+  server:
+    base_url: "http://authentication:3333"
+
 commands:
   drupal:site-setup:
     - { task: "symlink", from: "../../modules", to: "${drupal.root}/modules/custom" }
@@ -35,5 +44,6 @@ commands:
     - { task: "run", command: "drupal:drush-setup" }
     - { task: "run", command: "drupal:settings-setup" }
     - { task: "run", command: "setup:behat" }
+    - { task: "process", source: "services.yml.dist", destination: "services.yml" }
   setup:behat:
     - { task: "process", source: "behat.yml.dist", destination: "behat.yml" }

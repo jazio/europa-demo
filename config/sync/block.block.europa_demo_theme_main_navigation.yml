@@ -1,6 +1,6 @@
 uuid: 41e2392d-c5bf-4ad9-b251-fad5d941d948
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.main
@@ -12,7 +12,7 @@ _core:
   default_config_hash: rpSSgOcLwXjxice5LeGLhEKmp0DyiNB4jdYOOP1eRjg
 id: europa_demo_theme_main_navigation
 theme: europa_demo_theme
-region: sidebar_first
+region: site_top_bar
 weight: 0
 provider: null
 plugin: 'system_menu_block:main'

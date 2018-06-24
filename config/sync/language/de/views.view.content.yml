@@ -1,4 +1,5 @@
 label: Inhalt
+description: 'Inhalte finden und verwalten.'
 display:
   default:
     display_options:

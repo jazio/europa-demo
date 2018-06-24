@@ -14,13 +14,10 @@ display:
           expose:
             items_per_page_label: 'Elemente pro Seite'
             items_per_page_options_all_label: '- Alle -'
-            offset_label: Offset
           tags:
             previous: ‹‹
             next: ››
       fields:
-        nothing:
-          admin_label: Symbol
         wid:
           label: WID
         severity:

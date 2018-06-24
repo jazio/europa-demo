@@ -14,3 +14,4 @@
 grumphp.yml
 behat.yml
 runner.yml
+services.yml

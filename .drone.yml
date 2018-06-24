@@ -16,6 +16,8 @@ services:
     environment:
       - DISPLAY=:99
       - SE_OPTS=-debug
+  authentication:
+    image: openeuropa/pcas-server:latest
 
 pipeline:
   composer-install:

@@ -2,8 +2,6 @@ settings:
   allowed_values:
     4:
       label: Buch
-    5:
-      label: Breadcrumb
     11:
       label: Schließen
     13:
@@ -32,11 +30,7 @@ settings:
       label: Standort
     44:
       label: Rechts
-    45:
-      label: RSS
     46:
       label: Suche
-    54:
-      label: 'Nach oben'
     56:
       label: Warnung
