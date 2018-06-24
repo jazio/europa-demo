@@ -23,6 +23,7 @@ permissions:
   - 'translate landing_page node'
   - 'translate paragraph'
   - 'update content translations'
+  - 'use administration language negotiation'
+  - 'view files'
   - 'view own unpublished content'
   - 'view the administration theme'
-  - 'view files'
