@@ -32,12 +32,12 @@ Feature: Login through ECAS authentication service
     # Translate the Landing page content into Spanish.
     When I click "Translate"
     And I click "Add" in the "Spanish" row
-    And I fill in "Título" with "Página principal"
+    And I fill in "Title" with "Página principal"
     And I fill in "Introduction" with "Esta es la página principal del sitio"
-    And I press "Guardar (this translation)"
+    And I press "Save (this translation)"
 
     Then I should see the following success messages:
-      | Landing page Página principal ha sido actualizado. |
+      | Landing page Page principale has been updated. |
     And I should see "Página principal" in the "page header"
     And I should see "Esta es la página principal del sitio" in the "page header"
 
