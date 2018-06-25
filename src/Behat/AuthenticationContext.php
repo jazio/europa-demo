@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace Drupal\Tests\oe_multilingual\Behat;
+namespace Ec\Europa\EuropaDemo\Behat;
 
-use Behat\Behat\Hook\Scope\AfterFeatureScope;
-use Behat\Behat\Hook\Scope\BeforeFeatureScope;
+use Behat\Behat\Hook\Scope\AfterScenarioScope;
+use Behat\Behat\Hook\Scope\BeforeScenarioScope;
 use Drupal\DrupalExtension\Context\RawDrupalContext;
 
 /**
@@ -14,27 +14,33 @@ use Drupal\DrupalExtension\Context\RawDrupalContext;
 class AuthenticationContext extends RawDrupalContext {
 
   /**
-   * Enable OpenEuropa Multilingual Selection Page module.
+   * Enable OpenEuropa Authentication module.
    *
-   * @param \Behat\Behat\Hook\Scope\BeforeFeatureScope $scope
+   * @param \Behat\Behat\Hook\Scope\BeforeScenarioScope $scope
    *   The Hook scope.
    *
-   * @BeforeFeature @authentication
+   * @throws \Exception
+   *
+   * @BeforeScenario @authentication
    */
-  public function setupSelectionPage(BeforeFeatureScope $scope): void {
-    \Drupal::service('module_installer')->install(['oe_auth']);
+  public function enableAuthentication(BeforeScenarioScope $scope): void {
+    if (!\Drupal::service('module_installer')->install(['oe_auth'])) {
+      throw new \Exception('Enabling OpenEuropa Authentication module fails.');
+    }
   }
 
   /**
-   * Disable OpenEuropa Multilingual Selection Page module.
+   * Disable OpenEuropa Authentication module.
    *
-   * @param \Behat\Behat\Hook\Scope\AfterFeatureScope $scope
+   * @param \Behat\Behat\Hook\Scope\AfterScenarioScope $scope
    *   The Hook scope.
    *
-   * @AfterFeature @authentication
+   * @AfterScenario @authentication
    */
-  public function revertSelectionPage(AfterFeatureScope $scope): void {
-    \Drupal::service('module_installer')->uninstall(['oe_auth']);
+  public function disableAuthentication(AfterScenarioScope $scope): void {
+    if (!\Drupal::service('module_installer')->uninstall(['oe_auth'])) {
+      throw new \Exception('Disabling OpenEuropa Authentication module fails.');
+    }
   }
 
 }

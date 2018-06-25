@@ -4,6 +4,7 @@ default:
       contexts:
         - Drupal\DrupalExtension\Context\DrupalContext
         - Drupal\DrupalExtension\Context\MarkupContext
+        - Ec\Europa\EuropaDemo\Behat\AuthenticationContext
         - Ec\Europa\EuropaDemo\Behat\TransformationContext:
             elements:
               about dropdown menu: "#nav-menu-expandable-group-2 .ecl-navigation-menu__links"
