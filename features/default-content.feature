@@ -109,3 +109,10 @@ Feature: Default content
 
     And I click "La Commission et ses priorités"
     Then I should be on "/fr/commission"
+
+
+  Scenario: HTML characters are encoded correctly
+    Given I am on the homepage
+    When I click "français"
+    And I click "Politiques, informations et services"
+    Then I should see "Économie de l'UE, euro et informations pratiques pour les entreprises et les entrepreneurs de l'UE."
