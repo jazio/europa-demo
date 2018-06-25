@@ -2439,7 +2439,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://github.com/openeuropa/oe_theme/releases/download/0.5.1/oe_theme-0.5.1.tar.gz",
+                "url": "https://api.github.com/repos/openeuropa/oe_theme/zipball/fac97ba69fd0d681afcc0aa5b8998dcf1604beca",
                 "reference": "fac97ba69fd0d681afcc0aa5b8998dcf1604beca",
                 "shasum": ""
             },
