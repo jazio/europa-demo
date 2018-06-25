@@ -2438,7 +2438,7 @@
                 "reference": "fac97ba69fd0d681afcc0aa5b8998dcf1604beca"
             },
             "dist": {
-                "type": "zip",
+                "type": "tar",
                 "url": "https://api.github.com/repos/openeuropa/oe_theme/zipball/fac97ba69fd0d681afcc0aa5b8998dcf1604beca",
                 "reference": "fac97ba69fd0d681afcc0aa5b8998dcf1604beca",
                 "shasum": ""

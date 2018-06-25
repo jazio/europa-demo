@@ -3,6 +3,7 @@ default:
     default:
       contexts:
         - Drupal\DrupalExtension\Context\DrupalContext
+        - Drupal\DrupalExtension\Context\MessageContext
         - Drupal\DrupalExtension\Context\MarkupContext
         - Drupal\DrupalExtension\Context\MessageContext
         - Ec\Europa\EuropaDemo\Behat\AuthenticationContext
@@ -58,5 +59,7 @@ default:
         page header: ".ecl-page-header__body"
         content: "section.main-content"
         language switcher: ".ecl-language-list .ecl-dialog"
+      selectors:
+        success_message_selector: ".ecl-message--success"
   formatters:
     progress: ~

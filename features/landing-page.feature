@@ -10,17 +10,22 @@ Feature: Landing page
     When I am on "the create Landing page"
     And I fill in "Title" with "Homepage"
     And I fill in "Introduction" with "This is the home page of the site"
+    And I press the "Add Rich text" button
+    And I fill in "Text" with "This is the content of the page."
     And I press "Save"
-    Then I should see "Landing page Homepage has been created." in the "message"
+    Then I should see the success message "Landing page Homepage has been created."
     And I should see "Homepage" in the "page header"
     And I should see "This is the home page of the site" in the "page header"
+    And I should see "This is the content of the page." in the "content"
 
-    # Translate the Landing page content into Spanish.
+    # Translate the Landing page content into French.
     When I click "Translate"
-    And I click "Add" in the "Spanish" row
-    And I fill in "Título" with "Página principal"
-    And I fill in "Introduction" with "Esta es la página principal del sitio"
-    And I press "Guardar (this translation)"
-    Then I should see "Landing page Página principal ha sido actualizado." in the "message"
-    And I should see "Página principal" in the "page header"
-    And I should see "Esta es la página principal del sitio" in the "page header"
+    And I click "Add" in the "French" row
+    And I fill in "Title" with "Page principale"
+    And I fill in "Introduction" with "Ceci est la page principale du site"
+    And I fill in "Text" with "Ceci est le contenu du page."
+    And I press "Save (this translation)"
+    Then I should see the success message "Landing page Page principale has been updated."
+    And I should see "Page principale" in the "page header"
+    And I should see "Ceci est la page principale du site" in the "page header"
+    And I should see "Ceci est le contenu du page." in the "content"
