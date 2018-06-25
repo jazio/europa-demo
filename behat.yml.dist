@@ -4,6 +4,7 @@ default:
       contexts:
         - Drupal\DrupalExtension\Context\DrupalContext
         - Drupal\DrupalExtension\Context\MarkupContext
+        - Drupal\DrupalExtension\Context\MessageContext
         - Ec\Europa\EuropaDemo\Behat\AuthenticationContext
         - Ec\Europa\EuropaDemo\Behat\TransformationContext:
             elements:
@@ -28,6 +29,8 @@ default:
               front: "/en/node/1"
               non-existing: "/non-existing"
               administrative: "/en/admin"
+              login: "/en/user/login"
+              logout: "/en/user/logout"
         - Ec\Europa\EuropaDemo\Behat\WebtoolsContext
         - Ec\Europa\EuropaDemo\Behat\MinkContext
   extensions:

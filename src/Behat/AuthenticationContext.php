@@ -9,7 +9,7 @@ use Behat\Behat\Hook\Scope\BeforeScenarioScope;
 use Drupal\DrupalExtension\Context\RawDrupalContext;
 
 /**
- * Class DrupalContext.
+ * Class AuthenticationContext.
  */
 class AuthenticationContext extends RawDrupalContext {
 
@@ -25,7 +25,7 @@ class AuthenticationContext extends RawDrupalContext {
    */
   public function enableAuthentication(BeforeScenarioScope $scope): void {
     if (!\Drupal::service('module_installer')->install(['oe_auth'])) {
-      throw new \Exception('Enabling OpenEuropa Authentication module fails.');
+      throw new \Exception('Could not enable the OpenEuropa Authentication module.');
     }
   }
 
@@ -35,11 +35,13 @@ class AuthenticationContext extends RawDrupalContext {
    * @param \Behat\Behat\Hook\Scope\AfterScenarioScope $scope
    *   The Hook scope.
    *
+   * @throws \Exception
+   *
    * @AfterScenario @authentication
    */
   public function disableAuthentication(AfterScenarioScope $scope): void {
     if (!\Drupal::service('module_installer')->uninstall(['oe_auth'])) {
-      throw new \Exception('Disabling OpenEuropa Authentication module fails.');
+      throw new \Exception('Could not disable the OpenEuropa Authentication module.');
     }
   }
 
