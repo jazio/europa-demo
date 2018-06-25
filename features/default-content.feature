@@ -110,7 +110,6 @@ Feature: Default content
     And I click "La Commission et ses priorités"
     Then I should be on "/fr/commission"
 
-
   Scenario: HTML characters are encoded correctly
     Given I am on the homepage
     When I click "français"
