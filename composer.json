@@ -11,7 +11,7 @@
         "drupal/config_installer": "~1.8",
         "drupal/core": "~8.6",
         "drupal/file_entity": "^2.0@beta",
-        "openeuropa/oe_auth": "^0.1",
+        "openeuropa/oe_auth": "dev-OPENEUROPA-679",
         "openeuropa/oe_multilingual": "^0.1",
         "openeuropa/oe_paragraphs": "^0.1",
         "openeuropa/oe_profile": "^0.1",

@@ -1,5 +1,6 @@
 drupal:
   root: "build"
+  root_absolute: "/var/www/html/build"
   base_url: "http://web:8080/build"
   database:
     host: "mysql"
@@ -28,8 +29,8 @@ drupal:
     settings:
       # @todo: We add the default services.yml. Fix this.
       container_yamls:
-        - "$app_root . '/' . $site_path . '/services.yml'"
-        - "DRUPAL_ROOT . '/../services.yml'"
+        - "${drupal.root_absolute}/site/default/services.yml"
+        - "${drupal.root_absolute}/../services.yml"
     config_directories:
       sync: '../config/sync'
     # Configuration for the OpenEuropa Webtools Analytics module:

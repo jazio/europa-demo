@@ -7,9 +7,9 @@ Feature: Login through OE Auth
   Scenario: Login
     When I am on "the login page"
     # We are redirected to the mock OE Auth server at this point.
-    Then I fill in "User" with "Dr. Lektroluv"
-    Then I fill in "Nickname" with "The Man with the Green Mask"
-    Then I fill in "Password" with "Em0lotion"
+    And I fill in "User" with "Dr. Lektroluv"
+    And I fill in "Nickname" with "The Man with the Green Mask"
+    And I fill in "Password" with "Em0lotion"
     And I press the "Submit" button
     # Redirected back to Drupal.
     Then I click "My account"
@@ -17,4 +17,3 @@ Feature: Login through OE Auth
 
     When I am on "the logout page"
     Then I should not see the link "My account"
-    And I should see the link "Log in"
