@@ -1,9 +1,11 @@
-uuid: f9fb7d46-3d2b-45ee-9768-7795c512f300
+uuid: 9a14749c-dda2-4a59-9efd-b183b16b502c
 langcode: en
 status: true
 dependencies:
+  config:
+    - system.menu.site-switcher
   module:
-    - europa_demo_core
+    - system
   theme:
     - europa_demo_theme
 id: europa_demo_site_switcher
@@ -11,10 +13,12 @@ theme: europa_demo_theme
 region: site_top_bar
 weight: 0
 provider: null
-plugin: europa_demo_site_switcher
+plugin: 'system_menu_block:site-switcher'
 settings:
-  id: europa_demo_site_switcher
+  id: 'system_menu_block:site-switcher'
   label: 'Site switcher'
-  provider: europa_demo_core
+  provider: system
   label_display: '0'
+  level: 1
+  depth: 1
 visibility: {  }

@@ -6,26 +6,30 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
+        "php": "^7.1",
+        "drupal/config_filter": "^1.2",
         "drupal/config_installer": "~1.8",
         "drupal/core": "~8.6",
+        "drupal/file_entity": "^2.0@beta",
+        "openeuropa/oe_auth": "^0.1",
         "openeuropa/oe_multilingual": "^0.1",
         "openeuropa/oe_paragraphs": "^0.1",
         "openeuropa/oe_profile": "^0.1",
         "openeuropa/oe_theme": "^0.4",
-        "openeuropa/oe_webtools": "^0.1",
-        "openeuropa/oe_auth": "^0.1",
-        "php": "^7.1"
+        "openeuropa/oe_webtools": "^0.1"
     },
     "require-dev": {
         "composer/installers": "^1.2",
         "drupal-composer/drupal-scaffold": "^2.2",
         "drupal/console": "^1",
+        "drupal/default_content": "^1.0@alpha",
         "drupal/drupal-extension": "^4.0.0@alpha",
+        "drupal/drush_language": "^1.0",
         "drush/drush": "^9",
         "nikic/php-parser": "~3",
         "openeuropa/code-review": "^0.2",
         "openeuropa/composer-artifacts": "^0.1",
-        "openeuropa/task-runner": "^0.5",
+        "openeuropa/task-runner": "^0.6",
         "webflo/drupal-core-require-dev": "~8.6"
     },
     "scripts": {

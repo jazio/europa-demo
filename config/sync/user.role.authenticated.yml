@@ -25,3 +25,4 @@ permissions:
   - 'update content translations'
   - 'view own unpublished content'
   - 'view the administration theme'
+  - 'view files'

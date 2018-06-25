@@ -4,3 +4,5 @@ settings:
       label: Predefinito
     -
       label: Data
+    -
+      label: 'In primo piano'

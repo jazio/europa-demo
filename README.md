@@ -38,6 +38,8 @@ $ ./vendor/bin/run drupal:site-install
 ```
 
 This will install the site using the configuration exported in `./config/sync`.
+And will import interface translations.
+
 
 ### Using Docker Compose
 
@@ -69,6 +71,27 @@ up the process since this will make use of the Composer cache on the host system
 
 The demo site will be available at [http://localhost:8080/build](http://localhost:8080/build).
 
+### Working with content
+
+The Europa demo site ships with default content bundled in the [Europa demo content module](./modules/europa_demo_content).
+
+After adding or updating site content you can export it by running:
+
+```
+$ ./vendor/bin/run drupal:export-content
+```
+
+Content export/import functionality is provided by the [Default Content module][5].
+
+
+### Update interface translations
+
+Update .po files located in your `modules/europa_demo_core/translations/` folder.
+And execute this:
+```
+$ docker-compose exec -u web web ./vendor/bin/run drupal:import-interface-translations
+```
+
 ### Webtools Analytics configuration
 
 To setup the [Webtools Analytics](https://github.com/openeuropa/oe_webtools) module add the following configuration to your `runner.yml` file before installing the site:
@@ -99,3 +122,4 @@ $ docker-compose exec -u web web ./vendor/bin/behat
 [2]: https://getcomposer.org
 [3]: https://www.docker.com/get-docker
 [4]: https://docs.docker.com/compose
+[5]: https://www.drupal.org/project/default_content

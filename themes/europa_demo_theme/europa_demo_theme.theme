@@ -6,3 +6,18 @@
  */
 
 declare(strict_types = 1);
+
+/**
+ * Implements hook_preprocess_menu__site_switcher().
+ */
+function europa_demo_theme_preprocess_menu__site_switcher(&$variables) {
+  // Massage data to be compliant with ECL navigation menu data structure.
+  $variables['links'] = [];
+  foreach ($variables['items'] as $item) {
+    $variables['links'][] = [
+      'href' => $item['url'],
+      'label' => $item['title'],
+      'is_active' => $item['in_active_trail'],
+    ];
+  }
+}
