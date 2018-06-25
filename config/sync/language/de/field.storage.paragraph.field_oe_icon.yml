@@ -32,5 +32,7 @@ settings:
       label: Rechts
     46:
       label: Suche
+    54:
+      label: 'Nach oben'
     56:
       label: Warnung

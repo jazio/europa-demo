@@ -29,7 +29,6 @@ module:
   locale: 0
   menu_ui: 0
   node: 0
-  oe_auth: 0
   oe_multilingual: 0
   oe_multilingual_selection_page: 0
   oe_paragraphs: 0
