@@ -83,6 +83,21 @@ $ ./vendor/bin/run drupal:export-content
 
 Content export/import functionality is provided by the [Default Content module][5].
 
+### Working with configuration
+
+For an extensive guide about how to work with Drupal 8 site configuration refer to the [Configuration management][6]
+documentation page.
+
+Newer version of the OpenEuropa components might also ship with new or updated configuration.
+
+In order to get configuration changes perform the following steps:
+
+- Enable the [Config Sync][7] module
+- Visit `/admin/config/development/configuration/distro`
+- Review and import changes
+- Export configuration via `drush config:export`, this will dump the current configuration snapshot in `./config/sync`
+- Review `config/sync/core.extension.yml` and remove modules related to "Config Sync"
+- Commit and push
 
 ### Update interface translations
 
@@ -123,3 +138,5 @@ $ docker-compose exec -u web web ./vendor/bin/behat
 [3]: https://www.docker.com/get-docker
 [4]: https://docs.docker.com/compose
 [5]: https://www.drupal.org/project/default_content
+[6]: https://www.drupal.org/docs/8/configuration-management
+[7]: https://www.drupal.org/project/config_sync

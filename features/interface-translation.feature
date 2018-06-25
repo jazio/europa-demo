@@ -6,7 +6,7 @@ Feature: Interface translation
 
 Scenario: Visitors can see interface translated correctly in french
   Given I am on the homepage
-  When I click "Français"
+  When I click "français"
   Then the url should match "/fr"
   And I should see the link "La Commission et ses priorités" in the "header" region
   And I should see the link "Politiques, informations et services" in the "header" region
@@ -26,7 +26,7 @@ Scenario: Visitors can see interface translated correctly in french
 
 Scenario: Visitors can see interface translated correctly in italian
   Given I am on the homepage
-  When I click "Italiano"
+  When I click "italiano"
   Then the url should match "/it"
   And I should see the link "Le priorità della Commissione" in the "header" region
   And I should see the link "Politiche, informazioni e servizi" in the "header" region
