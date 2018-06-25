@@ -3,16 +3,9 @@ Feature: Landing page
   In order to be able to showcase the site's features
   As a content editor
   I want to make sure that I can create landing pages that contain fully functional page headers.
-  
-  Background:
-    When I am on "the login page"
-    And I fill in "User" with "useralpha"
-    And I fill in "Nickname" with "User Alpha"
-    And I fill in "Password" with "useralpha"
-    And I press the "Submit" button
 
   Scenario: I can create and translate a Landing page content
-    # Given I am logged in as a user with the "authenticated user" role
+    Given I am logged in as a user with the "authenticated user" role
     # Create a Landing page content.
     When I am on "the create Landing page"
     And I fill in "Title" with "Homepage"

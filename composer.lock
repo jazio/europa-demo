@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dd6296ac0f291a38f9b8fa00a81571d0",
+    "content-hash": "1f7166d4aa221accdf97483c1c7512f5",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -810,12 +810,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "071ef947b2e1da0b69b377d7f84a1023d4127b4d"
+                "reference": "3c703953edf67b6ae10a96036f5ff32b54d59404"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/071ef947b2e1da0b69b377d7f84a1023d4127b4d",
-                "reference": "071ef947b2e1da0b69b377d7f84a1023d4127b4d",
+                "url": "https://api.github.com/repos/drupal/core/zipball/3c703953edf67b6ae10a96036f5ff32b54d59404",
+                "reference": "3c703953edf67b6ae10a96036f5ff32b54d59404",
                 "shasum": ""
             },
             "require": {
@@ -1039,7 +1039,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2018-06-25T03:37:08+00:00"
+            "time": "2018-06-25T11:01:36+00:00"
         },
         {
             "name": "drupal/ctools",
@@ -2160,12 +2160,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/openeuropa/oe_auth.git",
-                "reference": "090973020c45d5ffe78eeea0cf17820a29e823b3"
+                "reference": "44d6f16b753e57c2330da3740cd44e30e415e398"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openeuropa/oe_auth/zipball/090973020c45d5ffe78eeea0cf17820a29e823b3",
-                "reference": "090973020c45d5ffe78eeea0cf17820a29e823b3",
+                "url": "https://api.github.com/repos/openeuropa/oe_auth/zipball/44d6f16b753e57c2330da3740cd44e30e415e398",
+                "reference": "44d6f16b753e57c2330da3740cd44e30e415e398",
                 "shasum": ""
             },
             "require": {
@@ -2183,7 +2183,7 @@
                 "drush/drush": "^9",
                 "nikic/php-parser": "~3",
                 "openeuropa/code-review": "^0.2",
-                "openeuropa/task-runner": "^0.6",
+                "openeuropa/task-runner": "^0.7",
                 "webflo/drupal-core-require-dev": "8.6.x"
             },
             "type": "drupal-module",
@@ -2219,7 +2219,7 @@
                 "EUPL-1.2"
             ],
             "description": "Authentication against the OpenEuropa Auth service.",
-            "time": "2018-06-25T09:26:08+00:00"
+            "time": "2018-06-25T11:07:03+00:00"
         },
         {
             "name": "openeuropa/oe_multilingual",
@@ -2439,8 +2439,8 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://github.com/openeuropa/oe_theme/releases/download/0.4.1/oe_theme-0.4.1.tar.gz",
-                "reference": "3cbec4fdb4745120bacb661b138e4c868a937cca",
+                "url": "https://github.com/openeuropa/oe_theme/releases/download/0.5.0/oe_theme-0.5.0.tar.gz",
+                "reference": "f6be9763fc239432c9f0a09b0bce7468a5af2170",
                 "shasum": ""
             },
             "require": {
@@ -8817,16 +8817,16 @@
         },
         {
             "name": "openeuropa/task-runner",
-            "version": "0.6.0",
+            "version": "0.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/openeuropa/task-runner.git",
-                "reference": "603991b749fad1e7ee088f5cce7dbad504061623"
+                "reference": "1a31c93de9690abc6586fc03eef6929c027f2e57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openeuropa/task-runner/zipball/603991b749fad1e7ee088f5cce7dbad504061623",
-                "reference": "603991b749fad1e7ee088f5cce7dbad504061623",
+                "url": "https://api.github.com/repos/openeuropa/task-runner/zipball/1a31c93de9690abc6586fc03eef6929c027f2e57",
+                "reference": "1a31c93de9690abc6586fc03eef6929c027f2e57",
                 "shasum": ""
             },
             "require": {
@@ -8852,7 +8852,7 @@
             "license": [
                 "EUPL-1.1"
             ],
-            "time": "2018-06-19T08:35:44+00:00"
+            "time": "2018-06-25T11:03:10+00:00"
         },
         {
             "name": "pdepend/pdepend",

@@ -1,10 +1,10 @@
-@api
+@api @authentication
 Feature: Login through OE Auth
   In order to be able to access the CMS backend
   As user of the system
   I need to login through OE Auth
 
-  Scenario: Login
+  Scenario: Login and Logout
     When I am on "the login page"
     # We are redirected to the mock OE Auth server at this point.
     And I fill in "User" with "Dr. Lektroluv"
