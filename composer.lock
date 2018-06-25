@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1f7166d4aa221accdf97483c1c7512f5",
+    "content-hash": "2fe6e1c83c427a7c6ecdf096d9db2318",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2156,16 +2156,16 @@
         },
         {
             "name": "openeuropa/oe_auth",
-            "version": "dev-OPENEUROPA-679",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/openeuropa/oe_auth.git",
-                "reference": "f78fa23f6df98f5660dcadd0898a4187fec0a622"
+                "reference": "5faa027edea7d0efd7f47fd678a7f2c08068fc65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openeuropa/oe_auth/zipball/f78fa23f6df98f5660dcadd0898a4187fec0a622",
-                "reference": "f78fa23f6df98f5660dcadd0898a4187fec0a622",
+                "url": "https://api.github.com/repos/openeuropa/oe_auth/zipball/5faa027edea7d0efd7f47fd678a7f2c08068fc65",
+                "reference": "5faa027edea7d0efd7f47fd678a7f2c08068fc65",
                 "shasum": ""
             },
             "require": {
@@ -2219,7 +2219,7 @@
                 "EUPL-1.2"
             ],
             "description": "Authentication against the OpenEuropa Auth service.",
-            "time": "2018-06-25T13:57:31+00:00"
+            "time": "2018-06-25T15:24:07+00:00"
         },
         {
             "name": "openeuropa/oe_multilingual",
@@ -11387,7 +11387,6 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/file_entity": 10,
-        "openeuropa/oe_auth": 20,
         "drupal/config_distro": 15,
         "drupal/config_sync": 15,
         "drupal/default_content": 15,
