@@ -1,23 +1,23 @@
-uuid: e2e9d1fb-d2c3-4159-a9ea-3941b6b1debf
+uuid: 4c3d3408-d6d9-43f9-8df6-33a0b811ea6d
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_landing_page_body
-    - node.type.landing_page
+    - field.storage.paragraph.field_oe_paragraphs
     - paragraphs.paragraphs_type.oe_accordion
     - paragraphs.paragraphs_type.oe_content_row
     - paragraphs.paragraphs_type.oe_links_block
+    - paragraphs.paragraphs_type.oe_list_item
     - paragraphs.paragraphs_type.oe_list_item_block
     - paragraphs.paragraphs_type.oe_quote
     - paragraphs.paragraphs_type.oe_rich_text
   module:
     - entity_reference_revisions
-id: node.landing_page.field_landing_page_body
-field_name: field_landing_page_body
-entity_type: node
-bundle: landing_page
-label: Body
+id: paragraph.oe_content_row.field_oe_paragraphs
+field_name: field_oe_paragraphs
+entity_type: paragraph
+bundle: oe_content_row
+label: Paragraphs
 description: ''
 required: false
 translatable: false
@@ -30,33 +30,33 @@ settings:
     target_bundles:
       oe_accordion: oe_accordion
       oe_links_block: oe_links_block
-      oe_content_row: oe_content_row
+      oe_list_item: oe_list_item
       oe_list_item_block: oe_list_item_block
       oe_quote: oe_quote
       oe_rich_text: oe_rich_text
     target_bundles_drag_drop:
       oe_accordion:
         enabled: true
-        weight: 8
-      oe_accordion_item:
         weight: 9
+      oe_accordion_item:
+        weight: 10
+        enabled: false
+      oe_content_row:
+        weight: 11
         enabled: false
       oe_links_block:
         enabled: true
-        weight: 10
-      oe_content_row:
-        enabled: true
-        weight: 11
-      oe_list_item:
-        weight: 11
-        enabled: false
-      oe_list_item_block:
-        enabled: true
         weight: 12
-      oe_quote:
+      oe_list_item:
         enabled: true
         weight: 13
-      oe_rich_text:
+      oe_list_item_block:
         enabled: true
         weight: 14
+      oe_quote:
+        enabled: true
+        weight: 15
+      oe_rich_text:
+        enabled: true
+        weight: 16
 field_type: entity_reference_revisions

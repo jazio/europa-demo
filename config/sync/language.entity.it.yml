@@ -7,5 +7,5 @@ _core:
 id: it
 label: Italian
 direction: ltr
-weight: 1
+weight: 5
 locked: false
