@@ -14,6 +14,15 @@ use Behat\Gherkin\Node\TableNode;
 class MinkContext extends DrupalExtensionMinkContext {
 
   /**
+   * Assert that visitor is redirected to language selection page.
+   *
+   * @Then I should be redirected to the language selection page
+   */
+  public function assertLanguageSelectionPageRedirect() {
+    $this->assertSession()->addressMatches("/.*\/select-language/");
+  }
+
+  /**
    * Assert links in region.
    *
    * @param string $region

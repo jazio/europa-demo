@@ -20,7 +20,7 @@ default:
               language switcher overlay: ".ecl-dialog__body"
               language switcher link: ".ecl-lang-select-sites__link .ecl-lang-select-sites__label"
               logo: "a.ecl-logo"
-              page header: ".ecl-page-header__body"
+              page header: ".ecl-page-header"
               priorities dropdown menu: "#nav-menu-expandable-group-3 .ecl-navigation-menu__links"
               sites switcher: ".demo-block-site-switcher"
               search box: ".demo-block-header-search"
@@ -36,6 +36,7 @@ default:
               logout: "/en/user/logout"
         - Ec\Europa\EuropaDemo\Behat\WebtoolsContext
         - Ec\Europa\EuropaDemo\Behat\MinkContext
+        - Ec\Europa\EuropaDemo\Behat\DrupalContext
   extensions:
     Behat\MinkExtension:
       goutte: ~
@@ -59,9 +60,10 @@ default:
         message: ".ecl-message"
         navigation: ".ecl-navigation-menu"
         page: "body"
-        page header: ".ecl-page-header__body"
+        page header: ".ecl-page-header"
         content: "section.main-content"
         language switcher: ".ecl-language-list .ecl-dialog"
+        language dialog: ".ecl-dialog"
       selectors:
         success_message_selector: ".ecl-message--success"
   formatters:
