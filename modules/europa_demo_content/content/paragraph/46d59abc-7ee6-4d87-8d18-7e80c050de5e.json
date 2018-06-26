@@ -10,6 +10,10 @@
             {
                 "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
                 "lang": "en"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "fr"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
@@ -30,13 +34,17 @@
     ],
     "revision_id": [
         {
-            "value": 1626
+            "value": 1643
         }
     ],
     "langcode": [
         {
             "value": "en",
             "lang": "en"
+        },
+        {
+            "value": "fr",
+            "lang": "fr"
         }
     ],
     "type": [
@@ -61,6 +69,22 @@
                     }
                 ],
                 "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "fr"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
@@ -85,12 +109,21 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
         }
     ],
     "created": [
         {
             "value": "2018-06-25T16:42:53+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:42:53+00:00",
+            "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -118,30 +151,47 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
-            "lang": "en"
+            "lang": "fr"
         }
     ],
     "content_translation_source": [
         {
             "value": "und",
             "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "fr"
         }
     ],
     "content_translation_outdated": [
         {
             "value": false,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
         }
     ],
     "content_translation_changed": [
         {
             "value": "2018-06-26T10:35:36+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T10:35:36+00:00",
+            "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -151,12 +201,22 @@
             "title": "",
             "options": [],
             "lang": "en"
+        },
+        {
+            "uri": "internal:\/commission\/priorities\/jobs-growth-and-investment",
+            "title": "",
+            "options": [],
+            "lang": "fr"
         }
     ],
     "field_oe_list_item_variant": [
         {
             "value": "list_item_default",
             "lang": "en"
+        },
+        {
+            "value": "list_item_default",
+            "lang": "fr"
         }
     ],
     "field_oe_text_long": [
@@ -165,12 +225,22 @@
             "format": "plain_text",
             "processed": "Implementation of the EU\u2019s economic rules is organised annually in a cycle, known as the European Semester.",
             "lang": "en"
+        },
+        {
+            "value": "La mise en \u0153uvre des r\u00e8gles \u00e9conomiques de l\u2019UE s'inscrit dans un cycle annuel appel\u00e9 le semestre europ\u00e9en.",
+            "format": "plain_text",
+            "processed": "La mise en \u0153uvre des r\u00e8gles \u00e9conomiques de l\u2019UE s&#039;inscrit dans un cycle annuel appel\u00e9 le semestre europ\u00e9en.",
+            "lang": "fr"
         }
     ],
     "field_oe_title": [
         {
             "value": "European Semester",
             "lang": "en"
+        },
+        {
+            "value": "Le semestre europ\u00e9en",
+            "lang": "fr"
         }
     ]
 }

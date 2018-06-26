@@ -10,6 +10,10 @@
             {
                 "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
                 "lang": "en"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "fr"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item_block\/revision_uid": [
@@ -41,13 +45,17 @@
     ],
     "revision_id": [
         {
-            "value": 1628
+            "value": 1645
         }
     ],
     "langcode": [
         {
             "value": "en",
             "lang": "en"
+        },
+        {
+            "value": "fr",
+            "lang": "fr"
         }
     ],
     "type": [
@@ -72,6 +80,22 @@
                     }
                 ],
                 "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "fr"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item_block\/revision_uid": [
@@ -106,7 +130,7 @@
                         "value": "491d6e02-3a85-4f10-b9d5-7fcca38001fa"
                     }
                 ],
-                "target_revision_id": "1625"
+                "target_revision_id": "1642"
             },
             {
                 "_links": {
@@ -122,7 +146,7 @@
                         "value": "46d59abc-7ee6-4d87-8d18-7e80c050de5e"
                     }
                 ],
-                "target_revision_id": "1626"
+                "target_revision_id": "1643"
             },
             {
                 "_links": {
@@ -138,7 +162,7 @@
                         "value": "21d04607-f9b2-4cb2-b34d-fc5bf78d79ab"
                     }
                 ],
-                "target_revision_id": "1627"
+                "target_revision_id": "1644"
             }
         ]
     },
@@ -146,12 +170,21 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
         }
     ],
     "created": [
         {
             "value": "2018-06-25T16:41:19+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:41:19+00:00",
+            "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -179,24 +212,40 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
         }
     ],
     "content_translation_source": [
         {
             "value": "und",
             "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "fr"
         }
     ],
     "content_translation_outdated": [
         {
             "value": false,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
         }
     ],
     "content_translation_changed": [
@@ -204,18 +253,31 @@
             "value": "2018-06-25T16:45:26+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:45:26+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "field_oe_list_item_block_variant": [
         {
             "value": "one_column",
             "lang": "en"
+        },
+        {
+            "value": "one_column",
+            "lang": "fr"
         }
     ],
     "field_oe_title": [
         {
             "value": "Policy areas",
             "lang": "en"
+        },
+        {
+            "value": "Domaines d'action",
+            "lang": "fr"
         }
     ]
 }

@@ -10,6 +10,10 @@
             {
                 "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
                 "lang": "en"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "fr"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
@@ -30,13 +34,17 @@
     ],
     "revision_id": [
         {
-            "value": 1635
+            "value": 1652
         }
     ],
     "langcode": [
         {
             "value": "en",
             "lang": "en"
+        },
+        {
+            "value": "fr",
+            "lang": "fr"
         }
     ],
     "type": [
@@ -61,6 +69,22 @@
                     }
                 ],
                 "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "fr"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
@@ -85,12 +109,21 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
         }
     ],
     "created": [
         {
             "value": "2018-06-26T06:54:37+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T06:54:37+00:00",
+            "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -118,30 +151,47 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
-            "lang": "en"
+            "lang": "fr"
         }
     ],
     "content_translation_source": [
         {
             "value": "und",
             "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "fr"
         }
     ],
     "content_translation_outdated": [
         {
             "value": false,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
         }
     ],
     "content_translation_changed": [
         {
             "value": "2018-06-26T10:35:36+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T10:35:36+00:00",
+            "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -151,18 +201,32 @@
             "title": "",
             "options": [],
             "lang": "en"
+        },
+        {
+            "uri": "internal:\/commission\/priorities\/jobs-growth-and-investment",
+            "title": "",
+            "options": [],
+            "lang": "fr"
         }
     ],
     "field_oe_list_item_variant": [
         {
             "value": "list_item_default",
             "lang": "en"
+        },
+        {
+            "value": "list_item_default",
+            "lang": "fr"
         }
     ],
     "field_oe_meta": [
         {
             "value": "22 FEBRUARY 2017",
             "lang": "en"
+        },
+        {
+            "value": "22 F\u00c9VRIER 2017",
+            "lang": "fr"
         }
     ],
     "field_oe_text_long": [
@@ -171,12 +235,22 @@
             "format": "plain_text",
             "processed": "Covers all areas of macroeconomic or social importance and takes stock of national budgetary situations.",
             "lang": "en"
+        },
+        {
+            "value": "Les rapports couvrent tous les domaines d'importance macro\u00e9conomique ou sociale et dressent un bilan budg\u00e9taire du pays.",
+            "format": "plain_text",
+            "processed": "Les rapports couvrent tous les domaines d&#039;importance macro\u00e9conomique ou sociale et dressent un bilan budg\u00e9taire du pays.",
+            "lang": "fr"
         }
     ],
     "field_oe_title": [
         {
             "value": "The European Semester: 2017 Country Reports",
             "lang": "en"
+        },
+        {
+            "value": "Le semestre europ\u00e9en: 2017 Rapports par pays",
+            "lang": "fr"
         }
     ]
 }

@@ -10,6 +10,10 @@
             {
                 "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
                 "lang": "en"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "fr"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item_block\/revision_uid": [
@@ -38,13 +42,17 @@
     ],
     "revision_id": [
         {
-            "value": 1624
+            "value": 1641
         }
     ],
     "langcode": [
         {
             "value": "en",
             "lang": "en"
+        },
+        {
+            "value": "fr",
+            "lang": "fr"
         }
     ],
     "type": [
@@ -69,6 +77,22 @@
                     }
                 ],
                 "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "fr"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item_block\/revision_uid": [
@@ -103,7 +127,7 @@
                         "value": "bb98244c-fd57-416a-81f8-c5b90d8cc317"
                     }
                 ],
-                "target_revision_id": "1622"
+                "target_revision_id": "1639"
             },
             {
                 "_links": {
@@ -119,7 +143,7 @@
                         "value": "1f691c4f-ab77-4201-9aad-1238eb1703f3"
                     }
                 ],
-                "target_revision_id": "1623"
+                "target_revision_id": "1640"
             }
         ]
     },
@@ -127,12 +151,21 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
         }
     ],
     "created": [
         {
             "value": "2018-06-25T21:36:24+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T21:36:24+00:00",
+            "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -160,24 +193,40 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
         }
     ],
     "content_translation_source": [
         {
             "value": "und",
             "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "fr"
         }
     ],
     "content_translation_outdated": [
         {
             "value": false,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
         }
     ],
     "content_translation_changed": [
@@ -185,12 +234,21 @@
             "value": "2018-06-25T21:55:32+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T21:55:32+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "field_oe_list_item_block_variant": [
         {
             "value": "two_columns",
             "lang": "en"
+        },
+        {
+            "value": "two_columns",
+            "lang": "fr"
         }
     ]
 }

@@ -10,6 +10,10 @@
             {
                 "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
                 "lang": "en"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "fr"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_content_row\/revision_uid": [
@@ -44,13 +48,17 @@
     ],
     "revision_id": [
         {
-            "value": 1638
+            "value": 1655
         }
     ],
     "langcode": [
         {
             "value": "en",
             "lang": "en"
+        },
+        {
+            "value": "fr",
+            "lang": "fr"
         }
     ],
     "type": [
@@ -75,6 +83,22 @@
                     }
                 ],
                 "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "fr"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_content_row\/revision_uid": [
@@ -109,7 +133,7 @@
                         "value": "135a6438-d4e1-4df2-b1ec-e2bc030453e7"
                     }
                 ],
-                "target_revision_id": "1628"
+                "target_revision_id": "1645"
             },
             {
                 "_links": {
@@ -125,7 +149,7 @@
                         "value": "8631c630-8c39-4171-ad77-4ef8223d3091"
                     }
                 ],
-                "target_revision_id": "1632"
+                "target_revision_id": "1649"
             },
             {
                 "_links": {
@@ -141,7 +165,7 @@
                         "value": "e4c55b18-b317-444e-ad6e-c96dc323621d"
                     }
                 ],
-                "target_revision_id": "1633"
+                "target_revision_id": "1650"
             },
             {
                 "_links": {
@@ -157,7 +181,7 @@
                         "value": "fe0544da-5c9e-43de-8670-c5db888b9a66"
                     }
                 ],
-                "target_revision_id": "1637"
+                "target_revision_id": "1654"
             }
         ]
     },
@@ -165,12 +189,21 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
         }
     ],
     "created": [
         {
             "value": "2018-06-25T16:38:53+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:38:53+00:00",
+            "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -198,24 +231,40 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
         }
     ],
     "content_translation_source": [
         {
             "value": "und",
             "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "fr"
         }
     ],
     "content_translation_outdated": [
         {
             "value": false,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
         }
     ],
     "content_translation_changed": [
@@ -223,18 +272,31 @@
             "value": "2018-06-26T07:00:46+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T07:00:46+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "field_oe_content_row_variant": [
         {
             "value": "inpage",
             "lang": "en"
+        },
+        {
+            "value": "inpage",
+            "lang": "fr"
         }
     ],
     "field_oe_title": [
         {
             "value": "PAGE CONTENTS",
             "lang": "en"
+        },
+        {
+            "value": "CONTENU",
+            "lang": "fr"
         }
     ]
 }

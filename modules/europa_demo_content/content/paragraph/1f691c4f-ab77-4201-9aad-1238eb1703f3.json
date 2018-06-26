@@ -10,6 +10,10 @@
             {
                 "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
                 "lang": "en"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "fr"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
@@ -30,13 +34,17 @@
     ],
     "revision_id": [
         {
-            "value": 1623
+            "value": 1640
         }
     ],
     "langcode": [
         {
             "value": "en",
             "lang": "en"
+        },
+        {
+            "value": "fr",
+            "lang": "fr"
         }
     ],
     "type": [
@@ -61,6 +69,22 @@
                     }
                 ],
                 "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "fr"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
@@ -85,12 +109,21 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
         }
     ],
     "created": [
         {
             "value": "2018-06-25T21:51:00+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T21:51:00+00:00",
+            "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -118,30 +151,47 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
-            "lang": "en"
+            "lang": "fr"
         }
     ],
     "content_translation_source": [
         {
             "value": "und",
             "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "fr"
         }
     ],
     "content_translation_outdated": [
         {
             "value": false,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
         }
     ],
     "content_translation_changed": [
         {
             "value": "2018-06-26T10:35:36+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T10:35:36+00:00",
+            "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -151,12 +201,22 @@
             "title": "",
             "options": [],
             "lang": "en"
+        },
+        {
+            "uri": "internal:\/commission\/priorities\/jobs-growth-and-investment",
+            "title": "",
+            "options": [],
+            "lang": "fr"
         }
     ],
     "field_oe_list_item_variant": [
         {
             "value": "list_item_default",
             "lang": "en"
+        },
+        {
+            "value": "list_item_default",
+            "lang": "fr"
         }
     ],
     "field_oe_text_long": [
@@ -165,12 +225,22 @@
             "format": "plain_text",
             "processed": "Since the global economic and financial crisis, the EU has been suffering from low levels of investment. Coordinated efforts at European level are needed to put Europe on the path of economic recovery. The Investment Plan for Europe, the so-called Juncker Plan, focuses on creating jobs and boosting growth by making smarter use of financial resources, removing obstacles to investment and providing visibility and technical assistance to investment projects.",
             "lang": "en"
+        },
+        {
+            "value": "Depuis l'\u00e9clatement de la crise \u00e9conomique et financi\u00e8re mondiale, l\u2019UE souffre d\u2019un faible niveau d\u2019investissement. Il est n\u00e9cessaire de consentir un effort coordonn\u00e9 au niveau europ\u00e9en pour engager l'Europe sur la voie de la reprise \u00e9conomique. Le plan d\u2019investissement pour l\u2019Europe \u2014 le \u00abplan Juncker\u00bb \u2014 vise \u00e0 cr\u00e9er des emplois et \u00e0 stimuler la croissance en utilisant les ressources financi\u00e8res de mani\u00e8re plus judicieuse, en supprimant les obstacles \u00e0 l\u2019investissement et en apportant visibilit\u00e9 et assistance technique aux projets d\u2019investissement.",
+            "format": "plain_text",
+            "processed": "Depuis l&#039;\u00e9clatement de la crise \u00e9conomique et financi\u00e8re mondiale, l\u2019UE souffre d\u2019un faible niveau d\u2019investissement. Il est n\u00e9cessaire de consentir un effort coordonn\u00e9 au niveau europ\u00e9en pour engager l&#039;Europe sur la voie de la reprise \u00e9conomique. Le plan d\u2019investissement pour l\u2019Europe \u2014 le \u00abplan Juncker\u00bb \u2014 vise \u00e0 cr\u00e9er des emplois et \u00e0 stimuler la croissance en utilisant les ressources financi\u00e8res de mani\u00e8re plus judicieuse, en supprimant les obstacles \u00e0 l\u2019investissement et en apportant visibilit\u00e9 et assistance technique aux projets d\u2019investissement.",
+            "lang": "fr"
         }
     ],
     "field_oe_title": [
         {
             "value": "The Investment Plan for Europe",
             "lang": "en"
+        },
+        {
+            "value": "Le pland d'investissement pour l'Europe",
+            "lang": "fr"
         }
     ]
 }

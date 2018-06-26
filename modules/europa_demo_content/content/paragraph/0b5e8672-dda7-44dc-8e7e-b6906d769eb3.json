@@ -10,6 +10,10 @@
             {
                 "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
                 "lang": "en"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "fr"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
@@ -30,13 +34,17 @@
     ],
     "revision_id": [
         {
-            "value": 1631
+            "value": 1648
         }
     ],
     "langcode": [
         {
             "value": "en",
             "lang": "en"
+        },
+        {
+            "value": "fr",
+            "lang": "fr"
         }
     ],
     "type": [
@@ -61,6 +69,22 @@
                     }
                 ],
                 "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "fr"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
@@ -85,12 +109,21 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
         }
     ],
     "created": [
         {
             "value": "2018-06-25T16:50:27+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:50:27+00:00",
+            "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -118,30 +151,47 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
-            "lang": "en"
+            "lang": "fr"
         }
     ],
     "content_translation_source": [
         {
             "value": "und",
             "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "fr"
         }
     ],
     "content_translation_outdated": [
         {
             "value": false,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
         }
     ],
     "content_translation_changed": [
         {
             "value": "2018-06-26T10:35:36+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T10:35:36+00:00",
+            "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -151,12 +201,22 @@
             "title": "",
             "options": [],
             "lang": "en"
+        },
+        {
+            "uri": "internal:\/commission\/priorities\/jobs-growth-and-investment",
+            "title": "",
+            "options": [],
+            "lang": "fr"
         }
     ],
     "field_oe_list_item_variant": [
         {
             "value": "list_item_default",
             "lang": "en"
+        },
+        {
+            "value": "list_item_default",
+            "lang": "fr"
         }
     ],
     "field_oe_meta": [
@@ -167,6 +227,14 @@
         {
             "value": "19 June 2018",
             "lang": "en"
+        },
+        {
+            "value": "PRESS RELEASE",
+            "lang": "fr"
+        },
+        {
+            "value": "19 June 2018",
+            "lang": "fr"
         }
     ],
     "field_oe_text_long": [
@@ -175,12 +243,22 @@
             "format": "plain_text",
             "processed": "The EIF and all seven Erste Group member banks have signed a Social Entrepreneurship guarantee agreement",
             "lang": "en"
+        },
+        {
+            "value": "The EIF and all seven Erste Group member banks have signed a Social Entrepreneurship guarantee agreement",
+            "format": "plain_text",
+            "processed": "The EIF and all seven Erste Group member banks have signed a Social Entrepreneurship guarantee agreement",
+            "lang": "fr"
         }
     ],
     "field_oe_title": [
         {
             "value": "The European Investment Fund and Erste Group sign a EUR 50 million deal to finance social enterprises in Austria, Croatia, the Czech Republic, Hungary, Romania, Slovakia and Serbia",
             "lang": "en"
+        },
+        {
+            "value": "The European Investment Fund and Erste Group sign a EUR 50 million deal to finance social enterprises in Austria, Croatia, the Czech Republic, Hungary, Romania, Slovakia and Serbia",
+            "lang": "fr"
         }
     ]
 }

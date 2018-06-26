@@ -10,6 +10,10 @@
             {
                 "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
                 "lang": "en"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "fr"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
@@ -30,13 +34,17 @@
     ],
     "revision_id": [
         {
-            "value": 1630
+            "value": 1647
         }
     ],
     "langcode": [
         {
             "value": "en",
             "lang": "en"
+        },
+        {
+            "value": "fr",
+            "lang": "fr"
         }
     ],
     "type": [
@@ -61,6 +69,22 @@
                     }
                 ],
                 "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "fr"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
@@ -85,12 +109,21 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
         }
     ],
     "created": [
         {
             "value": "2018-06-25T16:49:03+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:49:03+00:00",
+            "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -118,30 +151,47 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
-            "lang": "en"
+            "lang": "fr"
         }
     ],
     "content_translation_source": [
         {
             "value": "und",
             "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "fr"
         }
     ],
     "content_translation_outdated": [
         {
             "value": false,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
         }
     ],
     "content_translation_changed": [
         {
             "value": "2018-06-26T10:35:36+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T10:35:36+00:00",
+            "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -151,12 +201,22 @@
             "title": "",
             "options": [],
             "lang": "en"
+        },
+        {
+            "uri": "internal:\/commission\/priorities\/jobs-growth-and-investment",
+            "title": "",
+            "options": [],
+            "lang": "fr"
         }
     ],
     "field_oe_list_item_variant": [
         {
             "value": "list_item_default",
             "lang": "en"
+        },
+        {
+            "value": "list_item_default",
+            "lang": "fr"
         }
     ],
     "field_oe_meta": [
@@ -167,6 +227,14 @@
         {
             "value": "22 June 2018",
             "lang": "en"
+        },
+        {
+            "value": "COMMUNIQU\u00c9 DE PRESSE",
+            "lang": "fr"
+        },
+        {
+            "value": "22 Juin 2018",
+            "lang": "fr"
         }
     ],
     "field_oe_text_long": [
@@ -175,12 +243,22 @@
             "format": "plain_text",
             "processed": "2018 European Innovation Scoreboard shows that the EU&#039;s innovation performance continues to improve, but further efforts are needed to ensure Europe&#039;s global competitiveness",
             "lang": "en"
+        },
+        {
+            "value": "2018 European Innovation Scoreboard shows that the EU's innovation performance continues to improve, but further efforts are needed to ensure Europe's global competitiveness",
+            "format": "plain_text",
+            "processed": "2018 European Innovation Scoreboard shows that the EU&#039;s innovation performance continues to improve, but further efforts are needed to ensure Europe&#039;s global competitiveness",
+            "lang": "fr"
         }
     ],
     "field_oe_title": [
         {
             "value": "European Innovation Scoreboard 2018: Europe must deepen its innovation edge",
             "lang": "en"
+        },
+        {
+            "value": "European Innovation Scoreboard 2018: Europe must deepen its innovation edge",
+            "lang": "fr"
         }
     ]
 }
