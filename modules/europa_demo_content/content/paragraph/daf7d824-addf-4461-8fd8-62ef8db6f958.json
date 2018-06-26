@@ -73,7 +73,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "en"
@@ -89,7 +89,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "fr"
@@ -105,7 +105,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "it"
@@ -123,7 +123,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ]
             }
@@ -150,12 +150,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -197,6 +197,14 @@
     "revision_translation_affected": [
         {
             "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
             "lang": "it"
         }
     ],
@@ -235,12 +243,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:37:26+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:39:26+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -283,19 +291,19 @@
         {
             "value": "Official EU statistics, public opinion polls, trends and forecasts.",
             "format": "plain_text",
-            "processed": "<p>Official EU statistics, public opinion polls, trends and forecasts.<\/p>\n",
+            "processed": "Official EU statistics, public opinion polls, trends and forecasts.",
             "lang": "en"
         },
         {
             "value": "Statistiques officielles, sondages d'opinion, tendances et pr\u00e9visions de l'UE.",
             "format": "plain_text",
-            "processed": "<p>Statistiques officielles, sondages d&#039;opinion, tendances et pr\u00e9visions de l&#039;UE.<\/p>\n",
+            "processed": "Statistiques officielles, sondages d&#039;opinion, tendances et pr\u00e9visions de l&#039;UE.",
             "lang": "fr"
         },
         {
             "value": "Statistiche ufficiali dell'UE, sondaggi d'opinione, tendenze e previsioni.",
             "format": "plain_text",
-            "processed": "<p>Statistiche ufficiali dell&#039;UE, sondaggi d&#039;opinione, tendenze e previsioni.<\/p>\n",
+            "processed": "Statistiche ufficiali dell&#039;UE, sondaggi d&#039;opinione, tendenze e previsioni.",
             "lang": "it"
         }
     ],

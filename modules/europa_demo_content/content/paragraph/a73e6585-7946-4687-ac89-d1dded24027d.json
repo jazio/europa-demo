@@ -46,7 +46,7 @@
     ],
     "revision_id": [
         {
-            "value": 1725
+            "value": 1803
         }
     ],
     "langcode": [
@@ -151,7 +151,7 @@
                         "value": "87d848a3-7321-4159-89bd-96d76acd07d3"
                     }
                 ],
-                "target_revision_id": "1723"
+                "target_revision_id": "1801"
             },
             {
                 "_links": {
@@ -167,7 +167,7 @@
                         "value": "e813e841-5200-42a3-a99c-a686276f239f"
                     }
                 ],
-                "target_revision_id": "1724"
+                "target_revision_id": "1802"
             }
         ]
     },
@@ -285,12 +285,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-26T13:50:37+00:00",
+            "value": "2018-06-26T14:11:31+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-26T10:05:39+00:00",
+            "value": "2018-06-26T14:11:31+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }

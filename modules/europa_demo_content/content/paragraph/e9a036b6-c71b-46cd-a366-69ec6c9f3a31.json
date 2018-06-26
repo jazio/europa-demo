@@ -70,7 +70,7 @@
     ],
     "revision_id": [
         {
-            "value": 879
+            "value": 1759
         }
     ],
     "langcode": [
@@ -105,7 +105,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "en"
@@ -121,7 +121,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "fr"
@@ -137,7 +137,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "it"
@@ -155,7 +155,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ]
             }
@@ -175,7 +175,7 @@
                         "value": "f66d2099-59f4-47b6-99c2-4481064d4ee4"
                     }
                 ],
-                "target_revision_id": "869"
+                "target_revision_id": "1749"
             },
             {
                 "_links": {
@@ -191,7 +191,7 @@
                         "value": "bb20bee9-8fc9-4d6b-8f52-e398b60f865c"
                     }
                 ],
-                "target_revision_id": "870"
+                "target_revision_id": "1750"
             },
             {
                 "_links": {
@@ -207,7 +207,7 @@
                         "value": "f24c4036-6b78-48aa-b061-edb7b530ecae"
                     }
                 ],
-                "target_revision_id": "871"
+                "target_revision_id": "1751"
             },
             {
                 "_links": {
@@ -223,7 +223,7 @@
                         "value": "98b49097-0f5e-4e61-a20c-b5684c6c3b00"
                     }
                 ],
-                "target_revision_id": "872"
+                "target_revision_id": "1752"
             },
             {
                 "_links": {
@@ -239,7 +239,7 @@
                         "value": "3c025d06-b8d9-46c9-9fdb-ce75846e9ed3"
                     }
                 ],
-                "target_revision_id": "873"
+                "target_revision_id": "1753"
             },
             {
                 "_links": {
@@ -255,7 +255,7 @@
                         "value": "858fbe3c-9fe2-47a3-b31b-092cc6ad1e9a"
                     }
                 ],
-                "target_revision_id": "874"
+                "target_revision_id": "1754"
             },
             {
                 "_links": {
@@ -271,7 +271,7 @@
                         "value": "fc75e554-562f-4a9d-97ce-05fad13a5e5d"
                     }
                 ],
-                "target_revision_id": "875"
+                "target_revision_id": "1755"
             },
             {
                 "_links": {
@@ -287,7 +287,7 @@
                         "value": "c119778e-2a29-472f-86ac-273bacdd31ff"
                     }
                 ],
-                "target_revision_id": "876"
+                "target_revision_id": "1756"
             },
             {
                 "_links": {
@@ -303,7 +303,7 @@
                         "value": "da06e3f8-5a1d-4af9-adbf-7d855a78b7c8"
                     }
                 ],
-                "target_revision_id": "877"
+                "target_revision_id": "1757"
             },
             {
                 "_links": {
@@ -319,7 +319,7 @@
                         "value": "a3db0597-d6f9-493a-8fb6-9f8152286c67"
                     }
                 ],
-                "target_revision_id": "878"
+                "target_revision_id": "1758"
             }
         ]
     },
@@ -344,12 +344,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -432,24 +432,24 @@
     ],
     "content_translation_changed": [
         {
-            "value": "2018-06-20T10:22:50+00:00",
+            "value": "2018-06-26T14:05:49+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-26T14:05:49+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-26T14:05:49+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "field_oe_link": [
         {
-            "uri": "internal:\/",
+            "uri": "internal:\/commission\/priorities",
             "title": "More about the priorities",
             "options": [],
             "lang": "en"

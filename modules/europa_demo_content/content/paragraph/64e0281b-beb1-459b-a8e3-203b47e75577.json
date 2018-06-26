@@ -73,7 +73,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "en"
@@ -89,7 +89,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "fr"
@@ -105,7 +105,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "it"
@@ -123,7 +123,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ]
             }
@@ -150,12 +150,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -197,6 +197,14 @@
     "revision_translation_affected": [
         {
             "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
             "lang": "it"
         }
     ],
@@ -235,12 +243,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:37:26+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:39:26+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -283,19 +291,19 @@
         {
             "value": "EU strategy, its role in setting priorities, and its implementation through EU policy.",
             "format": "plain_text",
-            "processed": "<p>EU strategy, its role in setting priorities, and its implementation through EU policy.<\/p>\n",
+            "processed": "EU strategy, its role in setting priorities, and its implementation through EU policy.",
             "lang": "en"
         },
         {
             "value": "La strat\u00e9gie de l'UE, son r\u00f4le dans la fixation des priorit\u00e9s et sa mise en \u0153uvre au moyen des politiques de l'UE.",
             "format": "plain_text",
-            "processed": "<p>La strat\u00e9gie de l&#039;UE, son r\u00f4le dans la fixation des priorit\u00e9s et sa mise en \u0153uvre au moyen des politiques de l&#039;UE.<\/p>\n",
+            "processed": "La strat\u00e9gie de l&#039;UE, son r\u00f4le dans la fixation des priorit\u00e9s et sa mise en \u0153uvre au moyen des politiques de l&#039;UE.",
             "lang": "fr"
         },
         {
             "value": "La strategia dell'UE, il suo ruolo nella scelta delle priorit\u00e0 e la sua attuazione attraverso le politiche dell'UE.",
             "format": "plain_text",
-            "processed": "<p>La strategia dell&#039;UE, il suo ruolo nella scelta delle priorit\u00e0 e la sua attuazione attraverso le politiche dell&#039;UE.<\/p>\n",
+            "processed": "La strategia dell&#039;UE, il suo ruolo nella scelta delle priorit\u00e0 e la sua attuazione attraverso le politiche dell&#039;UE.",
             "lang": "it"
         }
     ],

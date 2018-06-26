@@ -46,7 +46,7 @@
     ],
     "revision_id": [
         {
-            "value": 882
+            "value": 1762
         }
     ],
     "langcode": [
@@ -81,7 +81,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "en"
@@ -97,7 +97,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "fr"
@@ -113,7 +113,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "it"
@@ -131,7 +131,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ]
             }
@@ -151,7 +151,7 @@
                         "value": "25d3c2f4-0e4a-41e5-95a3-7079cd03445f"
                     }
                 ],
-                "target_revision_id": "880"
+                "target_revision_id": "1760"
             },
             {
                 "_links": {
@@ -167,7 +167,7 @@
                         "value": "31defe21-843c-4b70-bbf3-c0775d3aa9f3"
                     }
                 ],
-                "target_revision_id": "881"
+                "target_revision_id": "1761"
             }
         ]
     },
@@ -192,12 +192,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -285,12 +285,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-26T14:05:49+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-26T14:05:49+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }

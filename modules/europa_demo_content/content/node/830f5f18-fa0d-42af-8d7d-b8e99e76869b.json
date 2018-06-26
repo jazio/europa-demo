@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/web:8080\/en\/node\/4?_format=hal_json"
+            "href": "http:\/\/web:8080\/en\/commission\/priorities?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/landing_page"
@@ -43,7 +43,7 @@
     ],
     "vid": [
         {
-            "value": 105
+            "value": 109
         }
     ],
     "langcode": [
@@ -67,7 +67,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2018-06-26T13:50:37+00:00",
+            "value": "2018-06-26T14:11:31+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -154,7 +154,7 @@
                         "value": "aa605acb-cd2c-4364-9d5c-dbf0323648f3"
                     }
                 ],
-                "target_revision_id": "1731"
+                "target_revision_id": "1809"
             }
         ]
     },
@@ -205,17 +205,17 @@
     ],
     "changed": [
         {
-            "value": "2018-06-26T13:42:00+00:00",
+            "value": "2018-06-26T14:11:31+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-26T13:50:37+00:00",
+            "value": "2018-06-26T14:11:31+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-26T13:50:37+00:00",
+            "value": "2018-06-26T14:11:31+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -274,6 +274,14 @@
         {
             "value": true,
             "lang": "it"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/commission\/priorities",
+            "pid": 18,
+            "langcode": "en",
+            "lang": "en"
         }
     ],
     "content_translation_source": [

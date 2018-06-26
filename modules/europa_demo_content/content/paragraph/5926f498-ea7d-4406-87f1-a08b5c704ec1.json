@@ -73,7 +73,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "en"
@@ -89,7 +89,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "fr"
@@ -105,7 +105,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "it"
@@ -123,7 +123,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ]
             }
@@ -150,12 +150,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -197,6 +197,14 @@
     "revision_translation_affected": [
         {
             "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
             "lang": "it"
         }
     ],
@@ -235,12 +243,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:37:26+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:39:26+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -283,19 +291,19 @@
         {
             "value": "Action by the EU on environmental protection, climate change and clean energy.",
             "format": "plain_text",
-            "processed": "<p>Action by the EU on environmental protection, climate change and clean energy.<\/p>\n",
+            "processed": "Action by the EU on environmental protection, climate change and clean energy.",
             "lang": "en"
         },
         {
             "value": "Action de l\u2019UE en mati\u00e8re de protection de l\u2019environnement, de changement climatique et d\u2019\u00e9nergie propre.",
             "format": "plain_text",
-            "processed": "<p>Action de l\u2019UE en mati\u00e8re de protection de l\u2019environnement, de changement climatique et d\u2019\u00e9nergie propre.<\/p>\n",
+            "processed": "Action de l\u2019UE en mati\u00e8re de protection de l\u2019environnement, de changement climatique et d\u2019\u00e9nergie propre.",
             "lang": "fr"
         },
         {
             "value": "Azione dell\u2019UE per la tutela dell\u2019ambiente, la lotta ai cambiamenti climatici e l\u2019energia pulita.",
             "format": "plain_text",
-            "processed": "<p>Azione dell\u2019UE per la tutela dell\u2019ambiente, la lotta ai cambiamenti climatici e l\u2019energia pulita.<\/p>\n",
+            "processed": "Azione dell\u2019UE per la tutela dell\u2019ambiente, la lotta ai cambiamenti climatici e l\u2019energia pulita.",
             "lang": "it"
         }
     ],

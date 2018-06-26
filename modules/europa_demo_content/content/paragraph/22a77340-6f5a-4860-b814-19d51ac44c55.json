@@ -73,7 +73,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "en"
@@ -89,7 +89,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "fr"
@@ -105,7 +105,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "it"
@@ -123,7 +123,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ]
             }
@@ -150,12 +150,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -197,6 +197,14 @@
     "revision_translation_affected": [
         {
             "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
             "lang": "it"
         }
     ],
@@ -235,12 +243,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:37:26+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:39:26+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -283,19 +291,19 @@
         {
             "value": "EU law and judgments, how EU law is applied, public consultations, data protection, infringements, fraud, serious crime.",
             "format": "plain_text",
-            "processed": "<p>EU law and judgments, how EU law is applied, public consultations, data protection, infringements, fraud, serious crime.<\/p>\n",
+            "processed": "EU law and judgments, how EU law is applied, public consultations, data protection, infringements, fraud, serious crime.",
             "lang": "en"
         },
         {
             "value": "La l\u00e9gislation et les d\u00e9cisions de justice de l\u2019UE et leur mise en \u0153uvre, les consultations publiques, la protection des donn\u00e9es, les infractions, la fraude, la grande criminalit\u00e9.",
             "format": "plain_text",
-            "processed": "<p>La l\u00e9gislation et les d\u00e9cisions de justice de l\u2019UE et leur mise en \u0153uvre, les consultations publiques, la protection des donn\u00e9es, les infractions, la fraude, la grande criminalit\u00e9.<\/p>\n",
+            "processed": "La l\u00e9gislation et les d\u00e9cisions de justice de l\u2019UE et leur mise en \u0153uvre, les consultations publiques, la protection des donn\u00e9es, les infractions, la fraude, la grande criminalit\u00e9.",
             "lang": "fr"
         },
         {
             "value": "Diritto e sentenze dell'UE, applicazione del diritto dell'UE, consultazioni pubbliche, protezione dei dati, violazioni, frode e reati gravi.",
             "format": "plain_text",
-            "processed": "<p>Diritto e sentenze dell&#039;UE, applicazione del diritto dell&#039;UE, consultazioni pubbliche, protezione dei dati, violazioni, frode e reati gravi.<\/p>\n",
+            "processed": "Diritto e sentenze dell&#039;UE, applicazione del diritto dell&#039;UE, consultazioni pubbliche, protezione dei dati, violazioni, frode e reati gravi.",
             "lang": "it"
         }
     ],

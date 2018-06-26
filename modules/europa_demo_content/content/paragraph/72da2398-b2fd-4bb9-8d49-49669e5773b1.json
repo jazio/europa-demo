@@ -73,7 +73,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "en"
@@ -89,7 +89,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "fr"
@@ -105,7 +105,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "it"
@@ -123,7 +123,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ]
             }
@@ -150,12 +150,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -197,6 +197,14 @@
     "revision_translation_affected": [
         {
             "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
             "lang": "it"
         }
     ],
@@ -235,12 +243,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:37:26+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:39:26+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -283,19 +291,19 @@
         {
             "value": "Advice on living, working or travelling in the EU, on visas and immigration for non-EU citizens, European culture.",
             "format": "plain_text",
-            "processed": "<p>Advice on living, working or travelling in the EU, on visas and immigration for non-EU citizens, European culture.<\/p>\n",
+            "processed": "Advice on living, working or travelling in the EU, on visas and immigration for non-EU citizens, European culture.",
             "lang": "en"
         },
         {
             "value": "Conseils pour les citoyens de l\u2019UE qui veulent vivre, travailler ou voyager dans un autre pays de l\u2019UE, et informations sur les visas, l\u2019immigration et la culture europ\u00e9enne pour les ressortissants de pays hors UE.",
             "format": "plain_text",
-            "processed": "<p>Conseils pour les citoyens de l\u2019UE qui veulent vivre, travailler ou voyager dans un autre pays de l\u2019UE, et informations sur les visas, l\u2019immigration et la culture europ\u00e9enne pour les ressortissants de pays hors UE.<\/p>\n",
+            "processed": "Conseils pour les citoyens de l\u2019UE qui veulent vivre, travailler ou voyager dans un autre pays de l\u2019UE, et informations sur les visas, l\u2019immigration et la culture europ\u00e9enne pour les ressortissants de pays hors UE.",
             "lang": "fr"
         },
         {
             "value": "Consigli per i cittadini europei su come vivere, lavorare o viaggiare nell'UE, nonch\u00e9 su visti e immigrazione per i cittadini extra UE, cultura europea.",
             "format": "plain_text",
-            "processed": "<p>Consigli per i cittadini europei su come vivere, lavorare o viaggiare nell&#039;UE, nonch\u00e9 su visti e immigrazione per i cittadini extra UE, cultura europea.<\/p>\n",
+            "processed": "Consigli per i cittadini europei su come vivere, lavorare o viaggiare nell&#039;UE, nonch\u00e9 su visti e immigrazione per i cittadini extra UE, cultura europea.",
             "lang": "it"
         }
     ],

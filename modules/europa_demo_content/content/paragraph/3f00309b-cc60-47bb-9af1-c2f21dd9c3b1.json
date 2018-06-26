@@ -73,7 +73,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "en"
@@ -89,7 +89,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "fr"
@@ -105,7 +105,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "it"
@@ -123,7 +123,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ]
             }
@@ -150,12 +150,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -197,6 +197,14 @@
     "revision_translation_affected": [
         {
             "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
             "lang": "it"
         }
     ],
@@ -235,12 +243,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:37:26+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:39:26+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -283,19 +291,19 @@
         {
             "value": "EU promotion of fundamental rights, development and humanitarian aid, current and upcoming projects, partner organisations.",
             "format": "plain_text",
-            "processed": "<p>EU promotion of fundamental rights, development and humanitarian aid, current and upcoming projects, partner organisations.<\/p>\n",
+            "processed": "EU promotion of fundamental rights, development and humanitarian aid, current and upcoming projects, partner organisations.",
             "lang": "en"
         },
         {
             "value": "La promotion des droits fondamentaux, de l\u2019aide au d\u00e9veloppement et de l\u2019aide humanitaire, les projets en cours et \u00e0 venir, les organisations partenaires.",
             "format": "plain_text",
-            "processed": "<p>La promotion des droits fondamentaux, de l\u2019aide au d\u00e9veloppement et de l\u2019aide humanitaire, les projets en cours et \u00e0 venir, les organisations partenaires.<\/p>\n",
+            "processed": "La promotion des droits fondamentaux, de l\u2019aide au d\u00e9veloppement et de l\u2019aide humanitaire, les projets en cours et \u00e0 venir, les organisations partenaires.",
             "lang": "fr"
         },
         {
             "value": "Promozione da parte dell'UE dei diritti fondamentali, dello sviluppo e degli aiuti umanitari, progetti in corso e in programma, organizzazioni partner.",
             "format": "plain_text",
-            "processed": "<p>Promozione da parte dell&#039;UE dei diritti fondamentali, dello sviluppo e degli aiuti umanitari, progetti in corso e in programma, organizzazioni partner.<\/p>\n",
+            "processed": "Promozione da parte dell&#039;UE dei diritti fondamentali, dello sviluppo e degli aiuti umanitari, progetti in corso e in programma, organizzazioni partner.",
             "lang": "it"
         }
     ],

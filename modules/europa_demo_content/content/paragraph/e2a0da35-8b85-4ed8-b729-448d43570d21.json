@@ -73,7 +73,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "en"
@@ -89,7 +89,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "fr"
@@ -105,7 +105,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "it"
@@ -123,7 +123,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ]
             }
@@ -150,12 +150,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -197,6 +197,14 @@
     "revision_translation_affected": [
         {
             "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
             "lang": "it"
         }
     ],
@@ -235,12 +243,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:37:26+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:39:26+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -283,19 +291,19 @@
         {
             "value": "Education and training opportunities, EU actions on schools, youth, higher education, adult learning and vocational training.",
             "format": "plain_text",
-            "processed": "<p>Education and training opportunities, EU actions on schools, youth, higher education, adult learning and vocational training.<\/p>\n",
+            "processed": "Education and training opportunities, EU actions on schools, youth, higher education, adult learning and vocational training.",
             "lang": "en"
         },
         {
             "value": "Possibilit\u00e9s d\u2019\u00e9ducation et de formation, actions de l\u2019UE concernant les \u00e9coles, la jeunesse, l\u2019enseignement sup\u00e9rieur, la formation pour adultes et la formation professionnelle.",
             "format": "plain_text",
-            "processed": "<p>Possibilit\u00e9s d\u2019\u00e9ducation et de formation, actions de l\u2019UE concernant les \u00e9coles, la jeunesse, l\u2019enseignement sup\u00e9rieur, la formation pour adultes et la formation professionnelle.<\/p>\n",
+            "processed": "Possibilit\u00e9s d\u2019\u00e9ducation et de formation, actions de l\u2019UE concernant les \u00e9coles, la jeunesse, l\u2019enseignement sup\u00e9rieur, la formation pour adultes et la formation professionnelle.",
             "lang": "fr"
         },
         {
             "value": "Opportunit\u00e0 di istruzione e formazione, interventi dell'UE per le scuole, i giovani, l'istruzione superiore, l'istruzione degli adulti e la formazione professionale.",
             "format": "plain_text",
-            "processed": "<p>Opportunit\u00e0 di istruzione e formazione, interventi dell&#039;UE per le scuole, i giovani, l&#039;istruzione superiore, l&#039;istruzione degli adulti e la formazione professionale.<\/p>\n",
+            "processed": "Opportunit\u00e0 di istruzione e formazione, interventi dell&#039;UE per le scuole, i giovani, l&#039;istruzione superiore, l&#039;istruzione degli adulti e la formazione professionale.",
             "lang": "it"
         }
     ],

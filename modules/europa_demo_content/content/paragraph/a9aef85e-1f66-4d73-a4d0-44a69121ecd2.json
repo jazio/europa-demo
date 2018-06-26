@@ -52,7 +52,7 @@
     ],
     "revision_id": [
         {
-            "value": 893
+            "value": 1773
         }
     ],
     "langcode": [
@@ -87,7 +87,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "en"
@@ -103,7 +103,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "fr"
@@ -119,7 +119,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "it"
@@ -137,7 +137,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ]
             }
@@ -226,12 +226,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -270,20 +270,6 @@
             "lang": "it"
         }
     ],
-    "revision_translation_affected": [
-        {
-            "value": true,
-            "lang": "en"
-        },
-        {
-            "value": true,
-            "lang": "fr"
-        },
-        {
-            "value": true,
-            "lang": "it"
-        }
-    ],
     "content_translation_source": [
         {
             "value": "und",
@@ -319,12 +305,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -393,19 +379,19 @@
         {
             "value": "The aim of the negotiations is to remove barriers to trade in goods and services and create opportunities for small and large companies",
             "format": "plain_text",
-            "processed": "<p>The aim of the negotiations is to remove barriers to trade in goods and services and create opportunities for small and large companies<\/p>\n",
+            "processed": "The aim of the negotiations is to remove barriers to trade in goods and services and create opportunities for small and large companies",
             "lang": "en"
         },
         {
             "value": "L\u2019objectif des n\u00e9gociations est de supprimer les obstacles au commerce des marchandises et des services et de cr\u00e9er des d\u00e9bouch\u00e9s pour les petites et grandes entreprises\r\n",
             "format": "plain_text",
-            "processed": "<p>L\u2019objectif des n\u00e9gociations est de supprimer les obstacles au commerce des marchandises et des services et de cr\u00e9er des d\u00e9bouch\u00e9s pour les petites et grandes entreprises<\/p>\n",
+            "processed": "L\u2019objectif des n\u00e9gociations est de supprimer les obstacles au commerce des marchandises et des services et de cr\u00e9er des d\u00e9bouch\u00e9s pour les petites et grandes entreprises",
             "lang": "fr"
         },
         {
             "value": "The aim of the negotiations is to remove barriers to trade in goods and services and create opportunities for small and large companies",
             "format": "plain_text",
-            "processed": "<p>The aim of the negotiations is to remove barriers to trade in goods and services and create opportunities for small and large companies<\/p>\n",
+            "processed": "The aim of the negotiations is to remove barriers to trade in goods and services and create opportunities for small and large companies",
             "lang": "it"
         }
     ],

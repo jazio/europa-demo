@@ -73,7 +73,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "en"
@@ -89,7 +89,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "fr"
@@ -105,7 +105,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "it"
@@ -123,7 +123,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ]
             }
@@ -150,12 +150,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -197,6 +197,14 @@
     "revision_translation_affected": [
         {
             "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
             "lang": "it"
         }
     ],
@@ -235,12 +243,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:37:26+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:39:26+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -283,19 +291,19 @@
         {
             "value": "Rules and policy for safety and quality, information and statistics on products and markets.",
             "format": "plain_text",
-            "processed": "<p>Rules and policy for safety and quality, information and statistics on products and markets.<\/p>\n",
+            "processed": "Rules and policy for safety and quality, information and statistics on products and markets.",
             "lang": "en"
         },
         {
             "value": "Protection et s\u00e9curit\u00e9 des denr\u00e9es alimentaires, bien-\u00eatre des animaux et sant\u00e9 des v\u00e9g\u00e9taux, sylviculture, agriculture biologique, d\u00e9chets alimentaires, alimentation durable, agences et autorit\u00e9s responsables.",
             "format": "plain_text",
-            "processed": "<p>Protection et s\u00e9curit\u00e9 des denr\u00e9es alimentaires, bien-\u00eatre des animaux et sant\u00e9 des v\u00e9g\u00e9taux, sylviculture, agriculture biologique, d\u00e9chets alimentaires, alimentation durable, agences et autorit\u00e9s responsables.<\/p>\n",
+            "processed": "Protection et s\u00e9curit\u00e9 des denr\u00e9es alimentaires, bien-\u00eatre des animaux et sant\u00e9 des v\u00e9g\u00e9taux, sylviculture, agriculture biologique, d\u00e9chets alimentaires, alimentation durable, agences et autorit\u00e9s responsables.",
             "lang": "fr"
         },
         {
             "value": "Protezione e sicurezza alimentare, benessere degli animali e salute delle piante, silvicoltura, agricoltura biologica, sprechi alimentari, sostenibilit\u00e0, agenzie e autorit\u00e0 responsabili.",
             "format": "plain_text",
-            "processed": "<p>Protezione e sicurezza alimentare, benessere degli animali e salute delle piante, silvicoltura, agricoltura biologica, sprechi alimentari, sostenibilit\u00e0, agenzie e autorit\u00e0 responsabili.<\/p>\n",
+            "processed": "Protezione e sicurezza alimentare, benessere degli animali e salute delle piante, silvicoltura, agricoltura biologica, sprechi alimentari, sostenibilit\u00e0, agenzie e autorit\u00e0 responsabili.",
             "lang": "it"
         }
     ],

@@ -73,7 +73,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "en"
@@ -89,7 +89,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "fr"
@@ -105,7 +105,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "it"
@@ -123,7 +123,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ]
             }
@@ -150,12 +150,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -197,6 +197,14 @@
     "revision_translation_affected": [
         {
             "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
             "lang": "it"
         }
     ],
@@ -235,12 +243,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:37:26+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:39:26+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -283,19 +291,19 @@
         {
             "value": "OpenEuropa is the evolution of the NextEuropa platform, which aims at centralising in one single CMS platform all web content and development efforts.",
             "format": "plain_text",
-            "processed": "<p>OpenEuropa is the evolution of the NextEuropa platform, which aims at centralising in one single CMS platform all web content and development efforts.<\/p>\n",
+            "processed": "OpenEuropa is the evolution of the NextEuropa platform, which aims at centralising in one single CMS platform all web content and development efforts.",
             "lang": "en"
         },
         {
             "value": "OpenEuropa est l'\u00e9volution de la plateforme NextEuropa, qui vise \u00e0 centraliser en une seule plateforme CMS tout le contenu web et les efforts de d\u00e9veloppement.",
             "format": "plain_text",
-            "processed": "<p>OpenEuropa est l&#039;\u00e9volution de la plateforme NextEuropa, qui vise \u00e0 centraliser en une seule plateforme CMS tout le contenu web et les efforts de d\u00e9veloppement.<\/p>\n",
+            "processed": "OpenEuropa est l&#039;\u00e9volution de la plateforme NextEuropa, qui vise \u00e0 centraliser en une seule plateforme CMS tout le contenu web et les efforts de d\u00e9veloppement.",
             "lang": "fr"
         },
         {
             "value": "OpenEuropa \u00e8 l'evoluzione della piattaforma NextEuropa, che mira a centralizzare tutti i contenuti Web e gli sforzi di sviluppo in un'unica piattaforma CMS.",
             "format": "plain_text",
-            "processed": "<p>OpenEuropa \u00e8 l&#039;evoluzione della piattaforma NextEuropa, che mira a centralizzare tutti i contenuti Web e gli sforzi di sviluppo in un&#039;unica piattaforma CMS.<\/p>\n",
+            "processed": "OpenEuropa \u00e8 l&#039;evoluzione della piattaforma NextEuropa, che mira a centralizzare tutti i contenuti Web e gli sforzi di sviluppo in un&#039;unica piattaforma CMS.",
             "lang": "it"
         }
     ],

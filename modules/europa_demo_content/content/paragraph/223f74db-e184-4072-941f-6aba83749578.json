@@ -73,7 +73,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "en"
@@ -89,7 +89,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "fr"
@@ -105,7 +105,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "it"
@@ -123,7 +123,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ]
             }
@@ -150,12 +150,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -197,6 +197,14 @@
     "revision_translation_affected": [
         {
             "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
             "lang": "it"
         }
     ],
@@ -235,12 +243,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:37:26+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:39:26+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -283,19 +291,19 @@
         {
             "value": "EU support for job creation, economic growth, business competitiveness, and sustainable development.\r\n",
             "format": "plain_text",
-            "processed": "<p>EU support for job creation, economic growth, business competitiveness, and sustainable development.<\/p>\n",
+            "processed": "EU support for job creation, economic growth, business competitiveness, and sustainable development.",
             "lang": "en"
         },
         {
             "value": "Le soutien de l\u2019UE \u00e0 la cr\u00e9ation d\u2019emplois, \u00e0 la croissance \u00e9conomique, \u00e0 la comp\u00e9titivit\u00e9 des entreprises et au d\u00e9veloppement durable.",
             "format": "plain_text",
-            "processed": "<p>Le soutien de l\u2019UE \u00e0 la cr\u00e9ation d\u2019emplois, \u00e0 la croissance \u00e9conomique, \u00e0 la comp\u00e9titivit\u00e9 des entreprises et au d\u00e9veloppement durable.<\/p>\n",
+            "processed": "Le soutien de l\u2019UE \u00e0 la cr\u00e9ation d\u2019emplois, \u00e0 la croissance \u00e9conomique, \u00e0 la comp\u00e9titivit\u00e9 des entreprises et au d\u00e9veloppement durable.",
             "lang": "fr"
         },
         {
             "value": "Sostegno dell'UE per la creazione di posti di lavoro, la crescita economica, la competitivit\u00e0 delle aziende e lo sviluppo sostenibile.",
             "format": "plain_text",
-            "processed": "<p>Sostegno dell&#039;UE per la creazione di posti di lavoro, la crescita economica, la competitivit\u00e0 delle aziende e lo sviluppo sostenibile.<\/p>\n",
+            "processed": "Sostegno dell&#039;UE per la creazione di posti di lavoro, la crescita economica, la competitivit\u00e0 delle aziende e lo sviluppo sostenibile.",
             "lang": "it"
         }
     ],

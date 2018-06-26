@@ -73,7 +73,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "en"
@@ -89,7 +89,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "fr"
@@ -105,7 +105,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "it"
@@ -123,7 +123,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ]
             }
@@ -150,12 +150,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -197,6 +197,14 @@
     "revision_translation_affected": [
         {
             "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
             "lang": "it"
         }
     ],
@@ -235,12 +243,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:37:26+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:39:26+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -283,19 +291,19 @@
         {
             "value": "Permanent and temporary jobs, traineeships, how to apply, EU careers office EPSO.",
             "format": "plain_text",
-            "processed": "<p>Permanent and temporary jobs, traineeships, how to apply, EU careers office EPSO.<\/p>\n",
+            "processed": "Permanent and temporary jobs, traineeships, how to apply, EU careers office EPSO.",
             "lang": "en"
         },
         {
             "value": "Postes permanents et temporaires, stages, comment postuler, EPSO (Office europ\u00e9en de s\u00e9lection du personnel)",
             "format": "plain_text",
-            "processed": "<p>Postes permanents et temporaires, stages, comment postuler, EPSO (Office europ\u00e9en de s\u00e9lection du personnel)<\/p>\n",
+            "processed": "Postes permanents et temporaires, stages, comment postuler, EPSO (Office europ\u00e9en de s\u00e9lection du personnel)",
             "lang": "fr"
         },
         {
             "value": "Posti di lavoro permanenti e temporanei, tirocini, come candidarsi, Ufficio europeo di selezione del personale (EPSO).",
             "format": "plain_text",
-            "processed": "<p>Posti di lavoro permanenti e temporanei, tirocini, come candidarsi, Ufficio europeo di selezione del personale (EPSO).<\/p>\n",
+            "processed": "Posti di lavoro permanenti e temporanei, tirocini, come candidarsi, Ufficio europeo di selezione del personale (EPSO).",
             "lang": "it"
         }
     ],

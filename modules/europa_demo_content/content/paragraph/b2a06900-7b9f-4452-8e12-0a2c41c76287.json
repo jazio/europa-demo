@@ -52,7 +52,7 @@
     ],
     "revision_id": [
         {
-            "value": 890
+            "value": 1770
         }
     ],
     "langcode": [
@@ -87,7 +87,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "en"
@@ -103,7 +103,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "fr"
@@ -119,7 +119,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "it"
@@ -137,7 +137,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ]
             }
@@ -157,7 +157,7 @@
                         "value": "7be60e02-5bd1-40e4-a05a-ddea64b9fe91"
                     }
                 ],
-                "target_revision_id": "886"
+                "target_revision_id": "1766"
             },
             {
                 "_links": {
@@ -173,7 +173,7 @@
                         "value": "12bfc87d-1584-4b2c-9913-d2e4dfcfc9e3"
                     }
                 ],
-                "target_revision_id": "887"
+                "target_revision_id": "1767"
             },
             {
                 "_links": {
@@ -189,7 +189,7 @@
                         "value": "c4df351e-8996-4c13-be4b-90047a1088f0"
                     }
                 ],
-                "target_revision_id": "888"
+                "target_revision_id": "1768"
             },
             {
                 "_links": {
@@ -205,7 +205,7 @@
                         "value": "cf08406d-b177-4ebf-b6d9-c86d3735c161"
                     }
                 ],
-                "target_revision_id": "889"
+                "target_revision_id": "1769"
             }
         ]
     },
@@ -230,12 +230,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -323,12 +323,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-26T14:05:49+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-26T14:05:49+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }

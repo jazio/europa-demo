@@ -73,7 +73,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "en"
@@ -89,7 +89,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "fr"
@@ -105,7 +105,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "it"
@@ -123,7 +123,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "57a61c4f-9472-438d-b410-dcaf6c9b3daf"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ]
             }
@@ -150,12 +150,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:18:49+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -197,6 +197,14 @@
     "revision_translation_affected": [
         {
             "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
             "lang": "it"
         }
     ],
@@ -235,12 +243,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:37:26+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-25T15:39:26+00:00",
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -283,19 +291,19 @@
         {
             "value": "EU economy, the euro, and practical information for EU businesses and entrepreneurs.",
             "format": "plain_text",
-            "processed": "<p>EU economy, the euro, and practical information for EU businesses and entrepreneurs.<\/p>\n",
+            "processed": "EU economy, the euro, and practical information for EU businesses and entrepreneurs.",
             "lang": "en"
         },
         {
             "value": "\u00c9conomie de l'UE, euro et informations pratiques pour les entreprises et les entrepreneurs de l'UE.",
             "format": "plain_text",
-            "processed": "<p>\u00c9conomie de l&#039;UE, euro et informations pratiques pour les entreprises et les entrepreneurs de l&#039;UE.<\/p>\n",
+            "processed": "\u00c9conomie de l&#039;UE, euro et informations pratiques pour les entreprises et les entrepreneurs de l&#039;UE.",
             "lang": "fr"
         },
         {
             "value": "L'economia dell'UE, l'euro e informazioni pratiche per le imprese e gli imprenditori europei.",
             "format": "plain_text",
-            "processed": "<p>L&#039;economia dell&#039;UE, l&#039;euro e informazioni pratiche per le imprese e gli imprenditori europei.<\/p>\n",
+            "processed": "L&#039;economia dell&#039;UE, l&#039;euro e informazioni pratiche per le imprese e gli imprenditori europei.",
             "lang": "it"
         }
     ],
