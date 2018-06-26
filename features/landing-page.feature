@@ -23,9 +23,9 @@ Feature: Landing page
     And I click "Add" in the "French" row
     And I fill in "Title" with "Page principale"
     And I fill in "Introduction" with "Ceci est la page principale du site"
-    And I fill in "Text" with "Ceci est le contenu du page."
+    And I fill in "Text" with "Ceci est le contenu de la page."
     And I press "Save (this translation)"
     Then I should see the success message "Landing page Page principale has been updated."
     And I should see "Page principale" in the "page header"
     And I should see "Ceci est la page principale du site" in the "page header"
-    And I should see "Ceci est le contenu du page." in the "content"
+    And I should see "Ceci est le contenu de la page." in the "content"

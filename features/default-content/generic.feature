@@ -23,6 +23,19 @@ Feature: Default content
     And I click "La Commission et ses priorités"
     Then I should be on "/fr/commission"
 
+  Scenario: Content pages should have meaningful URL aliases
+    Given I am on the homepage
+    And I click "English"
+
+    And I click "Commission and its priorities"
+    Then I should be on "/en/commission"
+    
+    When I click "More about the priorities"
+    Then I should be on "/en/commission/priorities"
+    
+    When I click "Jobs, growth and investment"
+    Then I should be on "/en/commission/priorities/jobs-growth-and-investment"
+
   Scenario: HTML characters are encoded correctly
     Given I am on the homepage
     When I click "français"

@@ -1,5 +1,5 @@
 @api
-Feature: Default content
+Feature: Default content 'Policies, information and services'
   In order to be able to showcase the site's features
   As a developer
   I want to make sure that the exported default content is correctly imported
@@ -37,6 +37,7 @@ Feature: Default content
       | White paper on the future of Europe               |
       | EU solidarity                                     |
 
+    #switch to French content
     When I open the language switcher dialog
     And I click "français" in the "language switcher"
 
@@ -63,3 +64,30 @@ Feature: Default content
       | Budget du future de UE                                      |
       | Livre blanc sur l'avenir de l'Europe                        |
       | Solidarité de l'UE                                          |
+
+    #switch to Italian content
+    When I open the language switcher dialog
+    And I click "italiano" in the "language switcher"
+
+    Then I should see the heading "La tua guida alle politiche, alle informazioni e ai servizi" in the "page header" region
+    And I should see the following links in the "content" region:
+      | Imprese, economia, euro                                     |
+      | Vivere, lavorare, viaggiare nell'UE                         |
+      | Diritto                                                     |
+      | La Commissione europea                                      |
+      | Ricerca e innovazione                                       |
+      | Energia, cambiamenti climatici, ambiente                    |
+      | Strategia                                                   |
+      | Istruzione                                                  |
+      | Aiuti, cooperazione allo sviluppo, diritti fondamentali     |
+      | Lavorare alla Commissione europea                           |
+      | Statistiche                                                 |
+      | Alimentazione, agricoltura, pesca                           |
+      | Sviluppo regionale e urbano nell'UE                         |
+      | Strategia                                                   |
+      | OpenEuropa                                                  |
+
+    And I should see the following links in the "content" region:
+      | Bilancio dell'UE per il futuro                              |
+      | Libro bianco sul futuro dell'Europa                         |
+      | Solidarietà dell'UE                                         |

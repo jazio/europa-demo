@@ -1,5 +1,5 @@
 @api
-Feature: Default content
+Feature: Default content 'Commission and its priorities'
   In order to be able to showcase the site's features
   As a developer
   I want to make sure that the exported default content is correctly imported

@@ -27,9 +27,9 @@ default:
             pages:
               create Landing: "/en/node/add/landing_page"
               ECL components overview: "/en/components"
-              jobs growth and investment: "/en/priorities/jobs-growth-and-investment"
-              # jobs growth and investment: "/en/commission/priorities/jobs-growth-and-investment"
               front: "/en/node/1"
+              jobs growth and investment: "/en/commission/priorities/jobs-growth-and-investment"
+              priorities: "/en/commission/priorities"
               non-existing: "/non-existing"
               administrative: "/en/admin"
               login: "/en/user/login"
