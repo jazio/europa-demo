@@ -1,6 +1,6 @@
 name: Europa demo content
 type: module
-description: Provide default content for the Eruopa demo site.
+description: Provide default content for the Europa demo site.
 package: Custom
 core: 8.x
 

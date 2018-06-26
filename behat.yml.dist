@@ -28,6 +28,8 @@ default:
               create Landing: "/en/node/add/landing_page"
               ECL components overview: "/en/components"
               front: "/en/node/1"
+              jobs growth and investment: "/en/commission/priorities/jobs-growth-and-investment"
+              priorities: "/en/commission/priorities"
               non-existing: "/non-existing"
               administrative: "/en/admin"
               login: "/en/user/login"
@@ -50,6 +52,7 @@ default:
         drupal_root: "build"
       region_map:
         banner: ".ecl-banner"
+        breadcrumb: "nav.ecl-breadcrumb"
         custom footer: ".ecl-footer__custom"
         corporate top footer: ".ecl-footer__corporate-top"
         corporate bottom footer: ".ecl-footer__corporate-bottom"

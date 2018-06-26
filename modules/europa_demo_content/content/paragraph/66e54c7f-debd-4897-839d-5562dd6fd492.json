@@ -8,12 +8,16 @@
         },
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/uid": [
             {
-                "href": "http:\/\/web:8080\/en\/user\/0?_format=hal_json",
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
                 "lang": "fr"
             },
             {
                 "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
-                "lang": "en"
+                "lang": "it"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
@@ -34,17 +38,21 @@
     ],
     "revision_id": [
         {
-            "value": 164
+            "value": 1074
         }
     ],
     "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        },
         {
             "value": "fr",
             "lang": "fr"
         },
         {
-            "value": "en",
-            "lang": "en"
+            "value": "it",
+            "lang": "it"
         }
     ],
     "type": [
@@ -57,7 +65,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/web:8080\/en\/user\/0?_format=hal_json"
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -65,7 +73,23 @@
                 },
                 "uuid": [
                     {
-                        "value": "f78a9fdf-79c7-40d6-90a4-d5ba880fe28a"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "fr"
@@ -81,10 +105,10 @@
                 },
                 "uuid": [
                     {
-                        "value": "606aa4da-60cc-4bd9-bcdc-ba4d50cdfe88"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
-                "lang": "en"
+                "lang": "it"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
@@ -99,7 +123,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "606aa4da-60cc-4bd9-bcdc-ba4d50cdfe88"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ]
             }
@@ -108,22 +132,31 @@
     "status": [
         {
             "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
             "lang": "fr"
         },
         {
             "value": true,
-            "lang": "en"
+            "lang": "it"
         }
     ],
     "created": [
         {
-            "value": "2018-06-20T13:07:21+00:00",
+            "value": "2018-06-20T10:41:17+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-20T10:41:17+00:00",
-            "lang": "en",
+            "value": "2018-06-25T16:19:37+00:00",
+            "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -149,92 +182,143 @@
     ],
     "default_langcode": [
         {
+            "value": true,
+            "lang": "en"
+        },
+        {
             "value": false,
             "lang": "fr"
         },
         {
+            "value": false,
+            "lang": "it"
+        }
+    ],
+    "revision_translation_affected": [
+        {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
+            "lang": "it"
         }
     ],
     "content_translation_source": [
         {
             "value": "und",
+            "lang": "en"
+        },
+        {
+            "value": "und",
             "lang": "fr"
         },
         {
             "value": "und",
-            "lang": "en"
+            "lang": "it"
         }
     ],
     "content_translation_outdated": [
         {
             "value": false,
+            "lang": "en"
+        },
+        {
+            "value": false,
             "lang": "fr"
         },
         {
             "value": false,
-            "lang": "en"
+            "lang": "it"
         }
     ],
     "content_translation_changed": [
         {
-            "value": "2018-06-20T13:07:21+00:00",
+            "value": "2018-06-25T15:34:27+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-20T10:45:21+00:00",
-            "lang": "en",
+            "value": "2018-06-25T16:19:37+00:00",
+            "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "field_oe_link": [
         {
-            "uri": "internal:\/",
+            "uri": "internal:\/info",
+            "title": "",
+            "options": [],
+            "lang": "en"
+        },
+        {
+            "uri": "internal:\/info",
             "title": "",
             "options": [],
             "lang": "fr"
         },
         {
-            "uri": "internal:\/",
+            "uri": "internal:\/info",
             "title": "",
             "options": [],
-            "lang": "en"
+            "lang": "it"
         }
     ],
     "field_oe_list_item_variant": [
         {
             "value": "list_item_default",
+            "lang": "en"
+        },
+        {
+            "value": "list_item_default",
             "lang": "fr"
         },
         {
             "value": "list_item_default",
-            "lang": "en"
+            "lang": "it"
         }
     ],
     "field_oe_text_long": [
         {
+            "value": "EU funding, grants, tenders, and how to apply.",
+            "format": "plain_text",
+            "processed": "EU funding, grants, tenders, and how to apply.",
+            "lang": "en"
+        },
+        {
             "value": "Fonds, subventions et appels d\u2019offres de l\u2019UE, et comment introduire une demande.",
             "format": "plain_text",
-            "processed": "<p>Fonds, subventions et appels d\u2019offres de l\u2019UE, et comment introduire une demande.<\/p>\n",
+            "processed": "Fonds, subventions et appels d\u2019offres de l\u2019UE, et comment introduire une demande.",
             "lang": "fr"
         },
         {
-            "value": "EU funding, grants, tenders, and how to apply.",
+            "value": "Finanziamenti, partner, risultati nel campo della ricerca e azione dell'UE per promuovere l'innovazione.",
             "format": "plain_text",
-            "processed": "<p>EU funding, grants, tenders, and how to apply.<\/p>\n",
-            "lang": "en"
+            "processed": "Finanziamenti, partner, risultati nel campo della ricerca e azione dell&#039;UE per promuovere l&#039;innovazione.",
+            "lang": "it"
         }
     ],
     "field_oe_title": [
+        {
+            "value": "Funding, Tenders",
+            "lang": "en"
+        },
         {
             "value": "Financement, appels d\u2019offres",
             "lang": "fr"
         },
         {
-            "value": "Funding, Tenders",
-            "lang": "en"
+            "value": "Ricerca e innovazione",
+            "lang": "it"
         }
     ]
 }

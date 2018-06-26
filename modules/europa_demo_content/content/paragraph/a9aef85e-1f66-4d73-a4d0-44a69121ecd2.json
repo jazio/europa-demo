@@ -1,0 +1,412 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "fr"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "it"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/field_oe_image": [
+            {
+                "href": "http:\/\/web:8080\/en\/file\/12?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/file\/12?_format=hal_json",
+                "lang": "fr"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/file\/12?_format=hal_json",
+                "lang": "it"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 45
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a9aef85e-1f66-4d73-a4d0-44a69121ecd2"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 1773
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        },
+        {
+            "value": "fr",
+            "lang": "fr"
+        },
+        {
+            "value": "it",
+            "lang": "it"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "oe_list_item"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "fr"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "it"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/field_oe_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/file\/12?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f8ebb814-59cf-4aaf-bacd-f16111fc8005"
+                    }
+                ],
+                "lang": "en",
+                "alt": "EU and Australia launch talks for a broad trade agreement",
+                "title": "",
+                "width": "250",
+                "height": "167"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/file\/12?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f8ebb814-59cf-4aaf-bacd-f16111fc8005"
+                    }
+                ],
+                "lang": "fr",
+                "alt": "L\u2019UE et l\u2019Australie entament des n\u00e9gociations en vue d\u2019un vaste accord commercial",
+                "title": "",
+                "width": "250",
+                "height": "167"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/file\/12?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f8ebb814-59cf-4aaf-bacd-f16111fc8005"
+                    }
+                ],
+                "lang": "it",
+                "alt": "EU and Australia launch talks for a broad trade agreement",
+                "title": "",
+                "width": "250",
+                "height": "167"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
+            "lang": "it"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-06-25T09:15:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:19:37+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:19:37+00:00",
+            "lang": "it",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "46"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "paragraph"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_oe_paragraphs"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": "a:0:{}"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        },
+        {
+            "value": "und",
+            "lang": "fr"
+        },
+        {
+            "value": "und",
+            "lang": "it"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
+        }
+    ],
+    "content_translation_changed": [
+        {
+            "value": "2018-06-25T10:20:11+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:19:37+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:19:37+00:00",
+            "lang": "it",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "field_oe_link": [
+        {
+            "uri": "internal:\/",
+            "title": "",
+            "options": [],
+            "lang": "en"
+        },
+        {
+            "uri": "internal:\/",
+            "title": "",
+            "options": [],
+            "lang": "fr"
+        },
+        {
+            "uri": "internal:\/",
+            "title": "",
+            "options": [],
+            "lang": "it"
+        }
+    ],
+    "field_oe_list_item_variant": [
+        {
+            "value": "list_item_thumbnail_secondary",
+            "lang": "en"
+        },
+        {
+            "value": "list_item_thumbnail_secondary",
+            "lang": "fr"
+        },
+        {
+            "value": "list_item_thumbnail_secondary",
+            "lang": "it"
+        }
+    ],
+    "field_oe_meta": [
+        {
+            "value": "NEWS",
+            "lang": "en"
+        },
+        {
+            "value": "18 June 2018",
+            "lang": "en"
+        },
+        {
+            "value": "ACTUALIT\u00c9",
+            "lang": "fr"
+        },
+        {
+            "value": "18 Juin 2018",
+            "lang": "fr"
+        },
+        {
+            "value": "NEWS",
+            "lang": "it"
+        },
+        {
+            "value": "18 June 2018",
+            "lang": "it"
+        }
+    ],
+    "field_oe_text_long": [
+        {
+            "value": "The aim of the negotiations is to remove barriers to trade in goods and services and create opportunities for small and large companies",
+            "format": "plain_text",
+            "processed": "The aim of the negotiations is to remove barriers to trade in goods and services and create opportunities for small and large companies",
+            "lang": "en"
+        },
+        {
+            "value": "L\u2019objectif des n\u00e9gociations est de supprimer les obstacles au commerce des marchandises et des services et de cr\u00e9er des d\u00e9bouch\u00e9s pour les petites et grandes entreprises\r\n",
+            "format": "plain_text",
+            "processed": "L\u2019objectif des n\u00e9gociations est de supprimer les obstacles au commerce des marchandises et des services et de cr\u00e9er des d\u00e9bouch\u00e9s pour les petites et grandes entreprises",
+            "lang": "fr"
+        },
+        {
+            "value": "The aim of the negotiations is to remove barriers to trade in goods and services and create opportunities for small and large companies",
+            "format": "plain_text",
+            "processed": "The aim of the negotiations is to remove barriers to trade in goods and services and create opportunities for small and large companies",
+            "lang": "it"
+        }
+    ],
+    "field_oe_title": [
+        {
+            "value": "EU and Australia launch talks for a broad trade agreement",
+            "lang": "en"
+        },
+        {
+            "value": "L\u2019UE et l\u2019Australie entament des n\u00e9gociations en vue d\u2019un vaste accord commercial",
+            "lang": "fr"
+        },
+        {
+            "value": "EU and Australia launch talks for a broad trade agreement",
+            "lang": "it"
+        }
+    ]
+}

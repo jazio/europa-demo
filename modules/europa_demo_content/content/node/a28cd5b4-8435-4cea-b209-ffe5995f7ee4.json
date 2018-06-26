@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/web:8080\/en\/node\/1?_format=hal_json"
+            "href": "http:\/\/web:8080\/en\/commission?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/landing_page"
@@ -13,15 +13,34 @@
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/landing_page\/uid": [
             {
-                "href": "http:\/\/web:8080\/en\/user\/0?_format=hal_json",
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
                 "lang": "fr"
             },
             {
                 "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
-                "lang": "en"
+                "lang": "it"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/landing_page\/field_landing_page_body": [
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
             {
                 "href": ""
             }
@@ -39,17 +58,21 @@
     ],
     "vid": [
         {
-            "value": 12
+            "value": 107
         }
     ],
     "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        },
         {
             "value": "fr",
             "lang": "fr"
         },
         {
-            "value": "en",
-            "lang": "en"
+            "value": "it",
+            "lang": "it"
         }
     ],
     "type": [
@@ -59,7 +82,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2018-06-20T13:23:48+00:00",
+            "value": "2018-06-26T14:05:49+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -76,7 +99,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "606aa4da-60cc-4bd9-bcdc-ba4d50cdfe88"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ]
             }
@@ -85,7 +108,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/web:8080\/en\/user\/0?_format=hal_json"
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -93,7 +116,23 @@
                 },
                 "uuid": [
                     {
-                        "value": "f78a9fdf-79c7-40d6-90a4-d5ba880fe28a"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
                 "lang": "fr"
@@ -109,10 +148,10 @@
                 },
                 "uuid": [
                     {
-                        "value": "606aa4da-60cc-4bd9-bcdc-ba4d50cdfe88"
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
                     }
                 ],
-                "lang": "en"
+                "lang": "it"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/landing_page\/field_landing_page_body": [
@@ -130,112 +169,254 @@
                         "value": "e9a036b6-c71b-46cd-a366-69ec6c9f3a31"
                     }
                 ],
-                "target_revision_id": "144"
+                "target_revision_id": "1759"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item_block"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c459339c-c370-417b-9c73-45fcbbce358c"
+                    }
+                ],
+                "target_revision_id": "1762"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item_block"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "10514364-3647-4cbb-ad65-30815212353b"
+                    }
+                ],
+                "target_revision_id": "1765"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item_block"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b2a06900-7b9f-4452-8e12-0a2c41c76287"
+                    }
+                ],
+                "target_revision_id": "1770"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item_block"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2dd2a3a1-9022-4901-941c-8a712834afb2"
+                    }
+                ],
+                "target_revision_id": "1774"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item_block"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "123587fd-f9ae-493c-96d6-cff4c05118fc"
+                    }
+                ],
+                "target_revision_id": "1778"
             }
         ]
     },
     "status": [
         {
             "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
             "lang": "fr"
         },
         {
             "value": true,
-            "lang": "en"
+            "lang": "it"
         }
     ],
     "title": [
         {
             "value": "Commission",
+            "lang": "en"
+        },
+        {
+            "value": "Commission",
             "lang": "fr"
         },
         {
             "value": "Commission",
-            "lang": "en"
+            "lang": "it"
         }
     ],
     "created": [
         {
-            "value": "2018-06-20T13:07:21+00:00",
+            "value": "2018-06-20T10:01:31+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:19:37+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-20T10:01:31+00:00",
-            "lang": "en",
+            "value": "2018-06-25T16:19:37+00:00",
+            "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2018-06-20T13:23:48+00:00",
+            "value": "2018-06-26T14:05:49+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T14:05:49+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-20T13:23:48+00:00",
-            "lang": "en",
+            "value": "2018-06-26T14:05:49+00:00",
+            "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "promote": [
         {
             "value": false,
+            "lang": "en"
+        },
+        {
+            "value": false,
             "lang": "fr"
         },
         {
             "value": false,
-            "lang": "en"
+            "lang": "it"
         }
     ],
     "sticky": [
         {
             "value": false,
+            "lang": "en"
+        },
+        {
+            "value": false,
             "lang": "fr"
         },
         {
             "value": false,
-            "lang": "en"
+            "lang": "it"
         }
     ],
     "default_langcode": [
         {
+            "value": true,
+            "lang": "en"
+        },
+        {
             "value": false,
             "lang": "fr"
         },
         {
-            "value": true,
-            "lang": "en"
+            "value": false,
+            "lang": "it"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
             "lang": "fr"
         },
         {
             "value": true,
+            "lang": "it"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/commission",
+            "pid": 7,
+            "langcode": "en",
             "lang": "en"
+        },
+        {
+            "alias": "\/commission",
+            "pid": 8,
+            "langcode": "fr",
+            "lang": "fr"
+        },
+        {
+            "alias": "\/commission",
+            "pid": 6,
+            "langcode": "it",
+            "lang": "it"
         }
     ],
     "content_translation_source": [
         {
             "value": "und",
+            "lang": "en"
+        },
+        {
+            "value": "und",
             "lang": "fr"
         },
         {
             "value": "und",
-            "lang": "en"
+            "lang": "it"
         }
     ],
     "content_translation_outdated": [
         {
             "value": false,
+            "lang": "en"
+        },
+        {
+            "value": false,
             "lang": "fr"
         },
         {
             "value": false,
-            "lang": "en"
+            "lang": "it"
         }
     ]
 }
