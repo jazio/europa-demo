@@ -41,7 +41,7 @@
     ],
     "revision_id": [
         {
-            "value": 1484
+            "value": 1632
         }
     ],
     "langcode": [
@@ -106,7 +106,7 @@
                         "value": "7ed48bbe-54b7-4fce-9022-999d1171115a"
                     }
                 ],
-                "target_revision_id": "1481"
+                "target_revision_id": "1629"
             },
             {
                 "_links": {
@@ -122,7 +122,7 @@
                         "value": "6d8be2a4-395c-48e0-8322-99e73184d5d3"
                     }
                 ],
-                "target_revision_id": "1482"
+                "target_revision_id": "1630"
             },
             {
                 "_links": {
@@ -138,7 +138,7 @@
                         "value": "0b5e8672-dda7-44dc-8e7e-b6906d769eb3"
                     }
                 ],
-                "target_revision_id": "1483"
+                "target_revision_id": "1631"
             }
         ]
     },
@@ -201,14 +201,14 @@
     ],
     "content_translation_changed": [
         {
-            "value": "2018-06-25T22:07:37+00:00",
+            "value": "2018-06-26T10:35:36+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "field_oe_link": [
         {
-            "uri": "internal:\/priorities\/jobs-growth-and-investment",
+            "uri": "internal:\/commission\/priorities\/jobs-growth-and-investment",
             "title": "ALL NEWS ON THIS PRIORITY",
             "options": [],
             "lang": "en"

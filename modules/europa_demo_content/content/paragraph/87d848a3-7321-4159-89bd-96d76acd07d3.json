@@ -20,17 +20,17 @@
     },
     "id": [
         {
-            "value": 73
+            "value": 84
         }
     ],
     "uuid": [
         {
-            "value": "74d2daa7-a213-4130-9cb7-da6406556b32"
+            "value": "87d848a3-7321-4159-89bd-96d76acd07d3"
         }
     ],
     "revision_id": [
         {
-            "value": 1636
+            "value": 1613
         }
     ],
     "langcode": [
@@ -89,14 +89,14 @@
     ],
     "created": [
         {
-            "value": "2018-06-26T06:56:25+00:00",
+            "value": "2018-06-26T10:02:34+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "parent_id": [
         {
-            "value": "74"
+            "value": "86"
         }
     ],
     "parent_type": [
@@ -120,12 +120,6 @@
             "lang": "en"
         }
     ],
-    "revision_translation_affected": [
-        {
-            "value": true,
-            "lang": "en"
-        }
-    ],
     "content_translation_source": [
         {
             "value": "und",
@@ -140,14 +134,14 @@
     ],
     "content_translation_changed": [
         {
-            "value": "2018-06-26T10:35:36+00:00",
+            "value": "2018-06-26T10:05:39+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "field_oe_link": [
         {
-            "uri": "internal:\/commission\/priorities\/jobs-growth-and-investment",
+            "uri": "internal:\/commission\/priorities",
             "title": "",
             "options": [],
             "lang": "en"
@@ -161,21 +155,21 @@
     ],
     "field_oe_meta": [
         {
-            "value": "08 NOVEMBER 2016",
+            "value": "15 JULY 2014",
             "lang": "en"
         }
     ],
     "field_oe_text_long": [
         {
-            "value": "The Investment Plan: Two years on",
+            "value": "A New Start for Europe: My Agenda for Jobs, Growth, Fairness and Democratic Change",
             "format": "plain_text",
-            "processed": "The Investment Plan: Two years on",
+            "processed": "A New Start for Europe: My Agenda for Jobs, Growth, Fairness and Democratic Change",
             "lang": "en"
         }
     ],
     "field_oe_title": [
         {
-            "value": "The Investment Plan: Two years on",
+            "value": "President Juncker's Political Guidelines",
             "lang": "en"
         }
     ]

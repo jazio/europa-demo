@@ -16,21 +16,27 @@
             {
                 "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
             }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/field_oe_image": [
+            {
+                "href": "http:\/\/web:8080\/en\/file\/30?_format=hal_json",
+                "lang": "en"
+            }
         ]
     },
     "id": [
         {
-            "value": 73
+            "value": 95
         }
     ],
     "uuid": [
         {
-            "value": "74d2daa7-a213-4130-9cb7-da6406556b32"
+            "value": "623fa3cb-c7fa-41cc-8fc2-0be09b27d9cc"
         }
     ],
     "revision_id": [
         {
-            "value": 1636
+            "value": 1609
         }
     ],
     "langcode": [
@@ -79,6 +85,28 @@
                     }
                 ]
             }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/field_oe_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/file\/30?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6b217ebe-444e-44bc-87d6-0b604b61beac"
+                    }
+                ],
+                "lang": "en",
+                "alt": "Digital single market",
+                "title": "",
+                "width": "250",
+                "height": "167"
+            }
         ]
     },
     "status": [
@@ -89,14 +117,14 @@
     ],
     "created": [
         {
-            "value": "2018-06-26T06:56:25+00:00",
+            "value": "2018-06-26T10:14:37+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "parent_id": [
         {
-            "value": "74"
+            "value": "98"
         }
     ],
     "parent_type": [
@@ -120,12 +148,6 @@
             "lang": "en"
         }
     ],
-    "revision_translation_affected": [
-        {
-            "value": true,
-            "lang": "en"
-        }
-    ],
     "content_translation_source": [
         {
             "value": "und",
@@ -140,14 +162,14 @@
     ],
     "content_translation_changed": [
         {
-            "value": "2018-06-26T10:35:36+00:00",
+            "value": "2018-06-26T10:16:30+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "field_oe_link": [
         {
-            "uri": "internal:\/commission\/priorities\/jobs-growth-and-investment",
+            "uri": "internal:\/commission\/priorities",
             "title": "",
             "options": [],
             "lang": "en"
@@ -155,27 +177,21 @@
     ],
     "field_oe_list_item_variant": [
         {
-            "value": "list_item_default",
-            "lang": "en"
-        }
-    ],
-    "field_oe_meta": [
-        {
-            "value": "08 NOVEMBER 2016",
+            "value": "list_item_thumbnail_secondary",
             "lang": "en"
         }
     ],
     "field_oe_text_long": [
         {
-            "value": "The Investment Plan: Two years on",
+            "value": "Bringing down barriers to unlock online opportunities\r\n",
             "format": "plain_text",
-            "processed": "The Investment Plan: Two years on",
+            "processed": "Bringing down barriers to unlock online opportunities",
             "lang": "en"
         }
     ],
     "field_oe_title": [
         {
-            "value": "The Investment Plan: Two years on",
+            "value": "Digital single market",
             "lang": "en"
         }
     ]

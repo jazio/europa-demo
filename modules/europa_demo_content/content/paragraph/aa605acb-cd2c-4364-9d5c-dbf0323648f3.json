@@ -4,33 +4,44 @@
             "href": ""
         },
         "type": {
-            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item"
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_content_row"
         },
-        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/uid": [
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_content_row\/uid": [
             {
                 "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
                 "lang": "en"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_content_row\/revision_uid": [
             {
                 "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_content_row\/field_oe_paragraphs": [
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
             }
         ]
     },
     "id": [
         {
-            "value": 73
+            "value": 87
         }
     ],
     "uuid": [
         {
-            "value": "74d2daa7-a213-4130-9cb7-da6406556b32"
+            "value": "aa605acb-cd2c-4364-9d5c-dbf0323648f3"
         }
     ],
     "revision_id": [
         {
-            "value": 1636
+            "value": 1621
         }
     ],
     "langcode": [
@@ -41,11 +52,11 @@
     ],
     "type": [
         {
-            "target_id": "oe_list_item"
+            "target_id": "oe_content_row"
         }
     ],
     "_embedded": {
-        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/uid": [
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_content_row\/uid": [
             {
                 "_links": {
                     "self": {
@@ -63,7 +74,7 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_content_row\/revision_uid": [
             {
                 "_links": {
                     "self": {
@@ -79,6 +90,56 @@
                     }
                 ]
             }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_content_row\/field_oe_paragraphs": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item_block"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1df4129c-fb90-4df0-954a-301a5c163d43"
+                    }
+                ],
+                "target_revision_id": "1612"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item_block"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a73e6585-7946-4687-ac89-d1dded24027d"
+                    }
+                ],
+                "target_revision_id": "1615"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item_block"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2347748d-4ffe-4a5e-9a1d-bfb782510ae9"
+                    }
+                ],
+                "target_revision_id": "1620"
+            }
         ]
     },
     "status": [
@@ -89,24 +150,24 @@
     ],
     "created": [
         {
-            "value": "2018-06-26T06:56:25+00:00",
+            "value": "2018-06-26T10:01:57+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "parent_id": [
         {
-            "value": "74"
+            "value": "4"
         }
     ],
     "parent_type": [
         {
-            "value": "paragraph"
+            "value": "node"
         }
     ],
     "parent_field_name": [
         {
-            "value": "field_oe_paragraphs"
+            "value": "field_landing_page_body"
         }
     ],
     "behavior_settings": [
@@ -140,42 +201,20 @@
     ],
     "content_translation_changed": [
         {
-            "value": "2018-06-26T10:35:36+00:00",
+            "value": "2018-06-26T10:17:16+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
-    "field_oe_link": [
+    "field_oe_content_row_variant": [
         {
-            "uri": "internal:\/commission\/priorities\/jobs-growth-and-investment",
-            "title": "",
-            "options": [],
-            "lang": "en"
-        }
-    ],
-    "field_oe_list_item_variant": [
-        {
-            "value": "list_item_default",
-            "lang": "en"
-        }
-    ],
-    "field_oe_meta": [
-        {
-            "value": "08 NOVEMBER 2016",
-            "lang": "en"
-        }
-    ],
-    "field_oe_text_long": [
-        {
-            "value": "The Investment Plan: Two years on",
-            "format": "plain_text",
-            "processed": "The Investment Plan: Two years on",
+            "value": "inpage",
             "lang": "en"
         }
     ],
     "field_oe_title": [
         {
-            "value": "The Investment Plan: Two years on",
+            "value": "PAGE CONTENTS",
             "lang": "en"
         }
     ]

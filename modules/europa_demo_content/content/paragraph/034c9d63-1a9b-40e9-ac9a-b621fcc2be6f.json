@@ -20,17 +20,17 @@
     },
     "id": [
         {
-            "value": 73
+            "value": 91
         }
     ],
     "uuid": [
         {
-            "value": "74d2daa7-a213-4130-9cb7-da6406556b32"
+            "value": "034c9d63-1a9b-40e9-ac9a-b621fcc2be6f"
         }
     ],
     "revision_id": [
         {
-            "value": 1636
+            "value": 1618
         }
     ],
     "langcode": [
@@ -89,14 +89,14 @@
     ],
     "created": [
         {
-            "value": "2018-06-26T06:56:25+00:00",
+            "value": "2018-06-26T10:11:28+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "parent_id": [
         {
-            "value": "74"
+            "value": "93"
         }
     ],
     "parent_type": [
@@ -120,12 +120,6 @@
             "lang": "en"
         }
     ],
-    "revision_translation_affected": [
-        {
-            "value": true,
-            "lang": "en"
-        }
-    ],
     "content_translation_source": [
         {
             "value": "und",
@@ -140,14 +134,14 @@
     ],
     "content_translation_changed": [
         {
-            "value": "2018-06-26T10:35:36+00:00",
+            "value": "2018-06-26T10:12:16+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "field_oe_link": [
         {
-            "uri": "internal:\/commission\/priorities\/jobs-growth-and-investment",
+            "uri": "internal:\/commission\/priorities",
             "title": "",
             "options": [],
             "lang": "en"
@@ -159,23 +153,9 @@
             "lang": "en"
         }
     ],
-    "field_oe_meta": [
-        {
-            "value": "08 NOVEMBER 2016",
-            "lang": "en"
-        }
-    ],
-    "field_oe_text_long": [
-        {
-            "value": "The Investment Plan: Two years on",
-            "format": "plain_text",
-            "processed": "The Investment Plan: Two years on",
-            "lang": "en"
-        }
-    ],
     "field_oe_title": [
         {
-            "value": "The Investment Plan: Two years on",
+            "value": "The 2018 Work Programme",
             "lang": "en"
         }
     ]

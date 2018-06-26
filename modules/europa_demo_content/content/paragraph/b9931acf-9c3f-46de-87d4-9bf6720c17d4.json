@@ -16,21 +16,27 @@
             {
                 "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
             }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/field_oe_image": [
+            {
+                "href": "http:\/\/web:8080\/en\/file\/29?_format=hal_json",
+                "lang": "en"
+            }
         ]
     },
     "id": [
         {
-            "value": 73
+            "value": 94
         }
     ],
     "uuid": [
         {
-            "value": "74d2daa7-a213-4130-9cb7-da6406556b32"
+            "value": "b9931acf-9c3f-46de-87d4-9bf6720c17d4"
         }
     ],
     "revision_id": [
         {
-            "value": 1636
+            "value": 1608
         }
     ],
     "langcode": [
@@ -79,6 +85,28 @@
                     }
                 ]
             }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/field_oe_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/file\/29?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bda9932d-4b22-4546-9a0b-b1e5acd77ce1"
+                    }
+                ],
+                "lang": "en",
+                "alt": "Jobs, growth and investment",
+                "title": "",
+                "width": "250",
+                "height": "167"
+            }
         ]
     },
     "status": [
@@ -89,14 +117,14 @@
     ],
     "created": [
         {
-            "value": "2018-06-26T06:56:25+00:00",
+            "value": "2018-06-26T10:13:32+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "parent_id": [
         {
-            "value": "74"
+            "value": "98"
         }
     ],
     "parent_type": [
@@ -120,12 +148,6 @@
             "lang": "en"
         }
     ],
-    "revision_translation_affected": [
-        {
-            "value": true,
-            "lang": "en"
-        }
-    ],
     "content_translation_source": [
         {
             "value": "und",
@@ -140,7 +162,7 @@
     ],
     "content_translation_changed": [
         {
-            "value": "2018-06-26T10:35:36+00:00",
+            "value": "2018-06-26T10:16:30+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -155,27 +177,21 @@
     ],
     "field_oe_list_item_variant": [
         {
-            "value": "list_item_default",
-            "lang": "en"
-        }
-    ],
-    "field_oe_meta": [
-        {
-            "value": "08 NOVEMBER 2016",
+            "value": "list_item_thumbnail_secondary",
             "lang": "en"
         }
     ],
     "field_oe_text_long": [
         {
-            "value": "The Investment Plan: Two years on",
+            "value": "Stimulating investment and creating jobs",
             "format": "plain_text",
-            "processed": "The Investment Plan: Two years on",
+            "processed": "Stimulating investment and creating jobs",
             "lang": "en"
         }
     ],
     "field_oe_title": [
         {
-            "value": "The Investment Plan: Two years on",
+            "value": "Jobs, growth and investment",
             "lang": "en"
         }
     ]

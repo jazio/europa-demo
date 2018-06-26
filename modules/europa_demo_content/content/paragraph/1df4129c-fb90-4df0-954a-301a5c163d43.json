@@ -4,20 +4,20 @@
             "href": ""
         },
         "type": {
-            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_content_row"
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item_block"
         },
-        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_content_row\/uid": [
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item_block\/uid": [
             {
                 "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
                 "lang": "en"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_content_row\/revision_uid": [
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item_block\/revision_uid": [
             {
                 "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_content_row\/field_oe_paragraphs": [
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item_block\/field_oe_paragraphs": [
             {
                 "href": ""
             },
@@ -34,17 +34,17 @@
     },
     "id": [
         {
-            "value": 56
+            "value": 98
         }
     ],
     "uuid": [
         {
-            "value": "da56f03b-976b-4159-a33b-52662eaec181"
+            "value": "1df4129c-fb90-4df0-954a-301a5c163d43"
         }
     ],
     "revision_id": [
         {
-            "value": 1638
+            "value": 1612
         }
     ],
     "langcode": [
@@ -55,11 +55,11 @@
     ],
     "type": [
         {
-            "target_id": "oe_content_row"
+            "target_id": "oe_list_item_block"
         }
     ],
     "_embedded": {
-        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_content_row\/uid": [
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item_block\/uid": [
             {
                 "_links": {
                     "self": {
@@ -77,7 +77,7 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_content_row\/revision_uid": [
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item_block\/revision_uid": [
             {
                 "_links": {
                     "self": {
@@ -94,22 +94,22 @@
                 ]
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_content_row\/field_oe_paragraphs": [
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item_block\/field_oe_paragraphs": [
             {
                 "_links": {
                     "self": {
                         "href": ""
                     },
                     "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item_block"
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "135a6438-d4e1-4df2-b1ec-e2bc030453e7"
+                        "value": "b9931acf-9c3f-46de-87d4-9bf6720c17d4"
                     }
                 ],
-                "target_revision_id": "1628"
+                "target_revision_id": "1608"
             },
             {
                 "_links": {
@@ -117,15 +117,15 @@
                         "href": ""
                     },
                     "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item_block"
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "8631c630-8c39-4171-ad77-4ef8223d3091"
+                        "value": "623fa3cb-c7fa-41cc-8fc2-0be09b27d9cc"
                     }
                 ],
-                "target_revision_id": "1632"
+                "target_revision_id": "1609"
             },
             {
                 "_links": {
@@ -133,15 +133,15 @@
                         "href": ""
                     },
                     "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_rich_text"
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "e4c55b18-b317-444e-ad6e-c96dc323621d"
+                        "value": "0e1495b4-40a2-4f67-93a9-3b646d231cd3"
                     }
                 ],
-                "target_revision_id": "1633"
+                "target_revision_id": "1610"
             },
             {
                 "_links": {
@@ -149,15 +149,15 @@
                         "href": ""
                     },
                     "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item_block"
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "fe0544da-5c9e-43de-8670-c5db888b9a66"
+                        "value": "98efc93e-f89f-4ba4-a4a8-b0f8c1dfcc43"
                     }
                 ],
-                "target_revision_id": "1637"
+                "target_revision_id": "1611"
             }
         ]
     },
@@ -169,24 +169,24 @@
     ],
     "created": [
         {
-            "value": "2018-06-25T16:38:53+00:00",
+            "value": "2018-06-26T10:13:32+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "parent_id": [
         {
-            "value": "3"
+            "value": "87"
         }
     ],
     "parent_type": [
         {
-            "value": "node"
+            "value": "paragraph"
         }
     ],
     "parent_field_name": [
         {
-            "value": "field_landing_page_body"
+            "value": "field_oe_paragraphs"
         }
     ],
     "behavior_settings": [
@@ -220,20 +220,20 @@
     ],
     "content_translation_changed": [
         {
-            "value": "2018-06-26T07:00:46+00:00",
+            "value": "2018-06-26T10:18:46+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
-    "field_oe_content_row_variant": [
+    "field_oe_list_item_block_variant": [
         {
-            "value": "inpage",
+            "value": "one_column",
             "lang": "en"
         }
     ],
     "field_oe_title": [
         {
-            "value": "PAGE CONTENTS",
+            "value": "10 Commission priorities for 2015-19",
             "lang": "en"
         }
     ]
