@@ -6,7 +6,7 @@ Feature: Default content 'Commission / Priorities'
 
   Scenario: Commission landing page content is correctly imported
     When I am on "the priorities page"
-    
+
     Then I should be on "/en/commission/priorities"
 
     Then the site switcher link "Commission and its priorities" is active
@@ -41,10 +41,10 @@ Feature: Default content 'Commission / Priorities'
       | The 2018 Work Programme                                           |
       | Joint Declaration on the EU's legislative priorities for 2017     |
 
-    #switch to French content
+    # Switch to French content
     When I open the language switcher dialog
     And I click "français" in the "language switcher"
-    
+
     Then I should be on "/fr/commission/priorities"
 
     Then the site switcher link "La Commission et ses priorités" is active
@@ -79,10 +79,10 @@ Feature: Default content 'Commission / Priorities'
       | Programme de travail 2018                                                                      |
       | Déclaration commune sur les priorités législatives de l’Union européenne pour l’année 2017     |
 
-    #switch to Italian content
+    # Switch to Italian content
     When I open the language switcher dialog
     And I click "italiano" in the "language switcher"
-    
+
     Then I should be on "/it/commission/priorities"
 
     Then the site switcher link "Le priorità della Commissione" is active

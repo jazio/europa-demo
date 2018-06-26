@@ -6,7 +6,7 @@ Feature: Default content 'Commission / Priorities / Jobs, growth and investment'
 
   Scenario: Commission landing page content is correctly imported
     When I am on "the jobs growth and investment page"
-    
+
     Then I should be on "/en/commission/priorities/jobs-growth-and-investment"
 
     Then the site switcher link "Commission and its priorities" is active
@@ -14,9 +14,9 @@ Feature: Default content 'Commission / Priorities / Jobs, growth and investment'
 
     And I should see the link "Home" in the "breadcrumb" region
     And I should see the link "Priorities" in the "breadcrumb" region
-    
+
     And I should see the heading "Jobs, growth and investment" in the "page header" region
-    
+
     And I should see the link "The Investment Plan for Europe" in the "content" region
 
     # Menu page contents
@@ -45,20 +45,20 @@ Feature: Default content 'Commission / Priorities / Jobs, growth and investment'
       | The European Semester: 2017 Country Reports                                                      |
       | The Investment Plan: Two years on                                                                |
 
-    #switch to French content
+    # Switch to French content
     When I open the language switcher dialog
     And I click "français" in the "language switcher"
-    
+
     Then I should be on "/fr/commission/priorities/jobs-growth-and-investment"
 
     Then the site switcher link "La Commission et ses priorités" is active
     But the site switcher link "Politiques, informations et services" is not active
-    
+
     And I should see the link "Accueil" in the "breadcrumb" region
     And I should see the link "Priorités" in the "breadcrumb" region
 
     And I should see the heading "Emploi, croissance et investissement" in the "page header" region
-    
+
     And I should see the link "Le plan d'investissement pour l'Europe" in the "content" region
 
     # Menu page contents
@@ -87,20 +87,20 @@ Feature: Default content 'Commission / Priorities / Jobs, growth and investment'
       | Le semestre européen: 2017 Rapports par pays                                                     |
       | Le plan d'investissement: eux ans déjà                                                           |
 
-    #switch to Italian content
+    # Switch to Italian content
     When I open the language switcher dialog
     And I click "italiano" in the "language switcher"
-    
+
     Then I should be on "/it/commission/priorities/jobs-growth-and-investment"
 
     Then the site switcher link "Le priorità della Commissione" is active
     But the site switcher link "Politiche, informazioni e servizi" is not active
-    
+
     And I should see the link "Home" in the "breadcrumb" region
     And I should see the link "Priorità" in the "breadcrumb" region
 
     And I should see the heading "Occupazione, crescita e investimenti" in the "page header" region
-    
+
     And I should see the link "Piano di investimenti per l'Europa" in the "content" region
 
     # Menu page contents

@@ -37,7 +37,7 @@ Feature: Default content 'Policies, information and services'
       | White paper on the future of Europe               |
       | EU solidarity                                     |
 
-    #switch to French content
+    # Switch to French content
     When I open the language switcher dialog
     And I click "français" in the "language switcher"
 
@@ -65,7 +65,7 @@ Feature: Default content 'Policies, information and services'
       | Livre blanc sur l'avenir de l'Europe                        |
       | Solidarité de l'UE                                          |
 
-    #switch to Italian content
+    # Switch to Italian content
     When I open the language switcher dialog
     And I click "italiano" in the "language switcher"
 

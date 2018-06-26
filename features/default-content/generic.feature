@@ -29,10 +29,10 @@ Feature: Default content
 
     And I click "Commission and its priorities"
     Then I should be on "/en/commission"
-    
+
     When I click "More about the priorities"
     Then I should be on "/en/commission/priorities"
-    
+
     When I click "Jobs, growth and investment"
     Then I should be on "/en/commission/priorities/jobs-growth-and-investment"
 
