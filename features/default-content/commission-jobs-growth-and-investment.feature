@@ -6,7 +6,6 @@ Feature: Default content
 
   Scenario: Commission landing page content is correctly imported
     When I am on "the jobs growth and investment page"
-    And I click "English"
     
     # Then I should be on "/en/commission/priorities/jobs-growth-and-investment"
     Then I should be on "/en/priorities/jobs-growth-and-investment"
