@@ -15,6 +15,14 @@
             {
                 "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
                 "lang": "en"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "fr"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "it"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/landing_page\/field_landing_page_body": [
@@ -35,13 +43,21 @@
     ],
     "vid": [
         {
-            "value": 98
+            "value": 105
         }
     ],
     "langcode": [
         {
             "value": "en",
             "lang": "en"
+        },
+        {
+            "value": "fr",
+            "lang": "fr"
+        },
+        {
+            "value": "it",
+            "lang": "it"
         }
     ],
     "type": [
@@ -51,7 +67,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2018-06-26T10:19:44+00:00",
+            "value": "2018-06-26T13:50:37+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -89,6 +105,38 @@
                     }
                 ],
                 "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "fr"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "it"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/landing_page\/field_landing_page_body": [
@@ -106,7 +154,7 @@
                         "value": "aa605acb-cd2c-4364-9d5c-dbf0323648f3"
                     }
                 ],
-                "target_revision_id": "1621"
+                "target_revision_id": "1731"
             }
         ]
     },
@@ -114,12 +162,28 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
+            "lang": "it"
         }
     ],
     "title": [
         {
             "value": "Priorities",
             "lang": "en"
+        },
+        {
+            "value": "Priorit\u00e9s",
+            "lang": "fr"
+        },
+        {
+            "value": "Priorit\u00e0",
+            "lang": "it"
         }
     ],
     "created": [
@@ -127,12 +191,32 @@
             "value": "2018-06-26T09:35:02+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T13:30:59+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T13:42:33+00:00",
+            "lang": "it",
+            "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2018-06-26T10:19:44+00:00",
+            "value": "2018-06-26T13:42:00+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T13:50:37+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T13:50:37+00:00",
+            "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -140,36 +224,84 @@
         {
             "value": false,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
         }
     ],
     "sticky": [
         {
             "value": false,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
         }
     ],
     "default_langcode": [
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
+            "lang": "it"
         }
     ],
     "content_translation_source": [
         {
             "value": "und",
             "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "fr"
+        },
+        {
+            "value": "en",
+            "lang": "it"
         }
     ],
     "content_translation_outdated": [
         {
             "value": false,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
         }
     ]
 }

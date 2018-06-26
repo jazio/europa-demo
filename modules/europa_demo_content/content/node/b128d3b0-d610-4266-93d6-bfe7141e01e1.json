@@ -46,7 +46,7 @@
     ],
     "vid": [
         {
-            "value": 101
+            "value": 102
         }
     ],
     "langcode": [
@@ -70,7 +70,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2018-06-26T13:24:57+00:00",
+            "value": "2018-06-26T13:36:06+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -157,7 +157,7 @@
                         "value": "4e1a48be-75c2-46a1-ab7f-379bd96b3173"
                     }
                 ],
-                "target_revision_id": "1658"
+                "target_revision_id": "1675"
             },
             {
                 "_links": {
@@ -173,7 +173,7 @@
                         "value": "da56f03b-976b-4159-a33b-52662eaec181"
                     }
                 ],
-                "target_revision_id": "1672"
+                "target_revision_id": "1689"
             }
         ]
     },
@@ -229,12 +229,12 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-26T13:24:57+00:00",
+            "value": "2018-06-26T13:36:06+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-26T13:24:57+00:00",
+            "value": "2018-06-26T13:36:06+00:00",
             "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }

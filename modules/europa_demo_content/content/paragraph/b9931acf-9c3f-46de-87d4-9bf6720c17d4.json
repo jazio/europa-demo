@@ -10,6 +10,14 @@
             {
                 "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
                 "lang": "en"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "fr"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "it"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
@@ -21,6 +29,14 @@
             {
                 "href": "http:\/\/web:8080\/en\/file\/29?_format=hal_json",
                 "lang": "en"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/file\/29?_format=hal_json",
+                "lang": "fr"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/file\/29?_format=hal_json",
+                "lang": "it"
             }
         ]
     },
@@ -36,13 +52,21 @@
     ],
     "revision_id": [
         {
-            "value": 1608
+            "value": 1718
         }
     ],
     "langcode": [
         {
             "value": "en",
             "lang": "en"
+        },
+        {
+            "value": "fr",
+            "lang": "fr"
+        },
+        {
+            "value": "it",
+            "lang": "it"
         }
     ],
     "type": [
@@ -67,6 +91,38 @@
                     }
                 ],
                 "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "fr"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "it"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
@@ -106,6 +162,46 @@
                 "title": "",
                 "width": "250",
                 "height": "167"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/file\/29?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bda9932d-4b22-4546-9a0b-b1e5acd77ce1"
+                    }
+                ],
+                "lang": "fr",
+                "alt": "Emploi, croissance et investissement",
+                "title": "",
+                "width": "250",
+                "height": "167"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/file\/29?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bda9932d-4b22-4546-9a0b-b1e5acd77ce1"
+                    }
+                ],
+                "lang": "it",
+                "alt": "Occupazione, crescita e investimenti",
+                "title": "",
+                "width": "250",
+                "height": "167"
             }
         ]
     },
@@ -113,12 +209,30 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
+            "lang": "it"
         }
     ],
     "created": [
         {
             "value": "2018-06-26T10:13:32+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T10:13:32+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T10:13:32+00:00",
+            "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -146,24 +260,64 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "it"
         }
     ],
     "content_translation_source": [
         {
             "value": "und",
             "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "fr"
+        },
+        {
+            "value": "en",
+            "lang": "it"
         }
     ],
     "content_translation_outdated": [
         {
             "value": false,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
         }
     ],
     "content_translation_changed": [
         {
             "value": "2018-06-26T10:16:30+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T10:16:30+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T10:16:30+00:00",
+            "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -173,12 +327,32 @@
             "title": "",
             "options": [],
             "lang": "en"
+        },
+        {
+            "uri": "internal:\/commission\/priorities\/jobs-growth-and-investment",
+            "title": "",
+            "options": [],
+            "lang": "fr"
+        },
+        {
+            "uri": "internal:\/commission\/priorities\/jobs-growth-and-investment",
+            "title": "",
+            "options": [],
+            "lang": "it"
         }
     ],
     "field_oe_list_item_variant": [
         {
             "value": "list_item_thumbnail_secondary",
             "lang": "en"
+        },
+        {
+            "value": "list_item_thumbnail_secondary",
+            "lang": "fr"
+        },
+        {
+            "value": "list_item_thumbnail_secondary",
+            "lang": "it"
         }
     ],
     "field_oe_text_long": [
@@ -187,12 +361,32 @@
             "format": "plain_text",
             "processed": "Stimulating investment and creating jobs",
             "lang": "en"
+        },
+        {
+            "value": "Stimuler l\u2019investissement et la cr\u00e9ation d\u2019emplois\r\n",
+            "format": "plain_text",
+            "processed": "Stimuler l\u2019investissement et la cr\u00e9ation d\u2019emplois",
+            "lang": "fr"
+        },
+        {
+            "value": "Stimolare gli investimenti e creare posti di lavoro\r\n",
+            "format": "plain_text",
+            "processed": "Stimolare gli investimenti e creare posti di lavoro",
+            "lang": "it"
         }
     ],
     "field_oe_title": [
         {
             "value": "Jobs, growth and investment",
             "lang": "en"
+        },
+        {
+            "value": "Emploi, croissance et investissement",
+            "lang": "fr"
+        },
+        {
+            "value": "Occupazione, crescita e investimenti",
+            "lang": "it"
         }
     ]
 }

@@ -10,6 +10,14 @@
             {
                 "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
                 "lang": "en"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "fr"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "it"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item_block\/revision_uid": [
@@ -44,13 +52,21 @@
     ],
     "revision_id": [
         {
-            "value": 1612
+            "value": 1722
         }
     ],
     "langcode": [
         {
             "value": "en",
             "lang": "en"
+        },
+        {
+            "value": "fr",
+            "lang": "fr"
+        },
+        {
+            "value": "it",
+            "lang": "it"
         }
     ],
     "type": [
@@ -75,6 +91,38 @@
                     }
                 ],
                 "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "fr"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "it"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item_block\/revision_uid": [
@@ -109,7 +157,7 @@
                         "value": "b9931acf-9c3f-46de-87d4-9bf6720c17d4"
                     }
                 ],
-                "target_revision_id": "1608"
+                "target_revision_id": "1718"
             },
             {
                 "_links": {
@@ -125,7 +173,7 @@
                         "value": "623fa3cb-c7fa-41cc-8fc2-0be09b27d9cc"
                     }
                 ],
-                "target_revision_id": "1609"
+                "target_revision_id": "1719"
             },
             {
                 "_links": {
@@ -141,7 +189,7 @@
                         "value": "0e1495b4-40a2-4f67-93a9-3b646d231cd3"
                     }
                 ],
-                "target_revision_id": "1610"
+                "target_revision_id": "1720"
             },
             {
                 "_links": {
@@ -157,7 +205,7 @@
                         "value": "98efc93e-f89f-4ba4-a4a8-b0f8c1dfcc43"
                     }
                 ],
-                "target_revision_id": "1611"
+                "target_revision_id": "1721"
             }
         ]
     },
@@ -165,12 +213,30 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
+            "lang": "it"
         }
     ],
     "created": [
         {
             "value": "2018-06-26T10:13:32+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T10:13:32+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T10:13:32+00:00",
+            "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -198,24 +264,56 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
+            "lang": "it"
         }
     ],
     "content_translation_source": [
         {
             "value": "und",
             "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "fr"
+        },
+        {
+            "value": "en",
+            "lang": "it"
         }
     ],
     "content_translation_outdated": [
         {
             "value": false,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
         }
     ],
     "content_translation_changed": [
@@ -223,18 +321,44 @@
             "value": "2018-06-26T10:18:46+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T13:50:37+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T10:18:46+00:00",
+            "lang": "it",
+            "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "field_oe_list_item_block_variant": [
         {
             "value": "one_column",
             "lang": "en"
+        },
+        {
+            "value": "one_column",
+            "lang": "fr"
+        },
+        {
+            "value": "one_column",
+            "lang": "it"
         }
     ],
     "field_oe_title": [
         {
             "value": "10 Commission priorities for 2015-19",
             "lang": "en"
+        },
+        {
+            "value": "10 priorit\u00e9s de la Commission europ\u00e9enne pour 2014-19",
+            "lang": "fr"
+        },
+        {
+            "value": "Le 10 priorit\u00e0 della Commissione per il 2015-2019",
+            "lang": "it"
         }
     ]
 }

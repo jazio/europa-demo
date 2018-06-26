@@ -38,7 +38,7 @@
     ],
     "revision_id": [
         {
-            "value": 1657
+            "value": 1674
         }
     ],
     "langcode": [
@@ -197,7 +197,7 @@
     "revision_translation_affected": [
         {
             "value": true,
-            "lang": "it"
+            "lang": "fr"
         }
     ],
     "content_translation_source": [
@@ -235,7 +235,7 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-26T10:35:36+00:00",
+            "value": "2018-06-26T13:36:06+00:00",
             "lang": "fr",
             "format": "Y-m-d\\TH:i:sP"
         },
@@ -305,7 +305,7 @@
             "lang": "en"
         },
         {
-            "value": "Le pland d'investissement pour l'Europe",
+            "value": "Le plan d'investissement pour l'Europe",
             "lang": "fr"
         },
         {

@@ -10,6 +10,14 @@
             {
                 "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
                 "lang": "en"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "fr"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "it"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item_block\/revision_uid": [
@@ -44,13 +52,21 @@
     ],
     "revision_id": [
         {
-            "value": 1620
+            "value": 1730
         }
     ],
     "langcode": [
         {
             "value": "en",
             "lang": "en"
+        },
+        {
+            "value": "fr",
+            "lang": "fr"
+        },
+        {
+            "value": "it",
+            "lang": "it"
         }
     ],
     "type": [
@@ -75,6 +91,38 @@
                     }
                 ],
                 "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "fr"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "it"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item_block\/revision_uid": [
@@ -109,7 +157,7 @@
                         "value": "b09dd21d-e399-4adb-9648-e0c7cebe984a"
                     }
                 ],
-                "target_revision_id": "1616"
+                "target_revision_id": "1726"
             },
             {
                 "_links": {
@@ -125,7 +173,7 @@
                         "value": "3d13c6ce-30a5-458f-b689-9bb3e0cca964"
                     }
                 ],
-                "target_revision_id": "1617"
+                "target_revision_id": "1727"
             },
             {
                 "_links": {
@@ -141,7 +189,7 @@
                         "value": "034c9d63-1a9b-40e9-ac9a-b621fcc2be6f"
                     }
                 ],
-                "target_revision_id": "1618"
+                "target_revision_id": "1728"
             },
             {
                 "_links": {
@@ -157,7 +205,7 @@
                         "value": "bc7bd976-6e81-4794-9dce-d1f5933989ae"
                     }
                 ],
-                "target_revision_id": "1619"
+                "target_revision_id": "1729"
             }
         ]
     },
@@ -165,12 +213,30 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
+            "lang": "it"
         }
     ],
     "created": [
         {
             "value": "2018-06-26T10:10:25+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T10:10:25+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T10:10:25+00:00",
+            "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -198,24 +264,56 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
+            "lang": "it"
         }
     ],
     "content_translation_source": [
         {
             "value": "und",
             "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "fr"
+        },
+        {
+            "value": "en",
+            "lang": "it"
         }
     ],
     "content_translation_outdated": [
         {
             "value": false,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
         }
     ],
     "content_translation_changed": [
@@ -223,18 +321,44 @@
             "value": "2018-06-26T10:10:25+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T13:50:37+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T10:10:25+00:00",
+            "lang": "it",
+            "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "field_oe_list_item_block_variant": [
         {
             "value": "one_column",
             "lang": "en"
+        },
+        {
+            "value": "one_column",
+            "lang": "fr"
+        },
+        {
+            "value": "one_column",
+            "lang": "it"
         }
     ],
     "field_oe_title": [
         {
             "value": "Related links",
             "lang": "en"
+        },
+        {
+            "value": "Autres liens",
+            "lang": "fr"
+        },
+        {
+            "value": "Link correlati",
+            "lang": "it"
         }
     ]
 }
