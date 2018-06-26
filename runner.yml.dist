@@ -39,7 +39,7 @@ drupal:
 
 authentication:
   server:
-    base_url: "http://authentication:8001"
+    base_url: "https://ecas.acceptance.ec.europa.eu:443/cas"
 
 selenium:
   host: "http://selenium"
