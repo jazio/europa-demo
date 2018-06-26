@@ -38,7 +38,7 @@
     ],
     "revision_id": [
         {
-            "value": 1674
+            "value": 1733
         }
     ],
     "langcode": [
@@ -192,12 +192,6 @@
         {
             "value": false,
             "lang": "it"
-        }
-    ],
-    "revision_translation_affected": [
-        {
-            "value": true,
-            "lang": "fr"
         }
     ],
     "content_translation_source": [
