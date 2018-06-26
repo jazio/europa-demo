@@ -16,7 +16,7 @@ Feature: Showcase
       | Introduction  | Σελίδα κειμένου |
 
   Scenario: Visitor can navigate translatable content with links in original languages
-    Given I visit the "Page title" content
+    Given I am on "/en/page-title"
     Then I should see the heading "Page title"
     And I should see "Page body"
 
@@ -25,7 +25,7 @@ Feature: Showcase
     And I should see "Testo pagina"
 
   Scenario: Automatically generated URLs containing non-ASCII characters are transliterated
-    Given I visit the "Page title" content
+    Given I am on "/en/page-title"
 
     When I click "italiano" in the "language switcher"
     Then the url should match "/it/titolo-pagina"
@@ -34,7 +34,7 @@ Feature: Showcase
     Then the url should match "/el/titlos-selidas"
 
   Scenario: Site visitor can see and change language using the language switcher with original languages.
-    Given I visit the "Page title" content
+    Given I am on "/en/page-title"
 
     When I click "English" in the "language switcher"
     Then I should see the link "български" in the "language dialog"

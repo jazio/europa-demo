@@ -20,13 +20,13 @@ Feature: Content language selector
       | Introduction  | Texto de página   |
 
   Scenario: Visitor navigating to an available translation shouldn't see the language selector
-    Given I visit the "Page title" content
+    Given I am on "/en/page-title"
     Then I should see "Page title" in the "page header"
     And I should see "Page body"
     And I should not see the link "Spanish" in the "page header" region
 
   Scenario: Visitor navigating to an unavailable translation should see the language selector
-    Given I visit the "Page title" content
+    Given I am on "/en/page-title"
     Then I should see "Page title" in the "page header"
     And I should see "Page body"
     When I click "български"
