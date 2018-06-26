@@ -14,6 +14,10 @@
             {
                 "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
                 "lang": "fr"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "it"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_content_row\/revision_uid": [
@@ -48,7 +52,7 @@
     ],
     "revision_id": [
         {
-            "value": 1655
+            "value": 1672
         }
     ],
     "langcode": [
@@ -59,6 +63,10 @@
         {
             "value": "fr",
             "lang": "fr"
+        },
+        {
+            "value": "it",
+            "lang": "it"
         }
     ],
     "type": [
@@ -99,6 +107,22 @@
                     }
                 ],
                 "lang": "fr"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "it"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_content_row\/revision_uid": [
@@ -133,7 +157,7 @@
                         "value": "135a6438-d4e1-4df2-b1ec-e2bc030453e7"
                     }
                 ],
-                "target_revision_id": "1645"
+                "target_revision_id": "1662"
             },
             {
                 "_links": {
@@ -149,7 +173,7 @@
                         "value": "8631c630-8c39-4171-ad77-4ef8223d3091"
                     }
                 ],
-                "target_revision_id": "1649"
+                "target_revision_id": "1666"
             },
             {
                 "_links": {
@@ -165,7 +189,7 @@
                         "value": "e4c55b18-b317-444e-ad6e-c96dc323621d"
                     }
                 ],
-                "target_revision_id": "1650"
+                "target_revision_id": "1667"
             },
             {
                 "_links": {
@@ -181,7 +205,7 @@
                         "value": "fe0544da-5c9e-43de-8670-c5db888b9a66"
                     }
                 ],
-                "target_revision_id": "1654"
+                "target_revision_id": "1671"
             }
         ]
     },
@@ -193,6 +217,10 @@
         {
             "value": true,
             "lang": "fr"
+        },
+        {
+            "value": true,
+            "lang": "it"
         }
     ],
     "created": [
@@ -204,6 +232,11 @@
         {
             "value": "2018-06-25T16:38:53+00:00",
             "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:38:53+00:00",
+            "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -235,6 +268,10 @@
         {
             "value": false,
             "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
         }
     ],
     "revision_translation_affected": [
@@ -245,6 +282,10 @@
         {
             "value": true,
             "lang": "fr"
+        },
+        {
+            "value": true,
+            "lang": "it"
         }
     ],
     "content_translation_source": [
@@ -255,6 +296,10 @@
         {
             "value": "en",
             "lang": "fr"
+        },
+        {
+            "value": "en",
+            "lang": "it"
         }
     ],
     "content_translation_outdated": [
@@ -265,6 +310,10 @@
         {
             "value": false,
             "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
         }
     ],
     "content_translation_changed": [
@@ -274,8 +323,13 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-26T07:00:46+00:00",
+            "value": "2018-06-26T13:24:57+00:00",
             "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T07:00:46+00:00",
+            "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -287,6 +341,10 @@
         {
             "value": "inpage",
             "lang": "fr"
+        },
+        {
+            "value": "inpage",
+            "lang": "it"
         }
     ],
     "field_oe_title": [
@@ -297,6 +355,10 @@
         {
             "value": "CONTENU",
             "lang": "fr"
+        },
+        {
+            "value": "INDICE",
+            "lang": "it"
         }
     ]
 }

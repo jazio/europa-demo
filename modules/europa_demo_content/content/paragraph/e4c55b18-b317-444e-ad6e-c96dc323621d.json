@@ -14,6 +14,10 @@
             {
                 "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
                 "lang": "fr"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "it"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_rich_text\/revision_uid": [
@@ -34,7 +38,7 @@
     ],
     "revision_id": [
         {
-            "value": 1650
+            "value": 1667
         }
     ],
     "langcode": [
@@ -45,6 +49,10 @@
         {
             "value": "fr",
             "lang": "fr"
+        },
+        {
+            "value": "it",
+            "lang": "it"
         }
     ],
     "type": [
@@ -85,6 +93,22 @@
                     }
                 ],
                 "lang": "fr"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "it"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_rich_text\/revision_uid": [
@@ -113,6 +137,10 @@
         {
             "value": true,
             "lang": "fr"
+        },
+        {
+            "value": true,
+            "lang": "it"
         }
     ],
     "created": [
@@ -124,6 +152,11 @@
         {
             "value": "2018-06-25T16:53:36+00:00",
             "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:53:36+00:00",
+            "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -155,12 +188,16 @@
         {
             "value": false,
             "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
-            "lang": "fr"
+            "lang": "it"
         }
     ],
     "content_translation_source": [
@@ -171,6 +208,10 @@
         {
             "value": "en",
             "lang": "fr"
+        },
+        {
+            "value": "en",
+            "lang": "it"
         }
     ],
     "content_translation_outdated": [
@@ -181,6 +222,10 @@
         {
             "value": false,
             "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
         }
     ],
     "content_translation_changed": [
@@ -192,6 +237,11 @@
         {
             "value": "2018-06-25T16:53:36+00:00",
             "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:53:36+00:00",
+            "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -207,6 +257,12 @@
             "format": "plain_text",
             "processed": "Objectifs\nOffrir des pr\u00eats ou des garanties avec une capacit\u00e9 de risque accrue.\nUtiliser le r\u00e9examen du budget \u00e0 long terme de l\u2019UE (cadre financier pluriannuel) pr\u00e9vu pour 2016 afin d&#039;orienter les fonds de l\u2019UE vers l\u2019emploi, la croissance et la comp\u00e9titivit\u00e9.\nEncourager les pays de l&#039;UE \u00e0 stimuler la croissance et l\u2019investissement, dans les limites du pacte de stabilit\u00e9 et de croissance de l\u2019UE.\nLib\u00e9rer les PME des pesanteurs administratives afin de promouvoir l\u2019entrepreneuriat et la cr\u00e9ation d\u2019emplois.",
             "lang": "fr"
+        },
+        {
+            "value": "Objectives\r\nOffrire prestiti o garanzie con una maggiore capacit\u00e0 di assunzione del rischio\r\nUtilizzare la revisione del bilancio a lungo termine dell\u2019UE del 2016 (quadro finanziario pluriennale) per orientare i fondi dell\u2019UE verso l\u2019occupazione, la crescita e la competitivit\u00e0\r\nIncoraggiare i governi nazionali a stimolare la crescita e gli investimenti entro i limiti del patto di stabilit\u00e0 e crescita dell\u2019UE\r\nLiberare le piccole e medie imprese (PMI) dalla burocrazia per promuovere l\u2019imprenditorialit\u00e0 e la creazione di posti di lavoro\r\n",
+            "format": "plain_text",
+            "processed": "Objectives\nOffrire prestiti o garanzie con una maggiore capacit\u00e0 di assunzione del rischio\nUtilizzare la revisione del bilancio a lungo termine dell\u2019UE del 2016 (quadro finanziario pluriennale) per orientare i fondi dell\u2019UE verso l\u2019occupazione, la crescita e la competitivit\u00e0\nIncoraggiare i governi nazionali a stimolare la crescita e gli investimenti entro i limiti del patto di stabilit\u00e0 e crescita dell\u2019UE\nLiberare le piccole e medie imprese (PMI) dalla burocrazia per promuovere l\u2019imprenditorialit\u00e0 e la creazione di posti di lavoro",
+            "lang": "it"
         }
     ],
     "field_oe_title": [
@@ -217,6 +273,10 @@
         {
             "value": "Contexte",
             "lang": "fr"
+        },
+        {
+            "value": "Contesto",
+            "lang": "it"
         }
     ]
 }

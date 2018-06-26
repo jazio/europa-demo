@@ -14,6 +14,10 @@
             {
                 "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
                 "lang": "fr"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "it"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item_block\/revision_uid": [
@@ -45,7 +49,7 @@
     ],
     "revision_id": [
         {
-            "value": 1654
+            "value": 1671
         }
     ],
     "langcode": [
@@ -56,6 +60,10 @@
         {
             "value": "fr",
             "lang": "fr"
+        },
+        {
+            "value": "it",
+            "lang": "it"
         }
     ],
     "type": [
@@ -96,6 +104,22 @@
                     }
                 ],
                 "lang": "fr"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "it"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item_block\/revision_uid": [
@@ -130,7 +154,7 @@
                         "value": "7c9d7c7d-0b58-41e9-b25d-2726bfde751f"
                     }
                 ],
-                "target_revision_id": "1651"
+                "target_revision_id": "1668"
             },
             {
                 "_links": {
@@ -146,7 +170,7 @@
                         "value": "f46bd60a-8bd2-446f-8dd2-bd6b6635918d"
                     }
                 ],
-                "target_revision_id": "1652"
+                "target_revision_id": "1669"
             },
             {
                 "_links": {
@@ -162,7 +186,7 @@
                         "value": "74d2daa7-a213-4130-9cb7-da6406556b32"
                     }
                 ],
-                "target_revision_id": "1653"
+                "target_revision_id": "1670"
             }
         ]
     },
@@ -174,6 +198,10 @@
         {
             "value": true,
             "lang": "fr"
+        },
+        {
+            "value": true,
+            "lang": "it"
         }
     ],
     "created": [
@@ -185,6 +213,11 @@
         {
             "value": "2018-06-26T06:34:56+00:00",
             "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T06:34:56+00:00",
+            "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -216,6 +249,10 @@
         {
             "value": false,
             "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
         }
     ],
     "revision_translation_affected": [
@@ -226,6 +263,10 @@
         {
             "value": true,
             "lang": "fr"
+        },
+        {
+            "value": true,
+            "lang": "it"
         }
     ],
     "content_translation_source": [
@@ -236,6 +277,10 @@
         {
             "value": "en",
             "lang": "fr"
+        },
+        {
+            "value": "en",
+            "lang": "it"
         }
     ],
     "content_translation_outdated": [
@@ -246,6 +291,10 @@
         {
             "value": false,
             "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
         }
     ],
     "content_translation_changed": [
@@ -255,8 +304,13 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-26T06:34:56+00:00",
+            "value": "2018-06-26T13:24:57+00:00",
             "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T06:34:56+00:00",
+            "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -268,6 +322,10 @@
         {
             "value": "one_column",
             "lang": "fr"
+        },
+        {
+            "value": "one_column",
+            "lang": "it"
         }
     ],
     "field_oe_title": [
@@ -278,6 +336,10 @@
         {
             "value": "Documents",
             "lang": "fr"
+        },
+        {
+            "value": "Documenti",
+            "lang": "it"
         }
     ]
 }

@@ -14,6 +14,10 @@
             {
                 "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
                 "lang": "fr"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "it"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
@@ -34,7 +38,7 @@
     ],
     "revision_id": [
         {
-            "value": 1648
+            "value": 1665
         }
     ],
     "langcode": [
@@ -45,6 +49,10 @@
         {
             "value": "fr",
             "lang": "fr"
+        },
+        {
+            "value": "it",
+            "lang": "it"
         }
     ],
     "type": [
@@ -85,6 +93,22 @@
                     }
                 ],
                 "lang": "fr"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "it"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
@@ -113,6 +137,10 @@
         {
             "value": true,
             "lang": "fr"
+        },
+        {
+            "value": true,
+            "lang": "it"
         }
     ],
     "created": [
@@ -124,6 +152,11 @@
         {
             "value": "2018-06-25T16:50:27+00:00",
             "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:50:27+00:00",
+            "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -155,12 +188,16 @@
         {
             "value": false,
             "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
-            "lang": "fr"
+            "lang": "it"
         }
     ],
     "content_translation_source": [
@@ -171,6 +208,10 @@
         {
             "value": "en",
             "lang": "fr"
+        },
+        {
+            "value": "en",
+            "lang": "it"
         }
     ],
     "content_translation_outdated": [
@@ -181,6 +222,10 @@
         {
             "value": false,
             "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
         }
     ],
     "content_translation_changed": [
@@ -192,6 +237,11 @@
         {
             "value": "2018-06-26T10:35:36+00:00",
             "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T10:35:36+00:00",
+            "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -207,6 +257,12 @@
             "title": "",
             "options": [],
             "lang": "fr"
+        },
+        {
+            "uri": "internal:\/commission\/priorities\/jobs-growth-and-investment",
+            "title": "",
+            "options": [],
+            "lang": "it"
         }
     ],
     "field_oe_list_item_variant": [
@@ -217,6 +273,10 @@
         {
             "value": "list_item_default",
             "lang": "fr"
+        },
+        {
+            "value": "list_item_default",
+            "lang": "it"
         }
     ],
     "field_oe_meta": [
@@ -235,6 +295,14 @@
         {
             "value": "19 June 2018",
             "lang": "fr"
+        },
+        {
+            "value": "PRESS RELEASE",
+            "lang": "it"
+        },
+        {
+            "value": "19 June 2018",
+            "lang": "it"
         }
     ],
     "field_oe_text_long": [
@@ -249,6 +317,12 @@
             "format": "plain_text",
             "processed": "The EIF and all seven Erste Group member banks have signed a Social Entrepreneurship guarantee agreement",
             "lang": "fr"
+        },
+        {
+            "value": "The EIF and all seven Erste Group member banks have signed a Social Entrepreneurship guarantee agreement",
+            "format": "plain_text",
+            "processed": "The EIF and all seven Erste Group member banks have signed a Social Entrepreneurship guarantee agreement",
+            "lang": "it"
         }
     ],
     "field_oe_title": [
@@ -259,6 +333,10 @@
         {
             "value": "The European Investment Fund and Erste Group sign a EUR 50 million deal to finance social enterprises in Austria, Croatia, the Czech Republic, Hungary, Romania, Slovakia and Serbia",
             "lang": "fr"
+        },
+        {
+            "value": "The European Investment Fund and Erste Group sign a EUR 50 million deal to finance social enterprises in Austria, Croatia, the Czech Republic, Hungary, Romania, Slovakia and Serbia",
+            "lang": "it"
         }
     ]
 }

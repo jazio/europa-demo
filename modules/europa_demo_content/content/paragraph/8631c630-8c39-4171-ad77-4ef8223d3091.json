@@ -14,6 +14,10 @@
             {
                 "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
                 "lang": "fr"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "it"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item_block\/revision_uid": [
@@ -45,7 +49,7 @@
     ],
     "revision_id": [
         {
-            "value": 1649
+            "value": 1666
         }
     ],
     "langcode": [
@@ -56,6 +60,10 @@
         {
             "value": "fr",
             "lang": "fr"
+        },
+        {
+            "value": "it",
+            "lang": "it"
         }
     ],
     "type": [
@@ -96,6 +104,22 @@
                     }
                 ],
                 "lang": "fr"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "it"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item_block\/revision_uid": [
@@ -130,7 +154,7 @@
                         "value": "7ed48bbe-54b7-4fce-9022-999d1171115a"
                     }
                 ],
-                "target_revision_id": "1646"
+                "target_revision_id": "1663"
             },
             {
                 "_links": {
@@ -146,7 +170,7 @@
                         "value": "6d8be2a4-395c-48e0-8322-99e73184d5d3"
                     }
                 ],
-                "target_revision_id": "1647"
+                "target_revision_id": "1664"
             },
             {
                 "_links": {
@@ -162,7 +186,7 @@
                         "value": "0b5e8672-dda7-44dc-8e7e-b6906d769eb3"
                     }
                 ],
-                "target_revision_id": "1648"
+                "target_revision_id": "1665"
             }
         ]
     },
@@ -174,6 +198,10 @@
         {
             "value": true,
             "lang": "fr"
+        },
+        {
+            "value": true,
+            "lang": "it"
         }
     ],
     "created": [
@@ -185,6 +213,11 @@
         {
             "value": "2018-06-25T16:46:15+00:00",
             "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:46:15+00:00",
+            "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -216,6 +249,10 @@
         {
             "value": false,
             "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
         }
     ],
     "revision_translation_affected": [
@@ -226,6 +263,10 @@
         {
             "value": true,
             "lang": "fr"
+        },
+        {
+            "value": true,
+            "lang": "it"
         }
     ],
     "content_translation_source": [
@@ -236,6 +277,10 @@
         {
             "value": "en",
             "lang": "fr"
+        },
+        {
+            "value": "en",
+            "lang": "it"
         }
     ],
     "content_translation_outdated": [
@@ -246,6 +291,10 @@
         {
             "value": false,
             "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
         }
     ],
     "content_translation_changed": [
@@ -255,8 +304,13 @@
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2018-06-26T10:35:36+00:00",
+            "value": "2018-06-26T13:24:57+00:00",
             "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T10:35:36+00:00",
+            "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -272,6 +326,12 @@
             "title": "ALL NEWS ON THIS PRIORITY",
             "options": [],
             "lang": "fr"
+        },
+        {
+            "uri": "internal:\/commission\/priorities\/jobs-growth-and-investment",
+            "title": "ALL NEWS ON THIS PRIORITY",
+            "options": [],
+            "lang": "it"
         }
     ],
     "field_oe_list_item_block_variant": [
@@ -282,6 +342,10 @@
         {
             "value": "one_column",
             "lang": "fr"
+        },
+        {
+            "value": "one_column",
+            "lang": "it"
         }
     ],
     "field_oe_title": [
@@ -292,6 +356,10 @@
         {
             "value": "Latest",
             "lang": "fr"
+        },
+        {
+            "value": "Latest",
+            "lang": "it"
         }
     ]
 }

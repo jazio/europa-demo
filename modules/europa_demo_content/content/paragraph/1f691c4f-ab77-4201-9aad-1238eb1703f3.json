@@ -14,6 +14,10 @@
             {
                 "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
                 "lang": "fr"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "it"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
@@ -34,7 +38,7 @@
     ],
     "revision_id": [
         {
-            "value": 1640
+            "value": 1657
         }
     ],
     "langcode": [
@@ -45,6 +49,10 @@
         {
             "value": "fr",
             "lang": "fr"
+        },
+        {
+            "value": "it",
+            "lang": "it"
         }
     ],
     "type": [
@@ -85,6 +93,22 @@
                     }
                 ],
                 "lang": "fr"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "it"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
@@ -113,6 +137,10 @@
         {
             "value": true,
             "lang": "fr"
+        },
+        {
+            "value": true,
+            "lang": "it"
         }
     ],
     "created": [
@@ -124,6 +152,11 @@
         {
             "value": "2018-06-25T21:51:00+00:00",
             "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T21:51:00+00:00",
+            "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -155,12 +188,16 @@
         {
             "value": false,
             "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
-            "lang": "fr"
+            "lang": "it"
         }
     ],
     "content_translation_source": [
@@ -171,6 +208,10 @@
         {
             "value": "en",
             "lang": "fr"
+        },
+        {
+            "value": "en",
+            "lang": "it"
         }
     ],
     "content_translation_outdated": [
@@ -181,6 +222,10 @@
         {
             "value": false,
             "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
         }
     ],
     "content_translation_changed": [
@@ -192,6 +237,11 @@
         {
             "value": "2018-06-26T10:35:36+00:00",
             "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T10:35:36+00:00",
+            "lang": "it",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -207,6 +257,12 @@
             "title": "",
             "options": [],
             "lang": "fr"
+        },
+        {
+            "uri": "internal:\/commission\/priorities\/jobs-growth-and-investment",
+            "title": "",
+            "options": [],
+            "lang": "it"
         }
     ],
     "field_oe_list_item_variant": [
@@ -217,6 +273,10 @@
         {
             "value": "list_item_default",
             "lang": "fr"
+        },
+        {
+            "value": "list_item_default",
+            "lang": "it"
         }
     ],
     "field_oe_text_long": [
@@ -231,6 +291,12 @@
             "format": "plain_text",
             "processed": "Depuis l&#039;\u00e9clatement de la crise \u00e9conomique et financi\u00e8re mondiale, l\u2019UE souffre d\u2019un faible niveau d\u2019investissement. Il est n\u00e9cessaire de consentir un effort coordonn\u00e9 au niveau europ\u00e9en pour engager l&#039;Europe sur la voie de la reprise \u00e9conomique. Le plan d\u2019investissement pour l\u2019Europe \u2014 le \u00abplan Juncker\u00bb \u2014 vise \u00e0 cr\u00e9er des emplois et \u00e0 stimuler la croissance en utilisant les ressources financi\u00e8res de mani\u00e8re plus judicieuse, en supprimant les obstacles \u00e0 l\u2019investissement et en apportant visibilit\u00e9 et assistance technique aux projets d\u2019investissement.",
             "lang": "fr"
+        },
+        {
+            "value": "Dall'inizio della crisi economica e finanziaria mondiale l'UE risente di bassi livelli di investimento. Occorrono sforzi coordinati a livello europeo per mettere l'Europa sulla via della ripresa economica. Il piano di investimenti per l\u2019Europa, il cosiddetto piano Juncker, mira a creare posti di lavoro e stimolare la crescita facendo un uso pi\u00f9 intelligente delle risorse finanziarie, eliminando gli ostacoli agli investimenti, e offrendo visibilit\u00e0 e assistenza tecnica ai progetti di investimento.\r\n",
+            "format": "plain_text",
+            "processed": "Dall&#039;inizio della crisi economica e finanziaria mondiale l&#039;UE risente di bassi livelli di investimento. Occorrono sforzi coordinati a livello europeo per mettere l&#039;Europa sulla via della ripresa economica. Il piano di investimenti per l\u2019Europa, il cosiddetto piano Juncker, mira a creare posti di lavoro e stimolare la crescita facendo un uso pi\u00f9 intelligente delle risorse finanziarie, eliminando gli ostacoli agli investimenti, e offrendo visibilit\u00e0 e assistenza tecnica ai progetti di investimento.",
+            "lang": "it"
         }
     ],
     "field_oe_title": [
@@ -241,6 +307,10 @@
         {
             "value": "Le pland d'investissement pour l'Europe",
             "lang": "fr"
+        },
+        {
+            "value": "Il piano di investimenti per l\u2019Europa",
+            "lang": "it"
         }
     ]
 }
