@@ -1,3 +1,10 @@
 /*
 Style sheet for Europa Demo sub-theme.
  */
+
+.ecl-list-item--highlight .ecl-heading {
+  margin-top: 1rem;
+}
+.ecl-heading.ecl-heading--h3 {
+  margin-top: 2.22rem;
+}
