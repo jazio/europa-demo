@@ -20,7 +20,7 @@ settings:
   label_display: '0'
   title: 'Future of Europe'
   uri: 'https://ec.europa.eu/commission/future-europe_en'
-  background: modules/custom/europa_demo_core/images/homepage-banner.png
+  background: modules/custom/europa_demo_core/images/homepage-banner.jpg
 visibility:
   request_path:
     id: request_path
