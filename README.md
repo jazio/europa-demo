@@ -61,8 +61,8 @@ $ docker-compose up -d
 Then:
 
 ```
-$ docker-compose exec -u web web composer install
-$ docker-compose exec -u web web ./vendor/bin/run drupal:site-install
+$ docker-compose exec web composer install
+$ docker-compose exec web ./vendor/bin/run drupal:site-install
 ```
 
 Note that if you have compatible versions of PHP and Composer installed on your host system you can download the
@@ -104,7 +104,7 @@ In order to get configuration changes perform the following steps:
 Update .po files located in your `modules/europa_demo_core/translations/` folder.
 And execute this:
 ```
-$ docker-compose exec -u web web ./vendor/bin/run drupal:import-interface-translations
+$ docker-compose exec web ./vendor/bin/run drupal:import-interface-translations
 ```
 
 ### Webtools Analytics configuration
@@ -130,7 +130,7 @@ Run tests as follows:
 Or when using Docker Compose:
 
 ```
-$ docker-compose exec -u web web ./vendor/bin/behat
+$ docker-compose exec web ./vendor/bin/behat
 ```
 
 [1]: https://github.com/openeuropa/openeuropa
