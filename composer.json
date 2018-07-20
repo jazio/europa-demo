@@ -29,7 +29,7 @@
         "drupal/drush_language": "^1.0",
         "drush/drush": "^9",
         "nikic/php-parser": "~3",
-        "openeuropa/code-review": "^0.2",
+        "openeuropa/code-review": "~0.3",
         "openeuropa/composer-artifacts": "^0.1",
         "openeuropa/task-runner": "^0.7",
         "webflo/drupal-core-require-dev": "~8.6"
