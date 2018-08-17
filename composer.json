@@ -6,17 +6,17 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
+        "php": "^7.1",
         "drupal/config_filter": "^1.2",
         "drupal/config_installer": "~1.8",
         "drupal/core": "~8.6@alpha",
         "drupal/file_entity": "^2.0@beta",
         "openeuropa/oe_auth": "~0.3",
-        "openeuropa/oe_multilingual": "~0.1",
+        "openeuropa/oe_multilingual": "0.1.4",
         "openeuropa/oe_paragraphs": "~0.2",
         "openeuropa/oe_profile": "~0.1",
         "openeuropa/oe_theme": "~0.5",
-        "openeuropa/oe_webtools": "~0.1",
-        "php": "^7.1"
+        "openeuropa/oe_webtools": "~0.1"
     },
     "require-dev": {
         "composer/installers": "^1.2",

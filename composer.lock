@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e955846b18fad3b7ea5f3eacf8c0dc9d",
+    "content-hash": "979eddc95caf8ba5669845b740f0a309",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2458,21 +2458,21 @@
         },
         {
             "name": "openeuropa/oe_multilingual",
-            "version": "0.1.5",
+            "version": "0.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/openeuropa/oe_multilingual.git",
-                "reference": "0ed9d3ec04a6f9e1acffa40778bc94658916d40b"
+                "reference": "7c82e2eb9bfe9581e63afce0165d2ce7eeb752c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openeuropa/oe_multilingual/zipball/0ed9d3ec04a6f9e1acffa40778bc94658916d40b",
-                "reference": "0ed9d3ec04a6f9e1acffa40778bc94658916d40b",
+                "url": "https://api.github.com/repos/openeuropa/oe_multilingual/zipball/7c82e2eb9bfe9581e63afce0165d2ce7eeb752c8",
+                "reference": "7c82e2eb9bfe9581e63afce0165d2ce7eeb752c8",
                 "shasum": ""
             },
             "require": {
                 "drupal/administration_language_negotiation": "~1.5",
-                "drupal/core": "~8.6@alpha",
+                "drupal/core": "~8.6",
                 "drupal/language_selection_page": "^2.2",
                 "drupal/pathauto": "^1.2",
                 "php": "^7.1"
@@ -2486,14 +2486,19 @@
                 "drupal/devel": "^1.2",
                 "drupal/drupal-extension": "^4.0.0@alpha",
                 "drush/drush": "^9",
-                "openeuropa/code-review": "~0.2",
-                "openeuropa/drupal-core-require-dev": "~8.6",
-                "openeuropa/task-runner": "~0.5"
+                "openeuropa/code-review": "^0.2",
+                "openeuropa/task-runner": "^0.5",
+                "webflo/drupal-core-require-dev": "~8.6"
             },
             "type": "drupal-module",
             "extra": {
                 "composer-exit-on-patch-failure": true,
-                "enable-patching": true,
+                "patches": {
+                    "drupal/core": {
+                        "https://www.drupal.org/project/drupal/issues/2943172": "https://www.drupal.org/files/issues/2018-07-05/2943172-kernel-test-base-3.patch",
+                        "https://www.drupal.org/project/drupal/issues/2599228": "https://www.drupal.org/files/issues/2018-05-17/2599228-51.patch"
+                    }
+                },
                 "installer-paths": {
                     "build/core": [
                         "type:drupal-core"
@@ -2519,7 +2524,7 @@
                 "EUPL-1.2"
             ],
             "description": "Multilingual features for the OpenEuropa project.",
-            "time": "2018-08-09T09:03:45+00:00"
+            "time": "2018-07-19T13:34:53+00:00"
         },
         {
             "name": "openeuropa/oe_paragraphs",
@@ -2654,7 +2659,7 @@
             },
             "dist": {
                 "type": "tar",
-                "url": "https://github.com/openeuropa/oe_theme/releases/download/0.6.1/oe_theme-0.6.1.tar.gz",
+                "url": "https://api.github.com/repos/openeuropa/oe_theme/zipball/c6355ecd1c7cf18a5b3bd0e91ca656bff5dc394b",
                 "reference": "c6355ecd1c7cf18a5b3bd0e91ca656bff5dc394b",
                 "shasum": ""
             },
@@ -5676,7 +5681,7 @@
                 "testing",
                 "web"
             ],
-            "time": "2018-06-24T20:08:51+00:00"
+            "time": "2018-06-24 20:08:51"
         },
         {
             "name": "behat/mink-browserkit-driver",
@@ -5907,7 +5912,7 @@
                 "testing",
                 "webdriver"
             ],
-            "time": "2018-07-23T10:51:47+00:00"
+            "time": "2018-07-23 10:51:47"
         },
         {
             "name": "behat/transliterator",
