@@ -1,4 +1,4 @@
-uuid: c4af3ec5-ac7d-420b-89fe-a1437c7663ca
+uuid: 5e48ccbf-aea0-4637-a046-46c9c149cccf
 langcode: en
 status: true
 dependencies: {  }
@@ -21,3 +21,9 @@ filters:
     weight: 0
     settings:
       filter_url_length: 72
+  filter_autop:
+    id: filter_autop
+    provider: filter
+    status: true
+    weight: 0
+    settings: {  }

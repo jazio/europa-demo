@@ -1,4 +1,4 @@
-uuid: 8d785879-d596-45fc-a9fb-11f986aac544
+uuid: 733862d8-7cc1-4ecf-bb44-ef82c6880e46
 langcode: en
 status: true
 dependencies: {  }
@@ -9,21 +9,4 @@ label: 'Authenticated user'
 weight: 1
 is_admin: false
 permissions:
-  - 'access administration pages'
   - 'access content'
-  - 'access content overview'
-  - 'access toolbar'
-  - 'administer menu'
-  - 'administer nodes'
-  - 'bypass node access'
-  - 'create content translations'
-  - 'create url aliases'
-  - 'delete content translations'
-  - 'translate any entity'
-  - 'translate landing_page node'
-  - 'translate paragraph'
-  - 'update content translations'
-  - 'use administration language negotiation'
-  - 'view files'
-  - 'view own unpublished content'
-  - 'view the administration theme'
