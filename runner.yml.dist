@@ -1,3 +1,6 @@
+behat:
+  base_url: "http://web:8080"
+
 authentication:
   server:
     base_url: "http://authentication:8001"
@@ -7,27 +10,17 @@ selenium:
   port: "4444"
 
 commands:
-  drupal:import-interface-translations:
-     - "./vendor/bin/drush language-import modules/custom/europa_demo_core/translations/fr.po"
-     - "./vendor/bin/drush language-import modules/custom/europa_demo_core/translations/it.po"
   drupal:demo-composer-install:
-    - "cd site-a;composer install"
-    - "cd site-b;composer install"
-    - "cd site-c;composer install"
+    - "composer --working-dir=site-a install"
+    - "composer --working-dir=site-b install"
+    - "composer --working-dir=site-c install"
   drupal:demo-setup:
-    - "cd site-a;./vendor/bin/run drupal:site-setup"
-    - "cd site-b;./vendor/bin/run drupal:site-setup"
-    - "cd site-c;./vendor/bin/run drupal:site-setup"
+    - "./vendor/bin/run --working-dir='${runner.working_dir}/site-a' drupal:site-setup"
+    - "./vendor/bin/run --working-dir='${runner.working_dir}/site-b' drupal:site-setup"
+    - "./vendor/bin/run --working-dir='${runner.working_dir}/site-c' drupal:site-setup"
   drupal:demo-install:
-    - "cd site-a;./vendor/bin/run drupal:site-install"
-    - "cd site-b;./vendor/bin/run drupal:site-install"
-    - "cd site-c;./vendor/bin/run drupal:site-install"
-  drupal:export-content:
-    - './vendor/bin/drush dcer node --folder modules/custom/europa_demo_content/content'
-    - { task: "remove", file: "modules/europa_demo_content/content/user" }
+    - "./vendor/bin/run --working-dir='${runner.working_dir}/site-a' drupal:site-install"
+    - "./vendor/bin/run --working-dir='${runner.working_dir}/site-b' drupal:site-install"
+    - "./vendor/bin/run --working-dir='${runner.working_dir}/site-c' drupal:site-install"
   setup:behat:
     - { task: "process", source: "behat.yml.dist", destination: "behat.yml" }
-
-drupal:
-   config_directories:
-      sync: '../config/sync'

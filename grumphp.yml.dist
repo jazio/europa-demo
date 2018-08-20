@@ -1,0 +1,55 @@
+imports:
+- { resource: vendor/openeuropa/code-review/dist/drupal-conventions.yml }
+
+parameters:
+  tasks.phpcs.ignore_patterns:
+  - site-a/vendor
+  - site-a/web/.ht.router.php
+  - site-a/web/autoload.php
+  - site-a/web/index.php
+  - site-a/web/update.php
+  - site-a/web/core
+  - site-a/web/sites
+  - site-a/web/modules/contrib/
+  - site-a/web/themes/contrib/
+  - site-a/web/profiles/contrib/
+  - site-a/web/libraries/
+  - site-b/vendor
+  - site-b/web/.ht.router.php
+  - site-b/web/autoload.php
+  - site-b/web/index.php
+  - site-b/web/update.php
+  - site-b/web/core
+  - site-b/web/sites
+  - site-b/web/modules/contrib/
+  - site-b/web/themes/contrib/
+  - site-b/web/profiles/contrib/
+  - site-b/web/libraries/
+  - site-c/vendor
+  - site-c/web/.ht.router.php
+  - site-c/web/autoload.php
+  - site-c/web/index.php
+  - site-c/web/update.php
+  - site-c/web/core
+  - site-c/web/sites
+  - site-c/web/modules/contrib/
+  - site-c/web/themes/contrib/
+  - site-c/web/profiles/contrib/
+  - site-c/web/libraries/
+
+  tasks.phpcs.triggered_by:
+  - php
+  - module
+  - inc
+  - theme
+  - install
+
+  extra_tasks:
+    phpparser:
+      ignore_patterns: "%tasks.phpcs.ignore_patterns%"
+      visitors:
+        declare_strict_types: ~
+      triggered_by: "%tasks.phpcs.triggered_by%"
+
+  extensions:
+  - OpenEuropa\CodeReview\ExtraTasksExtension

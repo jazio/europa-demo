@@ -1,0 +1,96 @@
+workspace:
+  base: /test
+  path: content-layer-demo
+
+services:
+  web:
+    image: fpfis/httpd-php-dev:7.1
+    environment:
+      - DOCUMENT_ROOT=/test/content-layer-demo
+  mysql:
+    image: percona/percona-server:5.6
+    environment:
+      - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+  selenium:
+    image: selenium/standalone-chrome:3.11
+    environment:
+      - DISPLAY=:99
+      - SE_OPTS=-debug
+  authentication:
+    image: openeuropa/pcas-server:latest
+
+pipeline:
+  composer-install:
+    group: prepare
+    image: fpfis/httpd-php-dev:7.1
+    volumes:
+      - /cache:/cache
+    commands:
+      - composer install
+
+  build-site-a:
+    group: build-site
+    image: fpfis/httpd-php-dev:7.1
+    volumes:
+    - /cache:/cache
+    commands:
+    - composer --working-dir=site-a install
+
+  build-site-b:
+    group: build-site
+    image: fpfis/httpd-php-dev:7.1
+    volumes:
+    - /cache:/cache
+    commands:
+    - composer --working-dir=site-b install
+
+  build-site-c:
+    group: build-site
+    image: fpfis/httpd-php-dev:7.1
+    volumes:
+    - /cache:/cache
+    commands:
+    - composer --working-dir=site-c install
+
+  install-site-a:
+    group: install-site
+    image: fpfis/httpd-php-dev:7.1
+    commands:
+      - ./vendor/bin/run --working-dir='/test/content-layer-demo/site-a' drupal:site-install
+
+  install-site-b:
+    group: install-site
+    image: fpfis/httpd-php-dev:7.1
+    commands:
+      - ./vendor/bin/run --working-dir='/test/content-layer-demo/site-b' drupal:site-install
+
+  install-site-c:
+    group: install-site
+    image: fpfis/httpd-php-dev:7.1
+    commands:
+      - ./vendor/bin/run --working-dir='/test/content-layer-demo/site-c' drupal:site-install
+
+  grumphp:
+    group: test
+    image: fpfis/httpd-php-dev:7.1
+    commands:
+      - ./vendor/bin/grumphp run
+
+  behat:
+    group: test
+    image: fpfis/httpd-php-dev:7.1
+    commands:
+      - ./vendor/bin/behat
+
+  start-demo:
+    group: test
+    image: fpfis/drone-frpc-plugin:latest
+    secrets: [ frpc_token, frpc_server ]
+    endpoint: web:8080
+    gen_auth: yes
+    domain: ${DRONE_REPO_NAME}-${DRONE_BUILD_NUMBER}-demo.ci.fpfis.tech.ec.europa.eu
+    url_output_file: /test/.frpc
+    when:
+      event: push
+      branch: [ demo-*, debug-* ]
+      status: [ success, failure ]
