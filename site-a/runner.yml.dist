@@ -1,63 +1,29 @@
 drupal:
-  root: "build"
-  base_url: "http://web:8080/site-a/build"
+  root: "web"
+  base_url: "http://web:8080/web"
   database:
     host: "mysql"
     port: "3306"
-    name: "content_demo_a"
+    name: "site_a"
     user: "root"
     password: ""
   site:
-    profile: "minimal"
-    name: "Europa Content Demo Site A"
+    profile: "config_installer"
+    name: "Site A"
   pre_install:
     - { task: "chmod", permissions: 0775, file: "${drupal.root}/sites/default" }
     - { task: "touch", file: "${drupal.root}/sites/default/settings.php" }
     - { task: "chmod", permissions: 0664, file: "${drupal.root}/sites/default/settings.php" }
     - { task: "remove", file: "${drupal.root}/sites/default/settings.php" }
-  post_install:
-    - { task: "chmod", permissions: 0775, file: "${drupal.root}/sites/default" }
-    - { task: "chmod", permissions: 0664, file: "${drupal.root}/sites/default/settings.php" }
-    # OpenEuropa Profile overrides some configuration values in its hook_install(), so we re-run configuration import.
-    # @todo: Fix this.
-#    - "./vendor/bin/drush cim -y"
-#    - "./vendor/bin/drush en europa_demo_content -y"
-#    - "./vendor/bin/run drupal:import-interface-translations"
-    - "./vendor/bin/drush cr"
   settings:
-    settings:
-      container_yamls:
-        - "${runner.working_dir}/build/site/default/services.yml"
-        - "${runner.working_dir}/services.yml"
     config_directories:
-      sync: 'config/sync'
-    # Configuration for the OpenEuropa Webtools Analytics module:
-    # config:
-    #   oe_webtools_analytics.settings:
-    #     siteID: '<your siteId>'
-    #     sitePath: '<your sitePath>'
-
-authentication:
-  server:
-    base_url: "http://authentication:8001"
+      sync: '../config/sync'
 
 selenium:
   host: "http://selenium"
   port: "4444"
 
 commands:
-  drupal:import-interface-translations:
-     - "./vendor/bin/drush language-import modules/custom/europa_demo_core/translations/fr.po"
-     - "./vendor/bin/drush language-import modules/custom/europa_demo_core/translations/it.po"
   drupal:site-setup:
-    - { task: "symlink", from: "../../modules", to: "${drupal.root}/modules/custom" }
-    - { task: "symlink", from: "../../themes", to: "${drupal.root}/themes/custom" }
     - { task: "run", command: "drupal:drush-setup" }
     - { task: "run", command: "drupal:settings-setup" }
-    - { task: "run", command: "setup:behat" }
-    - { task: "process", source: "services.yml.dist", destination: "services.yml" }
-  drupal:export-content:
-    - './vendor/bin/drush dcer node --folder modules/custom/europa_demo_content/content'
-    - { task: "remove", file: "modules/europa_demo_content/content/user" }
-  setup:behat:
-    - { task: "process", source: "behat.yml.dist", destination: "behat.yml" }
