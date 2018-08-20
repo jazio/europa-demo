@@ -1,0 +1,11 @@
+uuid: 0eaf6a7b-5852-4983-bc1f-6b3b05f97a01
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: G6HpRVLivw3x7LNjIgkRDZo-xci4CwkvUAPxAL2iqRM
+id: sl
+label: Slovenian
+direction: ltr
+weight: 15
+locked: false

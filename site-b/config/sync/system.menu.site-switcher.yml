@@ -1,0 +1,8 @@
+uuid: 643e5037-cfe2-4449-8f5e-e826f114ec49
+langcode: en
+status: true
+dependencies: {  }
+id: site-switcher
+label: 'Site switcher'
+description: 'Top page menu that allows to switch between sites.'
+locked: false

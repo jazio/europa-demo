@@ -1,0 +1,66 @@
+label: Filer
+display:
+  default:
+    display_title: Master
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Filter
+          reset_button_label: Gendan
+          exposed_sorts_label: 'Sortér efter'
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Antal elementer'
+            items_per_page_options_all_label: '- Alle -'
+      fields:
+        filename:
+          label: Navn
+        filemime:
+          label: 'MIME type'
+        filesize:
+          label: Størrelse
+        status:
+          label: Status
+          settings:
+            format_custom_false: Midlertidig
+            format_custom_true: Permanent
+        created:
+          label: Upload-dato
+        count:
+          label: 'Brugt i'
+      filters:
+        filename:
+          expose:
+            label: Filnavn
+        filemime:
+          expose:
+            label: 'MIME type'
+        status:
+          expose:
+            label: Status
+      title: Filer
+  page_1:
+    display_options:
+      menu:
+        title: Filer
+  page_2:
+    display_title: 'File usage'
+    display_options:
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Antal elementer'
+            items_per_page_options_all_label: '- Alle -'
+      fields:
+        entity_label:
+          label: Entity
+        type:
+          label: Entity-type
+        count:
+          label: 'Brug antal'
+      title: 'File usage'
+      arguments:
+        fid:
+          exception:
+            title: Alle

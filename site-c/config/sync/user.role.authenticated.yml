@@ -1,0 +1,29 @@
+uuid: 8d785879-d596-45fc-a9fb-11f986aac544
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access administration pages'
+  - 'access content'
+  - 'access content overview'
+  - 'access toolbar'
+  - 'administer menu'
+  - 'administer nodes'
+  - 'bypass node access'
+  - 'create content translations'
+  - 'create url aliases'
+  - 'delete content translations'
+  - 'translate any entity'
+  - 'translate landing_page node'
+  - 'translate paragraph'
+  - 'update content translations'
+  - 'use administration language negotiation'
+  - 'view files'
+  - 'view own unpublished content'
+  - 'view the administration theme'

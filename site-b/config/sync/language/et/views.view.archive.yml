@@ -1,0 +1,21 @@
+display:
+  default:
+    display_title: Peamine
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Rakenda
+          reset_button_label: Tühista
+          exposed_sorts_label: 'Sorteerimise alus'
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Kirjeid lehel'
+            items_per_page_options_all_label: '- Kõik -'
+          tags:
+            previous: ‹‹
+            next: ››
+  block_1:
+    display_title: Plokk
+  page_1:
+    display_title: Lehekülg

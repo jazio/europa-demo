@@ -1,0 +1,66 @@
+label: File
+display:
+  default:
+    display_title: Principale
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Filtra
+          reset_button_label: Ripristina
+          exposed_sorts_label: 'Ordina per'
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Voci per pagina'
+            items_per_page_options_all_label: '- Tutto -'
+      fields:
+        filename:
+          label: Nome
+        filemime:
+          label: 'Tipo MIME'
+        filesize:
+          label: Dimensione
+        status:
+          label: Stato
+          settings:
+            format_custom_false: Temporaneo
+            format_custom_true: Permanente
+        created:
+          label: 'Data di caricamento'
+        count:
+          label: 'Usato in'
+      filters:
+        filename:
+          expose:
+            label: 'Nome file'
+        filemime:
+          expose:
+            label: 'Tipo MIME'
+        status:
+          expose:
+            label: Stato
+      title: File
+  page_1:
+    display_options:
+      menu:
+        title: File
+  page_2:
+    display_title: 'Utilizzo del file'
+    display_options:
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Voci per pagina'
+            items_per_page_options_all_label: '- Tutto -'
+      fields:
+        entity_label:
+          label: Entità
+        type:
+          label: 'Tipo di entità'
+        count:
+          label: 'Contatore di utilizzo'
+      title: 'Utilizzo del file'
+      arguments:
+        fid:
+          exception:
+            title: Tutti

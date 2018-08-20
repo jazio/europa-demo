@@ -1,0 +1,64 @@
+label: Failid
+display:
+  default:
+    display_title: Peamine
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Filtreeri
+          reset_button_label: Tühista
+          exposed_sorts_label: 'Sorteerimise alus'
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Kirjeid lehel'
+            items_per_page_options_all_label: '- Kõik -'
+      fields:
+        filename:
+          label: Nimi
+        filemime:
+          label: MIME-tüüp
+        filesize:
+          label: Suurus
+        status:
+          label: Olek
+          settings:
+            format_custom_false: Ajutine
+            format_custom_true: Alaline
+        created:
+          label: 'Üleslaadimise kuupäev'
+        count:
+          label: Kasutuskoht
+      filters:
+        filename:
+          expose:
+            label: Failinimi
+        filemime:
+          expose:
+            label: MIME-tüüp
+        status:
+          expose:
+            label: Olek
+      title: Failid
+  page_1:
+    display_options:
+      menu:
+        title: Failid
+  page_2:
+    display_options:
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Kirjeid lehel'
+            items_per_page_options_all_label: '- Kõik -'
+      fields:
+        entity_label:
+          label: Olem
+        type:
+          label: 'Olemi tüüp'
+        count:
+          label: 'Kasutuse loendur'
+      arguments:
+        fid:
+          exception:
+            title: Kõik

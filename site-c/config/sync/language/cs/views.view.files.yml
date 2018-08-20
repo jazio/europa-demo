@@ -1,0 +1,62 @@
+label: Soubory
+display:
+  default:
+    display_title: Nadřízené
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Filtr
+          reset_button_label: Reset
+          exposed_sorts_label: 'Řadit dle'
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Položek na stránku'
+            items_per_page_options_all_label: '- Vše -'
+      fields:
+        filename:
+          label: Jméno
+        filemime:
+          label: 'Typ MIME'
+        filesize:
+          label: Velikost
+        status:
+          label: Stav
+          settings:
+            format_custom_false: Dočasný
+            format_custom_true: Trvalý
+        created:
+          label: 'Datum nahrání'
+        count:
+          label: 'Použito v'
+      filters:
+        filename:
+          expose:
+            label: 'Název souboru'
+        filemime:
+          expose:
+            label: 'Typ MIME'
+        status:
+          expose:
+            label: Stav
+      title: Soubory
+  page_1:
+    display_options:
+      menu:
+        title: Soubory
+  page_2:
+    display_options:
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Položek na stránku'
+            items_per_page_options_all_label: '- Vše -'
+      fields:
+        entity_label:
+          label: Entity
+        type:
+          label: 'Typ entity'
+      arguments:
+        fid:
+          exception:
+            title: Vše

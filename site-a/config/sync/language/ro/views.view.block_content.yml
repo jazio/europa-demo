@@ -1,0 +1,37 @@
+label: 'Librărie bloc personalizat'
+display:
+  default:
+    display_title: Expert
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Aplicare
+          reset_button_label: Resetează
+          exposed_sorts_label: 'Sortare după'
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Elemente pe pagină'
+            items_per_page_options_all_label: '- Toate -'
+      fields:
+        info:
+          label: 'Descrierea blocului'
+        type:
+          label: 'Tipul blocului'
+        changed:
+          label: Actualizat
+        operations:
+          label: Operaţii
+      filters:
+        info:
+          expose:
+            label: 'Descrierea blocului'
+        type:
+          expose:
+            label: 'Tipul blocului'
+      title: 'Librărie bloc personalizat'
+  page_1:
+    display_title: Pagina
+    display_options:
+      menu:
+        title: 'Librărie bloc personalizat'

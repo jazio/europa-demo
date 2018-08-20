@@ -1,0 +1,32 @@
+display:
+  default:
+    display_title: Mester
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Alkalmaz
+          reset_button_label: Alaphelyzet
+          exposed_sorts_label: Rendezés
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Elemek száma oldalanként'
+            items_per_page_options_all_label: '- Mind -'
+      fields:
+        info:
+          label: 'Blokk leírása'
+        type:
+          label: Blokktípus
+        changed:
+          label: Frissítve
+        operations:
+          label: Műveletek
+      filters:
+        info:
+          expose:
+            label: 'Blokk leírása'
+        type:
+          expose:
+            label: Blokktípus
+  page_1:
+    display_title: Oldal

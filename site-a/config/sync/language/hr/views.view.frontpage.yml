@@ -1,0 +1,13 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Primjeni
+          reset_button_label: Poništi
+          exposed_sorts_label: 'Rasporedi po'
+    display_title: Master
+  feed_1:
+    display_title: Feed
+  page_1:
+    display_title: Stranica

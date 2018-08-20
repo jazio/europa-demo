@@ -1,0 +1,29 @@
+uuid: 0525c104-bad1-4c5c-9d54-27719477b335
+langcode: en
+status: true
+dependencies:
+  module:
+    - europa_demo_core
+    - system
+  theme:
+    - europa_demo_theme
+id: europa_demo_site_banner
+theme: europa_demo_theme
+region: page_header
+weight: -4
+provider: null
+plugin: europa_demo_site_banner
+settings:
+  id: europa_demo_site_banner
+  label: 'Site banner'
+  provider: europa_demo_core
+  label_display: '0'
+  title: 'Future of Europe'
+  uri: 'https://ec.europa.eu/commission/future-europe_en'
+  background: modules/custom/europa_demo_core/images/homepage-banner.jpg
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,65 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Filtrēt
+          reset_button_label: Attīrīt
+          exposed_sorts_label: 'Kārtot pēc'
+      pager:
+        options:
+          tags:
+            previous: '‹ iepriekšējā'
+            next: 'nākamā ›'
+          expose:
+            items_per_page_options_all_label: '- Visi -'
+      fields:
+        filename:
+          label: Nosaukums
+        type:
+          label: Veids
+        filesize:
+          label: Izmērs
+        status:
+          label: Statuss
+        changed:
+          label: Labots
+        created:
+          label: Izveidots
+        count:
+          label: 'Izmantots iekš'
+        operations:
+          label: Darbības
+      filters:
+        filename:
+          expose:
+            label: 'Faila nosaukums'
+        status:
+          expose:
+            label: Statuss
+        type:
+          expose:
+            label: Veids
+      title: Datnes
+  overview:
+    display_options:
+      menu:
+        title: Datnes
+  usage:
+    display_options:
+      pager:
+        options:
+          tags:
+            previous: '‹ iepriekšējā'
+            next: 'nākamā ›'
+          expose:
+            items_per_page_options_all_label: '- Visi -'
+      fields:
+        type:
+          label: 'Entītijas veids'
+        count:
+          label: 'Lietojumu skaits'
+      arguments:
+        fid:
+          exception:
+            title: Visi

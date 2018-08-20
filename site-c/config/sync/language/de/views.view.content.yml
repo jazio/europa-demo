@@ -1,0 +1,55 @@
+label: Inhalt
+description: 'Inhalte finden und verwalten.'
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Filter
+          reset_button_label: Zurücksetzen
+          exposed_sorts_label: 'Sortieren nach'
+      fields:
+        title:
+          label: Titel
+        type:
+          label: Inhaltstyp
+        name:
+          label: Autor
+        status:
+          label: Status
+          settings:
+            format_custom_true: Veröffentlicht
+        changed:
+          label: Aktualisiert
+        operations:
+          label: Operationen
+      filters:
+        title:
+          expose:
+            label: Titel
+        type:
+          expose:
+            label: Inhaltstyp
+        status:
+          expose:
+            label: Status
+          group_info:
+            label: 'Inhalt, der den Status veröffentlicht besitzt'
+            group_items:
+              1:
+                title: Veröffentlicht
+        langcode:
+          expose:
+            label: Sprache
+      title: Inhalt
+      empty:
+        area_text_custom:
+          content: 'Kein Inhalt verfügbar.'
+    display_title: Master
+  page_1:
+    display_options:
+      menu:
+        title: Inhalt
+      tab_options:
+        title: Inhalt
+    display_title: Seite

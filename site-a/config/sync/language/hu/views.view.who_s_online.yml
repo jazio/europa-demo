@@ -1,0 +1,13 @@
+display:
+  default:
+    display_title: Mester
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Alkalmaz
+          reset_button_label: Alaphelyzet
+          exposed_sorts_label: Rendezés
+      filters:
+        access:
+          expose:
+            label: 'Utolsó tevékenység'

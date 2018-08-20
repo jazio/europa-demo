@@ -1,0 +1,77 @@
+display:
+  default:
+    display_title: Hoofd
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Filter
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sorteren op'
+      pager:
+        options:
+          tags:
+            previous: '‹ vorige'
+            next: 'volgende ›'
+          expose:
+            items_per_page_label: 'Items per pagina'
+            items_per_page_options_all_label: '- Alle -'
+      fields:
+        filename:
+          label: Naam
+        type:
+          label: Type
+        filemime:
+          label: Mime-type
+        filesize:
+          label: Grootte
+        status:
+          label: Status
+        changed:
+          label: Gewijzigd
+        created:
+          label: Aangemaakt
+        count:
+          label: 'Gebruikt in'
+        operations:
+          label: Bewerkingen
+      filters:
+        filename:
+          expose:
+            label: Bestandsnaam
+        filemime:
+          expose:
+            label: Mime-type
+        status:
+          expose:
+            label: Status
+        type:
+          expose:
+            label: Type
+      title: Bestanden
+  overview:
+    display_options:
+      menu:
+        title: Bestanden
+  usage:
+    display_title: Bestandsgebruik
+    display_options:
+      pager:
+        options:
+          tags:
+            previous: '‹ vorige'
+            next: 'volgende ›'
+          expose:
+            items_per_page_label: 'Items per pagina'
+            items_per_page_options_all_label: '- Alle -'
+      fields:
+        entity_label:
+          label: Entiteit
+        type:
+          label: Entiteitstype
+        count:
+          label: Gebruiksfrequentie
+      title: Bestandsgebruik
+      arguments:
+        fid:
+          exception:
+            title: Alle

@@ -1,0 +1,72 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Φίλτρο
+          reset_button_label: Επαναφορά
+          exposed_sorts_label: 'Ταξινόμηση κατά'
+      pager:
+        options:
+          tags:
+            previous: '‹ προηγούμενη'
+            next: 'επόμενη ›'
+          expose:
+            items_per_page_label: 'Είδη ανά σελίδα'
+            items_per_page_options_all_label: '- Όλα -'
+      fields:
+        filename:
+          label: Όνομα
+        type:
+          label: Τύπος
+        filemime:
+          label: 'Τύπος MIME'
+        filesize:
+          label: Μέγεθος
+        status:
+          label: Κατάσταση
+        changed:
+          label: Τροποποιημένο
+        created:
+          label: Δημιουργήθηκε
+        count:
+          label: 'Χρησιμοποιείται σε'
+        operations:
+          label: Λειτουργίες
+      filters:
+        filename:
+          expose:
+            label: 'Όνομα αρχείου'
+        filemime:
+          expose:
+            label: 'Τύπος MIME'
+        status:
+          expose:
+            label: Κατάσταση
+        type:
+          expose:
+            label: Τύπος
+      title: Αρχεία
+  overview:
+    display_options:
+      menu:
+        title: Αρχεία
+  usage:
+    display_options:
+      pager:
+        options:
+          tags:
+            previous: '‹ προηγούμενη'
+            next: 'επόμενη ›'
+          expose:
+            items_per_page_label: 'Είδη ανά σελίδα'
+            items_per_page_options_all_label: '- Όλα -'
+      fields:
+        entity_label:
+          label: Οντότητα
+        type:
+          label: 'Τύπος οντότητας'
+      arguments:
+        fid:
+          exception:
+            title: Όλες
