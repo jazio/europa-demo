@@ -1,6 +1,6 @@
 drupal:
   root: "web"
-  base_url: "http://web:8080/web"
+  base_url: "http://web:8080/site-a/web"
   database:
     host: "mysql"
     port: "3306"
@@ -18,10 +18,6 @@ drupal:
   settings:
     config_directories:
       sync: '../config/sync'
-
-selenium:
-  host: "http://selenium"
-  port: "4444"
 
 commands:
   drupal:site-setup:

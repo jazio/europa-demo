@@ -1,11 +1,11 @@
-uuid: 84163bd7-d6fb-473a-89f0-95747d4b1bcc
-name: 'Europa Demo'
+uuid: a26575b7-daee-435a-8e3a-f300e8de3d1e
+name: 'Site B'
 mail: info@example.org
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node/1
+  front: /node
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en

@@ -1,59 +1,37 @@
 {
-    "name": "ec-europa/content-layer-demo/site-b",
-    "description": "Europa demo site, based on OpenEuropa components.",
+    "name": "openeuropa/site-b",
+    "description": "A website built on the OpenEuropa platform.",
     "type": "project",
     "license": "EUPL-1.2",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "require": {
-        "php": "^7.1",
-        "drupal/config_filter": "^1.2",
-        "drupal/config_installer": "~1.8",
-        "drupal/core": "~8.6",
-        "drupal/file_entity": "^2.0@beta",
-        "openeuropa/oe_auth": "^0.2",
-        "openeuropa/oe_multilingual": "^0.1",
-        "openeuropa/oe_paragraphs": "^0.2",
-        "openeuropa/oe_profile": "^0.1",
-        "openeuropa/oe_theme": "^0.5",
-        "openeuropa/oe_webtools": "^0.1"
+        "php": "~7.1",
+        "composer/installers": "^1.2",
+        "cweagans/composer-patches": "^1.6",
+        "drupal-composer/drupal-scaffold": "^2.5",
+        "drupal/config_installer": "^1.8",
+        "drupal/core": "~8.6@alpha",
+        "drush/drush": "^9.0.0",
+        "openeuropa/oe_profile": "~0.1",
+        "openeuropa/oe_theme": "~0.4",
+        "webflo/drupal-finder": "^1.0.0",
+        "webmozart/path-util": "^2.3"
     },
     "require-dev": {
-        "composer/installers": "^1.2",
-        "drupal-composer/drupal-scaffold": "^2.2",
-        "drupal/config_distro": "^1.0@alpha",
-        "drupal/config_sync": "^2.0@alpha",
-        "drupal/console": "^1",
-        "drupal/default_content": "^1.0@alpha",
-        "drupal/drupal-extension": "^4.0.0@alpha",
-        "drupal/drush_language": "^1.0",
-        "drush/drush": "^9",
-        "nikic/php-parser": "~3",
+        "drupal/console": "^1.0.2",
+        "drupal/drupal-extension": "~4.0",
+        "nikic/php-parser": "~2.0|~3.0|~4.0",
         "openeuropa/code-review": "~0.3",
-        "openeuropa/composer-artifacts": "^0.1",
-        "openeuropa/task-runner": "^0.7",
+        "openeuropa/composer-artifacts": "~0.1",
+        "openeuropa/task-runner": "~0.5",
         "webflo/drupal-core-require-dev": "~8.6"
     },
     "scripts": {
-        "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
         "post-install-cmd": [
-            "@drupal-scaffold"
+            "./vendor/bin/run drupal:site-setup"
         ],
         "post-update-cmd": [
-            "@drupal-scaffold"
+            "./vendor/bin/run drupal:site-setup"
         ]
-    },
-    "autoload": {
-        "psr-4": {
-            "Ec\\Europa\\EuropaDemo\\": "./src/"
-        }
-    },
-    "repositories":
-    {
-        "drupal": {
-            "type": "composer",
-            "url": "https://packages.drupal.org/8"
-        }
     },
     "extra": {
         "artifacts": {
@@ -66,16 +44,48 @@
         },
         "composer-exit-on-patch-failure": true,
         "installer-paths": {
-            "build/core": ["type:drupal-core"],
-            "build/profiles/contrib/{$name}": ["type:drupal-profile"],
-            "build/modules/contrib/{$name}": ["type:drupal-module"],
-            "build/themes/contrib/{$name}": ["type:drupal-theme"]
+            "web/core": [
+                "type:drupal-core"
+            ],
+            "web/libraries/{$name}": [
+                "type:drupal-library"
+            ],
+            "web/modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "web/profiles/contrib/{$name}": [
+                "type:drupal-profile"
+            ],
+            "web/themes/contrib/{$name}": [
+                "type:drupal-theme"
+            ]
+        },
+        "patches": {
+            "phpro/grumphp": {
+                "Make detection of strict types compatible with PhpParser 4 - https://github.com/phpro/grumphp/pull/525": "https://patch-diff.githubusercontent.com/raw/phpro/grumphp/pull/525.patch"
+            }
         }
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "config": {
         "sort-packages": true,
         "platform": {
             "php": "7.1.9"
         }
-    }
+    },
+    "autoload": {
+        "psr-4": {
+            "OpenEuropa\\site_b\\": "./src/"
+        }
+    },
+    "conflict": {
+        "drupal/drupal": "*"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ]
 }
