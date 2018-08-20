@@ -12,7 +12,7 @@
         "drupal/core": "~8.6@alpha",
         "drupal/file_entity": "^2.0@beta",
         "openeuropa/oe_auth": "~0.3",
-        "openeuropa/oe_multilingual": "0.1.4",
+        "openeuropa/oe_multilingual": "~0.1",
         "openeuropa/oe_paragraphs": "~0.2",
         "openeuropa/oe_profile": "~0.1",
         "openeuropa/oe_theme": "~0.5",
