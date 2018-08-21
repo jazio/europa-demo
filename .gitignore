@@ -15,6 +15,7 @@ grumphp.yml
 behat.yml
 runner.yml
 services.yml
+docker-compose.yml
 
 # Ignore user entity export
 /modules/europa_demo_content/content/user
