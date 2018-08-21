@@ -24,7 +24,7 @@ class AuthenticationContext extends RawDrupalContext {
    * @BeforeScenario @authentication
    */
   public function enableAuthentication(BeforeScenarioScope $scope): void {
-    if (!\Drupal::service('module_installer')->install(['oe_auth'])) {
+    if (!\Drupal::service('module_installer')->install(['oe_authentication'])) {
       throw new \Exception('Could not enable the OpenEuropa Authentication module.');
     }
   }
@@ -40,7 +40,7 @@ class AuthenticationContext extends RawDrupalContext {
    * @AfterScenario @authentication
    */
   public function disableAuthentication(AfterScenarioScope $scope): void {
-    if (!\Drupal::service('module_installer')->uninstall(['oe_auth'])) {
+    if (!\Drupal::service('module_installer')->uninstall(['oe_authentication'])) {
       throw new \Exception('Could not disable the OpenEuropa Authentication module.');
     }
   }

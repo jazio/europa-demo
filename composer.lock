@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9220ee89bfbd9993f7e7c5c15a7a9cee",
+    "content-hash": "2a09f0cb4e70aa0c67a55e7458966c40",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1254,6 +1254,10 @@
                     "recurse": false,
                     "replace": false,
                     "merge-extra": false
+                },
+                "patches_applied": {
+                    "https://www.drupal.org/project/drupal/issues/2943172": "https://www.drupal.org/files/issues/2018-07-05/2943172-kernel-test-base-3.patch",
+                    "https://www.drupal.org/project/drupal/issues/2599228": "https://www.drupal.org/files/issues/2018-08-08/2599228-58.patch"
                 }
             },
             "autoload": {
@@ -2393,17 +2397,17 @@
             "time": "2018-07-19T12:22:01+00:00"
         },
         {
-            "name": "openeuropa/oe_auth",
-            "version": "0.3.0",
+            "name": "openeuropa/oe_authentication",
+            "version": "0.4.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/openeuropa/oe_auth.git",
-                "reference": "fb67a0095187e1f8cc9cc4c0e632ee6089403a06"
+                "url": "https://github.com/openeuropa/oe_authentication.git",
+                "reference": "5e5b61601670addfa44cebb40bb791c88b6ecaac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openeuropa/oe_auth/zipball/fb67a0095187e1f8cc9cc4c0e632ee6089403a06",
-                "reference": "fb67a0095187e1f8cc9cc4c0e632ee6089403a06",
+                "url": "https://api.github.com/repos/openeuropa/oe_authentication/zipball/5e5b61601670addfa44cebb40bb791c88b6ecaac",
+                "reference": "5e5b61601670addfa44cebb40bb791c88b6ecaac",
                 "shasum": ""
             },
             "require": {
@@ -2446,15 +2450,15 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Drupal\\oe_auth\\": "./src/"
+                    "Drupal\\oe_authentication\\": "./src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "EUPL-1.2"
             ],
-            "description": "Authentication against the OpenEuropa Auth service.",
-            "time": "2018-08-13T22:33:34+00:00"
+            "description": "Authentication against the OpenEuropa Authentication service.",
+            "time": "2018-08-20T16:14:15+00:00"
         },
         {
             "name": "openeuropa/oe_multilingual",
