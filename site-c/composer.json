@@ -18,9 +18,6 @@
     },
     "require-dev": {
         "drupal/console": "^1.0.2",
-        "drupal/drupal-extension": "~4.0",
-        "nikic/php-parser": "~2.0|~3.0|~4.0",
-        "openeuropa/code-review": "~0.3",
         "openeuropa/composer-artifacts": "~0.1",
         "openeuropa/task-runner": "~0.5",
         "webflo/drupal-core-require-dev": "~8.6"
@@ -59,11 +56,6 @@
             "web/themes/contrib/{$name}": [
                 "type:drupal-theme"
             ]
-        },
-        "patches": {
-            "phpro/grumphp": {
-                "Make detection of strict types compatible with PhpParser 4 - https://github.com/phpro/grumphp/pull/525": "https://patch-diff.githubusercontent.com/raw/phpro/grumphp/pull/525.patch"
-            }
         }
     },
     "minimum-stability": "dev",

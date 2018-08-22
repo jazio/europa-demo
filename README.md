@@ -12,7 +12,6 @@ composer install
 ./vendor/bin/run drupal:demo-install
 ```
 
-
 When working on 3 concurrent builds, there are Task Runner parallel tasks available in
 `src\TaskRunner\Commands\ContentLayerCommands.php`:
 
