@@ -31,9 +31,9 @@ services:
     expose:
       - '4444'
   authentication:
-    image: openeuropa/pcas-server
+    image: openeuropa/pcas-server:latest
     expose:
-      - 8001
+      - 8001:8001
 
 #### Mac users: uncomment the "volumes" key to enable the NFS file sharing. You can find more information about Docker for Mac here: https://github.com/openeuropa/openeuropa/blob/master/docs/starting/tooling.md#using-docker-on-macos
 
