@@ -769,12 +769,6 @@ $settings['entity_update_batch_size'] = 50;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 
-
-
-
-
-
-
 // Start settings processor block.
 
 $config_directories["sync"] = '../config/sync';
