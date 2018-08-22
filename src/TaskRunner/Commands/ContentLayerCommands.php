@@ -22,7 +22,19 @@ class ContentLayerCommands extends AbstractCommands {
       ->process('cd site-b;composer install')
       ->process('cd site-c;composer install')
       ->run();
+  }
 
+  /**
+   * Run parallel composer update in site directories.
+   *
+   * @command drupal:parallel-composer-update
+   */
+  public function runParallelComposerUpdate(): void {
+    $this->taskParallelExec()
+      ->process('cd site-a;composer update')
+      ->process('cd site-b;composer update')
+      ->process('cd site-c;composer update')
+      ->run();
   }
 
   /**

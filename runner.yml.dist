@@ -11,16 +11,24 @@ selenium:
 
 commands:
   drupal:demo-composer-install:
-    - "composer --working-dir=site-a install"
-    - "composer --working-dir=site-b install"
-    - "composer --working-dir=site-c install"
+  - "composer --working-dir=site-a install"
+  - "composer --working-dir=site-b install"
+  - "composer --working-dir=site-c install"
+  drupal:demo-composer-update:
+  - "composer --working-dir=site-a update"
+  - "composer --working-dir=site-b update"
+  - "composer --working-dir=site-c update"
+  drupal:demo-composer-drupal-scaffold:
+  - "composer --working-dir=site-a drupal:scaffold"
+  - "composer --working-dir=site-b drupal:scaffold"
+  - "composer --working-dir=site-c drupal:scaffold"
   drupal:demo-setup:
-    - "./vendor/bin/run --working-dir='${runner.working_dir}/site-a' drupal:site-setup"
-    - "./vendor/bin/run --working-dir='${runner.working_dir}/site-b' drupal:site-setup"
-    - "./vendor/bin/run --working-dir='${runner.working_dir}/site-c' drupal:site-setup"
+  - "./vendor/bin/run --working-dir='${runner.working_dir}/site-a' drupal:site-setup"
+  - "./vendor/bin/run --working-dir='${runner.working_dir}/site-b' drupal:site-setup"
+  - "./vendor/bin/run --working-dir='${runner.working_dir}/site-c' drupal:site-setup"
   drupal:demo-install:
-    - "./vendor/bin/run --working-dir='${runner.working_dir}/site-a' drupal:site-install"
-    - "./vendor/bin/run --working-dir='${runner.working_dir}/site-b' drupal:site-install"
-    - "./vendor/bin/run --working-dir='${runner.working_dir}/site-c' drupal:site-install"
+  - "./vendor/bin/run --working-dir='${runner.working_dir}/site-a' drupal:site-install"
+  - "./vendor/bin/run --working-dir='${runner.working_dir}/site-b' drupal:site-install"
+  - "./vendor/bin/run --working-dir='${runner.working_dir}/site-c' drupal:site-install"
   setup:behat:
-    - { task: "process", source: "behat.yml.dist", destination: "behat.yml" }
+  - { task: "process", source: "behat.yml.dist", destination: "behat.yml" }
