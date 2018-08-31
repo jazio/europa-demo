@@ -1,6 +1,6 @@
 drupal:
   root: "web"
-  base_url: "http://web:8080/site-a/web"
+  base_url: "http://web:8080/site-rtd/web"
   database:
     host: "mysql"
     port: "3306"

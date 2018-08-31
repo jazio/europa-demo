@@ -18,9 +18,9 @@ class ContentLayerCommands extends AbstractCommands {
    */
   public function runParallelComposerInstall(): void {
     $this->taskParallelExec()
-      ->process('cd site-a;composer install')
-      ->process('cd site-b;composer install')
-      ->process('cd site-c;composer install')
+      ->process('cd site-rtd;composer install')
+      ->process('cd site-agri;composer install')
+      ->process('cd site-energy;composer install')
       ->run();
   }
 
@@ -31,9 +31,9 @@ class ContentLayerCommands extends AbstractCommands {
    */
   public function runParallelComposerUpdate(): void {
     $this->taskParallelExec()
-      ->process('cd site-a;composer update')
-      ->process('cd site-b;composer update')
-      ->process('cd site-c;composer update')
+      ->process('cd site-rtd;composer update')
+      ->process('cd site-agri;composer update')
+      ->process('cd site-energy;composer update')
       ->run();
   }
 
@@ -44,9 +44,9 @@ class ContentLayerCommands extends AbstractCommands {
    */
   public function runParallelSitesSetup(): void {
     $this->taskParallelExec()
-      ->process('cd site-a;./vendor/bin/run drupal:site-setup')
-      ->process('cd site-b;./vendor/bin/run drupal:site-setup')
-      ->process('cd site-c;./vendor/bin/run drupal:site-setup')
+      ->process('cd site-rtd;./vendor/bin/run drupal:site-setup')
+      ->process('cd site-agri;./vendor/bin/run drupal:site-setup')
+      ->process('cd site-energy;./vendor/bin/run drupal:site-setup')
       ->run();
   }
 
@@ -57,9 +57,9 @@ class ContentLayerCommands extends AbstractCommands {
    */
   public function runParallelSitesInstall(): void {
     $this->taskParallelExec()
-      ->process('cd site-a;./vendor/bin/run drupal:site-install')
-      ->process('cd site-b;./vendor/bin/run drupal:site-install')
-      ->process('cd site-c;./vendor/bin/run drupal:site-install')
+      ->process('cd site-rtd;./vendor/bin/run drupal:site-install')
+      ->process('cd site-agri;./vendor/bin/run drupal:site-install')
+      ->process('cd site-energy;./vendor/bin/run drupal:site-install')
       ->run();
   }
 

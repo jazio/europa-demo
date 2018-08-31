@@ -11,24 +11,24 @@ selenium:
 
 commands:
   drupal:demo-composer-install:
-  - "composer --working-dir=site-a install"
-  - "composer --working-dir=site-b install"
-  - "composer --working-dir=site-c install"
+  - "composer --working-dir=site-rtd install"
+  - "composer --working-dir=site-agri install"
+  - "composer --working-dir=site-energy install"
   drupal:demo-composer-update:
-  - "composer --working-dir=site-a update"
-  - "composer --working-dir=site-b update"
-  - "composer --working-dir=site-c update"
+  - "composer --working-dir=site-rtd update"
+  - "composer --working-dir=site-agri update"
+  - "composer --working-dir=site-energy update"
   drupal:demo-composer-drupal-scaffold:
-  - "composer --working-dir=site-a drupal:scaffold"
-  - "composer --working-dir=site-b drupal:scaffold"
-  - "composer --working-dir=site-c drupal:scaffold"
+  - "composer --working-dir=site-rtd drupal:scaffold"
+  - "composer --working-dir=site-agri drupal:scaffold"
+  - "composer --working-dir=site-energy drupal:scaffold"
   drupal:demo-setup:
-  - "./vendor/bin/run --working-dir='${runner.working_dir}/site-a' drupal:site-setup"
-  - "./vendor/bin/run --working-dir='${runner.working_dir}/site-b' drupal:site-setup"
-  - "./vendor/bin/run --working-dir='${runner.working_dir}/site-c' drupal:site-setup"
+  - "./vendor/bin/run --working-dir='${runner.working_dir}/site-rtd' drupal:site-setup"
+  - "./vendor/bin/run --working-dir='${runner.working_dir}/site-agri' drupal:site-setup"
+  - "./vendor/bin/run --working-dir='${runner.working_dir}/site-energy' drupal:site-setup"
   drupal:demo-install:
-  - "./vendor/bin/run --working-dir='${runner.working_dir}/site-a' drupal:site-install"
-  - "./vendor/bin/run --working-dir='${runner.working_dir}/site-b' drupal:site-install"
-  - "./vendor/bin/run --working-dir='${runner.working_dir}/site-c' drupal:site-install"
+  - "./vendor/bin/run --working-dir='${runner.working_dir}/site-rtd' drupal:site-install"
+  - "./vendor/bin/run --working-dir='${runner.working_dir}/site-agri' drupal:site-install"
+  - "./vendor/bin/run --working-dir='${runner.working_dir}/site-energy' drupal:site-install"
   setup:behat:
   - { task: "process", source: "behat.yml.dist", destination: "behat.yml" }

@@ -3,39 +3,39 @@ imports:
 
 parameters:
   tasks.phpcs.ignore_patterns:
-  - site-a/vendor
-  - site-a/web/.ht.router.php
-  - site-a/web/autoload.php
-  - site-a/web/index.php
-  - site-a/web/update.php
-  - site-a/web/core
-  - site-a/web/sites
-  - site-a/web/modules/contrib/
-  - site-a/web/themes/contrib/
-  - site-a/web/profiles/contrib/
-  - site-a/web/libraries/
-  - site-b/vendor
-  - site-b/web/.ht.router.php
-  - site-b/web/autoload.php
-  - site-b/web/index.php
-  - site-b/web/update.php
-  - site-b/web/core
-  - site-b/web/sites
-  - site-b/web/modules/contrib/
-  - site-b/web/themes/contrib/
-  - site-b/web/profiles/contrib/
-  - site-b/web/libraries/
-  - site-c/vendor
-  - site-c/web/.ht.router.php
-  - site-c/web/autoload.php
-  - site-c/web/index.php
-  - site-c/web/update.php
-  - site-c/web/core
-  - site-c/web/sites
-  - site-c/web/modules/contrib/
-  - site-c/web/themes/contrib/
-  - site-c/web/profiles/contrib/
-  - site-c/web/libraries/
+  - site-rtd/vendor
+  - site-rtd/web/.ht.router.php
+  - site-rtd/web/autoload.php
+  - site-rtd/web/index.php
+  - site-rtd/web/update.php
+  - site-rtd/web/core
+  - site-rtd/web/sites
+  - site-rtd/web/modules/contrib/
+  - site-rtd/web/themes/contrib/
+  - site-rtd/web/profiles/contrib/
+  - site-rtd/web/libraries/
+  - site-agri/vendor
+  - site-agri/web/.ht.router.php
+  - site-agri/web/autoload.php
+  - site-agri/web/index.php
+  - site-agri/web/update.php
+  - site-agri/web/core
+  - site-agri/web/sites
+  - site-agri/web/modules/contrib/
+  - site-agri/web/themes/contrib/
+  - site-agri/web/profiles/contrib/
+  - site-agri/web/libraries/
+  - site-energy/vendor
+  - site-energy/web/.ht.router.php
+  - site-energy/web/autoload.php
+  - site-energy/web/index.php
+  - site-energy/web/update.php
+  - site-energy/web/core
+  - site-energy/web/sites
+  - site-energy/web/modules/contrib/
+  - site-energy/web/themes/contrib/
+  - site-energy/web/profiles/contrib/
+  - site-energy/web/libraries/
 
   tasks.phpcs.triggered_by:
   - php

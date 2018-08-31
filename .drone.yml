@@ -28,47 +28,47 @@ pipeline:
     commands:
       - composer install
 
-  build-site-a:
+  build-site-rtd:
     group: build-site
     image: fpfis/httpd-php-dev:7.1
     volumes:
     - /cache:/cache
     commands:
-    - composer --working-dir=site-a install
+    - composer --working-dir=site-rtd install
 
-  build-site-b:
+  build-site-agri:
     group: build-site
     image: fpfis/httpd-php-dev:7.1
     volumes:
     - /cache:/cache
     commands:
-    - composer --working-dir=site-b install
+    - composer --working-dir=site-agri install
 
-  build-site-c:
+  build-site-energy:
     group: build-site
     image: fpfis/httpd-php-dev:7.1
     volumes:
     - /cache:/cache
     commands:
-    - composer --working-dir=site-c install
+    - composer --working-dir=site-energy install
 
-  install-site-a:
+  install-site-rtd:
     group: install-site
     image: fpfis/httpd-php-dev:7.1
     commands:
-      - ./vendor/bin/run --working-dir='/test/content-layer-demo/site-a' drupal:site-install
+      - ./vendor/bin/run --working-dir='/test/content-layer-demo/site-rtd' drupal:site-install
 
-  install-site-b:
+  install-site-agri:
     group: install-site
     image: fpfis/httpd-php-dev:7.1
     commands:
-      - ./vendor/bin/run --working-dir='/test/content-layer-demo/site-b' drupal:site-install
+      - ./vendor/bin/run --working-dir='/test/content-layer-demo/site-agri' drupal:site-install
 
-  install-site-c:
+  install-site-energy:
     group: install-site
     image: fpfis/httpd-php-dev:7.1
     commands:
-      - ./vendor/bin/run --working-dir='/test/content-layer-demo/site-c' drupal:site-install
+      - ./vendor/bin/run --working-dir='/test/content-layer-demo/site-energy' drupal:site-install
 
   grumphp:
     group: test
