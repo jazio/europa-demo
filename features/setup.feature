@@ -9,6 +9,6 @@ Feature: Setup
 
     Examples:
     | path   | name   |
-    | site-rtd | Site A |
-    | site-agri | Site B |
-    | site-energy | Site C |
+    | site-rtd | Site RTD |
+    | site-agri | Site AGRI |
+    | site-energy | Site ENERGY |

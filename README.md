@@ -5,9 +5,9 @@ and having them share content.
 
 The project provides the following setup:
 
-- Site A: produces content
-- Site B: produces and consumes content
-- Site C: consumes content
+- Site RTD: produces content
+- Site AGRI: produces and consumes content
+- Site ENERGY: consumes content
 
 Content will be saved in RDF triples in order to enhance interoperability with other semantic data sources provided by
 the European Commission.
@@ -67,9 +67,9 @@ docker-compose exec web ./vendor/bin/run drupal:demo-install
 
 The three site will then be available at the following URLs:
 
-- Site A: http://localhost:8080/site-rtd/web
-- Site B: http://localhost:8080/site-agri/web
-- Site C: http://localhost:8080/site-energy/web
+- Site RTD: http://localhost:8080/site-rtd/web
+- Site AGRI: http://localhost:8080/site-agri/web
+- Site ENERGY: http://localhost:8080/site-energy/web
 
 ## Development
 
@@ -81,7 +81,7 @@ docker-compose exec web ./vendor/bin/run drupal:demo-composer-update
 
 This will run `composer update` in all three sites.
 
-To export configuration on one site, "Site B" in this instance, run:
+To export configuration on one site, "Site AGRI" in this instance, run:
 
 ```
 docker-compose exec web ./site-agri/vendor/bin/drush cex

@@ -9,7 +9,7 @@ drupal:
     password: ""
   site:
     profile: "config_installer"
-    name: "Site A"
+    name: "Site RTD"
   pre_install:
     - { task: "chmod", permissions: 0775, file: "${drupal.root}/sites/default" }
     - { task: "touch", file: "${drupal.root}/sites/default/settings.php" }
