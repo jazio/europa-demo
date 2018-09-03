@@ -1,0 +1,32 @@
+display:
+  default:
+    display_title: Główny
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Zastosuj
+          reset_button_label: Resetuj
+          exposed_sorts_label: 'Sortuj po'
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Elementów na stronę'
+            items_per_page_options_all_label: '- Wszystko -'
+      fields:
+        info:
+          label: 'Opis bloku'
+        type:
+          label: 'Rodzaj bloku'
+        changed:
+          label: Uaktualniono
+        operations:
+          label: Operacje
+      filters:
+        info:
+          expose:
+            label: 'Opis bloku'
+        type:
+          expose:
+            label: 'Rodzaj bloku'
+  page_1:
+    display_title: Strona

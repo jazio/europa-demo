@@ -4,7 +4,7 @@ drupal:
   database:
     host: "mysql"
     port: "3306"
-    name: "site_b"
+    name: "agri"
     user: "root"
     password: ""
   site:
@@ -15,6 +15,14 @@ drupal:
     - { task: "touch", file: "${drupal.root}/sites/default/settings.php" }
     - { task: "chmod", permissions: 0664, file: "${drupal.root}/sites/default/settings.php" }
     - { task: "remove", file: "${drupal.root}/sites/default/settings.php" }
+  post_install:
+  - { task: "chmod", permissions: 0775, file: "${drupal.root}/sites/default" }
+  - { task: "chmod", permissions: 0664, file: "${drupal.root}/sites/default/settings.php" }
+  # OpenEuropa Profile overrides some configuration values in its hook_install(), so we re-run configuration import.
+  # @todo: Fix this.
+  - "./vendor/bin/drush cim -y"
+#  - "./vendor/bin/drush en europa_demo_content -y"
+  - "./vendor/bin/drush cr"
   settings:
     config_directories:
       sync: '../config/sync'

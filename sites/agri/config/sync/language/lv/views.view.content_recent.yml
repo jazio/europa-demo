@@ -1,0 +1,14 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Apstiprināt
+          reset_button_label: Attīrīt
+          exposed_sorts_label: 'Kārtot pēc'
+      empty:
+        area_text_custom:
+          content: 'Nav pieejams nekāds saturs.'
+      use_more_text: Vairāk
+  block_1:
+    display_title: Bloks

@@ -1,0 +1,75 @@
+display:
+  default:
+    display_title: Isäntä
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Suodatin
+          reset_button_label: Palauta
+          exposed_sorts_label: Lajittele
+      pager:
+        options:
+          tags:
+            previous: '‹ edellinen'
+            next: 'seuraava ›'
+          expose:
+            items_per_page_label: 'Merkintöjä sivua kohti'
+            items_per_page_options_all_label: '- Kaikki -'
+      fields:
+        filename:
+          label: Nimi
+        type:
+          label: Tyyppi
+        filemime:
+          label: MIME-tyyppi
+        filesize:
+          label: Koko
+        status:
+          label: Tila
+        changed:
+          label: Muuttunut
+        created:
+          label: Luotu
+        count:
+          label: Käytetään
+        operations:
+          label: Toimenpiteet
+      filters:
+        filename:
+          expose:
+            label: 'Tiedoston nimi'
+        filemime:
+          expose:
+            label: MIME-tyyppi
+        status:
+          expose:
+            label: Tila
+        type:
+          expose:
+            label: Tyyppi
+      title: Tiedostot
+  overview:
+    display_options:
+      menu:
+        title: Tiedostot
+  usage:
+    display_options:
+      pager:
+        options:
+          tags:
+            previous: '‹ edellinen'
+            next: 'seuraava ›'
+          expose:
+            items_per_page_label: 'Merkintöjä sivua kohti'
+            items_per_page_options_all_label: '- Kaikki -'
+      fields:
+        entity_label:
+          label: Entiteetti
+        type:
+          label: 'Entiteetin tyyppi'
+        count:
+          label: Käyttömäärä
+      arguments:
+        fid:
+          exception:
+            title: Kaikki

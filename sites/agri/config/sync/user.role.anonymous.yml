@@ -1,4 +1,4 @@
-uuid: b3d62b70-970a-4190-948f-387a090354b9
+uuid: 28415c91-1a60-42f5-a8af-6ef4b819261a
 langcode: en
 status: true
 dependencies: {  }
@@ -10,3 +10,4 @@ weight: 0
 is_admin: false
 permissions:
   - 'access content'
+  - 'view files'

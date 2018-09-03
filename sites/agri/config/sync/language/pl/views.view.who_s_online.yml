@@ -1,0 +1,19 @@
+display:
+  default:
+    display_title: Główny
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Zastosuj
+          reset_button_label: Resetuj
+          exposed_sorts_label: 'Sortuj po'
+      filters:
+        access:
+          expose:
+            label: 'Ostatni dostęp'
+            description: 'Tak długo od ostatniego odświeżenia strony użytkownik jest uważany za będącego online.'
+      title: 'Kto przegląda'
+  who_s_online_block:
+    display_title: 'Kto przegląda'
+    display_options:
+      block_description: 'Kto przegląda'

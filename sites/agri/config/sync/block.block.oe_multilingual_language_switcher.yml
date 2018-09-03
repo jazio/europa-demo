@@ -1,0 +1,22 @@
+uuid: 6bd03a3f-f179-4bfa-b5c0-0e9acef2f206
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - oe_theme
+_core:
+  default_config_hash: NET5EO4_lNZO4nr1fIdKvf0gDP7FhlSiR9o4hibL3fk
+id: oe_multilingual_language_switcher
+theme: oe_theme
+region: site_header
+weight: -4
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  provider: language
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,61 @@
+label: Felhasználók
+display:
+  default:
+    display_title: Mester
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Szűrő
+          reset_button_label: Alaphelyzet
+          exposed_sorts_label: Rendezés
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Elemek száma oldalanként'
+            items_per_page_options_all_label: '- Mind -'
+      fields:
+        user_bulk_form:
+          label: 'Tömeges frissítés'
+        name:
+          label: Felhasználónév
+        status:
+          label: Állapot
+          settings:
+            format_custom_true: Aktív
+            format_custom_false: Zárolt
+        roles_target_id:
+          label: Szerepkörök
+        created:
+          label: 'Ennyi ideje tag'
+        access:
+          label: 'Utolsó tevékenység'
+        operations:
+          label: Műveletek
+      filters:
+        status:
+          group_info:
+            label: Állapot
+            group_items:
+              1:
+                title: Aktív
+              2:
+                title: Zárolt
+        roles_target_id:
+          expose:
+            label: Szerepkör
+        permission:
+          expose:
+            label: Jogosultság
+      title: Felhasználók
+      empty:
+        area_text_custom:
+          content: 'Nincsenek a webhellyel kapcsolatban álló emberek.'
+      use_more_text: tovább
+  page_1:
+    display_title: Oldal
+    display_options:
+      menu:
+        title: Lista
+      tab_options:
+        title: Felhasználók
+        description: 'Felhasználói fiókok kezelése, szerepkörök és jogosultságok.'

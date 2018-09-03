@@ -1,0 +1,73 @@
+display:
+  default:
+    display_title: Główny
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Filtr
+          reset_button_label: Resetuj
+          exposed_sorts_label: 'Sortuj po'
+      pager:
+        options:
+          tags:
+            previous: '‹ poprzednia'
+          expose:
+            items_per_page_label: 'Elementów na stronę'
+            items_per_page_options_all_label: '- Wszystko -'
+      fields:
+        filename:
+          label: Nazwa
+        type:
+          label: Typ
+        filemime:
+          label: 'Typ MIME'
+        filesize:
+          label: Rozmiar
+        status:
+          label: Status
+        changed:
+          label: Zmieniono
+        created:
+          label: Utworzono
+        count:
+          label: 'Użyte w'
+        operations:
+          label: Operacje
+      filters:
+        filename:
+          expose:
+            label: 'Nazwa pliku'
+        filemime:
+          expose:
+            label: 'Typ MIME'
+        status:
+          expose:
+            label: Status
+        type:
+          expose:
+            label: Typ
+      title: Pliki
+  overview:
+    display_options:
+      menu:
+        title: Pliki
+  usage:
+    display_options:
+      pager:
+        options:
+          tags:
+            previous: '‹ poprzednia'
+          expose:
+            items_per_page_label: 'Elementów na stronę'
+            items_per_page_options_all_label: '- Wszystko -'
+      fields:
+        entity_label:
+          label: Encja
+        type:
+          label: 'Typ encji'
+        count:
+          label: 'Ilość wystąpień'
+      arguments:
+        fid:
+          exception:
+            title: Wszystko
