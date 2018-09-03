@@ -1,0 +1,156 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_rich_text"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_rich_text\/uid": [
+            {
+                "href": "http:\/\/127.0.0.1:8888\/en\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_rich_text\/revision_uid": [
+            {
+                "href": "http:\/\/127.0.0.1:8888\/en\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 42
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d85b564a-4c48-4620-8e95-c8ce294f6b2f"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 239
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "oe_rich_text"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_rich_text\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/127.0.0.1:8888\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "dbfb69b4-b937-4520-97d2-64ae91df0a05"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_rich_text\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/127.0.0.1:8888\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "dbfb69b4-b937-4520-97d2-64ae91df0a05"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-06-21T12:59:11+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "1"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_landing_page_body"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": "a:0:{}"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "content_translation_changed": [
+        {
+            "value": "2018-06-21T12:59:11+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "field_oe_text_long": [
+        {
+            "value": "Give feedback on this page",
+            "format": "plain_text",
+            "processed": "<p>Give feedback on this page<\/p>\n",
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,345 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_content_row"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_content_row\/uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "fr"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "it"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_content_row\/revision_uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_content_row\/field_oe_paragraphs": [
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 87
+        }
+    ],
+    "uuid": [
+        {
+            "value": "aa605acb-cd2c-4364-9d5c-dbf0323648f3"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 1809
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        },
+        {
+            "value": "fr",
+            "lang": "fr"
+        },
+        {
+            "value": "it",
+            "lang": "it"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "oe_content_row"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_content_row\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "fr"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "it"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_content_row\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_content_row\/field_oe_paragraphs": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item_block"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1df4129c-fb90-4df0-954a-301a5c163d43"
+                    }
+                ],
+                "target_revision_id": "1800"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item_block"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a73e6585-7946-4687-ac89-d1dded24027d"
+                    }
+                ],
+                "target_revision_id": "1803"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item_block"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2347748d-4ffe-4a5e-9a1d-bfb782510ae9"
+                    }
+                ],
+                "target_revision_id": "1808"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
+            "lang": "it"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-06-26T10:01:57+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T10:01:57+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T10:01:57+00:00",
+            "lang": "it",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "4"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_landing_page_body"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": "a:0:{}"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
+            "lang": "it"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "fr"
+        },
+        {
+            "value": "en",
+            "lang": "it"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
+        }
+    ],
+    "content_translation_changed": [
+        {
+            "value": "2018-06-26T10:17:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T14:11:31+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T14:11:31+00:00",
+            "lang": "it",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "field_oe_content_row_variant": [
+        {
+            "value": "inpage",
+            "lang": "en"
+        },
+        {
+            "value": "inpage",
+            "lang": "fr"
+        },
+        {
+            "value": "inpage",
+            "lang": "it"
+        }
+    ],
+    "field_oe_title": [
+        {
+            "value": "PAGE CONTENTS",
+            "lang": "en"
+        },
+        {
+            "value": "CONTENU",
+            "lang": "fr"
+        },
+        {
+            "value": "INDICE",
+            "lang": "it"
+        }
+    ]
+}

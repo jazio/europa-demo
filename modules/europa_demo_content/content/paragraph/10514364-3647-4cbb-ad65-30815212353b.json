@@ -1,0 +1,346 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item_block"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item_block\/uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "fr"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "it"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item_block\/revision_uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item_block\/field_oe_paragraphs": [
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 32
+        }
+    ],
+    "uuid": [
+        {
+            "value": "10514364-3647-4cbb-ad65-30815212353b"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 1765
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        },
+        {
+            "value": "fr",
+            "lang": "fr"
+        },
+        {
+            "value": "it",
+            "lang": "it"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "oe_list_item_block"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item_block\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "fr"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "it"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item_block\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item_block\/field_oe_paragraphs": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a2242e0a-8d70-4f23-b556-909308a42a38"
+                    }
+                ],
+                "target_revision_id": "1763"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c6635c2a-c579-448b-8e81-84f8069cd945"
+                    }
+                ],
+                "target_revision_id": "1764"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
+            "lang": "it"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-06-21T12:52:27+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:19:37+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:19:37+00:00",
+            "lang": "it",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "1"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_landing_page_body"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": "a:0:{}"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
+            "lang": "it"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        },
+        {
+            "value": "und",
+            "lang": "fr"
+        },
+        {
+            "value": "und",
+            "lang": "it"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
+        }
+    ],
+    "content_translation_changed": [
+        {
+            "value": "2018-06-21T12:52:27+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T14:05:49+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-26T14:05:49+00:00",
+            "lang": "it",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "field_oe_link": [
+        {
+            "uri": "internal:\/",
+            "title": "More about the Commission",
+            "options": [],
+            "lang": "en"
+        },
+        {
+            "uri": "internal:\/",
+            "title": "En savoir plus sur la Commission",
+            "options": [],
+            "lang": "fr"
+        },
+        {
+            "uri": "internal:\/",
+            "title": "Per saperne di pi\u00f9 sulla Commissione",
+            "options": [],
+            "lang": "it"
+        }
+    ],
+    "field_oe_list_item_block_variant": [
+        {
+            "value": "two_columns",
+            "lang": "en"
+        },
+        {
+            "value": "two_columns",
+            "lang": "fr"
+        },
+        {
+            "value": "two_columns",
+            "lang": "it"
+        }
+    ],
+    "field_oe_title": [
+        {
+            "value": "About the European Commission",
+            "lang": "en"
+        },
+        {
+            "value": "\u00c0 propos de la Commission europ\u00e9enne",
+            "lang": "fr"
+        },
+        {
+            "value": "La Commissione europea",
+            "lang": "it"
+        }
+    ]
+}

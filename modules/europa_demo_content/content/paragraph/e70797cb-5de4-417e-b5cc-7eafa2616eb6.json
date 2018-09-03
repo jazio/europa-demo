@@ -1,0 +1,324 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "fr"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "it"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 22
+        }
+    ],
+    "uuid": [
+        {
+            "value": "e70797cb-5de4-417e-b5cc-7eafa2616eb6"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 1079
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        },
+        {
+            "value": "fr",
+            "lang": "fr"
+        },
+        {
+            "value": "it",
+            "lang": "it"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "oe_list_item"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "fr"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "it"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
+            "lang": "it"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-06-20T10:43:25+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:19:37+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:19:37+00:00",
+            "lang": "it",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "26"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "paragraph"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_oe_paragraphs"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": "a:0:{}"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
+            "lang": "it"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        },
+        {
+            "value": "und",
+            "lang": "fr"
+        },
+        {
+            "value": "und",
+            "lang": "it"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
+        }
+    ],
+    "content_translation_changed": [
+        {
+            "value": "2018-06-25T15:34:27+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:19:37+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:19:37+00:00",
+            "lang": "it",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "field_oe_link": [
+        {
+            "uri": "internal:\/info",
+            "title": "",
+            "options": [],
+            "lang": "en"
+        },
+        {
+            "uri": "internal:\/info",
+            "title": "",
+            "options": [],
+            "lang": "fr"
+        },
+        {
+            "uri": "internal:\/info",
+            "title": "",
+            "options": [],
+            "lang": "it"
+        }
+    ],
+    "field_oe_list_item_variant": [
+        {
+            "value": "list_item_default",
+            "lang": "en"
+        },
+        {
+            "value": "list_item_default",
+            "lang": "fr"
+        },
+        {
+            "value": "list_item_default",
+            "lang": "it"
+        }
+    ],
+    "field_oe_text_long": [
+        {
+            "value": "Permanent and temporary jobs, traineeships, how to apply, EU careers office EPSO.",
+            "format": "plain_text",
+            "processed": "Permanent and temporary jobs, traineeships, how to apply, EU careers office EPSO.",
+            "lang": "en"
+        },
+        {
+            "value": "Postes permanents et temporaires, stages, comment postuler, EPSO (Office europ\u00e9en de s\u00e9lection du personnel)",
+            "format": "plain_text",
+            "processed": "Postes permanents et temporaires, stages, comment postuler, EPSO (Office europ\u00e9en de s\u00e9lection du personnel)",
+            "lang": "fr"
+        },
+        {
+            "value": "Posti di lavoro permanenti e temporanei, tirocini, come candidarsi, Ufficio europeo di selezione del personale (EPSO).",
+            "format": "plain_text",
+            "processed": "Posti di lavoro permanenti e temporanei, tirocini, come candidarsi, Ufficio europeo di selezione del personale (EPSO).",
+            "lang": "it"
+        }
+    ],
+    "field_oe_title": [
+        {
+            "value": "Jobs at the European Commission",
+            "lang": "en"
+        },
+        {
+            "value": "Travailler \u00e0 la Commission europ\u00e9enne",
+            "lang": "fr"
+        },
+        {
+            "value": "Lavorare alla Commissione europea",
+            "lang": "it"
+        }
+    ]
+}

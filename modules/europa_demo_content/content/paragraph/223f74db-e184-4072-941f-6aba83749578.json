@@ -1,0 +1,324 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "fr"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "it"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 25
+        }
+    ],
+    "uuid": [
+        {
+            "value": "223f74db-e184-4072-941f-6aba83749578"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 1082
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        },
+        {
+            "value": "fr",
+            "lang": "fr"
+        },
+        {
+            "value": "it",
+            "lang": "it"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "oe_list_item"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "fr"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "it"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
+            "lang": "it"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-06-20T10:44:44+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:19:37+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:19:37+00:00",
+            "lang": "it",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "26"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "paragraph"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_oe_paragraphs"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": "a:0:{}"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
+            "lang": "it"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        },
+        {
+            "value": "und",
+            "lang": "fr"
+        },
+        {
+            "value": "und",
+            "lang": "it"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
+        }
+    ],
+    "content_translation_changed": [
+        {
+            "value": "2018-06-25T15:34:27+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:19:37+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:19:37+00:00",
+            "lang": "it",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "field_oe_link": [
+        {
+            "uri": "internal:\/info",
+            "title": "",
+            "options": [],
+            "lang": "en"
+        },
+        {
+            "uri": "internal:\/info",
+            "title": "",
+            "options": [],
+            "lang": "fr"
+        },
+        {
+            "uri": "internal:\/info",
+            "title": "",
+            "options": [],
+            "lang": "it"
+        }
+    ],
+    "field_oe_list_item_variant": [
+        {
+            "value": "list_item_default",
+            "lang": "en"
+        },
+        {
+            "value": "list_item_default",
+            "lang": "fr"
+        },
+        {
+            "value": "list_item_default",
+            "lang": "it"
+        }
+    ],
+    "field_oe_text_long": [
+        {
+            "value": "EU support for job creation, economic growth, business competitiveness, and sustainable development.\r\n",
+            "format": "plain_text",
+            "processed": "EU support for job creation, economic growth, business competitiveness, and sustainable development.",
+            "lang": "en"
+        },
+        {
+            "value": "Le soutien de l\u2019UE \u00e0 la cr\u00e9ation d\u2019emplois, \u00e0 la croissance \u00e9conomique, \u00e0 la comp\u00e9titivit\u00e9 des entreprises et au d\u00e9veloppement durable.",
+            "format": "plain_text",
+            "processed": "Le soutien de l\u2019UE \u00e0 la cr\u00e9ation d\u2019emplois, \u00e0 la croissance \u00e9conomique, \u00e0 la comp\u00e9titivit\u00e9 des entreprises et au d\u00e9veloppement durable.",
+            "lang": "fr"
+        },
+        {
+            "value": "Sostegno dell'UE per la creazione di posti di lavoro, la crescita economica, la competitivit\u00e0 delle aziende e lo sviluppo sostenibile.",
+            "format": "plain_text",
+            "processed": "Sostegno dell&#039;UE per la creazione di posti di lavoro, la crescita economica, la competitivit\u00e0 delle aziende e lo sviluppo sostenibile.",
+            "lang": "it"
+        }
+    ],
+    "field_oe_title": [
+        {
+            "value": "EU regional and urban development",
+            "lang": "en"
+        },
+        {
+            "value": "D\u00e9veloppement r\u00e9gional et urbain de l\u2019UE",
+            "lang": "fr"
+        },
+        {
+            "value": "Sviluppo regionale e urbano nell'UE",
+            "lang": "it"
+        }
+    ]
+}

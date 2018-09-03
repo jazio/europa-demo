@@ -1,0 +1,324 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "fr"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "it"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 21
+        }
+    ],
+    "uuid": [
+        {
+            "value": "3f00309b-cc60-47bb-9af1-c2f21dd9c3b1"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 1078
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        },
+        {
+            "value": "fr",
+            "lang": "fr"
+        },
+        {
+            "value": "it",
+            "lang": "it"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "oe_list_item"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "fr"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "it"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
+            "lang": "it"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-06-20T10:43:02+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:19:37+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:19:37+00:00",
+            "lang": "it",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "26"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "paragraph"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_oe_paragraphs"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": "a:0:{}"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
+            "lang": "it"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        },
+        {
+            "value": "und",
+            "lang": "fr"
+        },
+        {
+            "value": "und",
+            "lang": "it"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
+        }
+    ],
+    "content_translation_changed": [
+        {
+            "value": "2018-06-25T15:34:27+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:19:37+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:19:37+00:00",
+            "lang": "it",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "field_oe_link": [
+        {
+            "uri": "internal:\/info",
+            "title": "",
+            "options": [],
+            "lang": "en"
+        },
+        {
+            "uri": "internal:\/info",
+            "title": "",
+            "options": [],
+            "lang": "fr"
+        },
+        {
+            "uri": "internal:\/info",
+            "title": "",
+            "options": [],
+            "lang": "it"
+        }
+    ],
+    "field_oe_list_item_variant": [
+        {
+            "value": "list_item_default",
+            "lang": "en"
+        },
+        {
+            "value": "list_item_default",
+            "lang": "fr"
+        },
+        {
+            "value": "list_item_default",
+            "lang": "it"
+        }
+    ],
+    "field_oe_text_long": [
+        {
+            "value": "EU promotion of fundamental rights, development and humanitarian aid, current and upcoming projects, partner organisations.",
+            "format": "plain_text",
+            "processed": "EU promotion of fundamental rights, development and humanitarian aid, current and upcoming projects, partner organisations.",
+            "lang": "en"
+        },
+        {
+            "value": "La promotion des droits fondamentaux, de l\u2019aide au d\u00e9veloppement et de l\u2019aide humanitaire, les projets en cours et \u00e0 venir, les organisations partenaires.",
+            "format": "plain_text",
+            "processed": "La promotion des droits fondamentaux, de l\u2019aide au d\u00e9veloppement et de l\u2019aide humanitaire, les projets en cours et \u00e0 venir, les organisations partenaires.",
+            "lang": "fr"
+        },
+        {
+            "value": "Promozione da parte dell'UE dei diritti fondamentali, dello sviluppo e degli aiuti umanitari, progetti in corso e in programma, organizzazioni partner.",
+            "format": "plain_text",
+            "processed": "Promozione da parte dell&#039;UE dei diritti fondamentali, dello sviluppo e degli aiuti umanitari, progetti in corso e in programma, organizzazioni partner.",
+            "lang": "it"
+        }
+    ],
+    "field_oe_title": [
+        {
+            "value": "Aid, Development cooperation, Fundamental rights",
+            "lang": "en"
+        },
+        {
+            "value": "Aide, coop\u00e9ration au d\u00e9veloppement et droits fondamentaux",
+            "lang": "fr"
+        },
+        {
+            "value": "Aiuti, cooperazione allo sviluppo, diritti fondamentali",
+            "lang": "it"
+        }
+    ]
+}

@@ -1,0 +1,412 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "fr"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "it"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/field_oe_image": [
+            {
+                "href": "http:\/\/web:8080\/en\/file\/11?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/file\/11?_format=hal_json",
+                "lang": "fr"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/file\/11?_format=hal_json",
+                "lang": "it"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 44
+        }
+    ],
+    "uuid": [
+        {
+            "value": "915990c4-f681-4d32-aa7f-1aaffd7dc96b"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 1772
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        },
+        {
+            "value": "fr",
+            "lang": "fr"
+        },
+        {
+            "value": "it",
+            "lang": "it"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "oe_list_item"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "fr"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ],
+                "lang": "it"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b82800a1-31ef-499d-8fcb-3bcd249e0145"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/field_oe_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/file\/11?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4779afbe-8446-4b45-bdb7-1b398aeab2e1"
+                    }
+                ],
+                "lang": "en",
+                "alt": "Preparation of the upcoming European Council",
+                "title": "",
+                "width": "250",
+                "height": "167"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/file\/11?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4779afbe-8446-4b45-bdb7-1b398aeab2e1"
+                    }
+                ],
+                "lang": "fr",
+                "alt": "Pr\u00e9paration du prochain Conseil europ\u00e9en",
+                "title": "",
+                "width": "250",
+                "height": "167"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/file\/11?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4779afbe-8446-4b45-bdb7-1b398aeab2e1"
+                    }
+                ],
+                "lang": "it",
+                "alt": "Preparation of the upcoming European Council",
+                "title": "",
+                "width": "250",
+                "height": "167"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        },
+        {
+            "value": true,
+            "lang": "it"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-06-25T09:14:19+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:19:37+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:19:37+00:00",
+            "lang": "it",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "46"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "paragraph"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_oe_paragraphs"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": "a:0:{}"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        },
+        {
+            "value": "und",
+            "lang": "fr"
+        },
+        {
+            "value": "und",
+            "lang": "it"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        },
+        {
+            "value": false,
+            "lang": "it"
+        }
+    ],
+    "content_translation_changed": [
+        {
+            "value": "2018-06-25T10:20:11+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:19:37+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2018-06-25T16:19:37+00:00",
+            "lang": "it",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "field_oe_link": [
+        {
+            "uri": "internal:\/",
+            "title": "",
+            "options": [],
+            "lang": "en"
+        },
+        {
+            "uri": "internal:\/",
+            "title": "",
+            "options": [],
+            "lang": "fr"
+        },
+        {
+            "uri": "internal:\/",
+            "title": "",
+            "options": [],
+            "lang": "it"
+        }
+    ],
+    "field_oe_list_item_variant": [
+        {
+            "value": "list_item_thumbnail_secondary",
+            "lang": "en"
+        },
+        {
+            "value": "list_item_thumbnail_secondary",
+            "lang": "fr"
+        },
+        {
+            "value": "list_item_thumbnail_secondary",
+            "lang": "it"
+        }
+    ],
+    "field_oe_meta": [
+        {
+            "value": "MEETING",
+            "lang": "en"
+        },
+        {
+            "value": "20 June 2018",
+            "lang": "en"
+        },
+        {
+            "value": "R\u00c9UNION HEBDOMADAIRE",
+            "lang": "fr"
+        },
+        {
+            "value": "20 Juin 2018",
+            "lang": "fr"
+        },
+        {
+            "value": "MEETING",
+            "lang": "it"
+        },
+        {
+            "value": "20 June 2018",
+            "lang": "it"
+        }
+    ],
+    "field_oe_text_long": [
+        {
+            "value": "President Juncker convenes an informal working meeting on migration and asylum issues",
+            "format": "plain_text",
+            "processed": "President Juncker convenes an informal working meeting on migration and asylum issues",
+            "lang": "en"
+        },
+        {
+            "value": "Le pr\u00e9sident Juncker convoque une r\u00e9union de travail informelle sur les questions des migrations et de l\u2019asile et examine des propositions sur l\u2019approfondissement de l\u2019Union \u00e9conomique et mon\u00e9taire",
+            "format": "plain_text",
+            "processed": "Le pr\u00e9sident Juncker convoque une r\u00e9union de travail informelle sur les questions des migrations et de l\u2019asile et examine des propositions sur l\u2019approfondissement de l\u2019Union \u00e9conomique et mon\u00e9taire",
+            "lang": "fr"
+        },
+        {
+            "value": "President Juncker convenes an informal working meeting on migration and asylum issues",
+            "format": "plain_text",
+            "processed": "President Juncker convenes an informal working meeting on migration and asylum issues",
+            "lang": "it"
+        }
+    ],
+    "field_oe_title": [
+        {
+            "value": "Preparation of the upcoming European Council",
+            "lang": "en"
+        },
+        {
+            "value": "Pr\u00e9paration du prochain Conseil europ\u00e9en",
+            "lang": "fr"
+        },
+        {
+            "value": "Preparation of the upcoming European Council",
+            "lang": "it"
+        }
+    ]
+}
