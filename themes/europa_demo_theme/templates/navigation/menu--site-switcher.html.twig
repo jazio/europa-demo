@@ -1,0 +1,21 @@
+{#
+/**
+ * @file
+ * Theme override to display a menu.
+ *
+ * @see ./core/themes/stable/templates/navigation/menu.html.twig
+ */
+#}
+{% include '@ecl/ec-component-site-switcher' with {
+  political: {
+    href: links[0].href,
+    label: links[0].label,
+    is_active: links[0].is_active,
+  },
+  info: {
+    href: links[1].href,
+    label: links[1].label,
+    is_active: links[1].is_active,
+  },
+  extra_classes: 'ecl-site-switcher--header demo-block-site-switcher'
+} %}

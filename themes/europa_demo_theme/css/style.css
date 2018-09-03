@@ -1,0 +1,7 @@
+/*
+Style sheet for Europa Demo sub-theme.
+ */
+
+.ecl-list-item--highlight .ecl-heading {
+  margin-top: 1rem;
+}
