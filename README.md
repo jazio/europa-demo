@@ -67,9 +67,9 @@ docker-compose exec web ./vendor/bin/run drupal:demo-install
 
 The three site will then be available at the following URLs:
 
-- Site RTD: http://localhost:8080/site-rtd/web
-- Site AGRI: http://localhost:8080/site-agri/web
-- Site ENERGY: http://localhost:8080/site-energy/web
+- Site RTD: http://localhost:8080/sites/rtd/web
+- Site AGRI: http://localhost:8080/sites/agri/web
+- Site ENERGY: http://localhost:8080/sites/energy/web
 
 ## Development
 
@@ -84,18 +84,18 @@ This will run `composer update` in all three sites.
 To export configuration on one site, "Site AGRI" in this instance, run:
 
 ```
-docker-compose exec web ./site-agri/vendor/bin/drush cex
+docker-compose exec web ./sites/agri/vendor/bin/drush cex
 ```
 
 To disable cache JS and CSS run:
 
 ```
-docker-compose exec web ./site-agri/vendor/bin/drush -y config-set system.performance js.preprocess 0
-docker-compose exec web ./site-agri/vendor/bin/drush -y config-set system.performance css.preprocess 0
+docker-compose exec web ./sites/agri/vendor/bin/drush -y config-set system.performance js.preprocess 0
+docker-compose exec web ./sites/agri/vendor/bin/drush -y config-set system.performance css.preprocess 0
 ```
 
 To re-install run:
 
 ```
-docker-compose exec web ./vendor/bin/run --working-dir=/var/www/html/site-agri drupal:site-install
+docker-compose exec web ./vendor/bin/run --working-dir=/var/www/html/sites/agri drupal:site-install
 ```

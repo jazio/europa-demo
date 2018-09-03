@@ -34,7 +34,7 @@ pipeline:
     volumes:
     - /cache:/cache
     commands:
-    - composer --working-dir=site-rtd install
+    - composer --working-dir=sites/rtd install
 
   build-site-agri:
     group: build-site
@@ -42,7 +42,7 @@ pipeline:
     volumes:
     - /cache:/cache
     commands:
-    - composer --working-dir=site-agri install
+    - composer --working-dir=sites/agri install
 
   build-site-energy:
     group: build-site
@@ -50,25 +50,25 @@ pipeline:
     volumes:
     - /cache:/cache
     commands:
-    - composer --working-dir=site-energy install
+    - composer --working-dir=sites/energy install
 
   install-site-rtd:
     group: install-site
     image: fpfis/httpd-php-dev:7.1
     commands:
-      - ./vendor/bin/run --working-dir='/test/content-layer-demo/site-rtd' drupal:site-install
+      - ./vendor/bin/run --working-dir='/test/content-layer-demo/sites/rtd' drupal:site-install
 
   install-site-agri:
     group: install-site
     image: fpfis/httpd-php-dev:7.1
     commands:
-      - ./vendor/bin/run --working-dir='/test/content-layer-demo/site-agri' drupal:site-install
+      - ./vendor/bin/run --working-dir='/test/content-layer-demo/sites/agri' drupal:site-install
 
   install-site-energy:
     group: install-site
     image: fpfis/httpd-php-dev:7.1
     commands:
-      - ./vendor/bin/run --working-dir='/test/content-layer-demo/site-energy' drupal:site-install
+      - ./vendor/bin/run --working-dir='/test/content-layer-demo/sites/energy' drupal:site-install
 
   grumphp:
     group: test

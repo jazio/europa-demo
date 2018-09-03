@@ -3,39 +3,39 @@ imports:
 
 parameters:
   tasks.phpcs.ignore_patterns:
-  - site-rtd/vendor
-  - site-rtd/web/.ht.router.php
-  - site-rtd/web/autoload.php
-  - site-rtd/web/index.php
-  - site-rtd/web/update.php
-  - site-rtd/web/core
-  - site-rtd/web/sites
-  - site-rtd/web/modules/contrib/
-  - site-rtd/web/themes/contrib/
-  - site-rtd/web/profiles/contrib/
-  - site-rtd/web/libraries/
-  - site-agri/vendor
-  - site-agri/web/.ht.router.php
-  - site-agri/web/autoload.php
-  - site-agri/web/index.php
-  - site-agri/web/update.php
-  - site-agri/web/core
-  - site-agri/web/sites
-  - site-agri/web/modules/contrib/
-  - site-agri/web/themes/contrib/
-  - site-agri/web/profiles/contrib/
-  - site-agri/web/libraries/
-  - site-energy/vendor
-  - site-energy/web/.ht.router.php
-  - site-energy/web/autoload.php
-  - site-energy/web/index.php
-  - site-energy/web/update.php
-  - site-energy/web/core
-  - site-energy/web/sites
-  - site-energy/web/modules/contrib/
-  - site-energy/web/themes/contrib/
-  - site-energy/web/profiles/contrib/
-  - site-energy/web/libraries/
+  - sites/rtd/vendor
+  - sites/rtd/web/.ht.router.php
+  - sites/rtd/web/autoload.php
+  - sites/rtd/web/index.php
+  - sites/rtd/web/update.php
+  - sites/rtd/web/core
+  - sites/rtd/web/sites
+  - sites/rtd/web/modules/contrib/
+  - sites/rtd/web/themes/contrib/
+  - sites/rtd/web/profiles/contrib/
+  - sites/rtd/web/libraries/
+  - sites/agri/vendor
+  - sites/agri/web/.ht.router.php
+  - sites/agri/web/autoload.php
+  - sites/agri/web/index.php
+  - sites/agri/web/update.php
+  - sites/agri/web/core
+  - sites/agri/web/sites
+  - sites/agri/web/modules/contrib/
+  - sites/agri/web/themes/contrib/
+  - sites/agri/web/profiles/contrib/
+  - sites/agri/web/libraries/
+  - sites/energy/vendor
+  - sites/energy/web/.ht.router.php
+  - sites/energy/web/autoload.php
+  - sites/energy/web/index.php
+  - sites/energy/web/update.php
+  - sites/energy/web/core
+  - sites/energy/web/sites
+  - sites/energy/web/modules/contrib/
+  - sites/energy/web/themes/contrib/
+  - sites/energy/web/profiles/contrib/
+  - sites/energy/web/libraries/
 
   tasks.phpcs.triggered_by:
   - php

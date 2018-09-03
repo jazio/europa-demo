@@ -18,9 +18,9 @@ class ContentLayerCommands extends AbstractCommands {
    */
   public function runParallelComposerInstall(): void {
     $this->taskParallelExec()
-      ->process('cd site-rtd;composer install')
-      ->process('cd site-agri;composer install')
-      ->process('cd site-energy;composer install')
+      ->process('cd sites/rtd;composer install')
+      ->process('cd sites/agri;composer install')
+      ->process('cd sites/energy;composer install')
       ->run();
   }
 
@@ -31,9 +31,9 @@ class ContentLayerCommands extends AbstractCommands {
    */
   public function runParallelComposerUpdate(): void {
     $this->taskParallelExec()
-      ->process('cd site-rtd;composer update')
-      ->process('cd site-agri;composer update')
-      ->process('cd site-energy;composer update')
+      ->process('cd sites/rtd;composer update')
+      ->process('cd sites/agri;composer update')
+      ->process('cd sites/energy;composer update')
       ->run();
   }
 
@@ -44,9 +44,9 @@ class ContentLayerCommands extends AbstractCommands {
    */
   public function runParallelSitesSetup(): void {
     $this->taskParallelExec()
-      ->process('cd site-rtd;./vendor/bin/run drupal:site-setup')
-      ->process('cd site-agri;./vendor/bin/run drupal:site-setup')
-      ->process('cd site-energy;./vendor/bin/run drupal:site-setup')
+      ->process('cd sites/rtd;./vendor/bin/run drupal:site-setup')
+      ->process('cd sites/agri;./vendor/bin/run drupal:site-setup')
+      ->process('cd sites/energy;./vendor/bin/run drupal:site-setup')
       ->run();
   }
 
@@ -57,9 +57,9 @@ class ContentLayerCommands extends AbstractCommands {
    */
   public function runParallelSitesInstall(): void {
     $this->taskParallelExec()
-      ->process('cd site-rtd;./vendor/bin/run drupal:site-install')
-      ->process('cd site-agri;./vendor/bin/run drupal:site-install')
-      ->process('cd site-energy;./vendor/bin/run drupal:site-install')
+      ->process('cd sites/rtd;./vendor/bin/run drupal:site-install')
+      ->process('cd sites/agri;./vendor/bin/run drupal:site-install')
+      ->process('cd sites/energy;./vendor/bin/run drupal:site-install')
       ->run();
   }
 

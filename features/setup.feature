@@ -8,7 +8,7 @@ Feature: Setup
     Then I should see "<name>"
 
     Examples:
-    | path   | name   |
-    | site-rtd | Site RTD |
-    | site-agri | Site AGRI |
-    | site-energy | Site ENERGY |
+    | path         | name        |
+    | sites/rtd    | Site RTD    |
+    | sites/agri   | Site AGRI   |
+    | sites/energy | Site ENERGY |
