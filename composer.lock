@@ -1643,12 +1643,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "44f3d5e79de8fb42136a33f30af428adf8f8f9f6"
+                "reference": "d0fbc1eb05eb22da47ca0c9122bb518de37b88e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/44f3d5e79de8fb42136a33f30af428adf8f8f9f6",
-                "reference": "44f3d5e79de8fb42136a33f30af428adf8f8f9f6",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/d0fbc1eb05eb22da47ca0c9122bb518de37b88e1",
+                "reference": "d0fbc1eb05eb22da47ca0c9122bb518de37b88e1",
                 "shasum": ""
             },
             "require": {
@@ -1738,7 +1738,7 @@
             ],
             "description": "Drush is a command line shell and scripting interface for Drupal, a veritable Swiss Army knife designed to make life easier for those of us who spend some of our working hours hacking away at the command prompt.",
             "homepage": "http://www.drush.org",
-            "time": "2018-08-30T14:46:42+00:00"
+            "time": "2018-09-04T13:14:17+00:00"
         },
         {
             "name": "escapestudios/symfony2-coding-standard",

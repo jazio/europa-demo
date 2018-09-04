@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4b830616ff7eeaf01c42971f52ff3c28",
+    "content-hash": "b77e847cb681c346ede1b1151303528d",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1907,6 +1907,9 @@
                     "recurse": false,
                     "replace": false,
                     "merge-extra": false
+                },
+                "patches_applied": {
+                    "https://www.drupal.org/project/drupal/issues/2943172": "https://www.drupal.org/files/issues/2018-04-15/2943172-kernel-test-base-2.patch"
                 }
             },
             "autoload": {
@@ -2481,6 +2484,11 @@
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
                     }
+                },
+                "patches_applied": {
+                    "GH-63: Paginating the term list page - https://github.com/ec-europa/rdf_entity/pull/64": "https://patch-diff.githubusercontent.com/raw/ec-europa/rdf_entity/pull/64.patch",
+                    "GH-61 - Fixing RDF taxonomy access bug - https://github.com/ec-europa/rdf_entity/pull/62": "https://patch-diff.githubusercontent.com/raw/ec-europa/rdf_entity/pull/62.patch",
+                    "Run on 8.6.x - https://github.com/ec-europa/rdf_entity/pull/65": "https://patch-diff.githubusercontent.com/raw/ec-europa/rdf_entity/pull/65.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -2786,12 +2794,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "44f3d5e79de8fb42136a33f30af428adf8f8f9f6"
+                "reference": "d0fbc1eb05eb22da47ca0c9122bb518de37b88e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/44f3d5e79de8fb42136a33f30af428adf8f8f9f6",
-                "reference": "44f3d5e79de8fb42136a33f30af428adf8f8f9f6",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/d0fbc1eb05eb22da47ca0c9122bb518de37b88e1",
+                "reference": "d0fbc1eb05eb22da47ca0c9122bb518de37b88e1",
                 "shasum": ""
             },
             "require": {
@@ -2881,7 +2889,7 @@
             ],
             "description": "Drush is a command line shell and scripting interface for Drupal, a veritable Swiss Army knife designed to make life easier for those of us who spend some of our working hours hacking away at the command prompt.",
             "homepage": "http://www.drush.org",
-            "time": "2018-08-30T14:46:42+00:00"
+            "time": "2018-09-04T13:14:17+00:00"
         },
         {
             "name": "easyrdf/easyrdf",
@@ -3740,16 +3748,16 @@
         },
         {
             "name": "openeuropa/oe_content",
-            "version": "dev-master",
+            "version": "dev-OPENEUROPA-1199",
             "source": {
                 "type": "git",
                 "url": "https://github.com/openeuropa/oe_content.git",
-                "reference": "c9262c3f18782ddc106b5fc69a23240160860a9a"
+                "reference": "d5bff1760e0206170c765d7bc73bb4c946cc8821"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openeuropa/oe_content/zipball/c9262c3f18782ddc106b5fc69a23240160860a9a",
-                "reference": "c9262c3f18782ddc106b5fc69a23240160860a9a",
+                "url": "https://api.github.com/repos/openeuropa/oe_content/zipball/d5bff1760e0206170c765d7bc73bb4c946cc8821",
+                "reference": "d5bff1760e0206170c765d7bc73bb4c946cc8821",
                 "shasum": ""
             },
             "require": {
@@ -3781,7 +3789,7 @@
                     "drupal/rdf_entity": {
                         "GH-63: Paginating the term list page - https://github.com/ec-europa/rdf_entity/pull/64": "https://patch-diff.githubusercontent.com/raw/ec-europa/rdf_entity/pull/64.patch",
                         "GH-61 - Fixing RDF taxonomy access bug - https://github.com/ec-europa/rdf_entity/pull/62": "https://patch-diff.githubusercontent.com/raw/ec-europa/rdf_entity/pull/62.patch",
-                        "GH-59: Multi-column field support (for cardinality 0) - https://github.com/ec-europa/rdf_entity/pull/60": "https://patch-diff.githubusercontent.com/raw/ec-europa/rdf_entity/pull/60.patch"
+                        "Run on 8.6.x - https://github.com/ec-europa/rdf_entity/pull/65": "https://patch-diff.githubusercontent.com/raw/ec-europa/rdf_entity/pull/65.patch"
                     }
                 },
                 "installer-paths": {
@@ -3809,7 +3817,7 @@
                 "EUPL-1.2"
             ],
             "description": "OpenEuropa Drupal module that contains the EC corporate entity types.",
-            "time": "2018-09-03T08:28:44+00:00"
+            "time": "2018-09-04T14:46:24+00:00"
         },
         {
             "name": "openeuropa/oe_multilingual",
@@ -4004,9 +4012,14 @@
         {
             "name": "openeuropa/oe_theme",
             "version": "0.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/openeuropa/oe_theme.git",
+                "reference": "c6355ecd1c7cf18a5b3bd0e91ca656bff5dc394b"
+            },
             "dist": {
                 "type": "tar",
-                "url": "https://github.com/openeuropa/oe_theme/releases/download/0.6.1/oe_theme-0.6.1.tar.gz",
+                "url": "https://api.github.com/repos/openeuropa/oe_theme/zipball/c6355ecd1c7cf18a5b3bd0e91ca656bff5dc394b",
                 "reference": "c6355ecd1c7cf18a5b3bd0e91ca656bff5dc394b",
                 "shasum": ""
             },
