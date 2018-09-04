@@ -1,0 +1,30 @@
+uuid: 3939ba29-0a18-474f-9c0a-15687bc7cc43
+langcode: en
+status: true
+dependencies:
+  module:
+    - rdf_entity
+    - text
+third_party_settings:
+  rdf_entity:
+    mapping:
+      value:
+        predicate: 'http://schema.org/description'
+        format: t_literal
+      format:
+        predicate: ''
+        format: no_format
+_core:
+  default_config_hash: LrJAM91A3n4-a3B3QGBjZSeNmjlrRj3UwqYriZYg7K0
+id: rdf_entity.oe_announcement_description
+field_name: oe_announcement_description
+entity_type: rdf_entity
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

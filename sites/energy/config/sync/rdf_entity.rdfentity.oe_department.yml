@@ -1,0 +1,9 @@
+uuid: 1c5c6747-7d4e-4235-8b85-cc4a82f37f76
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: oSGwdtIqwJExqEPaZ_evQkjmD00Th7Hs6Zpj9JWpW_s
+name: Department
+rid: oe_department
+description: ''

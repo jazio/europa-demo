@@ -1,0 +1,11 @@
+uuid: 5c7a298c-5b38-48b0-a153-1e30ca747edf
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 4--yWn1vQ324O8B6MXReobfy1DplVBCGss11UAq1Yks
+id: bg
+label: Bulgarian
+direction: ltr
+weight: -6
+locked: false

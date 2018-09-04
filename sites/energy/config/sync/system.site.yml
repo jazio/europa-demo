@@ -1,11 +1,11 @@
-uuid: 51953b94-bcfb-4b57-b20a-e6c443440180
+uuid: 84163bd7-d6fb-473a-89f0-95747d4b1bcc
 name: 'Site ENERGY'
 mail: info@example.org
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /node/1
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en

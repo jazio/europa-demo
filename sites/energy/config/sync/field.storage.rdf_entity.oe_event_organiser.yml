@@ -1,0 +1,28 @@
+uuid: 6d2c0fa7-4601-4d17-b0fa-fded7400d245
+langcode: en
+status: true
+dependencies:
+  module:
+    - rdf_entity
+    - taxonomy
+third_party_settings:
+  rdf_entity:
+    mapping:
+      target_id:
+        predicate: 'http://schema.org/organizer'
+        format: resource
+_core:
+  default_config_hash: vXzJVXbXMoFHOTY47i1qA-ocCpMZJzqqz53L6afGj7A
+id: rdf_entity.oe_event_organiser
+field_name: oe_event_organiser
+entity_type: rdf_entity
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
