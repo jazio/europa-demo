@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ba04a01140af3b922955d3aa46fa5abe",
+    "content-hash": "4b830616ff7eeaf01c42971f52ff3c28",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4004,14 +4004,9 @@
         {
             "name": "openeuropa/oe_theme",
             "version": "0.6.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/openeuropa/oe_theme.git",
-                "reference": "c6355ecd1c7cf18a5b3bd0e91ca656bff5dc394b"
-            },
             "dist": {
                 "type": "tar",
-                "url": "https://api.github.com/repos/openeuropa/oe_theme/zipball/c6355ecd1c7cf18a5b3bd0e91ca656bff5dc394b",
+                "url": "https://github.com/openeuropa/oe_theme/releases/download/0.6.1/oe_theme-0.6.1.tar.gz",
                 "reference": "c6355ecd1c7cf18a5b3bd0e91ca656bff5dc394b",
                 "shasum": ""
             },
@@ -8945,7 +8940,7 @@
         },
         {
             "name": "openeuropa/task-runner",
-            "version": "dev-OPENEUROPA-1198",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/openeuropa/task-runner.git",

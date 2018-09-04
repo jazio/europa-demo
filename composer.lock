@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f68a0dfe4431b7dd7188ec22741d00ee",
+    "content-hash": "8559de75a317f88e6f8935d6fe506bae",
     "packages": [
         {
             "name": "behat/behat",
@@ -2726,7 +2726,7 @@
         },
         {
             "name": "openeuropa/task-runner",
-            "version": "dev-OPENEUROPA-1198",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/openeuropa/task-runner.git",
