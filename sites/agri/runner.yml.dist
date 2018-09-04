@@ -8,8 +8,9 @@ drupal:
     user: "root"
     password: ""
   site:
-    profile: "config_installer"
+    profile: "oe_profile"
     name: "Site AGRI"
+    config_dir: "${drupal.settings.config_directories.sync}"
   pre_install:
     - { task: "chmod", permissions: 0775, file: "${drupal.root}/sites/default" }
     - { task: "touch", file: "${drupal.root}/sites/default/settings.php" }
@@ -18,10 +19,6 @@ drupal:
   post_install:
   - { task: "chmod", permissions: 0775, file: "${drupal.root}/sites/default" }
   - { task: "chmod", permissions: 0664, file: "${drupal.root}/sites/default/settings.php" }
-  # OpenEuropa Profile overrides some configuration values in its hook_install(), so we re-run configuration import.
-  # @todo: Fix this.
-  - "./vendor/bin/drush cim -y"
-  - "./vendor/bin/drush en europa_demo_content -y"
   - "./vendor/bin/drush cr"
   settings:
     config_directories:

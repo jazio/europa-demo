@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5258e9c905fc1c8a71fb7d878b98d167",
+    "content-hash": "4b830616ff7eeaf01c42971f52ff3c28",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -671,6 +671,62 @@
             ],
             "description": "Provides a self:update command for Symfony Console applications.",
             "time": "2018-08-24T17:01:46+00:00"
+        },
+        {
+            "name": "consolidation/site-alias",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/consolidation/site-alias.git",
+                "reference": "d6fa92e4aaf5ba95cde4454be7ea3165e7e2f17a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/consolidation/site-alias/zipball/d6fa92e4aaf5ba95cde4454be7ea3165e7e2f17a",
+                "reference": "d6fa92e4aaf5ba95cde4454be7ea3165e7e2f17a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "consolidation/robo": "^1.2.3",
+                "g1a/composer-test-scenarios": "^2",
+                "knplabs/github-api": "^2.7",
+                "php-http/guzzle6-adapter": "^1.1",
+                "phpunit/phpunit": "^5",
+                "satooshi/php-coveralls": "^2",
+                "squizlabs/php_codesniffer": "^2.8",
+                "symfony/console": "^2.8|^3|^4",
+                "symfony/yaml": "~2.3|^3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Consolidation\\SiteAlias\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Moshe Weitzman",
+                    "email": "weitzman@tejasa.com"
+                },
+                {
+                    "name": "Greg Anderson",
+                    "email": "greg.1.anderson@greenknowe.org"
+                }
+            ],
+            "description": "Template project for PHP libraries.",
+            "time": "2018-08-22T01:07:08+00:00"
         },
         {
             "name": "container-interop/container-interop",
@@ -1636,52 +1692,6 @@
             "homepage": "https://www.drupal.org/project/allowed_formats",
             "support": {
                 "source": "http://cgit.drupalcode.org/allowed_formats"
-            }
-        },
-        {
-            "name": "drupal/config_installer",
-            "version": "1.8.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/config_installer",
-                "reference": "8.x-1.8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/config_installer-8.x-1.8.zip",
-                "reference": "8.x-1.8",
-                "shasum": "43d7af76a3f00d074161e242ddf94d942d256250"
-            },
-            "require": {
-                "drupal/core": "~8.0"
-            },
-            "type": "drupal-profile",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.8",
-                    "datestamp": "1524572284",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "alexpott",
-                    "homepage": "https://www.drupal.org/user/157725"
-                }
-            ],
-            "homepage": "https://www.drupal.org/project/config_installer",
-            "support": {
-                "source": "http://cgit.drupalcode.org/config_installer"
             }
         },
         {
@@ -2772,25 +2782,26 @@
         },
         {
             "name": "drush/drush",
-            "version": "9.3.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "82e00a5437b5d2c21ee0f5b3090c3931db3cb71b"
+                "reference": "44f3d5e79de8fb42136a33f30af428adf8f8f9f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/82e00a5437b5d2c21ee0f5b3090c3931db3cb71b",
-                "reference": "82e00a5437b5d2c21ee0f5b3090c3931db3cb71b",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/44f3d5e79de8fb42136a33f30af428adf8f8f9f6",
+                "reference": "44f3d5e79de8fb42136a33f30af428adf8f8f9f6",
                 "shasum": ""
             },
             "require": {
                 "chi-teck/drupal-code-generator": "^1.24.0",
                 "composer/semver": "^1.4",
                 "consolidation/annotated-command": "^2.8.1",
-                "consolidation/config": "^1.0.9",
+                "consolidation/config": "^1.1.0",
                 "consolidation/output-formatters": "^3.1.12",
                 "consolidation/robo": "^1.1.5",
+                "consolidation/site-alias": "^1.1.2",
                 "ext-dom": "*",
                 "grasmash/yaml-expander": "^1.1.1",
                 "league/container": "~2",
@@ -2803,14 +2814,15 @@
                 "symfony/event-dispatcher": "~2.7|^3",
                 "symfony/finder": "~2.7|^3",
                 "symfony/process": "~2.7|^3",
-                "symfony/var-dumper": "~2.7|^3",
+                "symfony/var-dumper": "~2.7|^3|^4",
                 "symfony/yaml": "~2.3|^3",
                 "webflo/drupal-finder": "^1.1",
                 "webmozart/path-util": "^2.1.0"
             },
             "require-dev": {
+                "g1a/composer-test-scenarios": "^2.2.0",
                 "lox/xhprof": "dev-master",
-                "phpunit/phpunit": "^4.8|^5.5.4",
+                "phpunit/phpunit": "^4.8.36|^5.5.4",
                 "squizlabs/php_codesniffer": "^2.7"
             },
             "bin": [
@@ -2869,7 +2881,7 @@
             ],
             "description": "Drush is a command line shell and scripting interface for Drupal, a veritable Swiss Army knife designed to make life easier for those of us who spend some of our working hours hacking away at the command prompt.",
             "homepage": "http://www.drush.org",
-            "time": "2018-05-23T16:47:20+00:00"
+            "time": "2018-08-30T14:46:42+00:00"
         },
         {
             "name": "easyrdf/easyrdf",
@@ -3926,19 +3938,20 @@
         },
         {
             "name": "openeuropa/oe_profile",
-            "version": "0.1.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/openeuropa/oe_profile.git",
-                "reference": "8895954cb65c09c22704d9c2492e24cadb75c249"
+                "reference": "1d3b23ef9476e4d561a266fcc40665e1157bdc09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openeuropa/oe_profile/zipball/8895954cb65c09c22704d9c2492e24cadb75c249",
-                "reference": "8895954cb65c09c22704d9c2492e24cadb75c249",
+                "url": "https://api.github.com/repos/openeuropa/oe_profile/zipball/1d3b23ef9476e4d561a266fcc40665e1157bdc09",
+                "reference": "1d3b23ef9476e4d561a266fcc40665e1157bdc09",
                 "shasum": ""
             },
             "require": {
+                "drupal/core": "~8.6@alpha",
                 "openeuropa/oe_theme": ">=0.2",
                 "php": "^7.1"
             },
@@ -3950,10 +3963,10 @@
                 "drupal/drupal-extension": "^4.0.0@alpha",
                 "drush/drush": "^9",
                 "nikic/php-parser": "~3",
-                "openeuropa/code-review": "^0.2",
-                "openeuropa/composer-artifacts": "^0.1",
-                "openeuropa/task-runner": "^0.5",
-                "webflo/drupal-core-require-dev": "^8.6"
+                "openeuropa/code-review": "~0.3",
+                "openeuropa/composer-artifacts": "~0.1",
+                "openeuropa/drupal-core-require-dev": "~8.6@alpha",
+                "openeuropa/task-runner": "~0.5"
             },
             "type": "drupal-profile",
             "extra": {
@@ -3965,6 +3978,7 @@
                         }
                     }
                 },
+                "enable-patching": true,
                 "installer-paths": {
                     "build/core": [
                         "type:drupal-core"
@@ -3985,14 +3999,19 @@
                 "EUPL-1.2"
             ],
             "description": "OpenEuropa installation profile.",
-            "time": "2018-06-14T10:17:19+00:00"
+            "time": "2018-09-04T07:48:04+00:00"
         },
         {
             "name": "openeuropa/oe_theme",
             "version": "0.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/openeuropa/oe_theme.git",
+                "reference": "c6355ecd1c7cf18a5b3bd0e91ca656bff5dc394b"
+            },
             "dist": {
                 "type": "tar",
-                "url": "https://github.com/openeuropa/oe_theme/releases/download/0.6.1/oe_theme-0.6.1.tar.gz",
+                "url": "https://api.github.com/repos/openeuropa/oe_theme/zipball/c6355ecd1c7cf18a5b3bd0e91ca656bff5dc394b",
                 "reference": "c6355ecd1c7cf18a5b3bd0e91ca656bff5dc394b",
                 "shasum": ""
             },
@@ -6015,6 +6034,61 @@
             "time": "2018-08-06T14:22:27+00:00"
         },
         {
+            "name": "symfony/polyfill-php72",
+            "version": "v1.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php72.git",
+                "reference": "95c50420b0baed23852452a7f0c7b527303ed5ae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/95c50420b0baed23852452a7f0c7b527303ed5ae",
+                "reference": "95c50420b0baed23852452a7f0c7b527303ed5ae",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.9-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php72\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 7.2+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2018-08-06T14:22:27+00:00"
+        },
+        {
             "name": "symfony/process",
             "version": "v3.4.15",
             "source": {
@@ -6579,38 +6653,44 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v3.4.15",
+            "version": "v4.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "f62a394bd3de96f2f5e8f4c7d685035897fb3cb3"
+                "reference": "a05426e27294bba7b0226ffc17dd01a3c6ef9777"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/f62a394bd3de96f2f5e8f4c7d685035897fb3cb3",
-                "reference": "f62a394bd3de96f2f5e8f4c7d685035897fb3cb3",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/a05426e27294bba7b0226ffc17dd01a3c6ef9777",
+                "reference": "a05426e27294bba7b0226ffc17dd01a3c6ef9777",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.5.9|>=7.0.8",
-                "symfony/polyfill-mbstring": "~1.0"
+                "php": "^7.1.3",
+                "symfony/polyfill-mbstring": "~1.0",
+                "symfony/polyfill-php72": "~1.5"
             },
             "conflict": {
-                "phpunit/phpunit": "<4.8.35|<5.4.3,>=5.0"
+                "phpunit/phpunit": "<4.8.35|<5.4.3,>=5.0",
+                "symfony/console": "<3.4"
             },
             "require-dev": {
                 "ext-iconv": "*",
+                "symfony/process": "~3.4|~4.0",
                 "twig/twig": "~1.34|~2.4"
             },
             "suggest": {
                 "ext-iconv": "To convert non-UTF-8 strings to UTF-8 (or symfony/polyfill-iconv in case ext-iconv cannot be used).",
                 "ext-intl": "To show region name in time zone dump",
-                "ext-symfony_debug": ""
+                "symfony/console": "To use the ServerDumpCommand and/or the bin/var-dump-server script"
             },
+            "bin": [
+                "Resources/bin/var-dump-server"
+            ],
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.4-dev"
+                    "dev-master": "4.1-dev"
                 }
             },
             "autoload": {
@@ -6644,7 +6724,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2018-07-26T11:19:56+00:00"
+            "time": "2018-08-02T09:24:26+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -8865,16 +8945,16 @@
         },
         {
             "name": "openeuropa/task-runner",
-            "version": "0.8.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/openeuropa/task-runner.git",
-                "reference": "a6e154356938e85325a37d060b2bb5147ed8891f"
+                "reference": "1aa3e74c3e65320f2b5601feabec327c67650a3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openeuropa/task-runner/zipball/a6e154356938e85325a37d060b2bb5147ed8891f",
-                "reference": "a6e154356938e85325a37d060b2bb5147ed8891f",
+                "url": "https://api.github.com/repos/openeuropa/task-runner/zipball/1aa3e74c3e65320f2b5601feabec327c67650a3c",
+                "reference": "1aa3e74c3e65320f2b5601feabec327c67650a3c",
                 "shasum": ""
             },
             "require": {
@@ -8900,7 +8980,7 @@
             "license": [
                 "EUPL-1.2"
             ],
-            "time": "2018-08-28T09:35:00+00:00"
+            "time": "2018-09-04T07:59:23+00:00"
         },
         {
             "name": "phar-io/manifest",
@@ -10562,11 +10642,14 @@
     "stability-flags": {
         "drupal/core": 15,
         "drupal/file_entity": 10,
+        "drush/drush": 20,
         "openeuropa/oe_authorisation": 20,
         "openeuropa/oe_content": 20,
+        "openeuropa/oe_profile": 20,
         "drupal/config_distro": 15,
         "drupal/config_sync": 15,
-        "drupal/default_content": 15
+        "drupal/default_content": 15,
+        "openeuropa/task-runner": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

@@ -12,9 +12,10 @@
         "behat/mink-goutte-driver": "^1.2",
         "behat/mink-selenium2-driver": "1.3.x-dev",
         "drupal/drupal-extension": "~3.4",
+        "drush/drush": "dev-master",
         "nikic/php-parser": "~3.0",
         "openeuropa/code-review": "^0.3",
-        "openeuropa/task-runner": "^0.7"
+        "openeuropa/task-runner": "dev-master"
     },
     "autoload": {
         "psr-4": {
