@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8559de75a317f88e6f8935d6fe506bae",
+    "content-hash": "f68a0dfe4431b7dd7188ec22741d00ee",
     "packages": [
         {
             "name": "behat/behat",
@@ -2726,16 +2726,16 @@
         },
         {
             "name": "openeuropa/task-runner",
-            "version": "dev-master",
+            "version": "dev-OPENEUROPA-1198",
             "source": {
                 "type": "git",
                 "url": "https://github.com/openeuropa/task-runner.git",
-                "reference": "1aa3e74c3e65320f2b5601feabec327c67650a3c"
+                "reference": "e94d390feb9c3080ad42ab0f651429333198d52a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openeuropa/task-runner/zipball/1aa3e74c3e65320f2b5601feabec327c67650a3c",
-                "reference": "1aa3e74c3e65320f2b5601feabec327c67650a3c",
+                "url": "https://api.github.com/repos/openeuropa/task-runner/zipball/e94d390feb9c3080ad42ab0f651429333198d52a",
+                "reference": "e94d390feb9c3080ad42ab0f651429333198d52a",
                 "shasum": ""
             },
             "require": {
@@ -2761,7 +2761,7 @@
             "license": [
                 "EUPL-1.2"
             ],
-            "time": "2018-09-04T07:59:23+00:00"
+            "time": "2018-09-04T10:50:32+00:00"
         },
         {
             "name": "paragonie/random_compat",

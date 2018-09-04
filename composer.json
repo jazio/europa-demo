@@ -15,7 +15,7 @@
         "drush/drush": "dev-master",
         "nikic/php-parser": "~3.0",
         "openeuropa/code-review": "^0.3",
-        "openeuropa/task-runner": "dev-master"
+        "openeuropa/task-runner": "dev-OPENEUROPA-1198"
     },
     "autoload": {
         "psr-4": {

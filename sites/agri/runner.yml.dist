@@ -11,14 +11,7 @@ drupal:
     profile: "oe_profile"
     name: "Site AGRI"
     config_dir: "${drupal.config_dir}"
-  pre_install:
-    - { task: "chmod", permissions: 0775, file: "${drupal.root}/sites/default" }
-    - { task: "touch", file: "${drupal.root}/sites/default/settings.php" }
-    - { task: "chmod", permissions: 0664, file: "${drupal.root}/sites/default/settings.php" }
-    - { task: "remove", file: "${drupal.root}/sites/default/settings.php" }
   post_install:
-  - { task: "chmod", permissions: 0775, file: "${drupal.root}/sites/default" }
-  - { task: "chmod", permissions: 0664, file: "${drupal.root}/sites/default/settings.php" }
   - "./vendor/bin/drush cr"
   settings:
     config_directories:
@@ -34,4 +27,4 @@ drupal:
 commands:
   drupal:site-setup:
     - { task: "run", command: "drupal:drush-setup" }
-    - { task: "run", command: "drupal:settings-setup" }
+    - { task: "process-php", type: "append", config: "drupal.settings", source: "${drupal.root}/sites/default/default.settings.php", destination: "${drupal.root}/sites/default/settings.php" }

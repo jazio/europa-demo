@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4b830616ff7eeaf01c42971f52ff3c28",
+    "content-hash": "ba04a01140af3b922955d3aa46fa5abe",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2462,7 +2462,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/rdf_entity",
-                "reference": "8ddee07797ef0793517180d7dbf9acbc1a9c2453"
+                "reference": "5590f48395d72dd95456b6cbaf428480b205b305"
             },
             "require": {
                 "drupal/core": "*",
@@ -2519,7 +2519,7 @@
                 "source": "https://cgit.drupalcode.org/rdf_entity",
                 "issues": "https://drupal.org/project/issues/rdf_entity"
             },
-            "time": "2018-08-15T10:11:53+00:00"
+            "time": "2018-09-03T13:25:26+00:00"
         },
         {
             "name": "drupal/styleguide",
@@ -8945,16 +8945,16 @@
         },
         {
             "name": "openeuropa/task-runner",
-            "version": "dev-master",
+            "version": "dev-OPENEUROPA-1198",
             "source": {
                 "type": "git",
                 "url": "https://github.com/openeuropa/task-runner.git",
-                "reference": "1aa3e74c3e65320f2b5601feabec327c67650a3c"
+                "reference": "e94d390feb9c3080ad42ab0f651429333198d52a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openeuropa/task-runner/zipball/1aa3e74c3e65320f2b5601feabec327c67650a3c",
-                "reference": "1aa3e74c3e65320f2b5601feabec327c67650a3c",
+                "url": "https://api.github.com/repos/openeuropa/task-runner/zipball/e94d390feb9c3080ad42ab0f651429333198d52a",
+                "reference": "e94d390feb9c3080ad42ab0f651429333198d52a",
                 "shasum": ""
             },
             "require": {
@@ -8980,7 +8980,7 @@
             "license": [
                 "EUPL-1.2"
             ],
-            "time": "2018-09-04T07:59:23+00:00"
+            "time": "2018-09-04T10:50:32+00:00"
         },
         {
             "name": "phar-io/manifest",
