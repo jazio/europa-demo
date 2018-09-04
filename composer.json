@@ -30,6 +30,7 @@
     },
     "scripts" : {
         "post-install-cmd": [
+            "./vendor/bin/run sites:setup",
             "./vendor/bin/run setup:behat"
         ]
     }
