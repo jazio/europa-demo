@@ -1,0 +1,11 @@
+uuid: 5c1e138e-c314-4372-8afe-8dbaedfbad62
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: grIFHOqFY9LqIWajYHiqT8zA6dUz4WpTR9xnpefkmTM
+id: default
+weight: 0
+name: Published
+description: 'Default graph. This is available for all entity types and bundles.'
+entity_types: null
