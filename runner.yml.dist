@@ -31,7 +31,6 @@ commands:
   - "composer --working-dir=sites/energy drupal:scaffold"
   - "composer --working-dir=sites/rtd drupal:scaffold"
   sites:setup:
-  - { task: "process", source: "sites/agri/runner.yml.dist", destination: "sites/agri/runner.yml" }
   - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/agri' drupal:site-setup"
   - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/energy' drupal:site-setup"
   - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/rtd' drupal:site-setup"
@@ -42,6 +41,8 @@ commands:
 
   setup:behat:
   - { task: "process", source: "behat.yml.dist", destination: "behat.yml" }
+  setup:runner:
+  - { task: "process", source: "sites/agri/runner.yml.dist", destination: "sites/agri/runner.yml" }
 
   # Use the following commands only if you can run Task Runner commands on your host machine.
   sparql:purge:
