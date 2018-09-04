@@ -11,6 +11,6 @@ default:
       selenium2:
         wd_host: '${selenium.host}:${selenium.port}/wd/hub'
         capabilities: { "browser": "chrome", "version": "*" }
-      base_url: "${behat.base_url}"
+      base_url: "${web.base_url}"
   formatters:
     progress: ~

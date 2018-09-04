@@ -1,4 +1,4 @@
-behat:
+web:
   base_url: "http://web:8080"
 
 authentication:
@@ -9,26 +9,36 @@ selenium:
   host: "http://selenium"
   port: "4444"
 
+sparql:
+  host: "sparql"
+  port: "8890"
+
+drupal:
+  root: "web"
+  config_dir: "../config/sync"
+
 commands:
-  drupal:demo-composer-install:
+  sites:composer-install:
   - "composer --working-dir=sites/agri install"
   - "composer --working-dir=sites/energy install"
   - "composer --working-dir=sites/rtd install"
-  drupal:demo-composer-update:
+  sites:composer-update:
   - "composer --working-dir=sites/agri update"
   - "composer --working-dir=sites/energy update"
   - "composer --working-dir=sites/rtd update"
-  drupal:demo-composer-drupal-scaffold:
+  sites:composer-drupal-scaffold:
   - "composer --working-dir=sites/agri drupal:scaffold"
   - "composer --working-dir=sites/energy drupal:scaffold"
   - "composer --working-dir=sites/rtd drupal:scaffold"
-  drupal:demo-setup:
+  sites:setup:
+  - { task: "process", source: "sites/agri/runner.yml.dist", destination: "sites/agri/runner.yml" }
   - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/agri' drupal:site-setup"
   - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/energy' drupal:site-setup"
   - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/rtd' drupal:site-setup"
-  drupal:demo-install:
+  sites:install:
   - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/agri' drupal:site-install"
   - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/energy' drupal:site-install"
   - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/rtd' drupal:site-install"
+
   setup:behat:
   - { task: "process", source: "behat.yml.dist", destination: "behat.yml" }

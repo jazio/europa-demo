@@ -27,9 +27,9 @@ connection details. For installation using docker, see below.
 
 ```
 composer install
-./vendor/bin/run drupal:demo-composer-install
-./vendor/bin/run drupal:demo-setup
-./vendor/bin/run drupal:demo-install
+./vendor/bin/run sites:composer-install
+./vendor/bin/run sites:setup
+./vendor/bin/run sites:install
 ```
 
 When working on 3 concurrent builds, there are Task Runner parallel tasks available in
@@ -60,9 +60,9 @@ Run:
 ```
 $ docker-compose up -d
 docker-compose exec web composer install
-docker-compose exec web ./vendor/bin/run drupal:demo-composer-install
-docker-compose exec web ./vendor/bin/run drupal:demo-setup
-docker-compose exec web ./vendor/bin/run drupal:demo-install
+docker-compose exec web ./vendor/bin/run sites:composer-install
+docker-compose exec web ./vendor/bin/run sites:setup
+docker-compose exec web ./vendor/bin/run sites:install
 ```
 
 The three site will then be available at the following URLs:
@@ -76,7 +76,7 @@ The three site will then be available at the following URLs:
 This repo will build 3 separate sites, with minimal extra files. To update all sites run:
 
 ```
-docker-compose exec web ./vendor/bin/run drupal:demo-composer-update
+docker-compose exec web ./vendor/bin/run sites:composer-update
 ```
 
 This will run `composer update` in all three sites.
