@@ -1,0 +1,11 @@
+uuid: 46bfa7cb-8ce2-479c-bbd8-91dad8e7d7c1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ty0Ozwh6UktkqUWTPhp72VquTFFSdcPPB3dFseeKWbM
+id: lt
+label: Lithuanian
+direction: ltr
+weight: 6
+locked: false

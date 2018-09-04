@@ -1,4 +1,4 @@
-uuid: 9166ff92-b041-443f-9069-3ead28ed2d77
+uuid: d409c9f2-963c-441a-ba2e-ec1f9d0a0fa3
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: oe_theme_site_branding
 theme: oe_theme
 region: site_header
-weight: 0
+weight: -6
 provider: null
 plugin: system_branding_block
 settings:

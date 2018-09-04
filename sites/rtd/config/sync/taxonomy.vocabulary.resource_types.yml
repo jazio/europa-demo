@@ -1,0 +1,11 @@
+uuid: a814b9a1-15da-40cc-b401-0648cfec6de1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: p5Ncybokwchj_Gd20nTfCGNoFPxa7iU4Nlzo-OJbEE4
+name: 'Resource Types'
+vid: resource_types
+description: ''
+hierarchy: 0
+weight: 0

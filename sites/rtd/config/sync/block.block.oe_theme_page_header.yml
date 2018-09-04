@@ -1,4 +1,4 @@
-uuid: b13703f4-6d77-4676-9042-92c554033c8a
+uuid: 258c4ef0-ad8d-4a6a-9304-75e4163217ec
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ _core:
 id: oe_theme_page_header
 theme: oe_theme
 region: page_header
-weight: 0
+weight: -5
 provider: null
 plugin: oe_theme_helper_page_header
 settings:
