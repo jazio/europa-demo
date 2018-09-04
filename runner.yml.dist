@@ -43,6 +43,8 @@ commands:
   - { task: "process", source: "behat.yml.dist", destination: "behat.yml" }
   setup:runner:
   - { task: "process", source: "sites/agri/runner.yml.dist", destination: "sites/agri/runner.yml" }
+  - { task: "process", source: "sites/energy/runner.yml.dist", destination: "sites/energy/runner.yml" }
+  - { task: "process", source: "sites/rtd/runner.yml.dist", destination: "sites/rtd/runner.yml" }
 
   # Use the following commands only if you can run Task Runner commands on your host machine.
   sparql:purge:
