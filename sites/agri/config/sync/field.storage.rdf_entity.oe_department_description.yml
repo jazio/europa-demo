@@ -1,0 +1,30 @@
+uuid: 14b501b0-b243-4608-9652-4d77c29ed3c8
+langcode: en
+status: true
+dependencies:
+  module:
+    - rdf_entity
+    - text
+third_party_settings:
+  rdf_entity:
+    mapping:
+      value:
+        predicate: 'http://schema.org/description'
+        format: t_literal
+      format:
+        predicate: ''
+        format: no_format
+_core:
+  default_config_hash: OwzJl8LBSDTHInk8PM7-uLMG-fC7FmKz6cSO9pOmjI4
+id: rdf_entity.oe_department_description
+field_name: oe_department_description
+entity_type: rdf_entity
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

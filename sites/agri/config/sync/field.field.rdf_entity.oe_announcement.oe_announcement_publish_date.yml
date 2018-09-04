@@ -1,0 +1,23 @@
+uuid: 533a6455-e695-48f2-82ba-47f2ea113f72
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.rdf_entity.oe_announcement_publish_date
+    - rdf_entity.rdfentity.oe_announcement
+_core:
+  default_config_hash: NVR7B8i8Qr0W7R5xqD-Aiossv2gKl5vKxqVbkdV2ADI
+id: rdf_entity.oe_announcement.oe_announcement_publish_date
+field_name: oe_announcement_publish_date
+entity_type: rdf_entity
+bundle: oe_announcement
+label: 'First published on'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1533728188
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

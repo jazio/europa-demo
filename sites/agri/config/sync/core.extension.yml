@@ -31,6 +31,9 @@ module:
   menu_ui: 0
   node: 0
   oe_content: 0
+  oe_content_announcement: 0
+  oe_content_department: 0
+  oe_content_event: 0
   oe_multilingual: 0
   oe_multilingual_selection_page: 0
   oe_paragraphs: 0

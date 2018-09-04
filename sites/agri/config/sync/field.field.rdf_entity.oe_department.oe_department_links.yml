@@ -1,0 +1,25 @@
+uuid: 4b981c02-7079-4c69-8ed3-d5ed8131aaf7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.rdf_entity.oe_department_links
+    - rdf_entity.rdfentity.oe_department
+  module:
+    - link
+_core:
+  default_config_hash: QrlLk38WriyXftioDtgqz3kd-yZtfgx9jX7AOd2HQD0
+id: rdf_entity.oe_department.oe_department_links
+field_name: oe_department_links
+entity_type: rdf_entity
+bundle: oe_department
+label: 'News from this department'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

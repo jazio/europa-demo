@@ -1,0 +1,28 @@
+uuid: d6ff89b6-de45-4967-8cf3-0a074a396d57
+langcode: en
+status: true
+dependencies:
+  module:
+    - rdf_entity
+    - taxonomy
+third_party_settings:
+  rdf_entity:
+    mapping:
+      target_id:
+        predicate: 'http://schema.org/about'
+        format: resource
+_core:
+  default_config_hash: DuJlp4BK7FdlOGKW24tCCY2wBQsWLjftesIOVCshP2g
+id: rdf_entity.oe_department_subject
+field_name: oe_department_subject
+entity_type: rdf_entity
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
