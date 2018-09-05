@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5d6f7aa96bd80dab0f083629420bfef2",
+    "content-hash": "923a5bac565e584edc118b0cf3141feb",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2029,6 +2029,79 @@
             }
         },
         {
+            "name": "drupal/drush_language",
+            "version": "1.0.0-rc2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/drush_language",
+                "reference": "8.x-1.0-rc2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/drush_language-8.x-1.0-rc2.zip",
+                "reference": "8.x-1.0-rc2",
+                "shasum": "5df4e02a54bcf7afbee36f2174c9923f45758855"
+            },
+            "require": {
+                "drupal/core": "*",
+                "webmozart/path-util": "^2.1.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-rc2",
+                    "datestamp": "1523365384",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "RC releases are not covered by Drupal security advisories."
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "axel.rutz",
+                    "homepage": "https://www.drupal.org/user/229048"
+                },
+                {
+                    "name": "dawehner",
+                    "homepage": "https://www.drupal.org/user/99340"
+                },
+                {
+                    "name": "gurvan",
+                    "homepage": "https://www.drupal.org/user/852194"
+                },
+                {
+                    "name": "ndf",
+                    "homepage": "https://www.drupal.org/user/599438"
+                },
+                {
+                    "name": "the greenman",
+                    "homepage": "https://www.drupal.org/user/19836"
+                },
+                {
+                    "name": "xatoo",
+                    "homepage": "https://www.drupal.org/user/103227"
+                }
+            ],
+            "description": "Provides Drush commands for language manipulation",
+            "homepage": "https://www.drupal.org/project/drush_language",
+            "support": {
+                "source": "http://cgit.drupalcode.org/drush_language"
+            }
+        },
+        {
             "name": "drupal/entity_reference_revisions",
             "version": "1.5.0",
             "source": {
@@ -3751,12 +3824,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/openeuropa/oe_content.git",
-                "reference": "7840168ab07c5091506640b8ec42642ca8b60a9b"
+                "reference": "d8062f608ac792a2458ee7691d95740c9eaf646a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openeuropa/oe_content/zipball/7840168ab07c5091506640b8ec42642ca8b60a9b",
-                "reference": "7840168ab07c5091506640b8ec42642ca8b60a9b",
+                "url": "https://api.github.com/repos/openeuropa/oe_content/zipball/d8062f608ac792a2458ee7691d95740c9eaf646a",
+                "reference": "d8062f608ac792a2458ee7691d95740c9eaf646a",
                 "shasum": ""
             },
             "require": {
@@ -3816,7 +3889,7 @@
                 "EUPL-1.2"
             ],
             "description": "OpenEuropa Drupal module that contains the EC corporate entity types.",
-            "time": "2018-09-05T10:15:39+00:00"
+            "time": "2018-09-05T11:45:36+00:00"
         },
         {
             "name": "openeuropa/oe_multilingual",
@@ -4849,16 +4922,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.9.7",
+            "version": "v0.9.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "4f5b6c090948773a8bfeea6a0f07ab7d0b24e932"
+                "reference": "ed3c32c4304e1a678a6e0f9dc11dd2d927d89555"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/4f5b6c090948773a8bfeea6a0f07ab7d0b24e932",
-                "reference": "4f5b6c090948773a8bfeea6a0f07ab7d0b24e932",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/ed3c32c4304e1a678a6e0f9dc11dd2d927d89555",
+                "reference": "ed3c32c4304e1a678a6e0f9dc11dd2d927d89555",
                 "shasum": ""
             },
             "require": {
@@ -4919,7 +4992,7 @@
                 "interactive",
                 "shell"
             ],
-            "time": "2018-08-11T15:54:43+00:00"
+            "time": "2018-09-05T11:40:09+00:00"
         },
         {
             "name": "stack/builder",
@@ -8913,12 +8986,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/openeuropa/task-runner.git",
-                "reference": "e94d390feb9c3080ad42ab0f651429333198d52a"
+                "reference": "cb3b7d43af67a54d69c0b62ddd59674aa590afc9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openeuropa/task-runner/zipball/e94d390feb9c3080ad42ab0f651429333198d52a",
-                "reference": "e94d390feb9c3080ad42ab0f651429333198d52a",
+                "url": "https://api.github.com/repos/openeuropa/task-runner/zipball/cb3b7d43af67a54d69c0b62ddd59674aa590afc9",
+                "reference": "cb3b7d43af67a54d69c0b62ddd59674aa590afc9",
                 "shasum": ""
             },
             "require": {
@@ -8944,7 +9017,7 @@
             "license": [
                 "EUPL-1.2"
             ],
-            "time": "2018-09-04T10:50:32+00:00"
+            "time": "2018-09-05T13:31:02+00:00"
         },
         {
             "name": "phar-io/manifest",
