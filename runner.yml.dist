@@ -38,11 +38,16 @@ commands:
   - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/agri' drupal:site-install"
   - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/energy' drupal:site-install"
   - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/rtd' drupal:site-install"
+  sites:sql-drop:
+  - "./vendor/bin/drush --root='${runner.working_dir}/sites/agri' sql-drop -y"
+  - "./vendor/bin/drush --root='${runner.working_dir}/sites/energy' sql-drop -y"
+  - "./vendor/bin/drush --root='${runner.working_dir}/sites/rtd' sql-drop -y"
   sites:sql-dump:
   - "./vendor/bin/drush --root='${runner.working_dir}/sites/agri' sql-dump --result-file=dump.sql"
   - "./vendor/bin/drush --root='${runner.working_dir}/sites/energy' sql-dump --result-file=dump.sql"
   - "./vendor/bin/drush --root='${runner.working_dir}/sites/rtd' sql-dump --result-file=dump.sql"
   sites:sql-restore:
+  - "./vendor/bin/run sites:sql-drop"
   - "./vendor/bin/drush --root='${runner.working_dir}/sites/agri' sqlc < sites/agri/web/dump.sql"
   - "./vendor/bin/drush --root='${runner.working_dir}/sites/energy' sqlc < sites/energy/web/dump.sql"
   - "./vendor/bin/drush --root='${runner.working_dir}/sites/rtd' sqlc < sites/rtd/web/dump.sql"
