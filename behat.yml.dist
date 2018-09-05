@@ -2,15 +2,74 @@ default:
   suites:
     default:
       contexts:
-        - Behat\MinkExtension\Context\MinkContext
+      - Behat\MinkExtension\Context\MinkContext
+      filters: { tags: "@sites-all" }
   extensions:
     Behat\MinkExtension:
       goutte: ~
       browser_name: 'chrome'
       javascript_session: 'selenium2'
-      selenium2:
+      selenium2: &slenium-settings
         wd_host: '${selenium.host}:${selenium.port}/wd/hub'
         capabilities: { "browser": "chrome", "version": "*" }
       base_url: "${web.base_url}"
   formatters:
     progress: ~
+
+site:
+  suites:
+    default:
+      contexts: &site-contexts
+      - Behat\MinkExtension\Context\MinkContext
+      - Drupal\DrupalExtension\Context\DrupalContext
+
+agri:
+  suites:
+    default:
+      contexts: *site-contexts
+      filters: { tags: "@site-agri" }
+  extensions:
+    Behat\MinkExtension:
+      goutte: ~
+      browser_name: 'chrome'
+      javascript_session: 'selenium2'
+      selenium2: *slenium-settings
+      base_url: "${web.base_url}/sites/agri/web"
+    Drupal\DrupalExtension:
+      api_driver: "drupal"
+      drupal:
+        drupal_root: "sites/agri/web"
+
+energy:
+  suites:
+    default:
+      contexts: *site-contexts
+      filters: { tags: "@site-energy" }
+  extensions:
+    Behat\MinkExtension:
+      goutte: ~
+      browser_name: 'chrome'
+      javascript_session: 'selenium2'
+      selenium2: *slenium-settings
+      base_url: "${web.base_url}/sites/energy/web"
+    Drupal\DrupalExtension:
+      api_driver: "drupal"
+      drupal:
+        drupal_root: "sites/energy/web"
+
+rtd:
+  suites:
+    default:
+      contexts: *site-contexts
+      filters: { tags: "@site-rtd" }
+  extensions:
+    Behat\MinkExtension:
+      goutte: ~
+      browser_name: 'chrome'
+      javascript_session: 'selenium2'
+      selenium2: *slenium-settings
+      base_url: "${web.base_url}/sites/rtd/web"
+    Drupal\DrupalExtension:
+      api_driver: "drupal"
+      drupal:
+        drupal_root: "sites/rtd/web"

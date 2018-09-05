@@ -86,6 +86,9 @@ pipeline:
     image: fpfis/httpd-php-dev:7.1
     commands:
       - ./vendor/bin/behat
+      - ./vendor/bin/behat -p agri
+      - ./vendor/bin/behat -p energy
+      - ./vendor/bin/behat -p rtd
 
   start-demo:
     group: test

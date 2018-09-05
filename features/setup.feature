@@ -1,3 +1,4 @@
+@sites-all
 Feature: Setup
   In order to make sure that the project is correctly set up
   As a developer
