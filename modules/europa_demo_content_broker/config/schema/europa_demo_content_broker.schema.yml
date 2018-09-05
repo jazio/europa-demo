@@ -1,0 +1,20 @@
+europa_demo_content_broker.settings:
+  type: config_object
+  label: 'Europa Demo Content Broker settings'
+  mapping:
+    topics:
+      type: sequence
+      label: 'The topics the site should consume'
+      sequence:
+        type: mapping
+        label: 'A map of sites and topics'
+        mapping:
+          site:
+            type: string
+            label: 'The site provenance URI'
+          topics:
+            type: sequence
+            label: 'The topics'
+            sequence:
+              type: string
+              label: "The machine name of the topic"

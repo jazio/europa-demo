@@ -1,0 +1,85 @@
+<?php
+
+/**
+ * @file
+ * Europa Demo Content Broker module.
+ */
+
+declare(strict_types = 1);
+
+use Drupal\Core\Access\AccessResult;
+use Drupal\Core\Database\Query\AlterableInterface;
+use Drupal\Core\Entity\EntityInterface;
+use Drupal\Core\Session\AccountInterface;
+
+/**
+ * Implements hook_query_TAG_alter() for the "content_broker" tag.
+ *
+ * This tag is used by queries made against the RDF entities found inside the
+ * triples store. The goal is to filter out content which is not specified as
+ * consumable on this given site.
+ */
+function europa_demo_content_broker_query_content_broker_alter(AlterableInterface $query): void {
+  $config = \Drupal::configFactory()->get('europa_demo_content_broker.settings');
+  $topics = $config->get('topics');
+  if (!$topics) {
+    return;
+  }
+
+  /** @var \Drupal\Core\Entity\Query\ConditionInterface $conditions */
+  $conditions = $query->orConditionGroup();
+  foreach ($topics as $info) {
+
+    /** @var \Drupal\Core\Entity\Query\ConditionInterface $condition */
+    $condition = $query->andConditionGroup();
+    $condition->condition('provenance_uri', $info['site']);
+
+    if ($info['topics']) {
+      // We cannot use IN condition with RDF entities so we need to build an
+      // OR condition group.
+      /** @var \Drupal\Core\Entity\Query\ConditionInterface $topics_condition */
+      $topics_condition = $query->orConditionGroup();
+      foreach ($info['topics'] as $topic) {
+        $topics_condition->condition('rid', $topic);
+      }
+      $condition->condition($topics_condition);
+    }
+
+    $conditions->condition($condition);
+  }
+
+  $query->condition($conditions);
+}
+
+/**
+ * Implements hook_entity_access() for the RDF entity.
+ */
+function europa_demo_content_broker_rdf_entity_access(EntityInterface $entity, $operation, AccountInterface $account) {
+  if ($operation !== 'view') {
+    return AccessResult::neutral();
+  }
+
+  $config_factory = \Drupal::configFactory();
+  $config = $config_factory->get('europa_demo_content_broker.settings');
+  $topic_definitions = $config->get('topics');
+  if (!$topic_definitions) {
+    return AccessResult::neutral();
+  }
+
+  $provenance_uri = $entity->get('provenance_uri')->value;
+  foreach ($topic_definitions as $definition) {
+    if ($definition['site'] !== $provenance_uri) {
+      continue;
+    }
+
+    if (empty($definition['topics']) || in_array($entity->bundle(), $definition['topics'])) {
+      // If we find the current entity's bundle listed in the topics, we
+      // consider the content "brokered in". The same if for this site there are
+      // no topics specified.
+      return AccessResult::neutral();
+    }
+  }
+
+  // Otherwise, the content is not accessible.
+  return AccessResult::forbidden();
+}
