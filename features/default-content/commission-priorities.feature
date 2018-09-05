@@ -50,8 +50,6 @@ Feature: Default content 'Commission / Priorities'
     Then the site switcher link "La Commission et ses priorités" is active
     But the site switcher link "Politiques, informations et services" is not active
 
-    And I should see the link "Accueil" in the "breadcrumb" region
-
     And I should see the heading "Priorités" in the "page header" region
 
     # Menu page contents
