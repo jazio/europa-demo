@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ef8ace39849d06b410acb58e24241b20",
+    "content-hash": "5d6f7aa96bd80dab0f083629420bfef2",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2794,12 +2794,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "9d46a2a67554ae8b6f6edec234a1272c3b4c6a9e"
+                "reference": "b59af6e11a34b553cc2b91ad5be434611fb833ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/9d46a2a67554ae8b6f6edec234a1272c3b4c6a9e",
-                "reference": "9d46a2a67554ae8b6f6edec234a1272c3b4c6a9e",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/b59af6e11a34b553cc2b91ad5be434611fb833ef",
+                "reference": "b59af6e11a34b553cc2b91ad5be434611fb833ef",
                 "shasum": ""
             },
             "require": {
@@ -2888,7 +2888,7 @@
             ],
             "description": "Drush is a command line shell and scripting interface for Drupal, a veritable Swiss Army knife designed to make life easier for those of us who spend some of our working hours hacking away at the command prompt.",
             "homepage": "http://www.drush.org",
-            "time": "2018-09-04T17:24:36+00:00"
+            "time": "2018-09-04T17:48:15+00:00"
         },
         {
             "name": "easyrdf/easyrdf",
@@ -3747,16 +3747,16 @@
         },
         {
             "name": "openeuropa/oe_content",
-            "version": "dev-OPENEUROPA-1199",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/openeuropa/oe_content.git",
-                "reference": "557edef309afe5f62edd33f8a0388e1ef84d8e4f"
+                "reference": "7840168ab07c5091506640b8ec42642ca8b60a9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openeuropa/oe_content/zipball/557edef309afe5f62edd33f8a0388e1ef84d8e4f",
-                "reference": "557edef309afe5f62edd33f8a0388e1ef84d8e4f",
+                "url": "https://api.github.com/repos/openeuropa/oe_content/zipball/7840168ab07c5091506640b8ec42642ca8b60a9b",
+                "reference": "7840168ab07c5091506640b8ec42642ca8b60a9b",
                 "shasum": ""
             },
             "require": {
@@ -3816,7 +3816,7 @@
                 "EUPL-1.2"
             ],
             "description": "OpenEuropa Drupal module that contains the EC corporate entity types.",
-            "time": "2018-09-04T15:07:00+00:00"
+            "time": "2018-09-05T10:15:39+00:00"
         },
         {
             "name": "openeuropa/oe_multilingual",
@@ -4011,9 +4011,14 @@
         {
             "name": "openeuropa/oe_theme",
             "version": "0.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/openeuropa/oe_theme.git",
+                "reference": "c6355ecd1c7cf18a5b3bd0e91ca656bff5dc394b"
+            },
             "dist": {
                 "type": "tar",
-                "url": "https://github.com/openeuropa/oe_theme/releases/download/0.6.1/oe_theme-0.6.1.tar.gz",
+                "url": "https://api.github.com/repos/openeuropa/oe_theme/zipball/c6355ecd1c7cf18a5b3bd0e91ca656bff5dc394b",
                 "reference": "c6355ecd1c7cf18a5b3bd0e91ca656bff5dc394b",
                 "shasum": ""
             },
