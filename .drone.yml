@@ -81,13 +81,28 @@ pipeline:
     commands:
       - ./vendor/bin/grumphp run
 
-  behat:
+  behat-general:
     group: test
     image: fpfis/httpd-php-dev:7.1
     commands:
       - ./vendor/bin/behat
+
+  behat-agri:
+    group: test
+    image: fpfis/httpd-php-dev:7.1
+    commands:
       - ./vendor/bin/behat -p agri
+
+  behat-energy:
+    group: test
+    image: fpfis/httpd-php-dev:7.1
+    commands:
       - ./vendor/bin/behat -p energy
+
+  behat-rtd:
+    group: test
+    image: fpfis/httpd-php-dev:7.1
+    commands:
       - ./vendor/bin/behat -p rtd
 
   start-demo:
