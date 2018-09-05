@@ -1,0 +1,11 @@
+uuid: 742b5443-ce07-4dac-8aeb-0fc502426405
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_webtools_analytics
+id: config_sync.module.oe_webtools_analytics
+snapshotSet: config_sync
+extensionType: module
+extensionName: oe_webtools_analytics
+items: {  }

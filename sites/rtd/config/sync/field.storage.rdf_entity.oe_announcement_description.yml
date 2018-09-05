@@ -12,8 +12,8 @@ third_party_settings:
         predicate: 'http://schema.org/description'
         format: t_literal
       format:
-        predicate: ''
-        format: no_format
+        predicate: 'http://europa.eu/oe_announcement_description/format'
+        format: 'xsd:string'
 _core:
   default_config_hash: LrJAM91A3n4-a3B3QGBjZSeNmjlrRj3UwqYriZYg7K0
 id: rdf_entity.oe_announcement_description

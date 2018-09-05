@@ -12,8 +12,8 @@ third_party_settings:
         predicate: 'https://schema.org/text'
         format: t_literal
       format:
-        predicate: ''
-        format: no_format
+        predicate: 'http://europa.eu/oe_event_introduction/format'
+        format: 'xsd:string'
 _core:
   default_config_hash: 1onAUnt58LUmu5abcJQ2zH6mFb5hgiUtU0Pcn7KIpVY
 id: rdf_entity.oe_event_introduction

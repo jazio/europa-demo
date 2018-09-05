@@ -1,0 +1,961 @@
+uuid: 1726e9f8-0071-4596-9865-399a53c38ded
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_content_event
+id: config_sync.module.oe_content_event
+snapshotSet: config_sync
+extensionType: module
+extensionName: oe_content_event
+items:
+  -
+    collection: ''
+    name: core.entity_form_display.rdf_entity.oe_event.default
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.field.rdf_entity.oe_event.oe_event_organiser
+          - field.field.rdf_entity.oe_event.oe_event_subject
+          - field.field.rdf_entity.oe_event.oe_event_target_audience
+          - field.field.rdf_entity.oe_event.oe_event_available_languages
+          - field.field.rdf_entity.oe_event.oe_event_description
+          - field.field.rdf_entity.oe_event.oe_event_end_date
+          - field.field.rdf_entity.oe_event.oe_event_introduction
+          - field.field.rdf_entity.oe_event.oe_event_links
+          - field.field.rdf_entity.oe_event.oe_event_start_date
+          - field.field.rdf_entity.oe_event.oe_event_website
+          - rdf_entity.rdfentity.oe_event
+        module:
+          - field_group
+          - link
+          - text
+      third_party_settings:
+        field_group:
+          oe_group_event:
+            children:
+              - oe_group_event_content
+              - oe_group_event_description
+              - oe_group_event_practical_info
+            parent_name: ''
+            weight: 20
+            format_type: tabs
+            format_settings:
+              id: ''
+              classes: ''
+              direction: vertical
+            label: Event
+          oe_group_event_content:
+            children:
+              - label
+              - oe_event_introduction
+              - oe_event_description
+            parent_name: oe_group_event
+            weight: 20
+            format_type: tab
+            format_settings:
+              id: ''
+              classes: ''
+              formatter: open
+              description: ''
+              required_fields: true
+            label: Content
+          oe_group_event_description:
+            children:
+              - oe_event_subject
+              - oe_event_links
+              - oe_event_website
+            parent_name: oe_group_event
+            weight: 21
+            format_type: tab
+            format_settings:
+              id: ''
+              classes: ''
+              formatter: closed
+              description: ''
+              required_fields: true
+            label: Description
+          oe_group_event_practical_info:
+            children:
+              - oe_event_start_date
+              - oe_event_end_date
+              - oe_event_target_audience
+              - oe_event_available_languages
+              - oe_event_organiser
+            parent_name: oe_group_event
+            weight: 22
+            format_type: tab
+            format_settings:
+              id: ''
+              classes: ''
+              formatter: closed
+              description: ''
+              required_fields: true
+            label: 'Practical information'
+      id: rdf_entity.oe_event.default
+      targetEntityType: rdf_entity
+      bundle: oe_event
+      mode: default
+      content:
+        oe_event_organiser:
+          weight: 29
+          settings:
+            match_operator: CONTAINS
+            size: 60
+            placeholder: ''
+          third_party_settings: {  }
+          type: entity_reference_autocomplete
+          region: content
+        oe_event_subject:
+          weight: 23
+          settings:
+            match_operator: CONTAINS
+            size: 60
+            placeholder: ''
+          third_party_settings: {  }
+          type: entity_reference_autocomplete
+          region: content
+        oe_event_target_audience:
+          weight: 27
+          settings:
+            match_operator: CONTAINS
+            size: 60
+            placeholder: ''
+          third_party_settings: {  }
+          type: entity_reference_autocomplete
+          region: content
+        label:
+          type: string_textfield
+          weight: -5
+          region: content
+          settings:
+            size: 60
+            placeholder: ''
+          third_party_settings: {  }
+        oe_event_available_languages:
+          weight: 28
+          settings:
+            size: 60
+            placeholder: ''
+          third_party_settings: {  }
+          type: string_textfield
+          region: content
+        oe_event_description:
+          weight: -3
+          settings:
+            rows: 5
+            placeholder: ''
+          third_party_settings: {  }
+          type: text_textarea
+          region: content
+        oe_event_end_date:
+          weight: 26
+          settings: {  }
+          third_party_settings: {  }
+          type: datetime_timestamp
+          region: content
+        oe_event_introduction:
+          weight: -4
+          settings:
+            rows: 5
+            placeholder: ''
+          third_party_settings: {  }
+          type: text_textarea
+          region: content
+        oe_event_links:
+          weight: 24
+          settings:
+            placeholder_url: ''
+            placeholder_title: ''
+          third_party_settings: {  }
+          type: link_default
+          region: content
+        oe_event_start_date:
+          weight: 25
+          settings: {  }
+          third_party_settings: {  }
+          type: datetime_timestamp
+          region: content
+        oe_event_website:
+          weight: 25
+          settings:
+            placeholder_url: ''
+            placeholder_title: ''
+          third_party_settings: {  }
+          type: link_default
+          region: content
+        translation:
+          weight: 4
+          region: content
+          settings: {  }
+          third_party_settings: {  }
+      hidden:
+        created: true
+        uid: true
+  -
+    collection: ''
+    name: core.entity_view_display.rdf_entity.oe_event.default
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.field.rdf_entity.oe_event.oe_event_organiser
+          - field.field.rdf_entity.oe_event.oe_event_subject
+          - field.field.rdf_entity.oe_event.oe_event_target_audience
+          - field.field.rdf_entity.oe_event.oe_event_available_languages
+          - field.field.rdf_entity.oe_event.oe_event_description
+          - field.field.rdf_entity.oe_event.oe_event_end_date
+          - field.field.rdf_entity.oe_event.oe_event_introduction
+          - field.field.rdf_entity.oe_event.oe_event_links
+          - field.field.rdf_entity.oe_event.oe_event_start_date
+          - field.field.rdf_entity.oe_event.oe_event_website
+          - rdf_entity.rdfentity.oe_event
+        module:
+          - link
+          - text
+          - user
+      id: rdf_entity.oe_event.default
+      targetEntityType: rdf_entity
+      bundle: oe_event
+      mode: default
+      content:
+        oe_event_organiser:
+          weight: 10
+          label: above
+          settings: {  }
+          third_party_settings: {  }
+          type: rdf_entity_reference_department_url
+          region: content
+        oe_event_subject:
+          weight: 8
+          label: above
+          settings:
+            link: true
+          third_party_settings: {  }
+          type: entity_reference_label
+          region: content
+        oe_event_target_audience:
+          weight: 9
+          label: above
+          settings:
+            link: true
+          third_party_settings: {  }
+          type: entity_reference_label
+          region: content
+        label:
+          label: hidden
+          type: string
+          weight: 0
+          region: content
+          settings:
+            link_to_entity: false
+          third_party_settings: {  }
+        oe_event_available_languages:
+          weight: 3
+          label: above
+          settings:
+            link_to_entity: false
+          third_party_settings: {  }
+          type: string
+          region: content
+        oe_event_description:
+          weight: 1
+          label: above
+          settings: {  }
+          third_party_settings: {  }
+          type: text_default
+          region: content
+        oe_event_end_date:
+          type: timestamp
+          weight: 7
+          region: content
+          label: above
+          settings:
+            date_format: medium
+            custom_date_format: ''
+            timezone: ''
+          third_party_settings: {  }
+        oe_event_introduction:
+          weight: 2
+          label: above
+          settings: {  }
+          third_party_settings: {  }
+          type: text_default
+          region: content
+        oe_event_links:
+          weight: 4
+          label: above
+          settings:
+            trim_length: 80
+            url_only: false
+            url_plain: false
+            rel: ''
+            target: ''
+          third_party_settings: {  }
+          type: link
+          region: content
+        oe_event_start_date:
+          type: timestamp
+          weight: 6
+          region: content
+          label: above
+          settings:
+            date_format: medium
+            custom_date_format: ''
+            timezone: ''
+          third_party_settings: {  }
+        oe_event_website:
+          weight: 5
+          label: above
+          settings:
+            trim_length: 80
+            url_only: false
+            url_plain: false
+            rel: ''
+            target: ''
+          third_party_settings: {  }
+          type: link
+          region: content
+      hidden:
+        changed: true
+        created: true
+  -
+    collection: ''
+    name: field.field.rdf_entity.oe_event.oe_event_available_languages
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.rdf_entity.oe_event_available_languages
+          - rdf_entity.rdfentity.oe_event
+      id: rdf_entity.oe_event.oe_event_available_languages
+      field_name: oe_event_available_languages
+      entity_type: rdf_entity
+      bundle: oe_event
+      label: 'Available languages'
+      description: ''
+      required: false
+      translatable: false
+      default_value: {  }
+      default_value_callback: ''
+      settings: {  }
+      field_type: string
+  -
+    collection: ''
+    name: field.field.rdf_entity.oe_event.oe_event_description
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.rdf_entity.oe_event_description
+          - rdf_entity.rdfentity.oe_event
+        module:
+          - text
+      id: rdf_entity.oe_event.oe_event_description
+      field_name: oe_event_description
+      entity_type: rdf_entity
+      bundle: oe_event
+      label: Description
+      description: ''
+      required: false
+      translatable: true
+      default_value: {  }
+      default_value_callback: ''
+      settings: {  }
+      field_type: text_long
+  -
+    collection: ''
+    name: field.field.rdf_entity.oe_event.oe_event_end_date
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.rdf_entity.oe_event_end_date
+          - rdf_entity.rdfentity.oe_event
+      id: rdf_entity.oe_event.oe_event_end_date
+      field_name: oe_event_end_date
+      entity_type: rdf_entity
+      bundle: oe_event
+      label: 'End date'
+      description: ''
+      required: true
+      translatable: true
+      default_value:
+        -
+          value: 1533728188
+      default_value_callback: ''
+      settings: {  }
+      field_type: timestamp
+  -
+    collection: ''
+    name: field.field.rdf_entity.oe_event.oe_event_introduction
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.rdf_entity.oe_event_introduction
+          - rdf_entity.rdfentity.oe_event
+        module:
+          - text
+      id: rdf_entity.oe_event.oe_event_introduction
+      field_name: oe_event_introduction
+      entity_type: rdf_entity
+      bundle: oe_event
+      label: Introduction
+      description: ''
+      required: false
+      translatable: true
+      default_value: {  }
+      default_value_callback: ''
+      settings: {  }
+      field_type: text_long
+  -
+    collection: ''
+    name: field.field.rdf_entity.oe_event.oe_event_links
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.rdf_entity.oe_event_links
+          - rdf_entity.rdfentity.oe_event
+        module:
+          - link
+      id: rdf_entity.oe_event.oe_event_links
+      field_name: oe_event_links
+      entity_type: rdf_entity
+      bundle: oe_event
+      label: 'Related links'
+      description: ''
+      required: false
+      translatable: false
+      default_value: {  }
+      default_value_callback: ''
+      settings:
+        link_type: 17
+        title: 0
+      field_type: link
+  -
+    collection: ''
+    name: field.field.rdf_entity.oe_event.oe_event_organiser
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.rdf_entity.oe_event_organiser
+          - rdf_entity.rdfentity.oe_event
+          - taxonomy.vocabulary.corporate_bodies
+      id: rdf_entity.oe_event.oe_event_organiser
+      field_name: oe_event_organiser
+      entity_type: rdf_entity
+      bundle: oe_event
+      label: Organiser
+      description: ''
+      required: true
+      translatable: false
+      default_value: {  }
+      default_value_callback: ''
+      settings:
+        handler: 'default:taxonomy_term'
+        handler_settings:
+          target_bundles:
+            corporate_bodies: corporate_bodies
+          sort:
+            field: name
+            direction: asc
+          auto_create: false
+          auto_create_bundle: ''
+      field_type: entity_reference
+  -
+    collection: ''
+    name: field.field.rdf_entity.oe_event.oe_event_start_date
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.rdf_entity.oe_event_start_date
+          - rdf_entity.rdfentity.oe_event
+      id: rdf_entity.oe_event.oe_event_start_date
+      field_name: oe_event_start_date
+      entity_type: rdf_entity
+      bundle: oe_event
+      label: 'Start date'
+      description: ''
+      required: true
+      translatable: true
+      default_value:
+        -
+          value: 1533728188
+      default_value_callback: ''
+      settings: {  }
+      field_type: timestamp
+  -
+    collection: ''
+    name: field.field.rdf_entity.oe_event.oe_event_subject
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.rdf_entity.oe_event_subject
+          - rdf_entity.rdfentity.oe_event
+          - taxonomy.vocabulary.thesaurus
+      id: rdf_entity.oe_event.oe_event_subject
+      field_name: oe_event_subject
+      entity_type: rdf_entity
+      bundle: oe_event
+      label: Subject
+      description: ''
+      required: true
+      translatable: false
+      default_value: {  }
+      default_value_callback: ''
+      settings:
+        handler: 'default:taxonomy_term'
+        handler_settings:
+          target_bundles:
+            thesaurus: thesaurus
+          sort:
+            field: name
+            direction: asc
+          auto_create: false
+          auto_create_bundle: ''
+      field_type: entity_reference
+  -
+    collection: ''
+    name: field.field.rdf_entity.oe_event.oe_event_target_audience
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.rdf_entity.oe_event_target_audience
+          - rdf_entity.rdfentity.oe_event
+          - taxonomy.vocabulary.target_audiences
+      id: rdf_entity.oe_event.oe_event_target_audience
+      field_name: oe_event_target_audience
+      entity_type: rdf_entity
+      bundle: oe_event
+      label: 'Who should attend'
+      description: ''
+      required: false
+      translatable: false
+      default_value: {  }
+      default_value_callback: ''
+      settings:
+        handler: 'default:taxonomy_term'
+        handler_settings:
+          target_bundles:
+            target_audiences: target_audiences
+          sort:
+            field: name
+            direction: asc
+          auto_create: false
+          auto_create_bundle: ''
+      field_type: entity_reference
+  -
+    collection: ''
+    name: field.field.rdf_entity.oe_event.oe_event_website
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.rdf_entity.oe_event_website
+          - rdf_entity.rdfentity.oe_event
+        module:
+          - link
+      id: rdf_entity.oe_event.oe_event_website
+      field_name: oe_event_website
+      entity_type: rdf_entity
+      bundle: oe_event
+      label: Website
+      description: ''
+      required: false
+      translatable: false
+      default_value: {  }
+      default_value_callback: ''
+      settings:
+        link_type: 17
+        title: 0
+      field_type: link
+  -
+    collection: ''
+    name: field.storage.rdf_entity.oe_event_available_languages
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - rdf_entity
+      third_party_settings:
+        rdf_entity:
+          mapping:
+            value:
+              predicate: 'https://schema.org/inLanguage'
+              format: literal
+      id: rdf_entity.oe_event_available_languages
+      field_name: oe_event_available_languages
+      entity_type: rdf_entity
+      type: string
+      settings:
+        max_length: 255
+        is_ascii: false
+        case_sensitive: false
+      module: core
+      locked: false
+      cardinality: 1
+      translatable: true
+      indexes: {  }
+      persist_with_no_fields: false
+      custom_storage: false
+  -
+    collection: ''
+    name: field.storage.rdf_entity.oe_event_description
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - rdf_entity
+          - text
+      third_party_settings:
+        rdf_entity:
+          mapping:
+            value:
+              predicate: 'https://schema.org/description'
+              format: t_literal
+            format:
+              predicate: 'http://europa.eu/oe_event_description/format'
+              format: 'xsd:string'
+      id: rdf_entity.oe_event_description
+      field_name: oe_event_description
+      entity_type: rdf_entity
+      type: text_long
+      settings: {  }
+      module: text
+      locked: false
+      cardinality: 1
+      translatable: true
+      indexes: {  }
+      persist_with_no_fields: false
+      custom_storage: false
+  -
+    collection: ''
+    name: field.storage.rdf_entity.oe_event_end_date
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - rdf_entity
+      third_party_settings:
+        rdf_entity:
+          mapping:
+            value:
+              predicate: 'http://schema.org/endDate'
+              format: 'xsd:dateTime'
+      id: rdf_entity.oe_event_end_date
+      field_name: oe_event_end_date
+      entity_type: rdf_entity
+      type: timestamp
+      settings: {  }
+      module: core
+      locked: false
+      cardinality: 1
+      translatable: true
+      indexes: {  }
+      persist_with_no_fields: false
+      custom_storage: false
+  -
+    collection: ''
+    name: field.storage.rdf_entity.oe_event_introduction
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - rdf_entity
+          - text
+      third_party_settings:
+        rdf_entity:
+          mapping:
+            value:
+              predicate: 'https://schema.org/text'
+              format: t_literal
+            format:
+              predicate: 'http://europa.eu/oe_event_introduction/format'
+              format: 'xsd:string'
+      id: rdf_entity.oe_event_introduction
+      field_name: oe_event_introduction
+      entity_type: rdf_entity
+      type: text_long
+      settings: {  }
+      module: text
+      locked: false
+      cardinality: 1
+      translatable: true
+      indexes: {  }
+      persist_with_no_fields: false
+      custom_storage: false
+  -
+    collection: ''
+    name: field.storage.rdf_entity.oe_event_links
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - link
+          - rdf_entity
+      third_party_settings:
+        rdf_entity:
+          mapping:
+            uri:
+              predicate: 'http://schema.org/relatedLink'
+              format: 'xsd:anyURI'
+            title:
+              predicate: ''
+              format: no_format
+            options:
+              predicate: ''
+              format: no_format
+      id: rdf_entity.oe_event_links
+      field_name: oe_event_links
+      entity_type: rdf_entity
+      type: link
+      settings: {  }
+      module: link
+      locked: false
+      cardinality: 1
+      translatable: true
+      indexes: {  }
+      persist_with_no_fields: false
+      custom_storage: false
+  -
+    collection: ''
+    name: field.storage.rdf_entity.oe_event_organiser
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - rdf_entity
+          - taxonomy
+      third_party_settings:
+        rdf_entity:
+          mapping:
+            target_id:
+              predicate: 'http://schema.org/organizer'
+              format: resource
+      id: rdf_entity.oe_event_organiser
+      field_name: oe_event_organiser
+      entity_type: rdf_entity
+      type: entity_reference
+      settings:
+        target_type: taxonomy_term
+      module: core
+      locked: false
+      cardinality: 1
+      translatable: false
+      indexes: {  }
+      persist_with_no_fields: false
+      custom_storage: false
+  -
+    collection: ''
+    name: field.storage.rdf_entity.oe_event_start_date
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - rdf_entity
+      third_party_settings:
+        rdf_entity:
+          mapping:
+            value:
+              predicate: 'http://schema.org/startDate'
+              format: 'xsd:dateTime'
+      id: rdf_entity.oe_event_start_date
+      field_name: oe_event_start_date
+      entity_type: rdf_entity
+      type: timestamp
+      settings: {  }
+      module: core
+      locked: false
+      cardinality: 1
+      translatable: true
+      indexes: {  }
+      persist_with_no_fields: false
+      custom_storage: false
+  -
+    collection: ''
+    name: field.storage.rdf_entity.oe_event_subject
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - rdf_entity
+          - taxonomy
+      third_party_settings:
+        rdf_entity:
+          mapping:
+            target_id:
+              predicate: 'http://schema.org/about'
+              format: resource
+      id: rdf_entity.oe_event_subject
+      field_name: oe_event_subject
+      entity_type: rdf_entity
+      type: entity_reference
+      settings:
+        target_type: taxonomy_term
+      module: core
+      locked: false
+      cardinality: 1
+      translatable: false
+      indexes: {  }
+      persist_with_no_fields: false
+      custom_storage: false
+  -
+    collection: ''
+    name: field.storage.rdf_entity.oe_event_target_audience
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - rdf_entity
+          - taxonomy
+      third_party_settings:
+        rdf_entity:
+          mapping:
+            target_id:
+              predicate: 'http://schema.org/audience'
+              format: resource
+      id: rdf_entity.oe_event_target_audience
+      field_name: oe_event_target_audience
+      entity_type: rdf_entity
+      type: entity_reference
+      settings:
+        target_type: taxonomy_term
+      module: core
+      locked: false
+      cardinality: 1
+      translatable: false
+      indexes: {  }
+      persist_with_no_fields: false
+      custom_storage: false
+  -
+    collection: ''
+    name: field.storage.rdf_entity.oe_event_website
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - link
+          - rdf_entity
+      third_party_settings:
+        rdf_entity:
+          mapping:
+            uri:
+              predicate: 'http://schema.org/sameAs'
+              format: 'xsd:anyURI'
+            title:
+              predicate: ''
+              format: no_format
+            options:
+              predicate: ''
+              format: no_format
+      id: rdf_entity.oe_event_website
+      field_name: oe_event_website
+      entity_type: rdf_entity
+      type: link
+      settings: {  }
+      module: link
+      locked: false
+      cardinality: 1
+      translatable: true
+      indexes: {  }
+      persist_with_no_fields: false
+      custom_storage: false
+  -
+    collection: ''
+    name: rdf_entity.mapping.rdf_entity.oe_event
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - rdf_entity.graph.default
+          - rdf_entity.graph.draft
+          - rdf_entity.rdfentity.oe_event
+      id: rdf_entity.oe_event
+      entity_type_id: rdf_entity
+      bundle: oe_event
+      rdf_type: 'http://schema.org/Event'
+      graph:
+        default: 'http://europa.eu/event/published'
+        draft: 'http://europa.eu/event/draft'
+      base_fields_mapping:
+        rid:
+          target_id:
+            predicate: 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type'
+            format: resource
+        uid:
+          target_id:
+            predicate: 'http://schema.org/creator'
+            format: 'xsd:integer'
+        label:
+          value:
+            predicate: 'http://schema.org/name'
+            format: t_literal
+        created:
+          value:
+            predicate: 'http://schema.org/dateCreated'
+            format: 'xsd:dateTime'
+        changed:
+          value:
+            predicate: 'http://schema.org/dateModified'
+            format: 'xsd:dateTime'
+        uuid:
+          value:
+            predicate: ''
+            format: ''
+        langcode:
+          value:
+            predicate: 'http://europa.eu/langcode'
+            format: 'xsd:string'
+        default_langcode:
+          value:
+            predicate: 'http://europa.eu/default_langcode'
+            format: 'xsd:boolean'
+        provenance_uri:
+          value:
+            predicate: 'http://europa.eu/provenance_uri'
+            format: resource
+        graph:
+          target_id:
+            predicate: ''
+            format: ''
+      entity_id_plugin: default
+  -
+    collection: ''
+    name: rdf_entity.rdfentity.oe_event
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      name: Event
+      rid: oe_event
+      description: ''

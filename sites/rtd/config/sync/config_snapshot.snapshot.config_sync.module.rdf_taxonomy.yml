@@ -1,0 +1,11 @@
+uuid: b2828c7c-2de0-432e-8fe5-871e8195e77e
+langcode: en
+status: true
+dependencies:
+  module:
+    - rdf_taxonomy
+id: config_sync.module.rdf_taxonomy
+snapshotSet: config_sync
+extensionType: module
+extensionName: rdf_taxonomy
+items: {  }

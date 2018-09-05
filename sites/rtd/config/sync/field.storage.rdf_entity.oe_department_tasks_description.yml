@@ -12,8 +12,8 @@ third_party_settings:
         predicate: 'http://schema.org/knowsAbout'
         format: t_literal
       format:
-        predicate: ''
-        format: no_format
+        predicate: 'http://europa.eu/oe_department_tasks_description/format'
+        format: 'xsd:string'
 _core:
   default_config_hash: tfAxtPEACkFv4Ka39RQCmu8jHHc5l9UuBKAZvlCEI0k
 id: rdf_entity.oe_department_tasks_description
