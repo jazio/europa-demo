@@ -1,0 +1,27 @@
+uuid: 44854a34-233a-4dce-befc-298900f8d125
+langcode: en
+status: true
+dependencies:
+  module:
+    - language_selection_page
+id: config_sync.module.language_selection_page
+snapshotSet: config_sync
+extensionType: module
+extensionName: language_selection_page
+items:
+  -
+    collection: ''
+    name: language_selection_page.negotiation
+    data:
+      title: 'Language selection'
+      path: /language_selection_page
+      type: standalone
+      blacklisted_paths:
+        - /admin
+        - /user
+        - '/admin/*'
+        - '/admin*'
+        - '/node/add/*'
+        - '/node/*/edit'
+        - /node
+      ignore_neutral: false

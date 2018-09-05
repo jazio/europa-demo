@@ -1,0 +1,11 @@
+uuid: a137e4a5-ab90-47ce-a915-93c8c375e5e9
+langcode: en
+status: true
+dependencies:
+  module:
+    - content_translation
+id: config_sync.module.content_translation
+snapshotSet: config_sync
+extensionType: module
+extensionName: content_translation
+items: {  }

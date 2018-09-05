@@ -1,0 +1,11 @@
+uuid: f5de14cc-dce6-40d7-9ee4-2cf2c20fa09a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - europa_demo_theme
+id: config_sync.theme.europa_demo_theme
+snapshotSet: config_sync
+extensionType: theme
+extensionName: europa_demo_theme
+items: {  }

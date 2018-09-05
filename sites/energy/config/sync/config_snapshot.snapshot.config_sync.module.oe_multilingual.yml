@@ -1,0 +1,287 @@
+uuid: 796c57ca-921d-4ed9-883a-c529be791104
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_multilingual
+id: config_sync.module.oe_multilingual
+snapshotSet: config_sync
+extensionType: module
+extensionName: oe_multilingual
+items:
+  -
+    collection: ''
+    name: language.entity.bg
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      id: bg
+      label: Bulgarian
+      direction: ltr
+      weight: -6
+      locked: false
+  -
+    collection: ''
+    name: language.entity.cs
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      id: cs
+      label: Czech
+      direction: ltr
+      weight: -5
+      locked: false
+  -
+    collection: ''
+    name: language.entity.da
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      id: da
+      label: Danish
+      direction: ltr
+      weight: -4
+      locked: false
+  -
+    collection: ''
+    name: language.entity.de
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      id: de
+      label: German
+      direction: ltr
+      weight: -3
+      locked: false
+  -
+    collection: ''
+    name: language.entity.el
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      id: el
+      label: Greek
+      direction: ltr
+      weight: -1
+      locked: false
+  -
+    collection: ''
+    name: language.entity.es
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      id: es
+      label: Spanish
+      direction: ltr
+      weight: 1
+      locked: false
+  -
+    collection: ''
+    name: language.entity.et
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      id: et
+      label: Estonian
+      direction: ltr
+      weight: -2
+      locked: false
+  -
+    collection: ''
+    name: language.entity.fi
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      id: fi
+      label: Finnish
+      direction: ltr
+      weight: 16
+      locked: false
+  -
+    collection: ''
+    name: language.entity.fr
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      id: fr
+      label: French
+      direction: ltr
+      weight: 2
+      locked: false
+  -
+    collection: ''
+    name: language.entity.ga
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      id: ga
+      label: Irish
+      direction: ltr
+      weight: 3
+      locked: false
+  -
+    collection: ''
+    name: language.entity.hr
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      id: hr
+      label: Croatian
+      direction: ltr
+      weight: 4
+      locked: false
+  -
+    collection: ''
+    name: language.entity.hu
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      id: hu
+      label: Hungarian
+      direction: ltr
+      weight: 7
+      locked: false
+  -
+    collection: ''
+    name: language.entity.it
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      id: it
+      label: Italian
+      direction: ltr
+      weight: 5
+      locked: false
+  -
+    collection: ''
+    name: language.entity.lt
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      id: lt
+      label: Lithuanian
+      direction: ltr
+      weight: 6
+      locked: false
+  -
+    collection: ''
+    name: language.entity.lv
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      id: lv
+      label: Latvian
+      direction: ltr
+      weight: 5
+      locked: false
+  -
+    collection: ''
+    name: language.entity.mt
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      id: mt
+      label: Maltese
+      direction: ltr
+      weight: 9
+      locked: false
+  -
+    collection: ''
+    name: language.entity.nl
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      id: nl
+      label: Dutch
+      direction: ltr
+      weight: 10
+      locked: false
+  -
+    collection: ''
+    name: language.entity.pl
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      id: pl
+      label: Polish
+      direction: ltr
+      weight: 11
+      locked: false
+  -
+    collection: ''
+    name: language.entity.pt-pt
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      id: pt-pt
+      label: Portuguese
+      direction: ltr
+      weight: 12
+      locked: false
+  -
+    collection: ''
+    name: language.entity.ro
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      id: ro
+      label: Romanian
+      direction: ltr
+      weight: 13
+      locked: false
+  -
+    collection: ''
+    name: language.entity.sk
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      id: sk
+      label: Slovak
+      direction: ltr
+      weight: 14
+      locked: false
+  -
+    collection: ''
+    name: language.entity.sl
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      id: sl
+      label: Slovenian
+      direction: ltr
+      weight: 15
+      locked: false
+  -
+    collection: ''
+    name: language.entity.sv
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      id: sv
+      label: Swedish
+      direction: ltr
+      weight: 17
+      locked: false

@@ -12,8 +12,8 @@ third_party_settings:
         predicate: 'http://schema.org/alternativeHeadline'
         format: t_literal
       format:
-        predicate: ''
-        format: no_format
+        predicate: 'http://europa.eu/oe_announcement_introduction/format'
+        format: 'xsd:string'
 _core:
   default_config_hash: JfdiRh0K7w06hx34RwWkgLo5dTOtmgUgf-ejqKZkSOw
 id: rdf_entity.oe_announcement_introduction

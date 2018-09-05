@@ -1,0 +1,169 @@
+uuid: 7c34372c-4072-4c2b-a979-b51ddce12078
+langcode: en
+status: true
+dependencies:
+  theme:
+    - oe_theme
+id: config_sync.theme.oe_theme
+snapshotSet: config_sync
+extensionType: theme
+extensionName: oe_theme
+items:
+  -
+    collection: ''
+    name: block.block.oe_theme_breadcrumb
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - system
+        theme:
+          - oe_theme
+      id: oe_theme_breadcrumb
+      theme: oe_theme
+      region: breadcrumb
+      weight: 0
+      provider: null
+      plugin: system_breadcrumb_block
+      settings:
+        id: system_breadcrumb_block
+        label: Breadcrumbs
+        provider: system
+        label_display: '0'
+      visibility:
+        request_path:
+          id: request_path
+          pages: '<front>'
+          negate: true
+          context_mapping: {  }
+  -
+    collection: ''
+    name: block.block.oe_theme_main_navigation
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - system.menu.main
+        module:
+          - system
+        theme:
+          - oe_theme
+      id: oe_theme_main_navigation
+      theme: oe_theme
+      region: navigation
+      weight: 0
+      provider: null
+      plugin: 'system_menu_block:main'
+      settings:
+        id: 'system_menu_block:main'
+        label: 'Main navigation'
+        provider: system
+        label_display: '0'
+        level: 1
+        depth: 0
+      visibility: {  }
+  -
+    collection: ''
+    name: block.block.oe_theme_main_page_content
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - system
+        theme:
+          - oe_theme
+      id: oe_theme_main_page_content
+      theme: oe_theme
+      region: content
+      weight: 2
+      provider: null
+      plugin: system_main_block
+      settings:
+        id: system_main_block
+        label: 'Main page content'
+        provider: system
+        label_display: '0'
+      visibility: {  }
+  -
+    collection: ''
+    name: block.block.oe_theme_page_header
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - oe_theme_helper
+          - system
+        theme:
+          - oe_theme
+      id: oe_theme_page_header
+      theme: oe_theme
+      region: page_header
+      weight: 0
+      provider: null
+      plugin: oe_theme_helper_page_header
+      settings:
+        id: oe_theme_helper_page_header
+        label: 'Page header'
+        provider: oe_theme_helper
+        label_display: '0'
+        context_mapping:
+          page_header: '@oe_theme_helper.page_header_context:page_header'
+      visibility:
+        request_path:
+          id: request_path
+          pages: '<front>'
+          negate: true
+          context_mapping: {  }
+  -
+    collection: ''
+    name: block.block.oe_theme_site_branding
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - system
+        theme:
+          - oe_theme
+      id: oe_theme_site_branding
+      theme: oe_theme
+      region: site_header
+      weight: 0
+      provider: null
+      plugin: system_branding_block
+      settings:
+        id: system_branding_block
+        label: 'Site branding'
+        provider: system
+        label_display: '0'
+        use_site_logo: true
+        use_site_name: true
+        use_site_slogan: false
+      visibility: {  }
+  -
+    collection: ''
+    name: block.block.oe_theme_tabs
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        theme:
+          - oe_theme
+      id: oe_theme_tabs
+      theme: oe_theme
+      region: content
+      weight: 1
+      provider: null
+      plugin: local_tasks_block
+      settings:
+        id: local_tasks_block
+        label: Tabs
+        provider: core
+        label_display: '0'
+        primary: true
+        secondary: true
+      visibility: {  }
