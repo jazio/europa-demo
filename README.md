@@ -151,3 +151,17 @@ $ docker-compose exec web ./vendor/bin/behat -p agri
 $ docker-compose exec web ./vendor/bin/behat -p energy
 $ docker-compose exec web ./vendor/bin/behat -p rtd
 ```
+
+### Working with configuration
+
+For an extensive guide about how to work with Drupal 8 site configuration refer to the [Configuration management][6]
+documentation page.
+
+Newer version of the OpenEuropa components might also ship with new or updated configuration.
+
+In order to import configuration changes perform the following steps:
+
+1. Visit `/admin/config/development/configuration/distro`
+2. Review and import changes
+3. Export configuration via `drush config:export`, this will dump the current configuration in `./config/sync`
+4. Commit and push
