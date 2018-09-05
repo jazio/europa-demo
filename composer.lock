@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e007effc79b1f74af00b65179eb0cfe5",
+    "content-hash": "fd8d1b0058c3978e83c4bfd6ee231834",
     "packages": [
         {
             "name": "behat/behat",
@@ -2687,6 +2687,46 @@
             ],
             "description": "CI/developer-friendly configuration processor for Robo.",
             "time": "2018-08-22T06:38:44+00:00"
+        },
+        {
+            "name": "openeuropa/behat-transformation-context",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/openeuropa/behat-transformation-context.git",
+                "reference": "144c924b8c70de9a7c16a91ef8036b5dad0df7dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/openeuropa/behat-transformation-context/zipball/144c924b8c70de9a7c16a91ef8036b5dad0df7dc",
+                "reference": "144c924b8c70de9a7c16a91ef8036b5dad0df7dc",
+                "shasum": ""
+            },
+            "require": {
+                "behat/behat": "^3.4",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "openeuropa/code-review": "^0.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "OpenEuropa\\Behat\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "EUPL-1.2"
+            ],
+            "description": "Behat package to transform human readable labels to selectors or page paths.",
+            "homepage": "https://github.com/openeuropa/behat-transformation-context",
+            "keywords": [
+                "Behat",
+                "test",
+                "transform"
+            ],
+            "time": "2018-07-03T10:22:45+00:00"
         },
         {
             "name": "openeuropa/code-review",

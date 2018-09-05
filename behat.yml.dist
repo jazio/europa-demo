@@ -25,7 +25,7 @@ site:
       - Drupal\DrupalExtension\Context\MarkupContext
       - Drupal\DrupalExtension\Context\MessageContext
       - Ec\Europa\EuropaDemo\Behat\AuthenticationContext
-      - Ec\Europa\EuropaDemo\Behat\TransformationContext:
+      - OpenEuropa\Behat\TransformationContext:
           elements:
             about dropdown menu: "#nav-menu-expandable-group-2 .ecl-navigation-menu__links"
             banner title: ".ecl-banner__title"
