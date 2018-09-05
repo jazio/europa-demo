@@ -1,0 +1,35 @@
+uuid: c688e337-8b7b-4f4a-8b74-7aad89c8ad3a
+langcode: en
+status: true
+dependencies:
+  module:
+    - rdf_draft
+id: config_sync.module.rdf_draft
+snapshotSet: config_sync
+extensionType: module
+extensionName: rdf_draft
+items:
+  -
+    collection: ''
+    name: core.entity_view_mode.rdf_entity.rdf_draft
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - rdf_entity
+      id: rdf_entity.rdf_draft
+      label: Draft
+      targetEntityType: rdf_entity
+      cache: true
+  -
+    collection: ''
+    name: rdf_entity.graph.draft
+    data:
+      langcode: en
+      status: true
+      id: draft
+      weight: 10
+      name: Draft
+      description: 'Draft graph.'
+      entity_types: null

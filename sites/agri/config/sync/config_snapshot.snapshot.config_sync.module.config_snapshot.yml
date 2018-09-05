@@ -1,0 +1,9 @@
+uuid: fcb6450b-ca8d-4b47-8a88-c25da70ca634
+langcode: en
+status: true
+dependencies: {  }
+id: config_sync.module.config_snapshot
+snapshotSet: config_sync
+extensionType: module
+extensionName: config_snapshot
+items: {  }
