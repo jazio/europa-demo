@@ -1,0 +1,5 @@
+name: Europa Demo Content Broker
+description: Brokers content for the various sites
+core: 8.x
+type: module
+package: Custom
