@@ -1,8 +1,0 @@
-settings:
-  allowed_values:
-    22:
-      label: Facebook
-    46:
-      label: Cerca
-    53:
-      label: Twitter
