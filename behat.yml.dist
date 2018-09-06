@@ -24,7 +24,8 @@ site:
       - Drupal\DrupalExtension\Context\MessageContext
       - Drupal\DrupalExtension\Context\MarkupContext
       - Drupal\DrupalExtension\Context\MessageContext
-      - Ec\Europa\EuropaDemo\Behat\AuthenticationContext
+      - Ec\Europa\EuropaDemo\Behat\MinkContext
+      - Ec\Europa\EuropaDemo\Behat\DrupalContext
       - OpenEuropa\Behat\TransformationContext:
           elements:
             about dropdown menu: "#nav-menu-expandable-group-2 .ecl-navigation-menu__links"
@@ -52,9 +53,6 @@ site:
             administrative: "/en/admin"
             login: "/en/user/login"
             logout: "/en/user/logout"
-      - Ec\Europa\EuropaDemo\Behat\WebtoolsContext
-      - Ec\Europa\EuropaDemo\Behat\MinkContext
-      - Ec\Europa\EuropaDemo\Behat\DrupalContext
   extensions:
     Drupal\DrupalExtension:
       api_driver: "drupal"
