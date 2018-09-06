@@ -161,7 +161,35 @@ Newer version of the OpenEuropa components might also ship with new or updated c
 
 In order to import configuration changes perform the following steps:
 
+**Via command line:**
+
+Check for configuration changes in modules:
+
+```
+$ docker-compose exec web ./vendor/bin/drush --root=/var/www/html/sites/agri config-sync-list-updates
+```
+
+Import configuration changes:
+
+```
+$ docker-compose exec web ./vendor/bin/drush --root=/var/www/html/sites/agri config-distro-update
+```
+
+Export configuration:
+
+```
+$ docker-compose exec web ./vendor/bin/drush --root=/var/www/html/sites/agri config:export -y
+```
+
+Commit and push.
+
+*Note*: due to an issue in Config Distro module the import configuration step might yield no results, if that's the case
+use the UI method below.
+
+**Via the UI:**
+
 1. Visit `/admin/config/development/configuration/distro`
 2. Review and import changes
-3. Export configuration via `drush config:export`, this will dump the current configuration in `./config/sync`
+3. Export configuration as described above.
 4. Commit and push
+
