@@ -99,3 +99,55 @@ To re-install run:
 ```
 docker-compose exec web ./vendor/bin/run --working-dir=/var/www/html/sites/agri drupal:site-install
 ```
+
+### Convenience commands
+
+The projects provides a set of convenience commands that can run useful Drupal/Task Runner tasks on all three sites at
+the same time, namely:
+
+```
+docker-compose exec web ./vendor/bin/run sites:composer-drupal-scaffold       
+docker-compose exec web ./vendor/bin/run sites:composer-install               
+docker-compose exec web ./vendor/bin/run sites:composer-update                
+docker-compose exec web ./vendor/bin/run sites:config-export                  
+docker-compose exec web ./vendor/bin/run sites:config-import                  
+docker-compose exec web ./vendor/bin/run sites:import-interface-translations  
+docker-compose exec web ./vendor/bin/run sites:install                        
+docker-compose exec web ./vendor/bin/run sites:setup
+docker-compose exec web ./vendor/bin/run sites:sql-drop                       
+docker-compose exec web ./vendor/bin/run sites:sql-dump                       
+docker-compose exec web ./vendor/bin/run sites:sql-restore
+```
+
+Also, after any change on the sites' `runner.yml.dist` run:
+
+```
+$ docker-compose exec web ./vendor/bin/run setup:runner
+```
+
+This will refresh site specific Task Runner configuration.
+
+### Working with Behat tests
+
+The Behat test suite is setup on the project root folder and it can run tests on each site separately and on all three
+site simultaneously.
+
+Since the Drupal Extension does not support more than one site per time we had to create three different Behat profiles,
+one per site, each profile can use both Mink and Drupal drivers.
+
+The default Behat profile runs only tests that involve interaction with the three sites at the same time and can only
+use the Mink driver.
+
+Run tests on three sites at the same time (no Drupal driver):
+
+```
+$ docker-compose exec web ./vendor/bin/behat
+```
+
+Run site specific tests (use both Mink and Drupal drivers):
+
+```
+$ docker-compose exec web ./vendor/bin/behat -p agri
+$ docker-compose exec web ./vendor/bin/behat -p energy
+$ docker-compose exec web ./vendor/bin/behat -p rtd
+```
