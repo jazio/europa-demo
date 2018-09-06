@@ -38,6 +38,10 @@ commands:
   - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/agri' drupal:site-install"
   - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/energy' drupal:site-install"
   - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/rtd' drupal:site-install"
+  sites:import-interface-translations:
+  - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/agri' drupal:import-interface-translations"
+  - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/energy' drupal:import-interface-translations"
+  - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/rtd' drupal:import-interface-translations"
   sites:sql-drop:
   - "./vendor/bin/drush --root='${runner.working_dir}/sites/agri' sql-drop -y"
   - "./vendor/bin/drush --root='${runner.working_dir}/sites/energy' sql-drop -y"
