@@ -154,8 +154,8 @@ $ docker-compose exec web ./vendor/bin/behat -p rtd
 
 ### Working with configuration
 
-For an extensive guide about how to work with Drupal 8 site configuration refer to the [Configuration management][6]
-documentation page.
+For an extensive guide about how to work with Drupal 8 site configuration refer to the
+[Configuration management](https://www.drupal.org/docs/8/configuration-management) documentation page.
 
 Newer version of the OpenEuropa components might also ship with new or updated configuration.
 
