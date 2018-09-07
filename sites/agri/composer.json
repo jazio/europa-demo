@@ -81,11 +81,6 @@
     "conflict": {
         "drupal/drupal": "*"
     },
-    "autoload": {
-        "classmap": [
-            "web/modules/contrib/rdf_entity/driver/sparql/Connection.php"
-        ]
-    },
     "repositories": [
         {
             "type": "composer",
