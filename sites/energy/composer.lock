@@ -1696,16 +1696,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.6.0-rc1",
+            "version": "8.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "2b8e6adebc84259f246bd52ef4faa9dcdd64e1b9"
+                "reference": "4a2507b102fcedc74507fd372131f2ed72913429"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/2b8e6adebc84259f246bd52ef4faa9dcdd64e1b9",
-                "reference": "2b8e6adebc84259f246bd52ef4faa9dcdd64e1b9",
+                "url": "https://api.github.com/repos/drupal/core/zipball/4a2507b102fcedc74507fd372131f2ed72913429",
+                "reference": "4a2507b102fcedc74507fd372131f2ed72913429",
                 "shasum": ""
             },
             "require": {
@@ -1933,7 +1933,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2018-08-17T18:43:58+00:00"
+            "time": "2018-09-05T22:16:20+00:00"
         },
         {
             "name": "drupal/ctools",
@@ -2538,7 +2538,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/rdf_entity",
-                "reference": "5590f48395d72dd95456b6cbaf428480b205b305"
+                "reference": "400c24da2191820b5a787d6adfd8e4a9b6f19b93"
             },
             "require": {
                 "drupal/core": "*",
@@ -2551,8 +2551,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-alpha9+0-dev",
-                    "datestamp": "1535029084",
+                    "version": "8.x-1.0-alpha10+0-dev",
+                    "datestamp": "1536225180",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -2560,9 +2560,13 @@
                 },
                 "patches_applied": {
                     "GH-63: Paginating the term list page - https://github.com/ec-europa/rdf_entity/pull/64": "https://patch-diff.githubusercontent.com/raw/ec-europa/rdf_entity/pull/64.patch",
-                    "GH-61 - Fixing RDF taxonomy access bug - https://github.com/ec-europa/rdf_entity/pull/62": "https://patch-diff.githubusercontent.com/raw/ec-europa/rdf_entity/pull/62.patch",
-                    "Run on 8.6.x - https://github.com/ec-europa/rdf_entity/pull/65": "https://patch-diff.githubusercontent.com/raw/ec-europa/rdf_entity/pull/65.patch"
+                    "GH-61 - Fixing RDF taxonomy access bug - https://github.com/ec-europa/rdf_entity/pull/62": "https://patch-diff.githubusercontent.com/raw/ec-europa/rdf_entity/pull/62.patch"
                 }
+            },
+            "autoload": {
+                "classmap": [
+                    "driver/sparql/Connection.php"
+                ]
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
@@ -2600,7 +2604,7 @@
                 "source": "https://cgit.drupalcode.org/rdf_entity",
                 "issues": "https://drupal.org/project/issues/rdf_entity"
             },
-            "time": "2018-09-03T13:25:26+00:00"
+            "time": "2018-09-06T09:08:46+00:00"
         },
         {
             "name": "drupal/styleguide",
@@ -2867,12 +2871,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "b59af6e11a34b553cc2b91ad5be434611fb833ef"
+                "reference": "85ac913765b1822536a92046a3905fa07f7977cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/b59af6e11a34b553cc2b91ad5be434611fb833ef",
-                "reference": "b59af6e11a34b553cc2b91ad5be434611fb833ef",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/85ac913765b1822536a92046a3905fa07f7977cd",
+                "reference": "85ac913765b1822536a92046a3905fa07f7977cd",
                 "shasum": ""
             },
             "require": {
@@ -2961,7 +2965,7 @@
             ],
             "description": "Drush is a command line shell and scripting interface for Drupal, a veritable Swiss Army knife designed to make life easier for those of us who spend some of our working hours hacking away at the command prompt.",
             "homepage": "http://www.drush.org",
-            "time": "2018-09-04T17:48:15+00:00"
+            "time": "2018-09-07T01:54:11+00:00"
         },
         {
             "name": "easyrdf/easyrdf",
@@ -3824,12 +3828,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/openeuropa/oe_content.git",
-                "reference": "d8062f608ac792a2458ee7691d95740c9eaf646a"
+                "reference": "ffc4c5c014514a702de912503d96392e58bb1e9f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openeuropa/oe_content/zipball/d8062f608ac792a2458ee7691d95740c9eaf646a",
-                "reference": "d8062f608ac792a2458ee7691d95740c9eaf646a",
+                "url": "https://api.github.com/repos/openeuropa/oe_content/zipball/ffc4c5c014514a702de912503d96392e58bb1e9f",
+                "reference": "ffc4c5c014514a702de912503d96392e58bb1e9f",
                 "shasum": ""
             },
             "require": {
@@ -3860,8 +3864,7 @@
                 "patches": {
                     "drupal/rdf_entity": {
                         "GH-63: Paginating the term list page - https://github.com/ec-europa/rdf_entity/pull/64": "https://patch-diff.githubusercontent.com/raw/ec-europa/rdf_entity/pull/64.patch",
-                        "GH-61 - Fixing RDF taxonomy access bug - https://github.com/ec-europa/rdf_entity/pull/62": "https://patch-diff.githubusercontent.com/raw/ec-europa/rdf_entity/pull/62.patch",
-                        "Run on 8.6.x - https://github.com/ec-europa/rdf_entity/pull/65": "https://patch-diff.githubusercontent.com/raw/ec-europa/rdf_entity/pull/65.patch"
+                        "GH-61 - Fixing RDF taxonomy access bug - https://github.com/ec-europa/rdf_entity/pull/62": "https://patch-diff.githubusercontent.com/raw/ec-europa/rdf_entity/pull/62.patch"
                     }
                 },
                 "installer-paths": {
@@ -3889,7 +3892,7 @@
                 "EUPL-1.2"
             ],
             "description": "OpenEuropa Drupal module that contains the EC corporate entity types.",
-            "time": "2018-09-05T11:45:36+00:00"
+            "time": "2018-09-07T08:55:13+00:00"
         },
         {
             "name": "openeuropa/oe_multilingual",
@@ -7023,16 +7026,16 @@
         },
         {
             "name": "zendframework/zend-diactoros",
-            "version": "1.8.5",
+            "version": "1.8.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-diactoros.git",
-                "reference": "3e4edb822c942f37ade0d09579cfbab11e2fee87"
+                "reference": "20da13beba0dde8fb648be3cc19765732790f46e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/3e4edb822c942f37ade0d09579cfbab11e2fee87",
-                "reference": "3e4edb822c942f37ade0d09579cfbab11e2fee87",
+                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/20da13beba0dde8fb648be3cc19765732790f46e",
+                "reference": "20da13beba0dde8fb648be3cc19765732790f46e",
                 "shasum": ""
             },
             "require": {
@@ -7045,6 +7048,7 @@
             "require-dev": {
                 "ext-dom": "*",
                 "ext-libxml": "*",
+                "php-http/psr7-integration-tests": "dev-master",
                 "phpunit/phpunit": "^5.7.16 || ^6.0.8 || ^7.2.7",
                 "zendframework/zend-coding-standard": "~1.0"
             },
@@ -7082,7 +7086,7 @@
                 "psr",
                 "psr-7"
             ],
-            "time": "2018-08-10T14:16:32+00:00"
+            "time": "2018-09-05T19:29:37+00:00"
         },
         {
             "name": "zendframework/zend-escaper",
@@ -10685,13 +10689,24 @@
         },
         {
             "name": "webflo/drupal-core-require-dev",
-            "version": "8.6.0-rc1",
+            "version": "8.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webflo/drupal-core-require-dev.git",
+                "reference": "26775125d6b974a84c3618f8e0d8f1cd9a4091ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webflo/drupal-core-require-dev/zipball/26775125d6b974a84c3618f8e0d8f1cd9a4091ef",
+                "reference": "26775125d6b974a84c3618f8e0d8f1cd9a4091ef",
+                "shasum": ""
+            },
             "require": {
                 "behat/mink": "1.7.x-dev",
                 "behat/mink-goutte-driver": "^1.2",
                 "behat/mink-selenium2-driver": "1.3.x-dev",
                 "drupal/coder": "^8.2.12",
-                "drupal/core": "8.6.0-rc1",
+                "drupal/core": "8.6.0",
                 "jcalderonzumba/gastonjs": "^1.0.2",
                 "jcalderonzumba/mink-phantomjs-driver": "^0.3.1",
                 "mikey179/vfsstream": "^1.2",
@@ -10707,7 +10722,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "require-dev dependencies from drupal/core",
-            "time": "2018-08-17T19:01:44+00:00"
+            "time": "2018-09-05T22:31:48+00:00"
         }
     ],
     "aliases": [
