@@ -1,0 +1,185 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/web:8080\/en\/rdf_entity\/http_e_f_flocalhost_e8080_fsites_fagri_fweb_frdf_aentity_foe_aannouncement_f6fc6857e_b0836_b4ea0_b9384_b86a9432a1b93?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/rdf_entity\/oe_announcement"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/oe_announcement_department": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fcorporate_bbody_fCLIMA?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/oe_announcement_subject": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f6400?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/oe_announcement_type": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fresource_btype_fCITIZ_aSUM?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": "http:\/\/localhost:8080\/sites\/agri\/web\/rdf_entity\/oe_announcement\/6fc6857e-0836-4ea0-9384-86a9432a1b93"
+        }
+    ],
+    "rid": [
+        {
+            "target_id": "oe_announcement"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "288fde6e-25ef-4cd7-ba9a-42d4bb85fef5"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/oe_announcement_department": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fcorporate_bbody_fCLIMA?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/corporate_bodies"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/publications.europa.eu\/resource\/authority\/corporate-body\/CLIMA"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/oe_announcement_subject": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f6400?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/6400"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/oe_announcement_type": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fresource_btype_fCITIZ_aSUM?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/resource_types"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/publications.europa.eu\/resource\/authority\/resource-type\/CITIZ_SUM"
+                    }
+                ]
+            }
+        ]
+    },
+    "label": [
+        {
+            "value": "Commission to host high-level stakeholder event on EU vision for a modern, clean and competitive economy",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-05T11:17:35+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-09-05T11:17:35+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "http:\/\/localhost:8080\/sites\/agri\/web\/rdf_entity\/oe_announcement\/6fc6857e-0836-4ea0-9384-86a9432a1b93"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "provenance_uri": [
+        {
+            "value": "http:\/\/web:8080\/sites\/agri\/web"
+        }
+    ],
+    "graph": [
+        {
+            "target_id": "default"
+        }
+    ],
+    "oe_announcement_body": [
+        {
+            "value": "<p>In March 2018, EU leaders asked the European Commission to present,&nbsp; \u201cby the first quarter of 2019, a proposal for a strategy for long-term EU greenhouse gas emissions reduction in accordance with the Paris Agreement, taking into account the national plans\u201d. This followed a similar request form the European Parliament.<\/p><p>In preparation for this proposal, the Commission will organise a two-day stakeholder event in Brussels on 10-11 July for up to 1,000 participants, bringing together a broad range of stakeholders from business, research and civil society.<\/p><p>Hosted by Miguel <strong>Arias Ca\u00f1ete<\/strong>, Commissioner for Climate Action and Energy, the event will offer an opportunity for discussions that will then feed in to the Commission\u2019s input for the strategy. The event will be followed by a public consultation seeking further input from citizens and stakeholders.<\/p><p>Commissioner <strong>Arias Ca\u00f1ete<\/strong> said: \u201c<em>The EU has put in place the legislation to meet its Paris commitment for 2030. It is now time to look at the longer term perspective and to set out a strategy for where EU climate policy is heading by 2050. This is central to meet the Paris Agreement goals of keeping global temperature rise below 2 degrees Celsius and to pursue efforts to 1.5 degrees Celsius. The EU is committed to doing its part.&nbsp; The clean energy transition will be key, and achieving our climate objectives will require contributions from every part of the economy and society. This conference will be a vital forum for discussions and opinions that will feed into the proposal for a new EU long-term strategy on reducing emissions the European Commission will present by the end of this year.\u201d<\/em><\/p><p>In addition to Commissioner Arias Ca\u00f1ete, speakers will include Commission Vice-President for Jobs, Growth, Investment and Competitiveness <strong>Jyrki Katainen<\/strong>, Vice-President for the Energy Union <strong>Maro\u0161 \u0160ef\u010dovi\u010d<\/strong>, Commissioner for the Internal Market, Industry, Entrepreneurship and SMEs <strong>El\u017cbieta Bie\u0144kowska<\/strong> as well as ministers and high-level representatives from countries, organisations and stakeholders in and outside Europe.<\/p><p>Read more:<\/p><ul><li><a href=\"https:\/\/ec.europa.eu\/info\/events\/eus-vision-modern-clean-economy-stakeholder-event-2018-jul-10_en\">Event page and Programme<\/a><\/li><\/ul>",
+            "format": "html",
+            "processed": "<p>In March 2018, EU leaders asked the European Commission to present,\u00a0 \u201cby the first quarter of 2019, a proposal for a strategy for long-term EU greenhouse gas emissions reduction in accordance with the Paris Agreement, taking into account the national plans\u201d. This followed a similar request form the European Parliament.<\/p><p>In preparation for this proposal, the Commission will organise a two-day stakeholder event in Brussels on 10-11 July for up to 1,000 participants, bringing together a broad range of stakeholders from business, research and civil society.<\/p><p>Hosted by Miguel <strong>Arias Ca\u00f1ete<\/strong>, Commissioner for Climate Action and Energy, the event will offer an opportunity for discussions that will then feed in to the Commission\u2019s input for the strategy. The event will be followed by a public consultation seeking further input from citizens and stakeholders.<\/p><p>Commissioner <strong>Arias Ca\u00f1ete<\/strong> said: \u201c<em>The EU has put in place the legislation to meet its Paris commitment for 2030. It is now time to look at the longer term perspective and to set out a strategy for where EU climate policy is heading by 2050. This is central to meet the Paris Agreement goals of keeping global temperature rise below 2 degrees Celsius and to pursue efforts to 1.5 degrees Celsius. The EU is committed to doing its part.\u00a0 The clean energy transition will be key, and achieving our climate objectives will require contributions from every part of the economy and society. This conference will be a vital forum for discussions and opinions that will feed into the proposal for a new EU long-term strategy on reducing emissions the European Commission will present by the end of this year.\u201d<\/em><\/p><p>In addition to Commissioner Arias Ca\u00f1ete, speakers will include Commission Vice-President for Jobs, Growth, Investment and Competitiveness <strong>Jyrki Katainen<\/strong>, Vice-President for the Energy Union <strong>Maro\u0161 \u0160ef\u010dovi\u010d<\/strong>, Commissioner for the Internal Market, Industry, Entrepreneurship and SMEs <strong>El\u017cbieta Bie\u0144kowska<\/strong> as well as ministers and high-level representatives from countries, organisations and stakeholders in and outside Europe.<\/p><p>Read more:<\/p><ul><li><a href=\"https:\/\/ec.europa.eu\/info\/events\/eus-vision-modern-clean-economy-stakeholder-event-2018-jul-10_en\">Event page and Programme<\/a><\/li><\/ul>",
+            "lang": "en"
+        }
+    ],
+    "oe_announcement_introduction": [
+        {
+            "value": "<p>On 10-11 July, the European Commission will organise a high-level stakeholder consultation event on the EU\u2019s long-term strategy for reducing greenhouse gas emissions and building a prosperous, modern, clean and competitive economy.<\/p>",
+            "format": "html",
+            "processed": "<p>On 10-11 July, the European Commission will organise a high-level stakeholder consultation event on the EU\u2019s long-term strategy for reducing greenhouse gas emissions and building a prosperous, modern, clean and competitive economy.<\/p>",
+            "lang": "en"
+        }
+    ],
+    "oe_announcement_location": [
+        {
+            "value": "Brussels",
+            "lang": "en"
+        }
+    ],
+    "oe_announcement_publish_date": [
+        {
+            "value": "2018-07-05T11:36:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

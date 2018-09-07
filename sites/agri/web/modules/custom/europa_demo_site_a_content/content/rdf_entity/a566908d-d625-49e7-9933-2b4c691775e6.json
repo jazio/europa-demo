@@ -1,0 +1,185 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/web:8080\/en\/rdf_entity\/http_e_f_flocalhost_e8080_fsites_fagri_fweb_frdf_aentity_foe_aannouncement_fa566908d_bd625_b49e7_b9933_b2b4c691775e6?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/rdf_entity\/oe_announcement"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/oe_announcement_department": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fcorporate_bbody_fRTD?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/oe_announcement_subject": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_fc_a1138d9d2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/oe_announcement_type": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fresource_btype_fCITIZ_aSUM?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": "http:\/\/localhost:8080\/sites\/agri\/web\/rdf_entity\/oe_announcement\/a566908d-d625-49e7-9933-2b4c691775e6"
+        }
+    ],
+    "rid": [
+        {
+            "target_id": "oe_announcement"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "288fde6e-25ef-4cd7-ba9a-42d4bb85fef5"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/oe_announcement_department": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fcorporate_bbody_fRTD?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/corporate_bodies"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/publications.europa.eu\/resource\/authority\/corporate-body\/RTD"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/oe_announcement_subject": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_fc_a1138d9d2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/c_1138d9d2"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/oe_announcement_type": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fresource_btype_fCITIZ_aSUM?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/resource_types"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/publications.europa.eu\/resource\/authority\/resource-type\/CITIZ_SUM"
+                    }
+                ]
+            }
+        ]
+    },
+    "label": [
+        {
+            "value": "European Commission tackles barriers to innovation: the second Innovation Deal focuses on batteries for electric vehicles",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-05T09:39:25+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-09-05T11:14:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "http:\/\/localhost:8080\/sites\/agri\/web\/rdf_entity\/oe_announcement\/a566908d-d625-49e7-9933-2b4c691775e6"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "provenance_uri": [
+        {
+            "value": "http:\/\/web:8080\/sites\/agri\/web"
+        }
+    ],
+    "graph": [
+        {
+            "target_id": "default"
+        }
+    ],
+    "oe_announcement_body": [
+        {
+            "value": "<p>This Innovation Deal brings together partners from France (Renault s.a.s, Bouygues and the Ministries for the Ecological and Inclusive transition and Economy and Finance) and the Netherlands (LomboXnet, the Ministries of Infrastructure and Water Management and Economic Affairs and Climate Policy, and the Province of Utrecht). Its signature of this second Innovation Deal is another concrete example of how the Commission delivers on its commitment to help innovators address perceived EU regulatory obstacles.<\/p>\r\n\r\n<p><strong>Carlos Moedas,<\/strong> Commissioner for Research, Science and Innovation, said:<\/p>\r\n\r\n<blockquote>\r\n\t<p><em>The electric vehicle revolution is a testimony to how innovation generates growth and fundamentally changes society for the better. In order for Europe to stay in the lead of this innovation race, we need to work together with innovators and authorities to make sure our laws do not hamper innovation. This Innovation Deal will clarify the regulatory landscape in this area, and boost demand for electric vehicles.<\/em><\/p>\r\n<\/blockquote>\r\n\r\n<p><strong>Karmenu Vella,<\/strong> Commissioner for Environment, Maritime Affairs and Fisheries said:<\/p>\r\n\r\n<blockquote>\r\n\t<p><em>Innovation in electric vehicles helps the European economy and citizens.&nbsp;This Deal identifies barriers to the reuse of batteries from electric vehicles and explores ways to ensure that EU rules promote their recycling and reuse - the European circular economy in action.<\/em><\/p>\r\n<\/blockquote>\r\n\r\n<p>This Innovation Deal will explore and analyse whether existing EU law and its transposition to national or regional law hamper the recycling or re-use of batteries for electric vehicles, for example for the purpose of energy storage. In particular, it will look into:<\/p>\r\n\r\n<ul>\r\n\t<li>The existence of possible legislative and regulatory barriers at EU and national level to the use of propulsion batteries in a second-life application;<\/li>\r\n\t<li>Possible ways of overcoming these barriers, evaluating their feasibility and if necessary proposing options to implement them.<\/li>\r\n<\/ul>\r\n\r\n<p>The aim is to make the use of propulsion batteries more environmentally and industrially efficient.<\/p>\r\n\r\n<h2>Background<\/h2>\r\n\r\n<p>Innovation Deals are voluntary agreements bringing together relevant national, regional, local and EU regulatory bodies in order to help innovators overcome perceived regulatory barriers to innovation. The Commission launched the concept of Innovation Deals in the scope of its <a href=\"http:\/\/ec.europa.eu\/environment\/circular-economy\/index_en.htm\">Circular Economy<\/a> package. The <a href=\"http:\/\/ec.europa.eu\/research\/index.cfm?pg=newsalert&amp;year=2017&amp;na=na-070417\">first Innovation Deal<\/a> on wastewater treatment was signed on 7 April 2017.<\/p>\r\n\r\n<h2>More information<\/h2>\r\n\r\n<ul>\r\n\t<li><a href=\"https:\/\/ec.europa.eu\/research\/innovation-deals\/index.cfm?pg=about\">About Innovation Deals<\/a><\/li>\r\n\t<li><a href=\"https:\/\/ec.europa.eu\/research\/innovation-deals\/index.cfm?pg=works\">How the Innovation Deals work<\/a><\/li>\r\n\t<li><a href=\"https:\/\/ec.europa.eu\/research\/innovation-deals\/index.cfm?pg=emobility\">About the content of this Innovation Deal and on the partners <\/a><\/li>\r\n<\/ul>\r\n\r\n<h2>Media contact<\/h2>\r\n\r\n<p><\/p><div class=\"listing__item\">\r\n  \r\n  <div class=\"listing__column-main \">\r\n    <h3 class=\"listing__title\"><a href=\"https:\/\/ec.europa.eu\/info\/contact\/press-services\/press-contacts\/press-contacts-spokespersons-service_en\" title=\"Commission spokesperson's service\">Commission spokesperson's service<\/a><\/h3><p class=\"paragraph\">Contact spokespersons and press officers of the European Commission in Brussels<\/p>  <\/div>\r\n\r\n<\/div><p><\/p>",
+            "format": "html",
+            "processed": "<p>This Innovation Deal brings together partners from France (Renault s.a.s, Bouygues and the Ministries for the Ecological and Inclusive transition and Economy and Finance) and the Netherlands (LomboXnet, the Ministries of Infrastructure and Water Management and Economic Affairs and Climate Policy, and the Province of Utrecht). Its signature of this second Innovation Deal is another concrete example of how the Commission delivers on its commitment to help innovators address perceived EU regulatory obstacles.<\/p>\n\n<p><strong>Carlos Moedas,<\/strong> Commissioner for Research, Science and Innovation, said:<\/p>\n\n<blockquote>\n\t<p><em>The electric vehicle revolution is a testimony to how innovation generates growth and fundamentally changes society for the better. In order for Europe to stay in the lead of this innovation race, we need to work together with innovators and authorities to make sure our laws do not hamper innovation. This Innovation Deal will clarify the regulatory landscape in this area, and boost demand for electric vehicles.<\/em><\/p>\n<\/blockquote>\n\n<p><strong>Karmenu Vella,<\/strong> Commissioner for Environment, Maritime Affairs and Fisheries said:<\/p>\n\n<blockquote>\n\t<p><em>Innovation in electric vehicles helps the European economy and citizens.\u00a0This Deal identifies barriers to the reuse of batteries from electric vehicles and explores ways to ensure that EU rules promote their recycling and reuse - the European circular economy in action.<\/em><\/p>\n<\/blockquote>\n\n<p>This Innovation Deal will explore and analyse whether existing EU law and its transposition to national or regional law hamper the recycling or re-use of batteries for electric vehicles, for example for the purpose of energy storage. In particular, it will look into:<\/p>\n\n<ul>\n\t<li>The existence of possible legislative and regulatory barriers at EU and national level to the use of propulsion batteries in a second-life application;<\/li>\n\t<li>Possible ways of overcoming these barriers, evaluating their feasibility and if necessary proposing options to implement them.<\/li>\n<\/ul>\n\n<p>The aim is to make the use of propulsion batteries more environmentally and industrially efficient.<\/p>\n\n<h2>Background<\/h2>\n\n<p>Innovation Deals are voluntary agreements bringing together relevant national, regional, local and EU regulatory bodies in order to help innovators overcome perceived regulatory barriers to innovation. The Commission launched the concept of Innovation Deals in the scope of its <a href=\"http:\/\/ec.europa.eu\/environment\/circular-economy\/index_en.htm\">Circular Economy<\/a> package. The <a href=\"http:\/\/ec.europa.eu\/research\/index.cfm?pg=newsalert&amp;year=2017&amp;na=na-070417\">first Innovation Deal<\/a> on wastewater treatment was signed on 7 April 2017.<\/p>\n\n<h2>More information<\/h2>\n\n<ul>\n\t<li><a href=\"https:\/\/ec.europa.eu\/research\/innovation-deals\/index.cfm?pg=about\">About Innovation Deals<\/a><\/li>\n\t<li><a href=\"https:\/\/ec.europa.eu\/research\/innovation-deals\/index.cfm?pg=works\">How the Innovation Deals work<\/a><\/li>\n\t<li><a href=\"https:\/\/ec.europa.eu\/research\/innovation-deals\/index.cfm?pg=emobility\">About the content of this Innovation Deal and on the partners <\/a><\/li>\n<\/ul>\n\n<h2>Media contact<\/h2>\n\n<p><\/p><div class=\"listing__item\">\n  \n  <div class=\"listing__column-main \">\n    <h3 class=\"listing__title\"><a href=\"https:\/\/ec.europa.eu\/info\/contact\/press-services\/press-contacts\/press-contacts-spokespersons-service_en\" title=\"Commission spokesperson's service\">Commission spokesperson's service<\/a><\/h3><p class=\"paragraph\">Contact spokespersons and press officers of the European Commission in Brussels<\/p>  <\/div>\n\n<\/div><p><\/p>",
+            "lang": "en"
+        }
+    ],
+    "oe_announcement_introduction": [
+        {
+            "value": "<p>Today, the European Commission with eight partners - innovators and national and regional authorities \u2013 took a concrete step to address regulatory barriers to innovation in the area of electric vehicles. They signed an \u201cInnovation Deal\u201d entitled 'From E-Mobility to recycling: the virtuous loop of the electric Vehicle', which will tackle the problem of recycling and re-use of electric vehicle batteries.<\/p>",
+            "format": "html",
+            "processed": "<p>Today, the European Commission with eight partners - innovators and national and regional authorities \u2013 took a concrete step to address regulatory barriers to innovation in the area of electric vehicles. They signed an \u201cInnovation Deal\u201d entitled 'From E-Mobility to recycling: the virtuous loop of the electric Vehicle', which will tackle the problem of recycling and re-use of electric vehicle batteries.<\/p>",
+            "lang": "en"
+        }
+    ],
+    "oe_announcement_location": [
+        {
+            "value": "Brussels",
+            "lang": "en"
+        }
+    ],
+    "oe_announcement_publish_date": [
+        {
+            "value": "2018-03-12T12:36:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}
