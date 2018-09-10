@@ -1,0 +1,31 @@
+{#
+/**
+ * @file
+ * Themeing for rdf entities.
+ */
+#}
+<article{{ attributes }}>
+  <div class="ecl-row">
+    <div class="ecl-col-md-12">
+      {{ title_prefix }}
+      {% if not page %}
+        <h2{{ title_attributes }}>
+          <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+        </h2>
+      {% endif %}
+      {{ title_suffix }}
+      {% if passed %}
+        <div class="ecl-message" role="alert">
+          <div class="ecl-message__body"><h4>{{ 'This event has ended.'|t }}</h4></div>
+        </div>
+      {% endif %}
+      {{ content.oe_event_description }}
+      {% if content.oe_event_links %}
+        <h2>{{ 'Related links'|t }}</h2>
+        {{ content.oe_event_links }}
+      {% endif %}
+      <h2>{{ 'Topics'|t }}</h2>
+      {{ content.oe_event_subject }}
+    </div>
+  </div>
+</article>

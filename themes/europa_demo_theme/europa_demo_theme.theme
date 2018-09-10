@@ -7,6 +7,8 @@
 
 declare(strict_types = 1);
 
+use Drupal\Core\Datetime\DrupalDateTime;
+
 /**
  * Implements hook_preprocess_menu__site_switcher().
  */
@@ -71,4 +73,74 @@ function europa_demo_theme_preprocess_rdf_entity__oe_announcement(&$variables) {
     '#items' => $labels,
     '#attributes' => ['class' => ['ecl-list', 'ecl-list--inline']],
   ];
+}
+
+/**
+ * Implements template_preprocess_rdf_entity() for the Event bundle.
+ */
+function europa_demo_theme_preprocess_rdf_entity__oe_event(&$variables) {
+  /** @var \Drupal\rdf_entity\RdfInterface $entity */
+  $entity = $variables['rdf_entity'];
+
+  // Description.
+  $variables['content']['oe_event_description'] = [
+    '#type' => 'processed_text',
+    '#text' => $entity->get('oe_event_description')->value,
+    '#format' => $entity->get('oe_event_description')->format,
+  ];
+
+  // Links.
+  $variables['content']['oe_event_links'] = [];
+  $links = [];
+  if (!$entity->get('oe_event_links')->isEmpty()) {
+    /** @var \Drupal\link\LinkItemInterface $link */
+    $link = $entity->get('oe_event_links')->first();
+    $url = $link->getUrl();
+    $classes = $url->isExternal() ? ['ecl-link', 'ecl-link--external'] : [];
+    $links[] = [
+      '#type' => 'link',
+      '#url' => $url,
+      '#title' => $link->title,
+      '#attributes' => ['class' => $classes],
+    ];
+  }
+
+  if (!$entity->get('oe_event_website')->isEmpty()) {
+    /** @var Drupal\Core\Url $url */
+    $url = $entity->get('oe_event_website')->first()->getUrl();
+    $classes = $url->isExternal() ? ['ecl-link', 'ecl-link--external'] : [];
+    $links[] = [
+      '#type' => 'link',
+      '#url' => $url,
+      '#title' => t('Website'),
+      '#attributes' => ['class' => $classes],
+    ];
+  }
+
+  if ($links) {
+    $variables['content']['oe_event_links'] = [
+      '#theme' => 'item_list',
+      '#items' => $links,
+      '#attributes' => ['class' => ['ecl-list', 'ecl-list--unstyled']],
+    ];
+  }
+
+  // Subject.
+  /** @var \Drupal\taxonomy\TermInterface[] $subjects */
+  $subjects = $entity->get('oe_event_subject')->referencedEntities();
+  $labels = [];
+  foreach ($subjects as $subject) {
+    $labels[] = $subject->label();
+  }
+
+  $variables['content']['oe_event_subject'] = [
+    '#theme' => 'item_list',
+    '#items' => $labels,
+    '#attributes' => ['class' => ['ecl-list', 'ecl-list--inline']],
+  ];
+
+  // Flag for passed events.
+  $now = new DrupalDateTime();
+  $end = DrupalDateTime::createFromTimestamp($entity->get('oe_event_end_date')->value);
+  $variables['passed'] = $now > $end;
 }
