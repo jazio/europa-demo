@@ -21,3 +21,25 @@ function europa_demo_theme_preprocess_menu__site_switcher(&$variables) {
     ];
   }
 }
+
+/**
+ * Implements template_preprocess_rdf_entity() for the Department bundle.
+ */
+function europa_demo_theme_preprocess_rdf_entity__oe_department(&$variables) {
+  /** @var \Drupal\rdf_entity\RdfInterface $entity */
+  $entity = $variables['rdf_entity'];
+
+  $variables['in_page_links'] = [
+    [
+      'href' => '#responsibilities',
+      'label' => t('Responsibilities'),
+    ],
+  ];
+
+  // Responsibilities.
+  $variables['content']['oe_department_tasks_description'] = [
+    '#type' => 'processed_text',
+    '#text' => $entity->get('oe_department_tasks_description')->value,
+    '#format' => $entity->get('oe_department_tasks_description')->format,
+  ];
+}
