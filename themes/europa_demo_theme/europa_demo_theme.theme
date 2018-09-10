@@ -43,3 +43,32 @@ function europa_demo_theme_preprocess_rdf_entity__oe_department(&$variables) {
     '#format' => $entity->get('oe_department_tasks_description')->format,
   ];
 }
+
+/**
+ * Implements template_preprocess_rdf_entity() for the Announcement bundle.
+ */
+function europa_demo_theme_preprocess_rdf_entity__oe_announcement(&$variables) {
+  /** @var \Drupal\rdf_entity\RdfInterface $entity */
+  $entity = $variables['rdf_entity'];
+
+  // Body.
+  $variables['content']['oe_announcement_body'] = [
+    '#type' => 'processed_text',
+    '#text' => $entity->get('oe_announcement_body')->value,
+    '#format' => $entity->get('oe_announcement_body')->format,
+  ];
+
+  // Subject.
+  /** @var \Drupal\taxonomy\TermInterface[] $subjects */
+  $subjects = $entity->get('oe_announcement_subject')->referencedEntities();
+  $labels = [];
+  foreach ($subjects as $subject) {
+    $labels[] = $subject->label();
+  }
+
+  $variables['content']['oe_announcement_subject'] = [
+    '#theme' => 'item_list',
+    '#items' => $labels,
+    '#attributes' => ['class' => ['ecl-list', 'ecl-list--inline']],
+  ];
+}
