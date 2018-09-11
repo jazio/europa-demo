@@ -1,0 +1,199 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/web:8080\/en\/rdf_entity\/http_e_f_flocalhost_e8080_fsites_finea_fweb_frdf_aentity_foe_adepartment_f9d5ebd97_b408a_b4b85_bb177_bb691abcdf6ba?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/rdf_entity\/oe_department"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_department\/uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_department\/oe_department_name": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fcorporate_bbody_fENER?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_department\/oe_department_subject": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f2451?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f2498?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_department\/oe_department_type": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_forganization_btype_fDIR_aGEN?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": "http:\/\/localhost:8080\/sites\/inea\/web\/rdf_entity\/oe_department\/9d5ebd97-408a-4b85-b177-b691abcdf6ba"
+        }
+    ],
+    "rid": [
+        {
+            "target_id": "oe_department"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_department\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "555e7f6d-536c-4d3e-88d5-eead64b41302"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_department\/oe_department_name": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fcorporate_bbody_fENER?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/corporate_bodies"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/publications.europa.eu\/resource\/authority\/corporate-body\/ENER"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_department\/oe_department_subject": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f2451?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/2451"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f2498?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/2498"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_department\/oe_department_type": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_forganization_btype_fDIR_aGEN?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/organisation_types"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/publications.europa.eu\/resource\/authority\/organization-type\/DIR_GEN"
+                    }
+                ]
+            }
+        ]
+    },
+    "label": [
+        {
+            "value": "Directorate-General for Energy",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-10T07:31:33+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-09-10T09:30:35+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "http:\/\/localhost:8080\/sites\/inea\/web\/rdf_entity\/oe_department\/9d5ebd97-408a-4b85-b177-b691abcdf6ba"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "provenance_uri": [
+        {
+            "value": "http:\/\/web:8080\/sites\/info\/web"
+        }
+    ],
+    "graph": [
+        {
+            "target_id": "default"
+        }
+    ],
+    "oe_department_description": [
+        {
+            "value": "This Commission department is responsible for the EU's energy policy: secure, sustainable, and competitively priced energy for Europe.",
+            "format": "html",
+            "processed": "This Commission department is responsible for the EU's energy policy: secure, sustainable, and competitively priced energy for Europe.",
+            "lang": "en"
+        }
+    ],
+    "oe_department_links": [
+        {
+            "uri": "https:\/\/ec.europa.eu\/info\/news_en?department=880#news-block",
+            "title": null,
+            "options": [],
+            "lang": "en"
+        }
+    ],
+    "oe_department_tasks_description": [
+        {
+            "value": "<p>DG ENER develops and carries out the Commission's policies on:<\/p>\r\n\r\n<ul class=\"ecl-list ecl-list--unstyled\">\r\n<li>\r\n\r\n<a href=\"\/info\/topics\/energy_en\" title=\"Energy\">Energy<\/a>\r\n\r\n<\/li><\/ul>\r\n\r\n<p>Of the Commission's <a href=\"https:\/\/ec.europa.eu\/commission\/priorities_en\">10 political priorities<\/a>, DG ENER contributes to:&nbsp;<\/p>\r\n\r\n<ul class=\"ecl-list ecl-list--unstyled\">\r\n<li><a href=\"\/info\/priorities\/jobs-growth-and-investment_en\">Jobs, growth and investment<\/a><\/li>\r\n<li><a href=\"\/info\/priorities\/energy-union-and-climate_en\">Energy union and climate<\/a><\/li>\r\n<\/ul>\r\n\r\n<a href=\"http:\/\/ec.europa.eu\/energy\/en\/about-us\" class=\"ecl-button ecl-button--default\">Mission statement<\/a>",
+            "format": "html",
+            "processed": "<p>DG ENER develops and carries out the Commission's policies on:<\/p>\n\n<ul class=\"ecl-list ecl-list--unstyled\">\n<li>\n\n<a href=\"\/info\/topics\/energy_en\" title=\"Energy\">Energy<\/a>\n\n<\/li><\/ul>\n\n<p>Of the Commission's <a href=\"https:\/\/ec.europa.eu\/commission\/priorities_en\">10 political priorities<\/a>, DG ENER contributes to:\u00a0<\/p>\n\n<ul class=\"ecl-list ecl-list--unstyled\">\n<li><a href=\"\/info\/priorities\/jobs-growth-and-investment_en\">Jobs, growth and investment<\/a><\/li>\n<li><a href=\"\/info\/priorities\/energy-union-and-climate_en\">Energy union and climate<\/a><\/li>\n<\/ul>\n\n<a href=\"http:\/\/ec.europa.eu\/energy\/en\/about-us\" class=\"ecl-button ecl-button--default\">Mission statement<\/a>",
+            "lang": "en"
+        }
+    ]
+}

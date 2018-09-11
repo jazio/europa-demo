@@ -1,0 +1,194 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/web:8080\/en\/rdf_entity\/http_e_f_flocalhost_e8080_fsites_finea_fweb_frdf_aentity_foe_aevent_fe424d10b_be8bc_b49c9_ba9d1_bf64511d73e6f?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/rdf_entity\/oe_event"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/oe_event_organiser": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fcorporate_bbody_fENV?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/oe_event_subject": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f3638?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/oe_event_target_audience": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_ftarget_baudience_fGEN?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": "http:\/\/localhost:8080\/sites\/inea\/web\/rdf_entity\/oe_event\/e424d10b-e8bc-49c9-a9d1-f64511d73e6f"
+        }
+    ],
+    "rid": [
+        {
+            "target_id": "oe_event"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "555e7f6d-536c-4d3e-88d5-eead64b41302"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/oe_event_organiser": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fcorporate_bbody_fENV?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/corporate_bodies"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/publications.europa.eu\/resource\/authority\/corporate-body\/ENV"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/oe_event_subject": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f3638?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/3638"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/oe_event_target_audience": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_ftarget_baudience_fGEN?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/target_audiences"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/publications.europa.eu\/resource\/authority\/target-audience\/GEN"
+                    }
+                ]
+            }
+        ]
+    },
+    "label": [
+        {
+            "value": "EU Green Week 2019",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-11T07:34:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-09-11T07:38:02+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "http:\/\/localhost:8080\/sites\/inea\/web\/rdf_entity\/oe_event\/e424d10b-e8bc-49c9-a9d1-f64511d73e6f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "provenance_uri": [
+        {
+            "value": "http:\/\/web:8080\/sites\/info\/web"
+        }
+    ],
+    "graph": [
+        {
+            "target_id": "default"
+        }
+    ],
+    "oe_event_description": [
+        {
+            "value": "<p>Environmental laws have a huge impact on our life. They improve water and air quality, they protect nature, and they encourage recycling and waste management. But to really make an appreciable difference, these EU laws have to be properly implemented.<\/p><p>The next edition of EU Green Week (13-17 May 2019) will put this process of environmental implementation into the spotlight. We'll be asking questions like \u2013 do these laws really matter, and what the added benefits are for citizens? What does successful implementation look like? Why do \"implementation gaps\" exist? How can we move from knowing that stakeholders need to take ownership of these laws to actually making it happen? And most importantly, how can the EU facilitate the process, making sure that citizens' voices are heard? &nbsp;<\/p><p>EU Green Week 2019 will include events across Europe, with the official opening event on 13 May in one of the EU Member States and a high-level summit in Brussels from 15 to 17 May. The opening event will have a particular prominence, setting the tone for the Week's debates. The closing of Green Week will take place at the end of the Brussels conference and will showcase the political conclusions from the Week.<\/p><p>Registration will open in March 2019.<\/p><p>Hashtag for the event on Twitter: <strong>#EUGreenWeek<\/strong><\/p><p><\/p>",
+            "format": "html",
+            "processed": "<p>Environmental laws have a huge impact on our life. They improve water and air quality, they protect nature, and they encourage recycling and waste management. But to really make an appreciable difference, these EU laws have to be properly implemented.<\/p><p>The next edition of EU Green Week (13-17 May 2019) will put this process of environmental implementation into the spotlight. We'll be asking questions like \u2013 do these laws really matter, and what the added benefits are for citizens? What does successful implementation look like? Why do \"implementation gaps\" exist? How can we move from knowing that stakeholders need to take ownership of these laws to actually making it happen? And most importantly, how can the EU facilitate the process, making sure that citizens' voices are heard? \u00a0<\/p><p>EU Green Week 2019 will include events across Europe, with the official opening event on 13 May in one of the EU Member States and a high-level summit in Brussels from 15 to 17 May. The opening event will have a particular prominence, setting the tone for the Week's debates. The closing of Green Week will take place at the end of the Brussels conference and will showcase the political conclusions from the Week.<\/p><p>Registration will open in March 2019.<\/p><p>Hashtag for the event on Twitter: <strong>#EUGreenWeek<\/strong><\/p><p><\/p>",
+            "lang": "en"
+        }
+    ],
+    "oe_event_end_date": [
+        {
+            "value": "2019-05-17T16:00:00+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "oe_event_introduction": [
+        {
+            "value": "The next edition of EU Green Week will put the process of environmental implementation into the spotlight. ",
+            "format": "html",
+            "processed": "The next edition of EU Green Week will put the process of environmental implementation into the spotlight. ",
+            "lang": "en"
+        }
+    ],
+    "oe_event_links": [
+        {
+            "uri": "https:\/\/eugreenweek.eu\/",
+            "title": "EU Green Week 2018",
+            "options": []
+        }
+    ],
+    "oe_event_start_date": [
+        {
+            "value": "2019-05-13T07:00:00+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

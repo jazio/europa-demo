@@ -1,0 +1,235 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/web:8080\/en\/rdf_entity\/http_e_f_flocalhost_e8080_fsites_finea_fweb_frdf_aentity_foe_adepartment_f587c717e_bcf1f_b4c74_b9b58_bd00bf04897d7?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/rdf_entity\/oe_department"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_department\/uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_department\/oe_department_name": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fcorporate_bbody_fINEA?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_department\/oe_department_subject": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f2451?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f2494?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f2498?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_fc_a6f7bbe63?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_department\/oe_department_type": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_forganization_btype_fAGENCY_aEXE?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": "http:\/\/localhost:8080\/sites\/inea\/web\/rdf_entity\/oe_department\/587c717e-cf1f-4c74-9b58-d00bf04897d7"
+        }
+    ],
+    "rid": [
+        {
+            "target_id": "oe_department"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_department\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "555e7f6d-536c-4d3e-88d5-eead64b41302"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_department\/oe_department_name": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fcorporate_bbody_fINEA?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/corporate_bodies"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/publications.europa.eu\/resource\/authority\/corporate-body\/INEA"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_department\/oe_department_subject": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f2451?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/2451"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f2494?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/2494"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f2498?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/2498"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_fc_a6f7bbe63?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/c_6f7bbe63"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_department\/oe_department_type": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_forganization_btype_fAGENCY_aEXE?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/organisation_types"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/publications.europa.eu\/resource\/authority\/organization-type\/AGENCY_EXE"
+                    }
+                ]
+            }
+        ]
+    },
+    "label": [
+        {
+            "value": "Innovation and Networks Executive Agency",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-10T11:40:24+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-09-10T11:46:55+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "http:\/\/localhost:8080\/sites\/inea\/web\/rdf_entity\/oe_department\/587c717e-cf1f-4c74-9b58-d00bf04897d7"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "provenance_uri": [
+        {
+            "value": "http:\/\/web:8080\/sites\/info\/web"
+        }
+    ],
+    "graph": [
+        {
+            "target_id": "default"
+        }
+    ],
+    "oe_department_description": [
+        {
+            "value": "The Executive Agency for Innovation and Networks manages EU infrastructure and research programmes in the fields of transport, energy and telecommunications.",
+            "format": "html",
+            "processed": "The Executive Agency for Innovation and Networks manages EU infrastructure and research programmes in the fields of transport, energy and telecommunications.",
+            "lang": "en"
+        }
+    ],
+    "oe_department_links": [
+        {
+            "uri": "https:\/\/ec.europa.eu\/inea\/en\/news-events\/newsroom",
+            "title": null,
+            "options": [],
+            "lang": "en"
+        }
+    ],
+    "oe_department_tasks_description": [
+        {
+            "value": "<p>The Innovation and Networks Executive Agency (INEA) has responsibilities in the following areas:<\/p>\r\n\r\n<ul class=\"ecl-list ecl-list--unstyled\">\r\n<li><a href=\"https:\/\/ec.europa.eu\/info\/topics\/transport_en\" title=\"Transport\">Transport<\/a><\/li>\r\n<li><a href=\"https:\/\/ec.europa.eu\/info\/topics\/energy_en\" title=\"Energy\">Energy<\/a><\/li>\r\n<li><a href=\"https:\/\/ec.europa.eu\/digital-single-market\/en\" title=\"Digital economy and society\">Digital economy and society<\/a><\/li>\r\n\r\n<\/ul>\r\n\r\n<p>It also manages the following EU programmes: <\/p>\r\n\r\n<ul class=\"ecl-list\">\r\n\r\n<li>Connecting Europe Facility (CEF)<\/li> \r\n<li>elements of Horizon 2020<\/li> \r\n<li>Trans-European Transport Networks (TEN-T)<\/li>\r\n<li>Marco Polo 2007-2013<\/li>\r\n\r\n<\/ul>",
+            "format": "html",
+            "processed": "<p>The Innovation and Networks Executive Agency (INEA) has responsibilities in the following areas:<\/p>\n\n<ul class=\"ecl-list ecl-list--unstyled\">\n<li><a href=\"https:\/\/ec.europa.eu\/info\/topics\/transport_en\" title=\"Transport\">Transport<\/a><\/li>\n<li><a href=\"https:\/\/ec.europa.eu\/info\/topics\/energy_en\" title=\"Energy\">Energy<\/a><\/li>\n<li><a href=\"https:\/\/ec.europa.eu\/digital-single-market\/en\" title=\"Digital economy and society\">Digital economy and society<\/a><\/li>\n\n<\/ul>\n\n<p>It also manages the following EU programmes: <\/p>\n\n<ul class=\"ecl-list\">\n\n<li>Connecting Europe Facility (CEF)<\/li> \n<li>elements of Horizon 2020<\/li> \n<li>Trans-European Transport Networks (TEN-T)<\/li>\n<li>Marco Polo 2007-2013<\/li>\n\n<\/ul>",
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,239 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/web:8080\/en\/rdf_entity\/http_e_f_flocalhost_e8080_fsites_finea_fweb_frdf_aentity_foe_aannouncement_f26f49f73_bb0b4_b4c84_b9606_ba0e3f678cd14?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/rdf_entity\/oe_announcement"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/oe_announcement_department": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fcorporate_bbody_fINEA?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/oe_announcement_subject": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f2451?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f3638?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f754?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f756?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/oe_announcement_type": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fresource_btype_fINFO?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": "http:\/\/localhost:8080\/sites\/inea\/web\/rdf_entity\/oe_announcement\/26f49f73-b0b4-4c84-9606-a0e3f678cd14"
+        }
+    ],
+    "rid": [
+        {
+            "target_id": "oe_announcement"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "555e7f6d-536c-4d3e-88d5-eead64b41302"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/oe_announcement_department": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fcorporate_bbody_fINEA?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/corporate_bodies"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/publications.europa.eu\/resource\/authority\/corporate-body\/INEA"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/oe_announcement_subject": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f2451?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/2451"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f3638?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/3638"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f754?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/754"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f756?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/756"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/oe_announcement_type": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fresource_btype_fINFO?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/resource_types"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/publications.europa.eu\/resource\/authority\/resource-type\/INFO"
+                    }
+                ]
+            }
+        ]
+    },
+    "label": [
+        {
+            "value": "EU-funded researchers set a new energy efficiency record for solar cells",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-11T08:00:29+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-09-11T08:30:51+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "http:\/\/localhost:8080\/sites\/inea\/web\/rdf_entity\/oe_announcement\/26f49f73-b0b4-4c84-9606-a0e3f678cd14"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "provenance_uri": [
+        {
+            "value": "http:\/\/web:8080\/sites\/inea\/web"
+        }
+    ],
+    "graph": [
+        {
+            "target_id": "default"
+        }
+    ],
+    "oe_announcement_body": [
+        {
+            "value": "<p>The new cell can convert exactly one-third of the incident sunlight into useful electricity. This newest result is now published in the renowned scientific magazine <a href=\"https:\/\/doi.org\/10.1038\/s41560-018-0125-0\">Nature Energy<\/a>.<\/p>\r\n<p>The researchers achieved the high conversion efficiency with 0.002 millimeter thin semiconductor layers \u2013 less than a twentieth of the thickness of a hair \u2013 from III-V compound semiconductors, which were deposited onto a silicon solar cell.<\/p>\r\n<p>The cell has a simple front and back contact and, like conventional cells, can be integrated into solar modules. The researchers estimate it could go into mass production in another five to ten years.<\/p>\r\n<p>The work that led to these results has been co-funded by the EU's Horizon 2020 Programme (projects <a href=\"https:\/\/ec.europa.eu\/inea\/en\/horizon-2020\/projects\/h2020-energy\/photovoltaics\/nano-tandem\">Nano-Tandem<\/a> and <a href=\"https:\/\/cordis.europa.eu\/project\/rcn\/195082_en.html\">HISTORIC<\/a>) as well as by the German Federal Ministry for Economic Affairs and Energy BMWi. The researchers are based at the Fraunhofer Institute for Solar Energy Systems ISE working together with the company EV Group (EVG).<\/p>\r\n\r\n<h3>More info<\/h3>\r\n\r\n<ul class=\"ecl-list\">\r\n  <li><a href=\"https:\/\/www.ise.fraunhofer.de\/en\/press-media\/press-releases\/2018\/converts-one-third-of-the-sunlight-into-electricity-33-point-3-percent-silicon-based-multi-junction-solar-cell.html\" target=\"_blank\">Fraunhofer Institute's press release<\/a><\/li>\r\n  <li><a href=\"https:\/\/www.nature.com\/articles\/s41560-018-0125-0\" target=\"_blank\">Nature Energy<\/a><\/li>\r\n  <li><a href=\"https:\/\/www.pv-magazine.com\/2018\/04\/04\/fraunhofer-ise-announces-33-efficiency-for-multi-junction-solar-cell\/?utm_source=dlvr.it&amp;utm_medium=twitter\" target=\"_blank\">PV Magazine<\/a><\/li>\r\n<\/ul>\r\n",
+            "format": "html",
+            "processed": "<p>The new cell can convert exactly one-third of the incident sunlight into useful electricity. This newest result is now published in the renowned scientific magazine <a href=\"https:\/\/doi.org\/10.1038\/s41560-018-0125-0\">Nature Energy<\/a>.<\/p>\n<p>The researchers achieved the high conversion efficiency with 0.002 millimeter thin semiconductor layers \u2013 less than a twentieth of the thickness of a hair \u2013 from III-V compound semiconductors, which were deposited onto a silicon solar cell.<\/p>\n<p>The cell has a simple front and back contact and, like conventional cells, can be integrated into solar modules. The researchers estimate it could go into mass production in another five to ten years.<\/p>\n<p>The work that led to these results has been co-funded by the EU's Horizon 2020 Programme (projects <a href=\"https:\/\/ec.europa.eu\/inea\/en\/horizon-2020\/projects\/h2020-energy\/photovoltaics\/nano-tandem\">Nano-Tandem<\/a> and <a href=\"https:\/\/cordis.europa.eu\/project\/rcn\/195082_en.html\">HISTORIC<\/a>) as well as by the German Federal Ministry for Economic Affairs and Energy BMWi. The researchers are based at the Fraunhofer Institute for Solar Energy Systems ISE working together with the company EV Group (EVG).<\/p>\n\n<h3>More info<\/h3>\n\n<ul class=\"ecl-list\">\n  <li><a href=\"https:\/\/www.ise.fraunhofer.de\/en\/press-media\/press-releases\/2018\/converts-one-third-of-the-sunlight-into-electricity-33-point-3-percent-silicon-based-multi-junction-solar-cell.html\" target=\"_blank\">Fraunhofer Institute's press release<\/a><\/li>\n  <li><a href=\"https:\/\/www.nature.com\/articles\/s41560-018-0125-0\" target=\"_blank\">Nature Energy<\/a><\/li>\n  <li><a href=\"https:\/\/www.pv-magazine.com\/2018\/04\/04\/fraunhofer-ise-announces-33-efficiency-for-multi-junction-solar-cell\/?utm_source=dlvr.it&amp;utm_medium=twitter\" target=\"_blank\">PV Magazine<\/a><\/li>\n<\/ul>\n",
+            "lang": "en"
+        }
+    ],
+    "oe_announcement_introduction": [
+        {
+            "value": "A new highly-efficient silicon-based multiple solar cell has been developed in the labs of researchers partially funded by the INEA-managed Horizon 2020 Nano-Tandem project.",
+            "format": "html",
+            "processed": "A new highly-efficient silicon-based multiple solar cell has been developed in the labs of researchers partially funded by the INEA-managed Horizon 2020 Nano-Tandem project.",
+            "lang": "en"
+        }
+    ],
+    "oe_announcement_location": [
+        {
+            "value": "Brussels",
+            "lang": "en"
+        }
+    ],
+    "oe_announcement_publish_date": [
+        {
+            "value": "2018-04-05T11:36:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

@@ -1,0 +1,230 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/web:8080\/en\/rdf_entity\/http_e_f_flocalhost_e8080_fsites_finea_fweb_frdf_aentity_foe_aevent_fae827102_b2beb_b4338_b943e_b80f56358a6bf?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/rdf_entity\/oe_event"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/oe_event_organiser": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fcorporate_bbody_fENER?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/oe_event_subject": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f2451?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f2498?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f6700?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/oe_event_target_audience": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_ftarget_baudience_fSPE?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": "http:\/\/localhost:8080\/sites\/inea\/web\/rdf_entity\/oe_event\/ae827102-2beb-4338-943e-80f56358a6bf"
+        }
+    ],
+    "rid": [
+        {
+            "target_id": "oe_event"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "555e7f6d-536c-4d3e-88d5-eead64b41302"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/oe_event_organiser": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fcorporate_bbody_fENER?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/corporate_bodies"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/publications.europa.eu\/resource\/authority\/corporate-body\/ENER"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/oe_event_subject": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f2451?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/2451"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f2498?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/2498"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f6700?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/6700"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/oe_event_target_audience": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_ftarget_baudience_fSPE?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/target_audiences"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/publications.europa.eu\/resource\/authority\/target-audience\/SPE"
+                    }
+                ]
+            }
+        ]
+    },
+    "label": [
+        {
+            "value": "Financing Energy Efficiency in Malta and Italy",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-11T07:18:09+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-09-11T07:24:45+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "http:\/\/localhost:8080\/sites\/inea\/web\/rdf_entity\/oe_event\/ae827102-2beb-4338-943e-80f56358a6bf"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "provenance_uri": [
+        {
+            "value": "http:\/\/web:8080\/sites\/info\/web"
+        }
+    ],
+    "graph": [
+        {
+            "target_id": "default"
+        }
+    ],
+    "oe_event_description": [
+        {
+            "value": "<p>The conference will cover, among others, experience gained with the use of private funds and innovative financing instruments, notably in the building and industry sectors. Speakers will focus on practical insights into developing and structuring investment programmes. There will be time for debate and networking.<\/p>\r\n\r\n<p>This event is organised by the European Commission in partnership with the UN Environment Finance Initiative, the Ministry for Energy and Water Management of Malta and the Ministry of Transport, Infrastructure and Capital Projects of Malta. It is part of the Sustainable Energy Investment Forums, funded by the Horizon 2020 programme of the European Union. The conference will be held in English.<\/p>\r\n\r\n<p><a href=\"https:\/\/goo.gl\/forms\/Q3FWhRk4xtt4qqiy1\" class=\"ecl-button ecl-button--primary\">Register<\/a><\/p>",
+            "format": "html",
+            "processed": "<p>The conference will cover, among others, experience gained with the use of private funds and innovative financing instruments, notably in the building and industry sectors. Speakers will focus on practical insights into developing and structuring investment programmes. There will be time for debate and networking.<\/p>\n\n<p>This event is organised by the European Commission in partnership with the UN Environment Finance Initiative, the Ministry for Energy and Water Management of Malta and the Ministry of Transport, Infrastructure and Capital Projects of Malta. It is part of the Sustainable Energy Investment Forums, funded by the Horizon 2020 programme of the European Union. The conference will be held in English.<\/p>\n\n<p><a href=\"https:\/\/goo.gl\/forms\/Q3FWhRk4xtt4qqiy1\" class=\"ecl-button ecl-button--primary\">Register<\/a><\/p>",
+            "lang": "en"
+        }
+    ],
+    "oe_event_end_date": [
+        {
+            "value": "2018-11-22T08:00:00+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "oe_event_introduction": [
+        {
+            "value": "The conference aims to share best practices from Malta and Italy as well as other countries on how to finance energy efficiency investments.",
+            "format": "html",
+            "processed": "The conference aims to share best practices from Malta and Italy as well as other countries on how to finance energy efficiency investments.",
+            "lang": "en"
+        }
+    ],
+    "oe_event_links": [
+        {
+            "uri": "https:\/\/ec.europa.eu\/energy\/en\/financing-energy-efficiency\/sustainable-energy-investment-forums",
+            "title": "Previous SEI forums",
+            "options": []
+        }
+    ],
+    "oe_event_start_date": [
+        {
+            "value": "2018-11-22T08:00:00+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

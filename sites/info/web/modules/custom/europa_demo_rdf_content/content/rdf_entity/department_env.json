@@ -1,0 +1,217 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/web:8080\/en\/rdf_entity\/http_e_f_flocalhost_e8080_fsites_finea_fweb_frdf_aentity_foe_adepartment_f02b660ea_b22af_b48e3_bbb62_bfead0269d1f6?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/rdf_entity\/oe_department"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_department\/uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_department\/oe_department_name": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fcorporate_bbody_fENV?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_department\/oe_department_subject": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f2451?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f5585?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_fc_a1138d9d2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_department\/oe_department_type": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_forganization_btype_fDIR_aGEN?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": "http:\/\/localhost:8080\/sites\/inea\/web\/rdf_entity\/oe_department\/02b660ea-22af-48e3-bb62-fead0269d1f6"
+        }
+    ],
+    "rid": [
+        {
+            "target_id": "oe_department"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_department\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "555e7f6d-536c-4d3e-88d5-eead64b41302"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_department\/oe_department_name": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fcorporate_bbody_fENV?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/corporate_bodies"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/publications.europa.eu\/resource\/authority\/corporate-body\/ENV"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_department\/oe_department_subject": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f2451?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/2451"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f5585?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/5585"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_fc_a1138d9d2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/c_1138d9d2"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_department\/oe_department_type": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_forganization_btype_fDIR_aGEN?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/organisation_types"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/publications.europa.eu\/resource\/authority\/organization-type\/DIR_GEN"
+                    }
+                ]
+            }
+        ]
+    },
+    "label": [
+        {
+            "value": "Directorate-General for Environment",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-10T11:51:46+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-09-10T11:56:38+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "http:\/\/localhost:8080\/sites\/inea\/web\/rdf_entity\/oe_department\/02b660ea-22af-48e3-bb62-fead0269d1f6"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "provenance_uri": [
+        {
+            "value": "http:\/\/web:8080\/sites\/info\/web"
+        }
+    ],
+    "graph": [
+        {
+            "target_id": "default"
+        }
+    ],
+    "oe_department_description": [
+        {
+            "value": "This Commission department is responsible for EU policy on the environment. It proposes and implements policies that ensure a high level of environmental protection and preserve the quality of life of EU citizens.",
+            "format": "html",
+            "processed": "This Commission department is responsible for EU policy on the environment. It proposes and implements policies that ensure a high level of environmental protection and preserve the quality of life of EU citizens.",
+            "lang": "en"
+        }
+    ],
+    "oe_department_links": [
+        {
+            "uri": "https:\/\/ec.europa.eu\/info\/news_en?department=891#news-block",
+            "title": null,
+            "options": [],
+            "lang": "en"
+        }
+    ],
+    "oe_department_tasks_description": [
+        {
+            "value": "<p>DG ENV develops and carries out the Commission's policies on: <\/p>\r\n\r\n<ul class=\"ecl-list ecl-list--unstyled\">\r\n\r\n<li><a href=\"https:\/\/ec.europa.eu\/info\/topics\/environment_en\" title=\"Environment\">Environment<\/a><\/li>\r\n\r\n<\/ul>\r\n\r\n<p>Of the Commission's <a href=\"https:\/\/ec.europa.eu\/commission\/priorities_en\">10 political priorities<\/a>, DG ENV contributes to:<\/p>\r\n\r\n<ul class=\"ecl-list ecl-list--unstyled\">\r\n<li><a href=\"https:\/\/ec.europa.eu\/info\/priorities\/jobs-growth-and-investment_en\">Jobs, growth and investment<\/a><\/li>\r\n<li><a href=\"https:\/\/ec.europa.eu\/info\/priorities\/energy-union-and-climate_en\">Energy union and climate<\/a><\/li>\r\n<li><a href=\"https:\/\/ec.europa.eu\/info\/priorities\/eu-global-actor_en\">EU as a global actor<\/a><\/li>\r\n<li><a href=\"https:\/\/ec.europa.eu\/info\/priorities\/digital-single-market_en\">Digital single market<\/a><\/li>\r\n<li><a href=\"https:\/\/ec.europa.eu\/info\/priorities\/democratic-change_en\">Democratic change<\/a><\/li>\r\n<li><a href=\"https:\/\/ec.europa.eu\/info\/priorities\/internal-market_en\">Internal market<\/a><\/li>\r\n<\/ul>\r\n\r\n<a href=\"http:\/\/ec.europa.eu\/dgs\/environment\/index_en.htm\" class=\"ecl-button ecl-button--default\">Mission statement<\/a>",
+            "format": "html",
+            "processed": "<p>DG ENV develops and carries out the Commission's policies on: <\/p>\n\n<ul class=\"ecl-list ecl-list--unstyled\">\n\n<li><a href=\"https:\/\/ec.europa.eu\/info\/topics\/environment_en\" title=\"Environment\">Environment<\/a><\/li>\n\n<\/ul>\n\n<p>Of the Commission's <a href=\"https:\/\/ec.europa.eu\/commission\/priorities_en\">10 political priorities<\/a>, DG ENV contributes to:<\/p>\n\n<ul class=\"ecl-list ecl-list--unstyled\">\n<li><a href=\"https:\/\/ec.europa.eu\/info\/priorities\/jobs-growth-and-investment_en\">Jobs, growth and investment<\/a><\/li>\n<li><a href=\"https:\/\/ec.europa.eu\/info\/priorities\/energy-union-and-climate_en\">Energy union and climate<\/a><\/li>\n<li><a href=\"https:\/\/ec.europa.eu\/info\/priorities\/eu-global-actor_en\">EU as a global actor<\/a><\/li>\n<li><a href=\"https:\/\/ec.europa.eu\/info\/priorities\/digital-single-market_en\">Digital single market<\/a><\/li>\n<li><a href=\"https:\/\/ec.europa.eu\/info\/priorities\/democratic-change_en\">Democratic change<\/a><\/li>\n<li><a href=\"https:\/\/ec.europa.eu\/info\/priorities\/internal-market_en\">Internal market<\/a><\/li>\n<\/ul>\n\n<a href=\"http:\/\/ec.europa.eu\/dgs\/environment\/index_en.htm\" class=\"ecl-button ecl-button--default\">Mission statement<\/a>",
+            "lang": "en"
+        }
+    ]
+}

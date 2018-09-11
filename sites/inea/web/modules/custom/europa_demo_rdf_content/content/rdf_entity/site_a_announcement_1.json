@@ -1,0 +1,239 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/web:8080\/en\/rdf_entity\/http_e_f_flocalhost_e8080_fsites_finea_fweb_frdf_aentity_foe_aannouncement_f2236b3d4_bb988_b4614_ba093_b920ba4633b97?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/rdf_entity\/oe_announcement"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/oe_announcement_department": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fcorporate_bbody_fINEA?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/oe_announcement_subject": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f1439?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f2451?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f2498?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f754?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/oe_announcement_type": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fresource_btype_fCITIZ_aSUM?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": "http:\/\/localhost:8080\/sites\/inea\/web\/rdf_entity\/oe_announcement\/2236b3d4-b988-4614-a093-920ba4633b97"
+        }
+    ],
+    "rid": [
+        {
+            "target_id": "oe_announcement"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "555e7f6d-536c-4d3e-88d5-eead64b41302"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/oe_announcement_department": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fcorporate_bbody_fINEA?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/corporate_bodies"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/publications.europa.eu\/resource\/authority\/corporate-body\/INEA"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/oe_announcement_subject": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f1439?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/1439"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f2451?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/2451"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f2498?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/2498"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f754?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/754"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/oe_announcement_type": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fresource_btype_fCITIZ_aSUM?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/resource_types"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/publications.europa.eu\/resource\/authority\/resource-type\/CITIZ_SUM"
+                    }
+                ]
+            }
+        ]
+    },
+    "label": [
+        {
+            "value": "Over \u20ac300 million available now to energy projects",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-11T07:51:53+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-09-11T07:59:08+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "http:\/\/localhost:8080\/sites\/inea\/web\/rdf_entity\/oe_announcement\/2236b3d4-b988-4614-a093-920ba4633b97"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "provenance_uri": [
+        {
+            "value": "http:\/\/web:8080\/sites\/inea\/web"
+        }
+    ],
+    "graph": [
+        {
+            "target_id": "default"
+        }
+    ],
+    "oe_announcement_body": [
+        {
+            "value": "<p>Starting today, you can apply for EU funding to carry out a project focusing on smart cities, contributing to a smart energy system or developing renewable energy technologies and bringing them to the market.<\/p>\r\n<p>Eleven calls covering these topics are now open for application. Their total budget is \u20ac308 million, depending on the call, the deadline to submit the proposal is 11 December 2018 or 5 February 2019. More details below.<\/p>\r\n<h3><strong>Rebewable Energy Sources<\/strong><\/h3>\r\n<p><strong>Deadline for applications: 11 December 2018 at 17:00 (Brussels time)<\/strong><\/p>\r\n<table class=\"ecl-table\"><tbody><tr><td>Call identifier<\/td>\r\n<td>Scope<\/td>\r\n<td>Total budget<\/td>\r\n<td>Budget per project*<\/td>\r\n<\/tr><tr><td><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/lc-sc3-res-8-2019.html\">LC-SC3-RES-8-2019<\/a><\/td>\r\n<td>\r\n<p>Combining Renewable Technologies for a Renewable District Heating System<\/p>\r\n<\/td>\r\n<td>\u20ac15 M<\/td>\r\n<td>\u20ac8-15 M<\/td>\r\n<\/tr><tr><td><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/lc-sc3-res-15-2019.html\">LC-SC3-RES-15-2019<\/a><\/td>\r\n<td>\r\n<p>Increase the competitiveness of the EU PV manufacturing industry<\/p>\r\n<\/td>\r\n<td>\u20ac25 M<\/td>\r\n<td>\u20ac10-13 M<\/td>\r\n<\/tr><tr><td><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/lc-sc3-res-17-2019.html\">LC-SC3-RES-17-2019<\/a><\/td>\r\n<td>\r\n<p>Demonstration of the solutions based on renewable sources that provide flexibility to the energy system<\/p>\r\n<\/td>\r\n<td>\u20ac40 M<\/td>\r\n<td>\u20ac12-15 M<\/td>\r\n<\/tr><tr><td><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/lc-sc3-res-24-2019.html\">LC-SC3-RES-24-2019<\/a><\/td>\r\n<td>\r\n<p>Boosting pre-commercial production of advanced aviation biofuels<\/p>\r\n<\/td>\r\n<td>\u20ac20 M<\/td>\r\n<td>\u20ac15-20 M<\/td>\r\n<\/tr><tr><td><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/lc-sc3-res-28-2018-2019-2020.html\">LC-SC3-RES-28-2018-2019-2020<\/a><\/td>\r\n<td>Market Uptake support<\/td>\r\n<td>\u20ac15 M<\/td>\r\n<td>\u20ac1-3 M<\/td>\r\n<\/tr><tr><td><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/lc-sc3-res-30-2019.html\">LC-SC3-RES-30-2019<\/a><\/td>\r\n<td>Demonstration of plug and play solutions for renewable off-grid electricity<\/td>\r\n<td>\u20ac10 M<\/td>\r\n<td>\u20ac5 M<\/td>\r\n<\/tr><\/tbody><\/table><p><em>* estimation<\/em><\/p>\r\n<h3><strong>Smart Cities and Communities and Smart Energy System<\/strong><\/h3>\r\n<p><strong>Deadline for applications: 05 February 2019 at 17:00 (Brussels time)<\/strong><\/p>\r\n<table class=\"ecl-table\"><tbody><tr><td>Call identifier<\/td>\r\n<td>Scope<\/td>\r\n<td>Total budget<\/td>\r\n<td>Budget per project*<\/td>\r\n<\/tr><tr><td><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/lc-sc3-scc-1-2018-2019-2020.html\">LC-SC3-SCC-1-2018-2019-2020<\/a><\/td>\r\n<td>Smart Cities and Communities<\/td>\r\n<td>\u20ac83 M<\/td>\r\n<td>\u20ac6-8 M<\/td>\r\n<\/tr><tr><td>\r\n<p><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/lc-sc3-es-1-2019.html\">LC-SC3-ES-1-2019<\/a><\/p>\r\n<\/td>\r\n<td>Flexibility and retail market options for the distribution grid&nbsp;<\/td>\r\n<td>\u20ac37 M<\/td>\r\n<td>\u20ac8-10 M<\/td>\r\n<\/tr><tr><td>\r\n<p><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/lc-sc3-es-2-2019.html\">LC-SC3-ES-2-2019<\/a><\/p>\r\n<\/td>\r\n<td>Solutions for increased regional cooperation in the transmission grid<\/td>\r\n<td>\u20ac25 M<\/td>\r\n<td>\u20ac2-4 M<\/td>\r\n<\/tr><tr><td>\r\n<p><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/lc-sc3-es-6-2019.html\">LC-SC3-ES-6-2019<\/a><\/p>\r\n<\/td>\r\n<td>Research on advanced tools and technological development<\/td>\r\n<td>\u20ac28 M<\/td>\r\n<td>\u20ac10 M<\/td>\r\n<\/tr><tr><td><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/lc-sc3-es-8-2019.html\">LC-SC3-ES-8-2019<\/a><\/td>\r\n<td>European Islands Facility - Unlock financing for energy transitions and supporting islands to develop investment concepts<\/td>\r\n<td>\u20ac10 M<\/td>\r\n<td>\u20ac14.5-20 M<\/td>\r\n<\/tr><\/tbody><\/table><p><em>* estimation<\/em><\/p>\r\n<h3><strong>How to apply?<\/strong><\/h3>\r\n<p>Applicants have to submit their proposal electronically, following the link from the topic's page on the&nbsp;<a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/calls\/h2020-lc-sc3-2018-2019-2020.html#c,topics=callIdentifier\/t\/H2020-LC-SC3-2018-2019-2020\/1\/1\/1\/default-group&amp;callStatus\/t\/Forthcoming\/1\/1\/0\/default-group&amp;callStatus\/t\/Open\/1\/1\/0\/default-group&amp;callStatus\/t\/Closed\/1\/1\/0\/default-group&amp;+identifier\/desc\">Participant Portal<\/a>. Please follow the&nbsp;<a href=\"http:\/\/ec.europa.eu\/research\/participants\/data\/ref\/h2020\/grants_manual\/pse\/h2020-guide-pse_en.pdf\">guidelines on proposal submission and evaluation<\/a>.<\/p>\r\n<p>Submitted proposals can be still modified before the deadline of the call. INEA advises applicants to submit their proposals early and make cosmetic changes later on.<\/p>\r\n<p>For all questions related to Horizon 2020, please contact the&nbsp;<a href=\"http:\/\/ec.europa.eu\/research\/index.cfm?pg=enquiries\" target=\"_blank\">Research Enquiry Service<\/a>.<\/p>\r\n<h3><strong>Need more details? Join info days<\/strong><\/h3>\r\n<p>In autumn, INEA and the European Commission are organising two info days to present in detail the above calls for funding, to explain the selection process and to answer questions from applicants.<\/p>\r\n<p>Please register for:<\/p>\r\n<ul><li><a href=\"https:\/\/ec.europa.eu\/inea\/en\/news-events\/events\/horizon-2020-energy-virtual-info-day\">Virtual info day<\/a> covering Renewable Energy Sources, 13\/09\/2018<\/li>\r\n<li><a href=\"https:\/\/ec.europa.eu\/inea\/en\/news-events\/events\/horizon-2020-energy-info-day\">Info day in Brussels<\/a> covering Smart Cities and Communities and Smart Energy System, 5\/10\/2018<\/li>\r\n<\/ul>\r\n<h3><strong>What are the requirements for applying?<\/strong><\/h3>\r\n<p>The requirements for submitting a project proposal are detailed in the relevant documents published on individual call page. Please consult also the&nbsp;<a href=\"http:\/\/ec.europa.eu\/research\/participants\/data\/ref\/h2020\/other\/wp\/2018-2020\/annexes\/h2020-wp1820-annex-ga_en.pdf\">general annexes<\/a>&nbsp;of the H2020 Work Programme for 2018-2020 for general rules on funding, such as the list of countries that can apply for funding, standard eligibility criteria, submission rules, types of projects and their funding rates and other useful information.<\/p>\r\n<h3><strong>How will the grants be awarded?<\/strong><\/h3>\r\n<p>The submitted proposals are evaluated by independent experts drawn from the European Commission's&nbsp;<a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/experts\/index.html\">database<\/a>&nbsp;of&nbsp;<a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/experts\/index.html\">external<\/a>&nbsp;evaluators. Applicants will receive the evaluation results at the latest five months after the submission deadline. Grant agreements will be signed with the successful applicants within eight months after the submission deadline.<\/p>\r\n<h3><strong>Become an expert<\/strong><\/h3>\r\n<p>External evaluators of project proposals are drawn from the European Commission's&nbsp;<a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/experts\/index.html\">database of independent experts<\/a>. The Commission is looking to expand the database through a call for experts covering a very broad range of fields.&nbsp;<strong>If you fit the expert profile rather than that of an applicant<\/strong>, and would like to be considered as a proposal evaluator,&nbsp;<strong>sign up in the<\/strong>&nbsp;<strong><a href=\"https:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/experts\/index.html\">Participant Portal<\/a><\/strong>.<\/p>",
+            "format": "html",
+            "processed": "<p>Starting today, you can apply for EU funding to carry out a project focusing on smart cities, contributing to a smart energy system or developing renewable energy technologies and bringing them to the market.<\/p>\n<p>Eleven calls covering these topics are now open for application. Their total budget is \u20ac308 million, depending on the call, the deadline to submit the proposal is 11 December 2018 or 5 February 2019. More details below.<\/p>\n<h3><strong>Rebewable Energy Sources<\/strong><\/h3>\n<p><strong>Deadline for applications: 11 December 2018 at 17:00 (Brussels time)<\/strong><\/p>\n<table class=\"ecl-table\"><tbody><tr><td>Call identifier<\/td>\n<td>Scope<\/td>\n<td>Total budget<\/td>\n<td>Budget per project*<\/td>\n<\/tr><tr><td><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/lc-sc3-res-8-2019.html\">LC-SC3-RES-8-2019<\/a><\/td>\n<td>\n<p>Combining Renewable Technologies for a Renewable District Heating System<\/p>\n<\/td>\n<td>\u20ac15 M<\/td>\n<td>\u20ac8-15 M<\/td>\n<\/tr><tr><td><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/lc-sc3-res-15-2019.html\">LC-SC3-RES-15-2019<\/a><\/td>\n<td>\n<p>Increase the competitiveness of the EU PV manufacturing industry<\/p>\n<\/td>\n<td>\u20ac25 M<\/td>\n<td>\u20ac10-13 M<\/td>\n<\/tr><tr><td><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/lc-sc3-res-17-2019.html\">LC-SC3-RES-17-2019<\/a><\/td>\n<td>\n<p>Demonstration of the solutions based on renewable sources that provide flexibility to the energy system<\/p>\n<\/td>\n<td>\u20ac40 M<\/td>\n<td>\u20ac12-15 M<\/td>\n<\/tr><tr><td><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/lc-sc3-res-24-2019.html\">LC-SC3-RES-24-2019<\/a><\/td>\n<td>\n<p>Boosting pre-commercial production of advanced aviation biofuels<\/p>\n<\/td>\n<td>\u20ac20 M<\/td>\n<td>\u20ac15-20 M<\/td>\n<\/tr><tr><td><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/lc-sc3-res-28-2018-2019-2020.html\">LC-SC3-RES-28-2018-2019-2020<\/a><\/td>\n<td>Market Uptake support<\/td>\n<td>\u20ac15 M<\/td>\n<td>\u20ac1-3 M<\/td>\n<\/tr><tr><td><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/lc-sc3-res-30-2019.html\">LC-SC3-RES-30-2019<\/a><\/td>\n<td>Demonstration of plug and play solutions for renewable off-grid electricity<\/td>\n<td>\u20ac10 M<\/td>\n<td>\u20ac5 M<\/td>\n<\/tr><\/tbody><\/table><p><em>* estimation<\/em><\/p>\n<h3><strong>Smart Cities and Communities and Smart Energy System<\/strong><\/h3>\n<p><strong>Deadline for applications: 05 February 2019 at 17:00 (Brussels time)<\/strong><\/p>\n<table class=\"ecl-table\"><tbody><tr><td>Call identifier<\/td>\n<td>Scope<\/td>\n<td>Total budget<\/td>\n<td>Budget per project*<\/td>\n<\/tr><tr><td><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/lc-sc3-scc-1-2018-2019-2020.html\">LC-SC3-SCC-1-2018-2019-2020<\/a><\/td>\n<td>Smart Cities and Communities<\/td>\n<td>\u20ac83 M<\/td>\n<td>\u20ac6-8 M<\/td>\n<\/tr><tr><td>\n<p><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/lc-sc3-es-1-2019.html\">LC-SC3-ES-1-2019<\/a><\/p>\n<\/td>\n<td>Flexibility and retail market options for the distribution grid\u00a0<\/td>\n<td>\u20ac37 M<\/td>\n<td>\u20ac8-10 M<\/td>\n<\/tr><tr><td>\n<p><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/lc-sc3-es-2-2019.html\">LC-SC3-ES-2-2019<\/a><\/p>\n<\/td>\n<td>Solutions for increased regional cooperation in the transmission grid<\/td>\n<td>\u20ac25 M<\/td>\n<td>\u20ac2-4 M<\/td>\n<\/tr><tr><td>\n<p><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/lc-sc3-es-6-2019.html\">LC-SC3-ES-6-2019<\/a><\/p>\n<\/td>\n<td>Research on advanced tools and technological development<\/td>\n<td>\u20ac28 M<\/td>\n<td>\u20ac10 M<\/td>\n<\/tr><tr><td><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/lc-sc3-es-8-2019.html\">LC-SC3-ES-8-2019<\/a><\/td>\n<td>European Islands Facility - Unlock financing for energy transitions and supporting islands to develop investment concepts<\/td>\n<td>\u20ac10 M<\/td>\n<td>\u20ac14.5-20 M<\/td>\n<\/tr><\/tbody><\/table><p><em>* estimation<\/em><\/p>\n<h3><strong>How to apply?<\/strong><\/h3>\n<p>Applicants have to submit their proposal electronically, following the link from the topic's page on the\u00a0<a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/calls\/h2020-lc-sc3-2018-2019-2020.html#c,topics=callIdentifier\/t\/H2020-LC-SC3-2018-2019-2020\/1\/1\/1\/default-group&amp;callStatus\/t\/Forthcoming\/1\/1\/0\/default-group&amp;callStatus\/t\/Open\/1\/1\/0\/default-group&amp;callStatus\/t\/Closed\/1\/1\/0\/default-group&amp;+identifier\/desc\">Participant Portal<\/a>. Please follow the\u00a0<a href=\"http:\/\/ec.europa.eu\/research\/participants\/data\/ref\/h2020\/grants_manual\/pse\/h2020-guide-pse_en.pdf\">guidelines on proposal submission and evaluation<\/a>.<\/p>\n<p>Submitted proposals can be still modified before the deadline of the call. INEA advises applicants to submit their proposals early and make cosmetic changes later on.<\/p>\n<p>For all questions related to Horizon 2020, please contact the\u00a0<a href=\"http:\/\/ec.europa.eu\/research\/index.cfm?pg=enquiries\" target=\"_blank\">Research Enquiry Service<\/a>.<\/p>\n<h3><strong>Need more details? Join info days<\/strong><\/h3>\n<p>In autumn, INEA and the European Commission are organising two info days to present in detail the above calls for funding, to explain the selection process and to answer questions from applicants.<\/p>\n<p>Please register for:<\/p>\n<ul><li><a href=\"https:\/\/ec.europa.eu\/inea\/en\/news-events\/events\/horizon-2020-energy-virtual-info-day\">Virtual info day<\/a> covering Renewable Energy Sources, 13\/09\/2018<\/li>\n<li><a href=\"https:\/\/ec.europa.eu\/inea\/en\/news-events\/events\/horizon-2020-energy-info-day\">Info day in Brussels<\/a> covering Smart Cities and Communities and Smart Energy System, 5\/10\/2018<\/li>\n<\/ul>\n<h3><strong>What are the requirements for applying?<\/strong><\/h3>\n<p>The requirements for submitting a project proposal are detailed in the relevant documents published on individual call page. Please consult also the\u00a0<a href=\"http:\/\/ec.europa.eu\/research\/participants\/data\/ref\/h2020\/other\/wp\/2018-2020\/annexes\/h2020-wp1820-annex-ga_en.pdf\">general annexes<\/a>\u00a0of the H2020 Work Programme for 2018-2020 for general rules on funding, such as the list of countries that can apply for funding, standard eligibility criteria, submission rules, types of projects and their funding rates and other useful information.<\/p>\n<h3><strong>How will the grants be awarded?<\/strong><\/h3>\n<p>The submitted proposals are evaluated by independent experts drawn from the European Commission's\u00a0<a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/experts\/index.html\">database<\/a>\u00a0of\u00a0<a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/experts\/index.html\">external<\/a>\u00a0evaluators. Applicants will receive the evaluation results at the latest five months after the submission deadline. Grant agreements will be signed with the successful applicants within eight months after the submission deadline.<\/p>\n<h3><strong>Become an expert<\/strong><\/h3>\n<p>External evaluators of project proposals are drawn from the European Commission's\u00a0<a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/experts\/index.html\">database of independent experts<\/a>. The Commission is looking to expand the database through a call for experts covering a very broad range of fields.\u00a0<strong>If you fit the expert profile rather than that of an applicant<\/strong>, and would like to be considered as a proposal evaluator,\u00a0<strong>sign up in the<\/strong>\u00a0<strong><a href=\"https:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/experts\/index.html\">Participant Portal<\/a><\/strong>.<\/p>",
+            "lang": "en"
+        }
+    ],
+    "oe_announcement_introduction": [
+        {
+            "value": "Apply for funding for your project developing renewable energy technologies and bringing them to the market, focusing on smart cities, or contributing to a smart energy system. ",
+            "format": "html",
+            "processed": "Apply for funding for your project developing renewable energy technologies and bringing them to the market, focusing on smart cities, or contributing to a smart energy system. ",
+            "lang": "en"
+        }
+    ],
+    "oe_announcement_location": [
+        {
+            "value": "Brussels",
+            "lang": "en"
+        }
+    ],
+    "oe_announcement_publish_date": [
+        {
+            "value": "2018-09-05T11:36:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

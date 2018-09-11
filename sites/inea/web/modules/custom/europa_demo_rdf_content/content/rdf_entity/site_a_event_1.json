@@ -1,0 +1,212 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/web:8080\/en\/rdf_entity\/http_e_f_flocalhost_e8080_fsites_finea_fweb_frdf_aentity_foe_aevent_f8753edac_bf3b9_b45a7_b8c9f_b38ce9134f608?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/rdf_entity\/oe_event"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/oe_event_organiser": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fcorporate_bbody_fENER?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/oe_event_subject": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f3638?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f754?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/oe_event_target_audience": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_ftarget_baudience_fGEN?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": "http:\/\/localhost:8080\/sites\/inea\/web\/rdf_entity\/oe_event\/8753edac-f3b9-45a7-8c9f-38ce9134f608"
+        }
+    ],
+    "rid": [
+        {
+            "target_id": "oe_event"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "555e7f6d-536c-4d3e-88d5-eead64b41302"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/oe_event_organiser": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fcorporate_bbody_fENER?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/corporate_bodies"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/publications.europa.eu\/resource\/authority\/corporate-body\/ENER"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/oe_event_subject": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f3638?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/3638"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f754?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/754"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/oe_event_target_audience": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_ftarget_baudience_fGEN?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/target_audiences"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/publications.europa.eu\/resource\/authority\/target-audience\/GEN"
+                    }
+                ]
+            }
+        ]
+    },
+    "label": [
+        {
+            "value": "EU Sustainable Energy Week (EUSEW) 2018",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-11T08:42:39+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-09-11T08:48:35+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "http:\/\/localhost:8080\/sites\/inea\/web\/rdf_entity\/oe_event\/8753edac-f3b9-45a7-8c9f-38ce9134f608"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "provenance_uri": [
+        {
+            "value": "http:\/\/web:8080\/sites\/inea\/web"
+        }
+    ],
+    "graph": [
+        {
+            "target_id": "default"
+        }
+    ],
+    "oe_event_description": [
+        {
+            "value": "<p>The theme of this year's EU Sustainable Energy Week (EUSEW)&nbsp;is 'lead the clean energy transition'.<\/p>\r\n\r\n<p>In Brussels the event will be marked by a <a href=\"https:\/\/www.eusew.eu\/about-conference\">Policy Conference<\/a>, on 5-7 June including (on the first day) the&nbsp;ceremony of the annual <a href=\"https:\/\/www.eusew.eu\/about-awards-competition\">EU Sustainable Energy Awards<\/a>, and a chance to share ideas and good practice in the <a href=\"https:\/\/www.eusew.eu\/about-networking\">Networking Village<\/a>&nbsp;on 6-7 June.<\/p>\r\n\r\n<p>In addition, <a href=\"https:\/\/www.eusew.eu\/about-energy-days\">Energy Days<\/a> will be organised all over Europe throughout the months of May and June, giving citizens and businesses the opportunity to discover the latest developments in sustainable energy.<\/p>\r\n\r\n<p>Commissioner for Climate Action &amp; Energy <strong>Miguel Arias Ca\u00f1ete<\/strong> will be opening the event.<br>\r\n\r\n<p>For social media follow: <strong>#EUSEW18<strong><\/p>",
+            "format": "html",
+            "processed": "<p>The theme of this year's EU Sustainable Energy Week (EUSEW)\u00a0is 'lead the clean energy transition'.<\/p>\n\n<p>In Brussels the event will be marked by a <a href=\"https:\/\/www.eusew.eu\/about-conference\">Policy Conference<\/a>, on 5-7 June including (on the first day) the\u00a0ceremony of the annual <a href=\"https:\/\/www.eusew.eu\/about-awards-competition\">EU Sustainable Energy Awards<\/a>, and a chance to share ideas and good practice in the <a href=\"https:\/\/www.eusew.eu\/about-networking\">Networking Village<\/a>\u00a0on 6-7 June.<\/p>\n\n<p>In addition, <a href=\"https:\/\/www.eusew.eu\/about-energy-days\">Energy Days<\/a> will be organised all over Europe throughout the months of May and June, giving citizens and businesses the opportunity to discover the latest developments in sustainable energy.<\/p>\n\n<p>Commissioner for Climate Action &amp; Energy <strong>Miguel Arias Ca\u00f1ete<\/strong> will be opening the event.<br \/>\n\n<\/p><p>For social media follow: <strong>#EUSEW18<strong><\/strong><\/strong><\/p>",
+            "lang": "en"
+        }
+    ],
+    "oe_event_end_date": [
+        {
+            "value": "2018-06-08T16:00:00+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "oe_event_introduction": [
+        {
+            "value": "The theme of this year's EU Sustainable Energy Week (EUSEW) is 'lead the clean energy transition'.",
+            "format": "html",
+            "processed": "The theme of this year's EU Sustainable Energy Week (EUSEW) is 'lead the clean energy transition'.",
+            "lang": "en"
+        }
+    ],
+    "oe_event_start_date": [
+        {
+            "value": "2018-06-04T07:00:00+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "oe_event_website": [
+        {
+            "uri": "http:\/\/www.eusew.eu",
+            "title": null,
+            "options": []
+        }
+    ]
+}
