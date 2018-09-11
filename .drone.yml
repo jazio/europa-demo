@@ -41,13 +41,13 @@ pipeline:
     commands:
     - composer --working-dir=sites/rtd install
 
-  build-site-agri:
+  build-site-inea:
     group: build-site
     image: fpfis/httpd-php-dev:7.1
     volumes:
     - /cache:/cache
     commands:
-    - composer --working-dir=sites/agri install
+    - composer --working-dir=sites/inea install
 
   build-site-energy:
     group: build-site
@@ -63,11 +63,11 @@ pipeline:
     commands:
       - ./vendor/bin/run --working-dir='/test/content-layer-demo/sites/rtd' drupal:site-install
 
-  install-site-agri:
+  install-site-inea:
     group: install-site
     image: fpfis/httpd-php-dev:7.1
     commands:
-      - ./vendor/bin/run --working-dir='/test/content-layer-demo/sites/agri' drupal:site-install
+      - ./vendor/bin/run --working-dir='/test/content-layer-demo/sites/inea' drupal:site-install
 
   install-site-energy:
     group: install-site
@@ -87,11 +87,11 @@ pipeline:
     commands:
       - ./vendor/bin/behat
 
-  behat-agri:
+  behat-inea:
     group: test
     image: fpfis/httpd-php-dev:7.1
     commands:
-      - ./vendor/bin/behat -p agri
+      - ./vendor/bin/behat -p inea
 
   behat-energy:
     group: test

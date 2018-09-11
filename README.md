@@ -6,7 +6,7 @@ and having them share content.
 The project provides the following setup:
 
 - Site RTD: produces content
-- Site AGRI: produces and consumes content
+- Site INEA: produces and consumes content
 - Site ENERGY: consumes content
 
 Content will be saved in RDF triples in order to enhance interoperability with other semantic data sources provided by
@@ -68,7 +68,7 @@ docker-compose exec web ./vendor/bin/run sites:install
 The three site will then be available at the following URLs:
 
 - Site RTD: http://localhost:8080/sites/rtd/web
-- Site AGRI: http://localhost:8080/sites/agri/web
+- Site INEA: http://localhost:8080/sites/inea/web
 - Site ENERGY: http://localhost:8080/sites/energy/web
 
 ## Development
@@ -81,23 +81,23 @@ docker-compose exec web ./vendor/bin/run sites:composer-update
 
 This will run `composer update` in all three sites.
 
-To export configuration on one site, "Site AGRI" in this instance, run:
+To export configuration on one site, "Site INEA" in this instance, run:
 
 ```
-docker-compose exec web ./sites/agri/vendor/bin/drush cex
+docker-compose exec web ./sites/inea/vendor/bin/drush cex
 ```
 
 To disable cache JS and CSS run:
 
 ```
-docker-compose exec web ./sites/agri/vendor/bin/drush -y config-set system.performance js.preprocess 0
-docker-compose exec web ./sites/agri/vendor/bin/drush -y config-set system.performance css.preprocess 0
+docker-compose exec web ./sites/inea/vendor/bin/drush -y config-set system.performance js.preprocess 0
+docker-compose exec web ./sites/inea/vendor/bin/drush -y config-set system.performance css.preprocess 0
 ```
 
 To re-install run:
 
 ```
-docker-compose exec web ./vendor/bin/run --working-dir=/var/www/html/sites/agri drupal:site-install
+docker-compose exec web ./vendor/bin/run --working-dir=/var/www/html/sites/inea drupal:site-install
 ```
 
 ### Convenience commands
@@ -147,7 +147,7 @@ $ docker-compose exec web ./vendor/bin/behat
 Run site specific tests (use both Mink and Drupal drivers):
 
 ```
-$ docker-compose exec web ./vendor/bin/behat -p agri
+$ docker-compose exec web ./vendor/bin/behat -p inea
 $ docker-compose exec web ./vendor/bin/behat -p energy
 $ docker-compose exec web ./vendor/bin/behat -p rtd
 ```
@@ -166,19 +166,19 @@ In order to import configuration changes perform the following steps:
 Check for configuration changes in modules:
 
 ```
-$ docker-compose exec web ./vendor/bin/drush --root=/var/www/html/sites/agri config-sync-list-updates
+$ docker-compose exec web ./vendor/bin/drush --root=/var/www/html/sites/inea config-sync-list-updates
 ```
 
 Import configuration changes:
 
 ```
-$ docker-compose exec web ./vendor/bin/drush --root=/var/www/html/sites/agri config-distro-update
+$ docker-compose exec web ./vendor/bin/drush --root=/var/www/html/sites/inea config-distro-update
 ```
 
 Export configuration:
 
 ```
-$ docker-compose exec web ./vendor/bin/drush --root=/var/www/html/sites/agri config:export -y
+$ docker-compose exec web ./vendor/bin/drush --root=/var/www/html/sites/inea config:export -y
 ```
 
 Commit and push.

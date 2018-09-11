@@ -1,4 +1,4 @@
-@api @site-agri @site-energy @site-rtd
+@api @site-inea @site-energy @site-rtd
 Feature: Default content 'Policies, information and services'
   In order to be able to showcase the site's features
   As a developer

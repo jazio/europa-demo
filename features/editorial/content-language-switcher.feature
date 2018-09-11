@@ -1,4 +1,4 @@
-@api @site-agri @site-energy @site-rtd
+@api @site-inea @site-energy @site-rtd
 Feature: Content language selector
   When I'm viewing a content item not available in the current site language
   I'm given the possibility of choosing another language for it

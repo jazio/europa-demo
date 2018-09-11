@@ -11,5 +11,5 @@ Feature: Setup
     Examples:
     | path   | name        |
     | rtd    | Site RTD    |
-    | agri   | Site AGRI   |
+    | inea   | Site INEA   |
     | energy | Site ENERGY |

@@ -1,15 +1,15 @@
 drupal:
   root: "web"
-  base_url: "${web.base_url}/sites/agri/web"
+  base_url: "${web.base_url}/sites/inea/web"
   database:
     host: "mysql"
     port: "3306"
-    name: "agri"
+    name: "inea"
     user: "root"
     password: ""
   site:
     profile: "oe_profile"
-    name: "Site AGRI"
+    name: "Site INEA"
     config_dir: "${drupal.config_dir}"
   pre_install:
   - { task: "chmod", permissions: 0775, file: "${drupal.root}/sites/default" }
