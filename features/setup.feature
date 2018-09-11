@@ -5,11 +5,11 @@ Feature: Setup
   I need to make sure that we can visit all three sites
 
   Scenario Outline:
-    Given I am on "/sites/<path>/web"
+    When I am on "/sites/<path>/web"
     Then I should see "<name>"
 
     Examples:
     | path   | name        |
-    | info    | Site INFO    |
+    | info   | Site INFO   |
     | inea   | Site INEA   |
     | energy | Site ENERGY |
