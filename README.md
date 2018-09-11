@@ -5,7 +5,7 @@ and having them share content.
 
 The project provides the following setup:
 
-- Site RTD: produces content
+- Site INFO: produces content
 - Site INEA: produces and consumes content
 - Site ENERGY: consumes content
 
@@ -67,7 +67,7 @@ docker-compose exec web ./vendor/bin/run sites:install
 
 The three site will then be available at the following URLs:
 
-- Site RTD: http://localhost:8080/sites/rtd/web
+- Site INFO: http://localhost:8080/sites/info/web
 - Site INEA: http://localhost:8080/sites/inea/web
 - Site ENERGY: http://localhost:8080/sites/energy/web
 
@@ -149,7 +149,7 @@ Run site specific tests (use both Mink and Drupal drivers):
 ```
 $ docker-compose exec web ./vendor/bin/behat -p inea
 $ docker-compose exec web ./vendor/bin/behat -p energy
-$ docker-compose exec web ./vendor/bin/behat -p rtd
+$ docker-compose exec web ./vendor/bin/behat -p info
 ```
 
 ### Working with configuration

@@ -1,4 +1,4 @@
-@api @site-inea @site-energy @site-rtd
+@api @site-inea @site-energy @site-info
 Feature: Showcase
   In order to be able to showcase multilingual features
   As an administrator

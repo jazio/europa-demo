@@ -33,13 +33,13 @@ pipeline:
     commands:
       - composer install
 
-  build-site-rtd:
+  build-site-info:
     group: build-site
     image: fpfis/httpd-php-dev:7.1
     volumes:
     - /cache:/cache
     commands:
-    - composer --working-dir=sites/rtd install
+    - composer --working-dir=sites/info install
 
   build-site-inea:
     group: build-site
@@ -57,11 +57,11 @@ pipeline:
     commands:
     - composer --working-dir=sites/energy install
 
-  install-site-rtd:
+  install-site-info:
     group: install-site
     image: fpfis/httpd-php-dev:7.1
     commands:
-      - ./vendor/bin/run --working-dir='/test/content-layer-demo/sites/rtd' drupal:site-install
+      - ./vendor/bin/run --working-dir='/test/content-layer-demo/sites/info' drupal:site-install
 
   install-site-inea:
     group: install-site
@@ -99,11 +99,11 @@ pipeline:
     commands:
       - ./vendor/bin/behat -p energy
 
-  behat-rtd:
+  behat-info:
     group: test
     image: fpfis/httpd-php-dev:7.1
     commands:
-      - ./vendor/bin/behat -p rtd
+      - ./vendor/bin/behat -p info
 
   start-demo:
     group: test

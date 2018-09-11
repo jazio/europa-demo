@@ -10,6 +10,6 @@ Feature: Setup
 
     Examples:
     | path   | name        |
-    | rtd    | Site RTD    |
+    | info    | Site INFO    |
     | inea   | Site INEA   |
     | energy | Site ENERGY |

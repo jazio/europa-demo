@@ -1,4 +1,4 @@
-@api @site-inea @site-energy @site-rtd
+@api @site-inea @site-energy @site-info
 Feature: Landing page
   In order to be able to showcase the site's features
   As a content editor
