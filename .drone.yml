@@ -37,25 +37,25 @@ pipeline:
     group: build-site
     image: fpfis/httpd-php-dev:7.1
     volumes:
-    - /cache:/cache
+      - /cache:/cache
     commands:
-    - composer --working-dir=sites/info install
+      - composer --working-dir=sites/info install
 
   build-site-inea:
     group: build-site
     image: fpfis/httpd-php-dev:7.1
     volumes:
-    - /cache:/cache
+      - /cache:/cache
     commands:
-    - composer --working-dir=sites/inea install
+      - composer --working-dir=sites/inea install
 
   build-site-energy:
     group: build-site
     image: fpfis/httpd-php-dev:7.1
     volumes:
-    - /cache:/cache
+      - /cache:/cache
     commands:
-    - composer --working-dir=sites/energy install
+      - composer --working-dir=sites/energy install
 
   install-site-info:
     group: install-site
