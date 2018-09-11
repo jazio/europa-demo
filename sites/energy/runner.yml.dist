@@ -30,6 +30,9 @@ drupal:
           port: "${sparql.port}"
           namespace: 'Drupal\Driver\Database\sparql'
           driver: 'sparql'
+    config:
+      oe_content.settings:
+          provenance_uri: 'http://ec.europa.eu/energy'
 commands:
   drupal:site-setup:
   - { task: "run", command: "drupal:drush-setup" }
