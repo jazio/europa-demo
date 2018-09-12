@@ -440,7 +440,7 @@ items:
       default_value_callback: ''
       settings:
         link_type: 17
-        title: 0
+        title: 2
       field_type: link
   -
     collection: ''
@@ -724,8 +724,8 @@ items:
               predicate: 'http://schema.org/relatedLink'
               format: 'xsd:anyURI'
             title:
-              predicate: ''
-              format: no_format
+              predicate: 'http://europa.eu/oe_event_links/title'
+              format: literal
             options:
               predicate: ''
               format: no_format
