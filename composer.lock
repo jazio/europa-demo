@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fd8d1b0058c3978e83c4bfd6ee231834",
+    "content-hash": "a0db6f68542ef5012d84e57b3a8126bf",
     "packages": [
         {
             "name": "behat/behat",
@@ -1439,7 +1439,7 @@
         },
         {
             "name": "drupal/core-render",
-            "version": "8.6.0",
+            "version": "8.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-render.git",
@@ -1474,7 +1474,7 @@
         },
         {
             "name": "drupal/core-utility",
-            "version": "8.6.0",
+            "version": "8.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-utility.git",
@@ -1646,12 +1646,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "b59af6e11a34b553cc2b91ad5be434611fb833ef"
+                "reference": "97f8f0b6f693e5b13c63184a6e00210a46cd918e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/b59af6e11a34b553cc2b91ad5be434611fb833ef",
-                "reference": "b59af6e11a34b553cc2b91ad5be434611fb833ef",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/97f8f0b6f693e5b13c63184a6e00210a46cd918e",
+                "reference": "97f8f0b6f693e5b13c63184a6e00210a46cd918e",
                 "shasum": ""
             },
             "require": {
@@ -1740,7 +1740,7 @@
             ],
             "description": "Drush is a command line shell and scripting interface for Drupal, a veritable Swiss Army knife designed to make life easier for those of us who spend some of our working hours hacking away at the command prompt.",
             "homepage": "http://www.drush.org",
-            "time": "2018-09-04T17:48:15+00:00"
+            "time": "2018-09-12T10:36:40+00:00"
         },
         {
             "name": "escapestudios/symfony2-coding-standard",
@@ -4844,7 +4844,9 @@
     },
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "~7.1"
+    },
     "platform-dev": [],
     "platform-overrides": {
         "php": "7.1.9"
