@@ -3,28 +3,28 @@ imports:
 
 parameters:
   tasks.phpcs.ignore_patterns:
-  - sites/rtd/vendor
-  - sites/rtd/web/.ht.router.php
-  - sites/rtd/web/autoload.php
-  - sites/rtd/web/index.php
-  - sites/rtd/web/update.php
-  - sites/rtd/web/core
-  - sites/rtd/web/sites
-  - sites/rtd/web/modules/contrib/
-  - sites/rtd/web/themes/contrib/
-  - sites/rtd/web/profiles/contrib/
-  - sites/rtd/web/libraries/
-  - sites/agri/vendor
-  - sites/agri/web/.ht.router.php
-  - sites/agri/web/autoload.php
-  - sites/agri/web/index.php
-  - sites/agri/web/update.php
-  - sites/agri/web/core
-  - sites/agri/web/sites
-  - sites/agri/web/modules/contrib/
-  - sites/agri/web/themes/contrib/
-  - sites/agri/web/profiles/contrib/
-  - sites/agri/web/libraries/
+  - sites/info/vendor
+  - sites/info/web/.ht.router.php
+  - sites/info/web/autoload.php
+  - sites/info/web/index.php
+  - sites/info/web/update.php
+  - sites/info/web/core
+  - sites/info/web/sites
+  - sites/info/web/modules/contrib/
+  - sites/info/web/themes/contrib/
+  - sites/info/web/profiles/contrib/
+  - sites/info/web/libraries/
+  - sites/inea/vendor
+  - sites/inea/web/.ht.router.php
+  - sites/inea/web/autoload.php
+  - sites/inea/web/index.php
+  - sites/inea/web/update.php
+  - sites/inea/web/core
+  - sites/inea/web/sites
+  - sites/inea/web/modules/contrib/
+  - sites/inea/web/themes/contrib/
+  - sites/inea/web/profiles/contrib/
+  - sites/inea/web/libraries/
   - sites/energy/vendor
   - sites/energy/web/.ht.router.php
   - sites/energy/web/autoload.php

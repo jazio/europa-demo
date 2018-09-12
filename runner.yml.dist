@@ -19,57 +19,57 @@ drupal:
 
 commands:
   sites:composer-install:
-  - "composer --working-dir=sites/agri install"
+  - "composer --working-dir=sites/inea install"
   - "composer --working-dir=sites/energy install"
-  - "composer --working-dir=sites/rtd install"
+  - "composer --working-dir=sites/info install"
   sites:composer-update:
-  - "composer --working-dir=sites/agri update"
+  - "composer --working-dir=sites/inea update"
   - "composer --working-dir=sites/energy update"
-  - "composer --working-dir=sites/rtd update"
+  - "composer --working-dir=sites/info update"
   sites:composer-drupal-scaffold:
-  - "composer --working-dir=sites/agri drupal:scaffold"
+  - "composer --working-dir=sites/inea drupal:scaffold"
   - "composer --working-dir=sites/energy drupal:scaffold"
-  - "composer --working-dir=sites/rtd drupal:scaffold"
+  - "composer --working-dir=sites/info drupal:scaffold"
   sites:setup:
-  - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/agri' drupal:site-setup"
+  - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/inea' drupal:site-setup"
   - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/energy' drupal:site-setup"
-  - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/rtd' drupal:site-setup"
+  - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/info' drupal:site-setup"
   sites:install:
-  - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/agri' drupal:site-install"
+  - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/inea' drupal:site-install"
   - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/energy' drupal:site-install"
-  - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/rtd' drupal:site-install"
+  - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/info' drupal:site-install"
   sites:import-interface-translations:
-  - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/agri' drupal:import-interface-translations"
+  - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/inea' drupal:import-interface-translations"
   - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/energy' drupal:import-interface-translations"
-  - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/rtd' drupal:import-interface-translations"
+  - "./vendor/bin/run --working-dir='${runner.working_dir}/sites/info' drupal:import-interface-translations"
   sites:sql-drop:
-  - "./vendor/bin/drush --root='${runner.working_dir}/sites/agri' sql-drop -y"
+  - "./vendor/bin/drush --root='${runner.working_dir}/sites/inea' sql-drop -y"
   - "./vendor/bin/drush --root='${runner.working_dir}/sites/energy' sql-drop -y"
-  - "./vendor/bin/drush --root='${runner.working_dir}/sites/rtd' sql-drop -y"
+  - "./vendor/bin/drush --root='${runner.working_dir}/sites/info' sql-drop -y"
   sites:sql-dump:
-  - "./vendor/bin/drush --root='${runner.working_dir}/sites/agri' sql-dump --result-file=dump.sql"
+  - "./vendor/bin/drush --root='${runner.working_dir}/sites/inea' sql-dump --result-file=dump.sql"
   - "./vendor/bin/drush --root='${runner.working_dir}/sites/energy' sql-dump --result-file=dump.sql"
-  - "./vendor/bin/drush --root='${runner.working_dir}/sites/rtd' sql-dump --result-file=dump.sql"
+  - "./vendor/bin/drush --root='${runner.working_dir}/sites/info' sql-dump --result-file=dump.sql"
   sites:sql-restore:
   - "./vendor/bin/run sites:sql-drop"
-  - "./vendor/bin/drush --root='${runner.working_dir}/sites/agri' sqlc < sites/agri/web/dump.sql"
+  - "./vendor/bin/drush --root='${runner.working_dir}/sites/inea' sqlc < sites/inea/web/dump.sql"
   - "./vendor/bin/drush --root='${runner.working_dir}/sites/energy' sqlc < sites/energy/web/dump.sql"
-  - "./vendor/bin/drush --root='${runner.working_dir}/sites/rtd' sqlc < sites/rtd/web/dump.sql"
+  - "./vendor/bin/drush --root='${runner.working_dir}/sites/info' sqlc < sites/info/web/dump.sql"
   sites:config-export:
-  - "./vendor/bin/drush --root='${runner.working_dir}/sites/agri' cex -y"
+  - "./vendor/bin/drush --root='${runner.working_dir}/sites/inea' cex -y"
   - "./vendor/bin/drush --root='${runner.working_dir}/sites/energy' cex -y"
-  - "./vendor/bin/drush --root='${runner.working_dir}/sites/rtd' cex -y"
+  - "./vendor/bin/drush --root='${runner.working_dir}/sites/info' cex -y"
   sites:config-import:
-  - "./vendor/bin/drush --root='${runner.working_dir}/sites/agri' cim -y"
+  - "./vendor/bin/drush --root='${runner.working_dir}/sites/inea' cim -y"
   - "./vendor/bin/drush --root='${runner.working_dir}/sites/energy' cim -y"
-  - "./vendor/bin/drush --root='${runner.working_dir}/sites/rtd' cim -y"
+  - "./vendor/bin/drush --root='${runner.working_dir}/sites/info' cim -y"
 
   setup:behat:
   - { task: "process", source: "behat.yml.dist", destination: "behat.yml" }
   setup:runner:
-  - { task: "process", source: "sites/agri/runner.yml.dist", destination: "sites/agri/runner.yml" }
+  - { task: "process", source: "sites/inea/runner.yml.dist", destination: "sites/inea/runner.yml" }
   - { task: "process", source: "sites/energy/runner.yml.dist", destination: "sites/energy/runner.yml" }
-  - { task: "process", source: "sites/rtd/runner.yml.dist", destination: "sites/rtd/runner.yml" }
+  - { task: "process", source: "sites/info/runner.yml.dist", destination: "sites/info/runner.yml" }
 
   # Use the following commands only if you can run Task Runner commands on your host machine.
   sparql:purge:

@@ -18,8 +18,8 @@ class ContentLayerCommands extends AbstractCommands {
    */
   public function runParallelComposerInstall(): void {
     $this->taskParallelExec()
-      ->process('cd sites/rtd;composer install')
-      ->process('cd sites/agri;composer install')
+      ->process('cd sites/info;composer install')
+      ->process('cd sites/inea;composer install')
       ->process('cd sites/energy;composer install')
       ->run();
   }
@@ -31,8 +31,8 @@ class ContentLayerCommands extends AbstractCommands {
    */
   public function runParallelComposerUpdate(): void {
     $this->taskParallelExec()
-      ->process('cd sites/rtd;composer update')
-      ->process('cd sites/agri;composer update')
+      ->process('cd sites/info;composer update')
+      ->process('cd sites/inea;composer update')
       ->process('cd sites/energy;composer update')
       ->run();
   }
@@ -44,8 +44,8 @@ class ContentLayerCommands extends AbstractCommands {
    */
   public function runParallelSitesSetup(): void {
     $this->taskParallelExec()
-      ->process('cd sites/rtd;./vendor/bin/run drupal:site-setup')
-      ->process('cd sites/agri;./vendor/bin/run drupal:site-setup')
+      ->process('cd sites/info;./vendor/bin/run drupal:site-setup')
+      ->process('cd sites/inea;./vendor/bin/run drupal:site-setup')
       ->process('cd sites/energy;./vendor/bin/run drupal:site-setup')
       ->run();
   }
@@ -57,8 +57,8 @@ class ContentLayerCommands extends AbstractCommands {
    */
   public function runParallelSitesInstall(): void {
     $this->taskParallelExec()
-      ->process('cd sites/rtd;./vendor/bin/run drupal:site-install')
-      ->process('cd sites/agri;./vendor/bin/run drupal:site-install')
+      ->process('cd sites/info;./vendor/bin/run drupal:site-install')
+      ->process('cd sites/inea;./vendor/bin/run drupal:site-install')
       ->process('cd sites/energy;./vendor/bin/run drupal:site-install')
       ->run();
   }

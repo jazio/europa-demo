@@ -1,0 +1,239 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/web:8080\/en\/rdf_entity\/http_e_f_flocalhost_e8080_fsites_finea_fweb_frdf_aentity_foe_aannouncement_f36f2e2a8_bf517_b4277_b901c_b1648de2c8363?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/rdf_entity\/oe_announcement"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/oe_announcement_department": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fcorporate_bbody_fINEA?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/oe_announcement_subject": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f1439?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f2498?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f754?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f748?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/oe_announcement_type": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fresource_btype_fPRESS_aREL?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": "http:\/\/localhost:8080\/sites\/inea\/web\/rdf_entity\/oe_announcement\/36f2e2a8-f517-4277-901c-1648de2c8363"
+        }
+    ],
+    "rid": [
+        {
+            "target_id": "oe_announcement"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "555e7f6d-536c-4d3e-88d5-eead64b41302"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/oe_announcement_department": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fcorporate_bbody_fINEA?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/corporate_bodies"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/publications.europa.eu\/resource\/authority\/corporate-body\/INEA"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/oe_announcement_subject": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f1439?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/1439"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f2498?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/2498"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f754?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/754"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f748?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/748"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_announcement\/oe_announcement_type": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fresource_btype_fPRESS_aREL?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/resource_types"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/publications.europa.eu\/resource\/authority\/resource-type\/PRESS_REL"
+                    }
+                ]
+            }
+        ]
+    },
+    "label": [
+        {
+            "value": "Spain's first self-installing offshore wind turbine arrives to the Canary Islands",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-11T08:32:38+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-09-11T08:36:18+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "http:\/\/localhost:8080\/sites\/inea\/web\/rdf_entity\/oe_announcement\/36f2e2a8-f517-4277-901c-1648de2c8363"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "provenance_uri": [
+        {
+            "value": "http:\/\/ec.europa.eu\/inea"
+        }
+    ],
+    "graph": [
+        {
+            "target_id": "default"
+        }
+    ],
+    "oe_announcement_body": [
+        {
+            "value": "<p>The turbine has been designed and developed by the <a href=\"http:\/\/esteyco.com\/projects\/elisa\/elican.html\" target=\"_blank\">ELICAN project<\/a>, which received almost&nbsp;\u20ac11.2 from the Horizon 2020 programme. The technology allows the turbine tower and the wind turbine to be fully assembled in port, eliminating the need for large vessels or cranes during the installation and reducing the risks associated with assembly work at sea. It could cut installation costs by 30% to 40% compared to existing solutions.<\/p>\r\n<p>The assembly of the prototype had started in April in the Arinaga port, in the north-east of Grand Canaria. The turbine was then towed 16 nautical miles&nbsp;to its final destination at the Plocan offshore site.&nbsp;<\/p>\r\n<p>The project will now monitor performance&nbsp;of the entire system \u2013 including the foundation, tower and wind turbine \u2013 in open sea conditions. The final results will be known by December this year, when the project will come to an end. If successful, ELICAN will provide the market with a disruptive high-capacity and cost-reducing integrated substructure system for harvesting offshore wind energy.<\/p>\r\n\r\n<img class=\"ecl-image ecl-image--fluid\" title=\"Elisa, the prototype of a self-installing offshore wind turbine\" typeof=\"foaf:Image\" src=\"https:\/\/ec.europa.eu\/inea\/sites\/inea\/files\/elican_web.jpg\" alt=\"\">",
+            "format": "html",
+            "processed": "<p>The turbine has been designed and developed by the <a href=\"http:\/\/esteyco.com\/projects\/elisa\/elican.html\" target=\"_blank\">ELICAN project<\/a>, which received almost\u00a0\u20ac11.2 from the Horizon 2020 programme. The technology allows the turbine tower and the wind turbine to be fully assembled in port, eliminating the need for large vessels or cranes during the installation and reducing the risks associated with assembly work at sea. It could cut installation costs by 30% to 40% compared to existing solutions.<\/p>\n<p>The assembly of the prototype had started in April in the Arinaga port, in the north-east of Grand Canaria. The turbine was then towed 16 nautical miles\u00a0to its final destination at the Plocan offshore site.\u00a0<\/p>\n<p>The project will now monitor performance\u00a0of the entire system \u2013 including the foundation, tower and wind turbine \u2013 in open sea conditions. The final results will be known by December this year, when the project will come to an end. If successful, ELICAN will provide the market with a disruptive high-capacity and cost-reducing integrated substructure system for harvesting offshore wind energy.<\/p>\n\n<img class=\"ecl-image ecl-image--fluid\" title=\"Elisa, the prototype of a self-installing offshore wind turbine\" typeof=\"foaf:Image\" src=\"https:\/\/ec.europa.eu\/inea\/sites\/inea\/files\/elican_web.jpg\" alt=\"\" \/>",
+            "lang": "en"
+        }
+    ],
+    "oe_announcement_introduction": [
+        {
+            "value": "The 5MW self-installing telescopic offshore wind turbine arrived last week at its final destination off the Canary Islands. It's the first of its kind in Spain.",
+            "format": "html",
+            "processed": "The 5MW self-installing telescopic offshore wind turbine arrived last week at its final destination off the Canary Islands. It's the first of its kind in Spain.",
+            "lang": "en"
+        }
+    ],
+    "oe_announcement_location": [
+        {
+            "value": "Brussels",
+            "lang": "en"
+        }
+    ],
+    "oe_announcement_publish_date": [
+        {
+            "value": "2018-06-25T11:36:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

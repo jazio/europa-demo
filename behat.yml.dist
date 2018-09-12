@@ -75,22 +75,22 @@ site:
       selectors: &drupal-selectors
         success_message_selector: ".ecl-message--success"
 
-agri:
+inea:
   suites:
     default:
       contexts: *site-contexts
-      filters: { tags: "@site-agri" }
+      filters: { tags: "@site-inea" }
   extensions:
     Behat\MinkExtension:
       goutte: ~
       browser_name: 'chrome'
       javascript_session: 'selenium2'
       selenium2: *slenium-settings
-      base_url: "${web.base_url}/sites/agri/web"
+      base_url: "${web.base_url}/sites/inea/web"
     Drupal\DrupalExtension:
       api_driver: "drupal"
       drupal:
-        drupal_root: "sites/agri/web"
+        drupal_root: "sites/inea/web"
       region_map: *drupal-region-map
       selectors: *drupal-selectors
 
@@ -113,21 +113,21 @@ energy:
       region_map: *drupal-region-map
       selectors: *drupal-selectors
 
-rtd:
+info:
   suites:
     default:
       contexts: *site-contexts
-      filters: { tags: "@site-rtd" }
+      filters: { tags: "@site-info" }
   extensions:
     Behat\MinkExtension:
       goutte: ~
       browser_name: 'chrome'
       javascript_session: 'selenium2'
       selenium2: *slenium-settings
-      base_url: "${web.base_url}/sites/rtd/web"
+      base_url: "${web.base_url}/sites/info/web"
     Drupal\DrupalExtension:
       api_driver: "drupal"
       drupal:
-        drupal_root: "sites/rtd/web"
+        drupal_root: "sites/info/web"
       region_map: *drupal-region-map
       selectors: *drupal-selectors
