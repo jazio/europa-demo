@@ -3828,12 +3828,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/openeuropa/oe_content.git",
-                "reference": "ffc4c5c014514a702de912503d96392e58bb1e9f"
+                "reference": "89bcdbdb06f8019508d8176b60c636736f019921"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openeuropa/oe_content/zipball/ffc4c5c014514a702de912503d96392e58bb1e9f",
-                "reference": "ffc4c5c014514a702de912503d96392e58bb1e9f",
+                "url": "https://api.github.com/repos/openeuropa/oe_content/zipball/89bcdbdb06f8019508d8176b60c636736f019921",
+                "reference": "89bcdbdb06f8019508d8176b60c636736f019921",
                 "shasum": ""
             },
             "require": {
@@ -3892,7 +3892,7 @@
                 "EUPL-1.2"
             ],
             "description": "OpenEuropa Drupal module that contains the EC corporate entity types.",
-            "time": "2018-09-07T08:55:13+00:00"
+            "time": "2018-09-11T07:45:42+00:00"
         },
         {
             "name": "openeuropa/oe_multilingual",
