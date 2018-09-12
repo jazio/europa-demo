@@ -24,6 +24,8 @@ permissions:
   - 'translate paragraph'
   - 'update content translations'
   - 'use administration language negotiation'
+  - 'use text format html'
   - 'view files'
   - 'view own unpublished content'
+  - 'view rdf entity'
   - 'view the administration theme'
