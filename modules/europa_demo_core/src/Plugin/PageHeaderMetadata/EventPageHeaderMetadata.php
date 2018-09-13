@@ -104,9 +104,9 @@ class EventPageHeaderMetadata extends EntityCanonicalRoutePageHeaderMetadata {
   protected function formatDate(RdfInterface $entity): string {
     $start_timestamp = $entity->get('oe_event_start_date')->value;
     $end_timestamp = $entity->get('oe_event_end_date')->value;
-    if (date('d m y', $start_timestamp) == date('d m y', $end_timestamp)) {
+    if (date('d m y', $start_timestamp) === date('d m y', $end_timestamp)) {
       // The event starts and ends on the same day.
-      return date('H:i', $start_timestamp) == date('H:i', $end_timestamp) ?
+      return date('H:i', $start_timestamp) === date('H:i', $end_timestamp) ?
         $this->dateFormatter->format($start_timestamp, 'custom', 'F d, Y - H:i') :
         $this->dateFormatter->format($start_timestamp, 'custom', 'F d, Y / H:i') . ' - ' . $this->dateFormatter->format($end_timestamp, 'custom', 'H:i');
     }
