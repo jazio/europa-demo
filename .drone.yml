@@ -61,19 +61,19 @@ pipeline:
     group: install-site
     image: fpfis/httpd-php-dev:7.1
     commands:
-      - ./vendor/bin/run --working-dir='/test/content-layer-demo/sites/info' drupal:site-install
+      - ./vendor/bin/run --working-dir='/test/europa-demo/sites/info' drupal:site-install
 
   install-site-inea:
     group: install-site
     image: fpfis/httpd-php-dev:7.1
     commands:
-      - ./vendor/bin/run --working-dir='/test/content-layer-demo/sites/inea' drupal:site-install
+      - ./vendor/bin/run --working-dir='/test/europa-demo/sites/inea' drupal:site-install
 
   install-site-energy:
     group: install-site
     image: fpfis/httpd-php-dev:7.1
     commands:
-      - ./vendor/bin/run --working-dir='/test/content-layer-demo/sites/energy' drupal:site-install
+      - ./vendor/bin/run --working-dir='/test/europa-demo/sites/energy' drupal:site-install
 
   grumphp:
     group: test
