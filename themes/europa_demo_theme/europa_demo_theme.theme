@@ -71,6 +71,12 @@ function europa_demo_theme_preprocess_rdf_entity__oe_department(&$variables) {
     $variables['announcements'] = [
       '#type' => 'pattern',
       '#id' => 'list_item_block_one_column',
+      '#context' => [
+        'type' => 'entity_list',
+        'entity_type' => 'rdf_entity',
+        'bundle' => 'announcement',
+        'entities' => $announcements,
+      ],
       '#fields' => [
         'items' => $items,
       ],
@@ -212,4 +218,3 @@ function europa_demo_theme_announcement_list_item(RdfInterface $entity) {
 
   return $build;
 }
-
