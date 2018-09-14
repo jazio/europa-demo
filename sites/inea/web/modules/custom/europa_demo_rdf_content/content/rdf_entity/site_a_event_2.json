@@ -1,0 +1,230 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/web:8080\/en\/rdf_entity\/http_e_f_flocalhost_e8080_fsites_finea_fweb_frdf_aentity_foe_aevent_f5b829070_bbd2b_b4caa_b828c_b43342432b51a?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/rdf_entity\/oe_event"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/oe_event_organiser": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fcorporate_bbody_fINEA?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/oe_event_subject": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f2924?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f475?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f6700?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/oe_event_target_audience": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_ftarget_baudience_fSPE?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": "http:\/\/localhost:8080\/sites\/inea\/web\/rdf_entity\/oe_event\/5b829070-bd2b-4caa-828c-43342432b51a"
+        }
+    ],
+    "rid": [
+        {
+            "target_id": "oe_event"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "555e7f6d-536c-4d3e-88d5-eead64b41302"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/oe_event_organiser": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fcorporate_bbody_fINEA?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/corporate_bodies"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/publications.europa.eu\/resource\/authority\/corporate-body\/INEA"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/oe_event_subject": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f2924?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/2924"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f475?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/475"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f6700?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/6700"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/oe_event_target_audience": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_ftarget_baudience_fSPE?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/target_audiences"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/publications.europa.eu\/resource\/authority\/target-audience\/SPE"
+                    }
+                ]
+            }
+        ]
+    },
+    "label": [
+        {
+            "value": "Horizon 2020 Energy info day",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-11T06:28:10+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-09-11T06:42:24+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "http:\/\/localhost:8080\/sites\/inea\/web\/rdf_entity\/oe_event\/5b829070-bd2b-4caa-828c-43342432b51a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "provenance_uri": [
+        {
+            "value": "http:\/\/ec.europa.eu\/inea"
+        }
+    ],
+    "graph": [
+        {
+            "target_id": "default"
+        }
+    ],
+    "oe_event_description": [
+        {
+            "value": "<img class=\"ecl-image ecl-image--fluid\" alt=\"This is a test image\" src=\"https:\/\/ec.europa.eu\/inea\/sites\/inea\/files\/events\/gallery\/h2020_energy_physical_infoday.png\" \/>\r\n\r\n<h4>Programme<\/h4>\r\n<p>The event will cover the following calls for funding organised in 2019:<\/p>\r\n<p><strong>Smart citizen-centred energy system<\/strong><\/p>\r\n<ul><li><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/lc-sc3-es-1-2019.html\" target=\"_blank\">Flexibility and retails market options for the distribution&nbsp;grid<\/a><\/li>\r\n<li><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/lc-sc3-es-2-2019.html\" target=\"_blank\">Solutions for regional cooperation in the transmission grid<\/a><\/li>\r\n<li><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/lc-sc3-es-6-2019.html\" target=\"_blank\">Research on advanced tools and technological development<\/a><\/li>\r\n<li><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/lc-sc3-es-8-2019.html\" target=\"_blank\">European Islands Facility<\/a><\/li>\r\n<li><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/dt-ict-11-2019.html\" target=\"_blank\">Big data solutions for energy<\/a><\/li>\r\n<\/ul><p><strong>Smart Cities and Communities<\/strong><\/p>\r\n<ul><li><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/lc-sc3-scc-1-2018-2019-2020.html\" target=\"_blank\">Call for Smart Cities and Communities<\/a><\/li>\r\n<\/ul><p>It will also give an&nbsp;<strong>overview on the application and evaluation process<\/strong>, and will offer a recap on <strong>lessons learnt from previous evaluations<\/strong>, incl. tips for writing a good proposal.<\/p>\r\n<p>Two projects, funded in previous H2020 calls, will share their experience.<\/p>\r\n<p>Presentations will be followed by <strong>Q&amp;A sessions<\/strong>.<\/p>\r\n<ul><li>Download the&nbsp;<strong><a href=\"http:\/\/ec.europa.eu\/inea\/sites\/inea\/files\/agenda_h2020energy_infoday.pdf\" target=\"_blank\">agenda<\/a>&nbsp;<\/strong>(pdf)<\/li>\r\n<\/ul><p>Read the <strong><a href=\"http:\/\/ec.europa.eu\/research\/participants\/data\/ref\/h2020\/wp\/2018-2020\/main\/h2020-wp1820-energy_en.pdf\" target=\"_blank\">2018 - 2020 H2020 Work Programme<\/a><\/strong>\u200b (p. 83&nbsp;- 109)<\/p>\r\n\r\n<h4>Registrations<\/h4>\r\n<p>The&nbsp;<strong><a href=\"https:\/\/www.h2020-energy-info-day-2018.com\/\" target=\"_blank\">registration<\/a>&nbsp;for the info day<\/strong>&nbsp;is now open.<\/p>\r\n<p>Due to a very high demand, max. of&nbsp;<strong>two people<\/strong> per organisation can be registered&nbsp;for the info day.<\/p>\r\n<p>The info day will be webstreamed and recordings will be available after the event.<\/p>\r\n\r\n<h4>Networking<\/h4>\r\n<p>The&nbsp;<a href=\"https:\/\/energycall2019.b2match.io\/\" target=\"_blank\"><strong>brokerage event<\/strong><\/a>, organised by the <a href=\"http:\/\/www.c-energy2020.eu\/\" target=\"_blank\">H2020 Energy National Contact Points<\/a>, will take place in parallel. It will give participants an opportunity to network and look for partners to form a consortium.<\/p>\r\n<p><strong><a href=\"https:\/\/energycall2019.b2match.io\/signup\">Register<\/a><\/strong>&nbsp;to participate&nbsp;in the&nbsp;<strong>brokerage event<\/strong>.<\/p>\r\n<p>&nbsp;<\/p>\r\n<p><strong>PLEASE NOTE:<\/span> Registrations for the info day and for the brokerage event are separate<\/strong><\/p>",
+            "format": "html",
+            "processed": "<img class=\"ecl-image ecl-image--fluid\" alt=\"This is a test image\" src=\"https:\/\/ec.europa.eu\/inea\/sites\/inea\/files\/events\/gallery\/h2020_energy_physical_infoday.png\" \/>\n\n<h4>Programme<\/h4>\n<p>The event will cover the following calls for funding organised in 2019:<\/p>\n<p><strong>Smart citizen-centred energy system<\/strong><\/p>\n<ul><li><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/lc-sc3-es-1-2019.html\" target=\"_blank\">Flexibility and retails market options for the distribution\u00a0grid<\/a><\/li>\n<li><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/lc-sc3-es-2-2019.html\" target=\"_blank\">Solutions for regional cooperation in the transmission grid<\/a><\/li>\n<li><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/lc-sc3-es-6-2019.html\" target=\"_blank\">Research on advanced tools and technological development<\/a><\/li>\n<li><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/lc-sc3-es-8-2019.html\" target=\"_blank\">European Islands Facility<\/a><\/li>\n<li><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/dt-ict-11-2019.html\" target=\"_blank\">Big data solutions for energy<\/a><\/li>\n<\/ul><p><strong>Smart Cities and Communities<\/strong><\/p>\n<ul><li><a href=\"http:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/topics\/lc-sc3-scc-1-2018-2019-2020.html\" target=\"_blank\">Call for Smart Cities and Communities<\/a><\/li>\n<\/ul><p>It will also give an\u00a0<strong>overview on the application and evaluation process<\/strong>, and will offer a recap on <strong>lessons learnt from previous evaluations<\/strong>, incl. tips for writing a good proposal.<\/p>\n<p>Two projects, funded in previous H2020 calls, will share their experience.<\/p>\n<p>Presentations will be followed by <strong>Q&amp;A sessions<\/strong>.<\/p>\n<ul><li>Download the\u00a0<strong><a href=\"http:\/\/ec.europa.eu\/inea\/sites\/inea\/files\/agenda_h2020energy_infoday.pdf\" target=\"_blank\">agenda<\/a>\u00a0<\/strong>(pdf)<\/li>\n<\/ul><p>Read the <strong><a href=\"http:\/\/ec.europa.eu\/research\/participants\/data\/ref\/h2020\/wp\/2018-2020\/main\/h2020-wp1820-energy_en.pdf\" target=\"_blank\">2018 - 2020 H2020 Work Programme<\/a><\/strong>\u200b (p. 83\u00a0- 109)<\/p>\n\n<h4>Registrations<\/h4>\n<p>The\u00a0<strong><a href=\"https:\/\/www.h2020-energy-info-day-2018.com\/\" target=\"_blank\">registration<\/a>\u00a0for the info day<\/strong>\u00a0is now open.<\/p>\n<p>Due to a very high demand, max. of\u00a0<strong>two people<\/strong> per organisation can be registered\u00a0for the info day.<\/p>\n<p>The info day will be webstreamed and recordings will be available after the event.<\/p>\n\n<h4>Networking<\/h4>\n<p>The\u00a0<a href=\"https:\/\/energycall2019.b2match.io\/\" target=\"_blank\"><strong>brokerage event<\/strong><\/a>, organised by the <a href=\"http:\/\/www.c-energy2020.eu\/\" target=\"_blank\">H2020 Energy National Contact Points<\/a>, will take place in parallel. It will give participants an opportunity to network and look for partners to form a consortium.<\/p>\n<p><strong><a href=\"https:\/\/energycall2019.b2match.io\/signup\">Register<\/a><\/strong>\u00a0to participate\u00a0in the\u00a0<strong>brokerage event<\/strong>.<\/p>\n<p>\u00a0<\/p>\n<p><strong>PLEASE NOTE: Registrations for the info day and for the brokerage event are separate<\/strong><\/p>",
+            "lang": "en"
+        }
+    ],
+    "oe_event_end_date": [
+        {
+            "value": "2018-10-05T13:30:00+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "oe_event_introduction": [
+        {
+            "value": "The Horizon 2020 Energy info day will present the upcoming funding opportunities offered by the EU's H2020 Programme to projects focusing on smart energy systems and smart cities and communities concepts. ",
+            "format": "html",
+            "processed": "The Horizon 2020 Energy info day will present the upcoming funding opportunities offered by the EU's H2020 Programme to projects focusing on smart energy systems and smart cities and communities concepts. ",
+            "lang": "en"
+        }
+    ],
+    "oe_event_links": [
+        {
+            "uri": "https:\/\/ec.europa.eu\/programmes\/horizon2020\/",
+            "title": "Horizon2020",
+            "options": []
+        }
+    ],
+    "oe_event_start_date": [
+        {
+            "value": "2018-10-05T06:30:00+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

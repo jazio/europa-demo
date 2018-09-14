@@ -1,18 +1,15 @@
-@api
+@sites-all
 Feature: Setup
-  In order to be able to showcase the site's features
+  In order to make sure that the project is correctly set up
   As a developer
-  I want to make sure that the demo site is correctly setup.
+  I need to make sure that we can visit all three sites
 
-  Scenario: The demo site is installed
-    When I am on the homepage
-    Then I should see "Europa Demo"
+  Scenario Outline:
+    When I am on "/sites/<path>/web"
+    Then I should see "<name>"
 
-  Scenario: The demo blocks are correctly displayed
-    When I am on "the front page"
-    Then I should see the "sites switcher" element in the "header"
-    And I should see the "search box" element in the "header"
-    And I should see the "language switcher" element in the "header"
-    And I should see the "banner title" element in the "banner"
-    And I should see the "corporate top block" element in the "corporate top footer"
-    And I should see the "corporate bottom block" element in the "corporate bottom footer"
+    Examples:
+    | path   | name        |
+    | info   | Site INFO   |
+    | inea   | Site INEA   |
+    | energy | Site ENERGY |

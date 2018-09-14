@@ -1,21 +1,55 @@
 imports:
-  - { resource: vendor/openeuropa/code-review/dist/drupal-conventions.yml }
+- { resource: vendor/openeuropa/code-review/dist/drupal-conventions.yml }
+
 parameters:
   tasks.phpcs.ignore_patterns:
-    - vendor/
-    - build/
+  - sites/info/vendor
+  - sites/info/web/.ht.router.php
+  - sites/info/web/autoload.php
+  - sites/info/web/index.php
+  - sites/info/web/update.php
+  - sites/info/web/core
+  - sites/info/web/sites
+  - sites/info/web/modules/contrib/
+  - sites/info/web/themes/contrib/
+  - sites/info/web/profiles/contrib/
+  - sites/info/web/libraries/
+  - sites/inea/vendor
+  - sites/inea/web/.ht.router.php
+  - sites/inea/web/autoload.php
+  - sites/inea/web/index.php
+  - sites/inea/web/update.php
+  - sites/inea/web/core
+  - sites/inea/web/sites
+  - sites/inea/web/modules/contrib/
+  - sites/inea/web/themes/contrib/
+  - sites/inea/web/profiles/contrib/
+  - sites/inea/web/libraries/
+  - sites/energy/vendor
+  - sites/energy/web/.ht.router.php
+  - sites/energy/web/autoload.php
+  - sites/energy/web/index.php
+  - sites/energy/web/update.php
+  - sites/energy/web/core
+  - sites/energy/web/sites
+  - sites/energy/web/modules/contrib/
+  - sites/energy/web/themes/contrib/
+  - sites/energy/web/profiles/contrib/
+  - sites/energy/web/libraries/
+
   tasks.phpcs.triggered_by:
-    - php
-    - module
-    - inc
-    - theme
-    - install
+  - php
+  - module
+  - inc
+  - theme
+  - install
 
   extra_tasks:
     phpparser:
-      ignore_patterns: %tasks.phpcs.ignore_patterns%
+      ignore_patterns: "%tasks.phpcs.ignore_patterns%"
       visitors:
         declare_strict_types: ~
-      triggered_by: %tasks.phpcs.triggered_by%
+      triggered_by: "%tasks.phpcs.triggered_by%"
+
   extensions:
-    - OpenEuropa\CodeReview\ExtraTasksExtension
+  - OpenEuropa\CodeReview\ExtraTasksExtension

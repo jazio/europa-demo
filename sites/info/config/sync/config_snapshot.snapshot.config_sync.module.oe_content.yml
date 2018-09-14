@@ -1,0 +1,381 @@
+uuid: c51945ec-97f8-4bb4-9ced-7052e84502a6
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_content
+id: config_sync.module.oe_content
+snapshotSet: config_sync
+extensionType: module
+extensionName: oe_content
+items:
+  -
+    collection: ''
+    name: rdf_entity.mapping.taxonomy_term.corporate_bodies
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - rdf_entity.graph.default
+          - taxonomy.vocabulary.corporate_bodies
+      id: taxonomy_term.corporate_bodies
+      entity_type_id: taxonomy_term
+      bundle: corporate_bodies
+      rdf_type: 'http://publications.europa.eu/resource/authority/corporate-body'
+      graph:
+        default: 'http://publications.europa.eu/resource/authority/corporate-body'
+      base_fields_mapping:
+        uuid:
+          value:
+            predicate: ''
+            format: ''
+        langcode:
+          value:
+            predicate: ''
+            format: ''
+        vid:
+          target_id:
+            predicate: 'http://www.w3.org/2004/02/skos/core#inScheme'
+            format: resource
+        status:
+          value:
+            predicate: 'http://europa.eu/status'
+            format: 'xsd:integer'
+        name:
+          value:
+            predicate: 'http://www.w3.org/2004/02/skos/core#prefLabel'
+            format: t_literal
+        description:
+          format:
+            predicate: ''
+            format: ''
+        weight:
+          value:
+            predicate: ''
+            format: ''
+        parent:
+          target_id:
+            predicate: ''
+            format: ''
+        changed:
+          value:
+            predicate: ''
+            format: ''
+        default_langcode:
+          value:
+            predicate: ''
+            format: ''
+        graph:
+          target_id:
+            predicate: ''
+            format: ''
+      entity_id_plugin: default
+  -
+    collection: ''
+    name: rdf_entity.mapping.taxonomy_term.organisation_types
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - rdf_entity.graph.default
+          - taxonomy.vocabulary.organisation_types
+      id: taxonomy_term.organisation_types
+      entity_type_id: taxonomy_term
+      bundle: organisation_types
+      rdf_type: 'http://publications.europa.eu/resource/authority/organization-type'
+      graph:
+        default: 'http://publications.europa.eu/resource/authority/organization-type'
+      base_fields_mapping:
+        uuid:
+          value:
+            predicate: ''
+            format: ''
+        langcode:
+          value:
+            predicate: ''
+            format: ''
+        vid:
+          target_id:
+            predicate: 'http://www.w3.org/2004/02/skos/core#inScheme'
+            format: resource
+        status:
+          value:
+            predicate: 'http://europa.eu/status'
+            format: 'xsd:integer'
+        name:
+          value:
+            predicate: 'http://www.w3.org/2004/02/skos/core#prefLabel'
+            format: t_literal
+        description:
+          format:
+            predicate: ''
+            format: ''
+        weight:
+          value:
+            predicate: ''
+            format: ''
+        parent:
+          target_id:
+            predicate: ''
+            format: ''
+        changed:
+          value:
+            predicate: ''
+            format: ''
+        default_langcode:
+          value:
+            predicate: ''
+            format: ''
+        graph:
+          target_id:
+            predicate: ''
+            format: ''
+      entity_id_plugin: default
+  -
+    collection: ''
+    name: rdf_entity.mapping.taxonomy_term.resource_types
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - rdf_entity.graph.default
+          - taxonomy.vocabulary.resource_types
+      id: taxonomy_term.resource_types
+      entity_type_id: taxonomy_term
+      bundle: resource_types
+      rdf_type: 'http://publications.europa.eu/resource/authority/resource-type'
+      graph:
+        default: 'http://publications.europa.eu/resource/authority/resource-type'
+      base_fields_mapping:
+        uuid:
+          value:
+            predicate: ''
+            format: ''
+        langcode:
+          value:
+            predicate: ''
+            format: ''
+        vid:
+          target_id:
+            predicate: 'http://www.w3.org/2004/02/skos/core#inScheme'
+            format: resource
+        status:
+          value:
+            predicate: 'http://europa.eu/status'
+            format: 'xsd:integer'
+        name:
+          value:
+            predicate: 'http://www.w3.org/2004/02/skos/core#prefLabel'
+            format: t_literal
+        description:
+          format:
+            predicate: ''
+            format: ''
+        weight:
+          value:
+            predicate: ''
+            format: ''
+        parent:
+          target_id:
+            predicate: ''
+            format: ''
+        changed:
+          value:
+            predicate: ''
+            format: ''
+        default_langcode:
+          value:
+            predicate: ''
+            format: ''
+        graph:
+          target_id:
+            predicate: ''
+            format: ''
+      entity_id_plugin: default
+  -
+    collection: ''
+    name: rdf_entity.mapping.taxonomy_term.target_audiences
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - rdf_entity.graph.default
+          - taxonomy.vocabulary.target_audiences
+      id: taxonomy_term.target_audiences
+      entity_type_id: taxonomy_term
+      bundle: target_audiences
+      rdf_type: 'http://publications.europa.eu/resource/authority/target-audience'
+      graph:
+        default: 'http://publications.europa.eu/resource/authority/target-audience'
+      base_fields_mapping:
+        uuid:
+          value:
+            predicate: ''
+            format: ''
+        langcode:
+          value:
+            predicate: ''
+            format: ''
+        vid:
+          target_id:
+            predicate: 'http://www.w3.org/2004/02/skos/core#inScheme'
+            format: resource
+        status:
+          value:
+            predicate: 'http://europa.eu/status'
+            format: 'xsd:integer'
+        name:
+          value:
+            predicate: 'http://www.w3.org/2004/02/skos/core#prefLabel'
+            format: t_literal
+        description:
+          format:
+            predicate: ''
+            format: ''
+        weight:
+          value:
+            predicate: ''
+            format: ''
+        parent:
+          target_id:
+            predicate: ''
+            format: ''
+        changed:
+          value:
+            predicate: ''
+            format: ''
+        default_langcode:
+          value:
+            predicate: ''
+            format: ''
+        graph:
+          target_id:
+            predicate: ''
+            format: ''
+      entity_id_plugin: default
+  -
+    collection: ''
+    name: rdf_entity.mapping.taxonomy_term.thesaurus
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - rdf_entity.graph.default
+          - taxonomy.vocabulary.thesaurus
+      id: taxonomy_term.thesaurus
+      entity_type_id: taxonomy_term
+      bundle: thesaurus
+      rdf_type: 'http://eurovoc.europa.eu/100141'
+      graph:
+        default: 'http://publications.europa.eu/resource/dataset/eurovoc'
+      base_fields_mapping:
+        uuid:
+          value:
+            predicate: ''
+            format: ''
+        langcode:
+          value:
+            predicate: ''
+            format: ''
+        vid:
+          target_id:
+            predicate: 'http://www.w3.org/2004/02/skos/core#inScheme'
+            format: resource
+        status:
+          value:
+            predicate: 'http://europa.eu/status'
+            format: 'xsd:integer'
+        name:
+          value:
+            predicate: 'http://www.w3.org/2004/02/skos/core#prefLabel'
+            format: t_literal
+        description:
+          format:
+            predicate: ''
+            format: ''
+        weight:
+          value:
+            predicate: ''
+            format: ''
+        parent:
+          target_id:
+            predicate: 'http://www.w3.org/2004/02/skos/core#broader'
+            format: resource
+        changed:
+          value:
+            predicate: ''
+            format: ''
+        default_langcode:
+          value:
+            predicate: ''
+            format: ''
+        graph:
+          target_id:
+            predicate: ''
+            format: ''
+      entity_id_plugin: default
+  -
+    collection: ''
+    name: taxonomy.vocabulary.corporate_bodies
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      name: 'Corporate Bodies'
+      vid: corporate_bodies
+      description: ''
+      hierarchy: 0
+      weight: 0
+  -
+    collection: ''
+    name: taxonomy.vocabulary.organisation_types
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      name: 'Organisation Types'
+      vid: organisation_types
+      description: ''
+      hierarchy: 0
+      weight: 0
+  -
+    collection: ''
+    name: taxonomy.vocabulary.resource_types
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      name: 'Resource Types'
+      vid: resource_types
+      description: ''
+      hierarchy: 0
+      weight: 0
+  -
+    collection: ''
+    name: taxonomy.vocabulary.target_audiences
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      name: 'Target Audiences'
+      vid: target_audiences
+      description: ''
+      hierarchy: 0
+      weight: 0
+  -
+    collection: ''
+    name: taxonomy.vocabulary.thesaurus
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      name: Thesaurus
+      vid: thesaurus
+      description: ''
+      hierarchy: 0
+      weight: 0

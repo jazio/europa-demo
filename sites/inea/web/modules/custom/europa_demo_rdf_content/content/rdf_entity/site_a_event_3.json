@@ -1,0 +1,223 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/web:8080\/en\/rdf_entity\/http_e_f_flocalhost_e8080_fsites_finea_fweb_frdf_aentity_foe_aevent_ff8115b40_b12d7_b4c6d_bae4e_b0b9538a9bfc4?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/rdf_entity\/oe_event"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/oe_event_organiser": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fcorporate_bbody_fINEA?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/oe_event_subject": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f2494?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f4293?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f6850?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/oe_event_target_audience": [
+            {
+                "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_ftarget_baudience_fSPE?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": "http:\/\/localhost:8080\/sites\/inea\/web\/rdf_entity\/oe_event\/f8115b40-12d7-4c6d-ae4e-0b9538a9bfc4"
+        }
+    ],
+    "rid": [
+        {
+            "target_id": "oe_event"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "555e7f6d-536c-4d3e-88d5-eead64b41302"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/oe_event_organiser": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_fcorporate_bbody_fINEA?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/corporate_bodies"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/publications.europa.eu\/resource\/authority\/corporate-body\/INEA"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/oe_event_subject": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f2494?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/2494"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f4293?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/4293"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_feurovoc_ceuropa_ceu_f6850?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/thesaurus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/eurovoc.europa.eu\/6850"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/rdf_entity\/oe_event\/oe_event_target_audience": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/taxonomy\/term\/http_e_f_fpublications_ceuropa_ceu_fresource_fauthority_ftarget_baudience_fSPE?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/target_audiences"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "http:\/\/publications.europa.eu\/resource\/authority\/target-audience\/SPE"
+                    }
+                ]
+            }
+        ]
+    },
+    "label": [
+        {
+            "value": "Horizon 2020 Transport virtual info day",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-11T06:47:22+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-09-11T07:16:50+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "http:\/\/localhost:8080\/sites\/inea\/web\/rdf_entity\/oe_event\/f8115b40-12d7-4c6d-ae4e-0b9538a9bfc4"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "provenance_uri": [
+        {
+            "value": "http:\/\/ec.europa.eu\/inea"
+        }
+    ],
+    "graph": [
+        {
+            "target_id": "default"
+        }
+    ],
+    "oe_event_description": [
+        {
+            "value": "<img class=\"ecl-image ecl-image--fluid\" alt=\"This is a test image\" src=\"https:\/\/ec.europa.eu\/inea\/sites\/inea\/files\/events\/gallery\/twitter_save_the_date_20180706_1024x512_2.jpg\" \/>\r\n\r\n<p>The event will present the following 2019 calls for funding <strong>making available a total of nearly \u20ac355 million<\/strong>:<\/p>\r\n<ul><li><a href=\"https:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/calls\/h2020-mg-2018-2019-2020.html#c,topics=callIdentifier\/t\/H2020-MG-2018-2019-2020\/1\/1\/1\/default-group&amp;callStatus\/t\/Forthcoming\/1\/1\/0\/default-group&amp;callStatus\/t\/Open\/1\/1\/0\/default-group&amp;callStatus\/t\/Closed\/1\/1\/0\/default-group&amp;+identifier\/desc\"><strong>Mobility for Growth (MG)<\/strong><\/a><\/li>\r\n<li><a href=\"https:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/calls\/h2020-dt-art-2018-2019-2020.html#c,topics=callIdentifier\/t\/H2020-DT-ART-2018-2019-2020\/1\/1\/1\/default-group&amp;callStatus\/t\/Forthcoming\/1\/1\/0\/default-group&amp;callStatus\/t\/Open\/1\/1\/0\/default-group&amp;callStatus\/t\/Closed\/1\/1\/0\/default-group&amp;+identifier\/desc\"><strong>Automated Road Transport (ART)<\/strong><\/a><\/li>\r\n<li><a href=\"https:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/calls\/h2020-lc-gv-2018-2019-2020.html#c,topics=callIdentifier\/t\/H2020-LC-GV-2018-2019-2020\/1\/1\/1\/default-group&amp;callStatus\/t\/Forthcoming\/1\/1\/0\/default-group&amp;callStatus\/t\/Open\/1\/1\/0\/default-group&amp;callStatus\/t\/Closed\/1\/1\/0\/default-group&amp;+identifier\/desc\"><strong>Green Vehicles (GV)<\/strong><\/a><\/li>\r\n<li><a href=\"http:\/\/ec.europa.eu\/research\/participants\/data\/ref\/h2020\/wp\/2018-2020\/main\/h2020-wp1820-cc-activities_en.pdf\"><strong>Next Generation Batteries (BAT) <\/strong><\/a><\/li>\r\n<\/ul><p>It will also give an overview of the application and evaluation process, and will offer a recap on lessons learnt from previous evaluations, including tips for writing a good proposal.<\/p>\r\n<h3>Agenda<\/h3>\r\n<p>The event will start at 09:00 and end at 13:00 CET.<\/p>\r\n<p>Check out the full <a href=\"https:\/\/ec.europa.eu\/inea\/sites\/inea\/files\/transport_info_day_2018_draft_agenda_final.pdf\" target=\"_blank\"><strong>draft agenda<\/strong><\/a><strong>.<\/strong><\/p>\r\n<h3>Registrations<\/h3>\r\n<p>In order to receive the link to the webstreaming of the event, participants will need to register.<\/p>\r\n<p>The registration will open in September.<\/p>\r\n<h3>Webstreaming and recording<\/h3>\r\n<p>The event will be webstreamed and the recording will be available under the same link for two years.<\/p>\r\n<p>The link will be published a week before the event.<\/p>\r\n<p><u>Please use the browser Chrome in case you experience technical problems<\/u><\/p>\r\n<h3>Q&amp;A<\/h3>\r\n<p>The Info Day will also offer the opportunity to ask questions to Commission and Agency staff members pertaining to the calls.<\/p>\r\n<p>You can send your questions before or during the event <strong>via email<\/strong> <a href=\"mailto:INEA-H2020-Transport-Infoday@ec.europa.eu\">INEA-H2020-Transport-Infoday@ec.europa.eu<\/a> or <strong>on Twitter <\/strong><a href=\"https:\/\/twitter.com\/inea_eu\">@inea_eu<\/a>.<\/p>\r\n<p>The questions will be answered during the dedicated Q&amp;A session of the info day.<\/p>\r\n<h3>Twitter<\/h3>\r\n<p>Use the hashtag <strong>#H2020transport <\/strong>to follow and tweet from the info day.<\/p>\r\n<p>Follow <strong><a href=\"https:\/\/twitter.com\/inea_eu\">@inea_eu<\/a><\/strong> for our live coverage of the event.<\/p>\r\n<h3>Contact<\/h3>\r\n<p>In case of questions, please contact <a href=\"mailto:INEA-H2020-Transport-Infoday@ec.europa.eu\">INEA-H2020-Transport-Infoday@ec.europa.eu<\/a><\/p>",
+            "format": "html",
+            "processed": "<img class=\"ecl-image ecl-image--fluid\" alt=\"This is a test image\" src=\"https:\/\/ec.europa.eu\/inea\/sites\/inea\/files\/events\/gallery\/twitter_save_the_date_20180706_1024x512_2.jpg\" \/>\n\n<p>The event will present the following 2019 calls for funding <strong>making available a total of nearly \u20ac355 million<\/strong>:<\/p>\n<ul><li><a href=\"https:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/calls\/h2020-mg-2018-2019-2020.html#c,topics=callIdentifier\/t\/H2020-MG-2018-2019-2020\/1\/1\/1\/default-group&amp;callStatus\/t\/Forthcoming\/1\/1\/0\/default-group&amp;callStatus\/t\/Open\/1\/1\/0\/default-group&amp;callStatus\/t\/Closed\/1\/1\/0\/default-group&amp;+identifier\/desc\"><strong>Mobility for Growth (MG)<\/strong><\/a><\/li>\n<li><a href=\"https:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/calls\/h2020-dt-art-2018-2019-2020.html#c,topics=callIdentifier\/t\/H2020-DT-ART-2018-2019-2020\/1\/1\/1\/default-group&amp;callStatus\/t\/Forthcoming\/1\/1\/0\/default-group&amp;callStatus\/t\/Open\/1\/1\/0\/default-group&amp;callStatus\/t\/Closed\/1\/1\/0\/default-group&amp;+identifier\/desc\"><strong>Automated Road Transport (ART)<\/strong><\/a><\/li>\n<li><a href=\"https:\/\/ec.europa.eu\/research\/participants\/portal\/desktop\/en\/opportunities\/h2020\/calls\/h2020-lc-gv-2018-2019-2020.html#c,topics=callIdentifier\/t\/H2020-LC-GV-2018-2019-2020\/1\/1\/1\/default-group&amp;callStatus\/t\/Forthcoming\/1\/1\/0\/default-group&amp;callStatus\/t\/Open\/1\/1\/0\/default-group&amp;callStatus\/t\/Closed\/1\/1\/0\/default-group&amp;+identifier\/desc\"><strong>Green Vehicles (GV)<\/strong><\/a><\/li>\n<li><a href=\"http:\/\/ec.europa.eu\/research\/participants\/data\/ref\/h2020\/wp\/2018-2020\/main\/h2020-wp1820-cc-activities_en.pdf\"><strong>Next Generation Batteries (BAT) <\/strong><\/a><\/li>\n<\/ul><p>It will also give an overview of the application and evaluation process, and will offer a recap on lessons learnt from previous evaluations, including tips for writing a good proposal.<\/p>\n<h3>Agenda<\/h3>\n<p>The event will start at 09:00 and end at 13:00 CET.<\/p>\n<p>Check out the full <a href=\"https:\/\/ec.europa.eu\/inea\/sites\/inea\/files\/transport_info_day_2018_draft_agenda_final.pdf\" target=\"_blank\"><strong>draft agenda<\/strong><\/a><strong>.<\/strong><\/p>\n<h3>Registrations<\/h3>\n<p>In order to receive the link to the webstreaming of the event, participants will need to register.<\/p>\n<p>The registration will open in September.<\/p>\n<h3>Webstreaming and recording<\/h3>\n<p>The event will be webstreamed and the recording will be available under the same link for two years.<\/p>\n<p>The link will be published a week before the event.<\/p>\n<p><u>Please use the browser Chrome in case you experience technical problems<\/u><\/p>\n<h3>Q&amp;A<\/h3>\n<p>The Info Day will also offer the opportunity to ask questions to Commission and Agency staff members pertaining to the calls.<\/p>\n<p>You can send your questions before or during the event <strong>via email<\/strong> <a href=\"mailto:INEA-H2020-Transport-Infoday@ec.europa.eu\">INEA-H2020-Transport-Infoday@ec.europa.eu<\/a> or <strong>on Twitter <\/strong><a href=\"https:\/\/twitter.com\/inea_eu\">@inea_eu<\/a>.<\/p>\n<p>The questions will be answered during the dedicated Q&amp;A session of the info day.<\/p>\n<h3>Twitter<\/h3>\n<p>Use the hashtag <strong>#H2020transport <\/strong>to follow and tweet from the info day.<\/p>\n<p>Follow <strong><a href=\"https:\/\/twitter.com\/inea_eu\">@inea_eu<\/a><\/strong> for our live coverage of the event.<\/p>\n<h3>Contact<\/h3>\n<p>In case of questions, please contact <a href=\"mailto:INEA-H2020-Transport-Infoday@ec.europa.eu\">INEA-H2020-Transport-Infoday@ec.europa.eu<\/a><\/p>",
+            "lang": "en"
+        }
+    ],
+    "oe_event_end_date": [
+        {
+            "value": "2018-10-23T11:00:00+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "oe_event_introduction": [
+        {
+            "value": "The Horizon Transport virtual info day will present the upcoming funding opportunities offered by the EU's Horizon 2020 Programme to projects focusing on smart, green and integrated transport.",
+            "format": "html",
+            "processed": "The Horizon Transport virtual info day will present the upcoming funding opportunities offered by the EU's Horizon 2020 Programme to projects focusing on smart, green and integrated transport.",
+            "lang": "en"
+        }
+    ],
+    "oe_event_start_date": [
+        {
+            "value": "2018-10-23T07:00:00+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

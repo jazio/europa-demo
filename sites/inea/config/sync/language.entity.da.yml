@@ -1,0 +1,11 @@
+uuid: 320cf35c-1904-4a3c-b90a-174640af80da
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: S3SF7-iSjNu1oBDP_gv4wFmFQGtTGS_ZEi_ea0aPQEM
+id: da
+label: Danish
+direction: ltr
+weight: -4
+locked: false

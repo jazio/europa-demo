@@ -1,0 +1,9 @@
+uuid: f2ab6540-2e4f-4d2d-9df0-c6d1627674c6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: zaVKdJAkIQfK6z_Vqea9DjhHv6RR3-6saOiI9vAoN6o
+name: Event
+rid: oe_event
+description: ''

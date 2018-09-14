@@ -1,0 +1,11 @@
+uuid: c690cee0-b679-4283-92e7-6a538053aacf
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 4uOcytDiB7kQd3pbQSDjsq1kVEX1OjlVnaG14CLBN3Q
+id: draft
+weight: 10
+name: Draft
+description: 'Draft graph.'
+entity_types: null

@@ -1,0 +1,11 @@
+uuid: 905615df-db11-4106-820f-0fcca49b9999
+langcode: en
+status: true
+dependencies:
+  module:
+    - page_cache
+id: config_sync.module.page_cache
+snapshotSet: config_sync
+extensionType: module
+extensionName: page_cache
+items: {  }

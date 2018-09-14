@@ -1,0 +1,22 @@
+uuid: 89a835b3-ec20-4c69-a311-bd930c3094a5
+langcode: en
+status: true
+dependencies:
+  module:
+    - rdf_entity
+id: config_sync.module.rdf_entity
+snapshotSet: config_sync
+extensionType: module
+extensionName: rdf_entity
+items:
+  -
+    collection: ''
+    name: rdf_entity.graph.default
+    data:
+      langcode: en
+      status: true
+      id: default
+      weight: 0
+      name: Default
+      description: 'Default graph. This is available for all entity types and bundles.'
+      entity_types: null

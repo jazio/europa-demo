@@ -1,0 +1,30 @@
+uuid: 11d5bb3c-628d-4cce-bf28-7df541b0c9eb
+langcode: en
+status: true
+dependencies:
+  module:
+    - rdf_entity
+    - text
+third_party_settings:
+  rdf_entity:
+    mapping:
+      value:
+        predicate: 'http://schema.org/knowsAbout'
+        format: t_literal
+      format:
+        predicate: 'http://europa.eu/oe_department_tasks_description/format'
+        format: 'xsd:string'
+_core:
+  default_config_hash: tfAxtPEACkFv4Ka39RQCmu8jHHc5l9UuBKAZvlCEI0k
+id: rdf_entity.oe_department_tasks_description
+field_name: oe_department_tasks_description
+entity_type: rdf_entity
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

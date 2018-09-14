@@ -1,0 +1,197 @@
+uuid: 1d4dd9f7-2af3-4262-80ef-6f560ea427f2
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_profile
+id: config_sync.module.oe_profile
+snapshotSet: config_sync
+extensionType: module
+extensionName: oe_profile
+items:
+  -
+    collection: ''
+    name: block.block.seven_breadcrumbs
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - system
+        theme:
+          - seven
+      id: seven_breadcrumbs
+      theme: seven
+      region: breadcrumb
+      weight: 0
+      provider: null
+      plugin: system_breadcrumb_block
+      settings:
+        id: system_breadcrumb_block
+        label: Breadcrumbs
+        provider: system
+        label_display: '0'
+      visibility: {  }
+  -
+    collection: ''
+    name: block.block.seven_content
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - system
+        theme:
+          - seven
+      id: seven_content
+      theme: seven
+      region: content
+      weight: 0
+      provider: null
+      plugin: system_main_block
+      settings:
+        id: system_main_block
+        label: 'Main page content'
+        provider: system
+        label_display: '0'
+      visibility: {  }
+  -
+    collection: ''
+    name: block.block.seven_local_actions
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        theme:
+          - seven
+      id: seven_local_actions
+      theme: seven
+      region: content
+      weight: -10
+      provider: null
+      plugin: local_actions_block
+      settings:
+        id: local_actions_block
+        label: 'Primary admin actions'
+        provider: core
+        label_display: '0'
+      visibility: {  }
+  -
+    collection: ''
+    name: block.block.seven_login
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - user
+        theme:
+          - seven
+      id: seven_login
+      theme: seven
+      region: content
+      weight: 10
+      provider: null
+      plugin: user_login_block
+      settings:
+        id: user_login_block
+        label: 'User login'
+        provider: user
+        label_display: visible
+      visibility: {  }
+  -
+    collection: ''
+    name: block.block.seven_messages
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - system
+        theme:
+          - seven
+      id: seven_messages
+      theme: seven
+      region: highlighted
+      weight: 0
+      provider: null
+      plugin: system_messages_block
+      settings:
+        id: system_messages_block
+        label: 'Status messages'
+        provider: system
+        label_display: '0'
+      visibility: {  }
+  -
+    collection: ''
+    name: block.block.seven_page_title
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        theme:
+          - seven
+      id: seven_page_title
+      theme: seven
+      region: header
+      weight: -30
+      provider: null
+      plugin: page_title_block
+      settings:
+        id: page_title_block
+        label: 'Page title'
+        provider: core
+        label_display: '0'
+      visibility: {  }
+  -
+    collection: ''
+    name: block.block.seven_primary_local_tasks
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        theme:
+          - seven
+      id: seven_primary_local_tasks
+      theme: seven
+      region: header
+      weight: 0
+      provider: null
+      plugin: local_tasks_block
+      settings:
+        id: local_tasks_block
+        label: 'Primary tabs'
+        provider: core
+        label_display: '0'
+        primary: true
+        secondary: false
+      visibility: {  }
+  -
+    collection: ''
+    name: block.block.seven_secondary_local_tasks
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        theme:
+          - seven
+      id: seven_secondary_local_tasks
+      theme: seven
+      region: pre_content
+      weight: 0
+      provider: null
+      plugin: local_tasks_block
+      settings:
+        id: local_tasks_block
+        label: 'Secondary tabs'
+        provider: core
+        label_display: '0'
+        primary: false
+        secondary: true
+      visibility: {  }
+  -
+    collection: ''
+    name: system.theme
+    data:
+      admin: seven
+      default: oe_theme

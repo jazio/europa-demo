@@ -1,0 +1,642 @@
+uuid: 7ff452c5-76dc-4efc-854d-54a48b908cc4
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_content_department
+id: config_sync.module.oe_content_department
+snapshotSet: config_sync
+extensionType: module
+extensionName: oe_content_department
+items:
+  -
+    collection: ''
+    name: core.entity_form_display.rdf_entity.oe_department.default
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.field.rdf_entity.oe_department.oe_department_description
+          - field.field.rdf_entity.oe_department.oe_department_links
+          - field.field.rdf_entity.oe_department.oe_department_name
+          - field.field.rdf_entity.oe_department.oe_department_subject
+          - field.field.rdf_entity.oe_department.oe_department_tasks_description
+          - field.field.rdf_entity.oe_department.oe_department_type
+          - rdf_entity.rdfentity.oe_department
+        module:
+          - field_group
+          - link
+          - text
+      third_party_settings:
+        field_group:
+          oe_group_department:
+            children:
+              - oe_group_profile_information
+              - oe_group_priorities
+            parent_name: ''
+            weight: 0
+            format_type: tabs
+            format_settings:
+              id: ''
+              classes: ''
+              direction: vertical
+            label: Department
+          oe_group_profile_information:
+            children:
+              - oe_department_name
+              - oe_department_description
+              - oe_department_type
+              - oe_department_links
+              - oe_department_subject
+            parent_name: oe_group_department
+            weight: 20
+            format_type: tab
+            format_settings:
+              id: ''
+              classes: ''
+              formatter: open
+              description: ''
+              required_fields: true
+            label: 'Profile information'
+          oe_group_priorities:
+            children:
+              - oe_department_tasks_description
+            parent_name: oe_group_department
+            weight: 21
+            format_type: tab
+            format_settings:
+              id: ''
+              classes: ''
+              formatter: closed
+              description: ''
+              required_fields: true
+            label: Priorities
+      id: rdf_entity.oe_department.default
+      targetEntityType: rdf_entity
+      bundle: oe_department
+      mode: default
+      content:
+        oe_department_description:
+          weight: 24
+          settings:
+            rows: 5
+            placeholder: ''
+          third_party_settings: {  }
+          type: text_textarea
+          region: content
+        oe_department_links:
+          weight: 26
+          settings:
+            placeholder_url: ''
+            placeholder_title: ''
+          third_party_settings: {  }
+          type: link_default
+          region: content
+        oe_department_name:
+          weight: 22
+          settings:
+            match_operator: CONTAINS
+            size: 60
+            placeholder: ''
+          third_party_settings: {  }
+          type: entity_reference_autocomplete
+          region: content
+        oe_department_subject:
+          weight: 27
+          settings:
+            match_operator: CONTAINS
+            size: 60
+            placeholder: ''
+          third_party_settings: {  }
+          type: entity_reference_autocomplete
+          region: content
+        oe_department_tasks_description:
+          weight: 4
+          settings:
+            rows: 5
+            placeholder: ''
+          third_party_settings: {  }
+          type: text_textarea
+          region: content
+        oe_department_type:
+          weight: 25
+          settings:
+            match_operator: CONTAINS
+            size: 60
+            placeholder: ''
+          third_party_settings: {  }
+          type: entity_reference_autocomplete
+          region: content
+      hidden:
+        created: true
+        label: true
+        uid: true
+  -
+    collection: ''
+    name: core.entity_view_display.rdf_entity.oe_department.default
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.field.rdf_entity.oe_department.oe_department_description
+          - field.field.rdf_entity.oe_department.oe_department_links
+          - field.field.rdf_entity.oe_department.oe_department_name
+          - field.field.rdf_entity.oe_department.oe_department_subject
+          - field.field.rdf_entity.oe_department.oe_department_tasks_description
+          - field.field.rdf_entity.oe_department.oe_department_type
+          - rdf_entity.rdfentity.oe_department
+        module:
+          - link
+          - text
+          - user
+      id: rdf_entity.oe_department.default
+      targetEntityType: rdf_entity
+      bundle: oe_department
+      mode: default
+      content:
+        oe_department_description:
+          weight: 1
+          label: above
+          settings: {  }
+          third_party_settings: {  }
+          type: text_default
+          region: content
+        oe_department_links:
+          weight: 2
+          label: above
+          settings:
+            trim_length: 80
+            url_only: false
+            url_plain: false
+            rel: ''
+            target: ''
+          third_party_settings: {  }
+          type: link
+          region: content
+        oe_department_name:
+          weight: 6
+          label: above
+          settings:
+            link: true
+          third_party_settings: {  }
+          type: entity_reference_label
+          region: content
+        oe_department_subject:
+          weight: 5
+          label: above
+          settings:
+            link: true
+          third_party_settings: {  }
+          type: entity_reference_label
+          region: content
+        oe_department_tasks_description:
+          weight: 3
+          label: above
+          settings: {  }
+          third_party_settings: {  }
+          type: text_default
+          region: content
+        oe_department_type:
+          weight: 4
+          label: above
+          settings:
+            link: true
+          third_party_settings: {  }
+          type: entity_reference_label
+          region: content
+        label:
+          label: hidden
+          type: string
+          weight: -5
+          region: content
+          settings:
+            link_to_entity: false
+          third_party_settings: {  }
+      hidden:
+        changed: true
+        created: true
+  -
+    collection: ''
+    name: field.field.rdf_entity.oe_department.oe_department_description
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.rdf_entity.oe_department_description
+          - rdf_entity.rdfentity.oe_department
+        module:
+          - text
+      id: rdf_entity.oe_department.oe_department_description
+      field_name: oe_department_description
+      entity_type: rdf_entity
+      bundle: oe_department
+      label: Description
+      description: ''
+      required: false
+      translatable: true
+      default_value: {  }
+      default_value_callback: ''
+      settings: {  }
+      field_type: text_long
+  -
+    collection: ''
+    name: field.field.rdf_entity.oe_department.oe_department_links
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.rdf_entity.oe_department_links
+          - rdf_entity.rdfentity.oe_department
+        module:
+          - link
+      id: rdf_entity.oe_department.oe_department_links
+      field_name: oe_department_links
+      entity_type: rdf_entity
+      bundle: oe_department
+      label: 'News from this department'
+      description: ''
+      required: false
+      translatable: true
+      default_value: {  }
+      default_value_callback: ''
+      settings:
+        link_type: 17
+        title: 0
+      field_type: link
+  -
+    collection: ''
+    name: field.field.rdf_entity.oe_department.oe_department_name
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.rdf_entity.oe_department_name
+          - rdf_entity.rdfentity.oe_department
+          - taxonomy.vocabulary.corporate_bodies
+      id: rdf_entity.oe_department.oe_department_name
+      field_name: oe_department_name
+      entity_type: rdf_entity
+      bundle: oe_department
+      label: Name
+      description: ''
+      required: true
+      translatable: true
+      default_value: {  }
+      default_value_callback: ''
+      settings:
+        handler: 'default:taxonomy_term'
+        handler_settings:
+          target_bundles:
+            corporate_bodies: corporate_bodies
+          sort:
+            field: name
+            direction: asc
+          auto_create: false
+          auto_create_bundle: ''
+      field_type: entity_reference
+  -
+    collection: ''
+    name: field.field.rdf_entity.oe_department.oe_department_subject
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.rdf_entity.oe_department_subject
+          - rdf_entity.rdfentity.oe_department
+          - taxonomy.vocabulary.thesaurus
+      id: rdf_entity.oe_department.oe_department_subject
+      field_name: oe_department_subject
+      entity_type: rdf_entity
+      bundle: oe_department
+      label: Subject
+      description: ''
+      required: true
+      translatable: false
+      default_value: {  }
+      default_value_callback: ''
+      settings:
+        handler: 'default:taxonomy_term'
+        handler_settings:
+          target_bundles:
+            thesaurus: thesaurus
+          sort:
+            field: name
+            direction: asc
+          auto_create: false
+          auto_create_bundle: ''
+      field_type: entity_reference
+  -
+    collection: ''
+    name: field.field.rdf_entity.oe_department.oe_department_tasks_description
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.rdf_entity.oe_department_tasks_description
+          - rdf_entity.rdfentity.oe_department
+        module:
+          - text
+      id: rdf_entity.oe_department.oe_department_tasks_description
+      field_name: oe_department_tasks_description
+      entity_type: rdf_entity
+      bundle: oe_department
+      label: 'Tasks Description'
+      description: ''
+      required: false
+      translatable: true
+      default_value: {  }
+      default_value_callback: ''
+      settings: {  }
+      field_type: text_long
+  -
+    collection: ''
+    name: field.field.rdf_entity.oe_department.oe_department_type
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.rdf_entity.oe_department_type
+          - rdf_entity.rdfentity.oe_department
+          - taxonomy.vocabulary.organisation_types
+      id: rdf_entity.oe_department.oe_department_type
+      field_name: oe_department_type
+      entity_type: rdf_entity
+      bundle: oe_department
+      label: 'Department type'
+      description: ''
+      required: true
+      translatable: false
+      default_value: {  }
+      default_value_callback: ''
+      settings:
+        handler: 'default:taxonomy_term'
+        handler_settings:
+          target_bundles:
+            organisation_types: organisation_types
+          sort:
+            field: name
+            direction: asc
+          auto_create: false
+          auto_create_bundle: ''
+      field_type: entity_reference
+  -
+    collection: ''
+    name: field.storage.rdf_entity.oe_department_description
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - rdf_entity
+          - text
+      third_party_settings:
+        rdf_entity:
+          mapping:
+            value:
+              predicate: 'http://schema.org/description'
+              format: t_literal
+            format:
+              predicate: 'http://europa.eu/oe_department_description/format'
+              format: 'xsd:string'
+      id: rdf_entity.oe_department_description
+      field_name: oe_department_description
+      entity_type: rdf_entity
+      type: text_long
+      settings: {  }
+      module: text
+      locked: false
+      cardinality: 1
+      translatable: true
+      indexes: {  }
+      persist_with_no_fields: false
+      custom_storage: false
+  -
+    collection: ''
+    name: field.storage.rdf_entity.oe_department_links
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - link
+          - rdf_entity
+      third_party_settings:
+        rdf_entity:
+          mapping:
+            uri:
+              predicate: 'http://schema.org/significantLink'
+              format: 'xsd:anyURI'
+            title:
+              predicate: ''
+              format: no_format
+            options:
+              predicate: ''
+              format: no_format
+      id: rdf_entity.oe_department_links
+      field_name: oe_department_links
+      entity_type: rdf_entity
+      type: link
+      settings: {  }
+      module: link
+      locked: false
+      cardinality: 1
+      translatable: true
+      indexes: {  }
+      persist_with_no_fields: false
+      custom_storage: false
+  -
+    collection: ''
+    name: field.storage.rdf_entity.oe_department_name
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - rdf_entity
+          - taxonomy
+      third_party_settings:
+        rdf_entity:
+          mapping:
+            target_id:
+              predicate: 'http://europa.eu/department-name-reference'
+              format: resource
+      id: rdf_entity.oe_department_name
+      field_name: oe_department_name
+      entity_type: rdf_entity
+      type: entity_reference
+      settings:
+        target_type: taxonomy_term
+      module: core
+      locked: false
+      cardinality: 1
+      translatable: false
+      indexes: {  }
+      persist_with_no_fields: false
+      custom_storage: false
+  -
+    collection: ''
+    name: field.storage.rdf_entity.oe_department_subject
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - rdf_entity
+          - taxonomy
+      third_party_settings:
+        rdf_entity:
+          mapping:
+            target_id:
+              predicate: 'http://schema.org/about'
+              format: resource
+      id: rdf_entity.oe_department_subject
+      field_name: oe_department_subject
+      entity_type: rdf_entity
+      type: entity_reference
+      settings:
+        target_type: taxonomy_term
+      module: core
+      locked: false
+      cardinality: -1
+      translatable: false
+      indexes: {  }
+      persist_with_no_fields: false
+      custom_storage: false
+  -
+    collection: ''
+    name: field.storage.rdf_entity.oe_department_tasks_description
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - rdf_entity
+          - text
+      third_party_settings:
+        rdf_entity:
+          mapping:
+            value:
+              predicate: 'http://schema.org/knowsAbout'
+              format: t_literal
+            format:
+              predicate: 'http://europa.eu/oe_department_tasks_description/format'
+              format: 'xsd:string'
+      id: rdf_entity.oe_department_tasks_description
+      field_name: oe_department_tasks_description
+      entity_type: rdf_entity
+      type: text_long
+      settings: {  }
+      module: text
+      locked: false
+      cardinality: 1
+      translatable: true
+      indexes: {  }
+      persist_with_no_fields: false
+      custom_storage: false
+  -
+    collection: ''
+    name: field.storage.rdf_entity.oe_department_type
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - rdf_entity
+          - taxonomy
+      third_party_settings:
+        rdf_entity:
+          mapping:
+            target_id:
+              predicate: 'http://schema.org/genre'
+              format: resource
+      id: rdf_entity.oe_department_type
+      field_name: oe_department_type
+      entity_type: rdf_entity
+      type: entity_reference
+      settings:
+        target_type: taxonomy_term
+      module: core
+      locked: false
+      cardinality: 1
+      translatable: false
+      indexes: {  }
+      persist_with_no_fields: false
+      custom_storage: false
+  -
+    collection: ''
+    name: rdf_entity.mapping.rdf_entity.oe_department
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - rdf_entity.graph.default
+          - rdf_entity.graph.draft
+          - rdf_entity.rdfentity.oe_department
+      id: rdf_entity.oe_department
+      entity_type_id: rdf_entity
+      bundle: oe_department
+      rdf_type: 'http://schema.org/GovernmentOrganization'
+      graph:
+        default: 'https://europa.eu/department/published'
+        draft: 'https://europa.eu/department/draft'
+      base_fields_mapping:
+        rid:
+          target_id:
+            predicate: 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type'
+            format: resource
+        uid:
+          target_id:
+            predicate: 'http://schema.org/creator'
+            format: 'xsd:integer'
+        label:
+          value:
+            predicate: 'http://schema.org/legalName'
+            format: t_literal
+        created:
+          value:
+            predicate: 'http://schema.org/dateCreated'
+            format: 'xsd:dateTime'
+        changed:
+          value:
+            predicate: 'http://schema.org/dateModified'
+            format: 'xsd:dateTime'
+        uuid:
+          value:
+            predicate: ''
+            format: ''
+        langcode:
+          value:
+            predicate: 'http://europa.eu/langcode'
+            format: 'xsd:string'
+        default_langcode:
+          value:
+            predicate: 'http://europa.eu/default_langcode'
+            format: 'xsd:boolean'
+        provenance_uri:
+          value:
+            predicate: 'http://europa.eu/provenance_uri'
+            format: resource
+        graph:
+          target_id:
+            predicate: ''
+            format: ''
+      entity_id_plugin: default
+  -
+    collection: ''
+    name: rdf_entity.rdfentity.oe_department
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      name: Department
+      rid: oe_department
+      description: ''

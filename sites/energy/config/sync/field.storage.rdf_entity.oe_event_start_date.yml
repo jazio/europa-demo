@@ -1,0 +1,26 @@
+uuid: 105127b0-7e35-4393-a086-5191e39770c8
+langcode: en
+status: true
+dependencies:
+  module:
+    - rdf_entity
+third_party_settings:
+  rdf_entity:
+    mapping:
+      value:
+        predicate: 'http://schema.org/startDate'
+        format: 'xsd:dateTime'
+_core:
+  default_config_hash: uCgSNC4NCHzwyNZVQ8fyOvnucDxxCQS13ylsug_-MA8
+id: rdf_entity.oe_event_start_date
+field_name: oe_event_start_date
+entity_type: rdf_entity
+type: timestamp
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

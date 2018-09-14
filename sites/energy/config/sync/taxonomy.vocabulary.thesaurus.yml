@@ -1,0 +1,11 @@
+uuid: fca0252b-cb5c-469e-b3d3-4b1a2428e0ea
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: kkwjJNsHE4I4AAc4W_ZPojwkIY3Ax9WeagjVqzFNR2M
+name: Thesaurus
+vid: thesaurus
+description: ''
+hierarchy: 0
+weight: 0

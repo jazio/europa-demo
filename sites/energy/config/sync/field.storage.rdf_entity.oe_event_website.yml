@@ -1,0 +1,33 @@
+uuid: 0de91ec9-a516-43e1-9be9-b695bb8cca3c
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - rdf_entity
+third_party_settings:
+  rdf_entity:
+    mapping:
+      uri:
+        predicate: 'http://schema.org/sameAs'
+        format: 'xsd:anyURI'
+      title:
+        predicate: ''
+        format: no_format
+      options:
+        predicate: ''
+        format: no_format
+_core:
+  default_config_hash: Njr9KkRRJ8gp6tdBlQiUcY1CIQnuXSL2esTkJCMRZpM
+id: rdf_entity.oe_event_website
+field_name: oe_event_website
+entity_type: rdf_entity
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

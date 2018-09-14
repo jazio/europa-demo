@@ -1,0 +1,23 @@
+uuid: 71103acd-238f-450b-b6e8-a6ff1ca98c36
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.rdf_entity.oe_announcement_body
+    - rdf_entity.rdfentity.oe_announcement
+  module:
+    - text
+_core:
+  default_config_hash: t5gBLrtRSDoFksh2mF_11072lF3rP67OUpktSzzds1g
+id: rdf_entity.oe_announcement.oe_announcement_body
+field_name: oe_announcement_body
+entity_type: rdf_entity
+bundle: oe_announcement
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

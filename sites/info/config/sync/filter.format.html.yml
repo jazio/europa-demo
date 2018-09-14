@@ -1,0 +1,14 @@
+uuid: 6d6c97fe-5dd4-4835-b1f1-dd5595d27620
+langcode: en
+status: true
+dependencies: {  }
+name: HTML
+format: html
+weight: 0
+filters:
+  filter_htmlcorrector:
+    id: filter_htmlcorrector
+    provider: filter
+    status: true
+    weight: 10
+    settings: {  }

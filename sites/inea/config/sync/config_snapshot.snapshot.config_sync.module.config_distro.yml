@@ -1,0 +1,11 @@
+uuid: 6c5780eb-094b-444f-bcec-a050bb96b3ce
+langcode: en
+status: true
+dependencies:
+  module:
+    - config_distro
+id: config_sync.module.config_distro
+snapshotSet: config_sync
+extensionType: module
+extensionName: config_distro
+items: {  }

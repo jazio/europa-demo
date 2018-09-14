@@ -1,0 +1,25 @@
+uuid: 24391c93-55bc-49ab-b1a9-96301837474f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - europa_demo_theme
+_core:
+  default_config_hash: srD-xdd3JdU8nrH08J0aENrUFBrCU-vuGT6BX9FLIpQ
+id: europa_demo_theme_site_branding
+theme: europa_demo_theme
+region: site_header
+weight: -3
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

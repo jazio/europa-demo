@@ -2,55 +2,63 @@ default:
   suites:
     default:
       contexts:
-        - Drupal\DrupalExtension\Context\DrupalContext
-        - Drupal\DrupalExtension\Context\MessageContext
-        - Drupal\DrupalExtension\Context\MarkupContext
-        - Drupal\DrupalExtension\Context\MessageContext
-        - Ec\Europa\EuropaDemo\Behat\AuthenticationContext
-        - Ec\Europa\EuropaDemo\Behat\TransformationContext:
-            elements:
-              about dropdown menu: "#nav-menu-expandable-group-2 .ecl-navigation-menu__links"
-              banner title: ".ecl-banner__title"
-              breadcrumb: "nav.ecl-breadcrumb"
-              corporate top block: ".demo-block-footer-corporate-top"
-              corporate bottom block: ".demo-block-footer-corporate-bottom"
-              custom block: ".demo-block-footer-custom"
-              hero: ".page-header__hero-title"
-              language switcher: ".ecl-language-list"
-              language switcher overlay: ".ecl-dialog__body"
-              language switcher link: ".ecl-lang-select-sites__link .ecl-lang-select-sites__label"
-              logo: "a.ecl-logo"
-              page header: ".ecl-page-header"
-              priorities dropdown menu: "#nav-menu-expandable-group-3 .ecl-navigation-menu__links"
-              sites switcher: ".demo-block-site-switcher"
-              search box: ".demo-block-header-search"
-            pages:
-              create Landing: "/en/node/add/landing_page"
-              ECL components overview: "/en/components"
-              front: "/en/node/1"
-              jobs growth and investment: "/en/commission/priorities/jobs-growth-and-investment"
-              priorities: "/en/commission/priorities"
-              non-existing: "/non-existing"
-              administrative: "/en/admin"
-              login: "/en/user/login"
-              logout: "/en/user/logout"
-        - Ec\Europa\EuropaDemo\Behat\WebtoolsContext
-        - Ec\Europa\EuropaDemo\Behat\MinkContext
-        - Ec\Europa\EuropaDemo\Behat\DrupalContext
+      - Behat\MinkExtension\Context\MinkContext
+      filters: { tags: "@sites-all" }
   extensions:
     Behat\MinkExtension:
       goutte: ~
       browser_name: 'chrome'
       javascript_session: 'selenium2'
-      selenium2:
+      selenium2: &slenium-settings
         wd_host: '${selenium.host}:${selenium.port}/wd/hub'
         capabilities: { "browser": "chrome", "version": "*" }
-      base_url: "${drupal.base_url}"
+      base_url: "${web.base_url}"
+  formatters:
+    progress: ~
+
+site:
+  suites:
+    default:
+      contexts: &site-contexts
+      - Drupal\DrupalExtension\Context\DrupalContext
+      - Drupal\DrupalExtension\Context\MessageContext
+      - Drupal\DrupalExtension\Context\MarkupContext
+      - Drupal\DrupalExtension\Context\MessageContext
+      - Ec\Europa\EuropaDemo\Behat\MinkContext
+      - Ec\Europa\EuropaDemo\Behat\DrupalContext
+      - OpenEuropa\Behat\TransformationContext:
+          elements:
+            about dropdown menu: "#nav-menu-expandable-group-2 .ecl-navigation-menu__links"
+            banner title: ".ecl-banner__title"
+            breadcrumb: "nav.ecl-breadcrumb"
+            corporate top block: ".demo-block-footer-corporate-top"
+            corporate bottom block: ".demo-block-footer-corporate-bottom"
+            custom block: ".demo-block-footer-custom"
+            hero: ".page-header__hero-title"
+            language switcher: ".ecl-language-list"
+            language switcher overlay: ".ecl-dialog__body"
+            language switcher link: ".ecl-lang-select-sites__link .ecl-lang-select-sites__label"
+            logo: "a.ecl-logo"
+            page header: ".ecl-page-header"
+            priorities dropdown menu: "#nav-menu-expandable-group-3 .ecl-navigation-menu__links"
+            sites switcher: ".demo-block-site-switcher"
+            search box: ".demo-block-header-search"
+          pages:
+            create Landing: "/en/node/add/landing_page"
+            ECL components overview: "/en/components"
+            front: "/en/node/1"
+            jobs growth and investment: "/en/commission/priorities/jobs-growth-and-investment"
+            priorities: "/en/commission/priorities"
+            non-existing: "/non-existing"
+            administrative: "/en/admin"
+            login: "/en/user/login"
+            logout: "/en/user/logout"
+  extensions:
     Drupal\DrupalExtension:
       api_driver: "drupal"
       drupal:
-        drupal_root: "build"
-      region_map:
+        drupal_root: ~
+      region_map: &drupal-region-map
         banner: ".ecl-banner"
         breadcrumb: "nav.ecl-breadcrumb"
         custom footer: ".ecl-footer__custom"
@@ -64,7 +72,62 @@ default:
         content: "section.main-content"
         language switcher: ".ecl-language-list .ecl-dialog"
         language dialog: ".ecl-dialog"
-      selectors:
+      selectors: &drupal-selectors
         success_message_selector: ".ecl-message--success"
-  formatters:
-    progress: ~
+
+inea:
+  suites:
+    default:
+      contexts: *site-contexts
+      filters: { tags: "@site-inea" }
+  extensions:
+    Behat\MinkExtension:
+      goutte: ~
+      browser_name: 'chrome'
+      javascript_session: 'selenium2'
+      selenium2: *slenium-settings
+      base_url: "${web.base_url}/sites/inea/web"
+    Drupal\DrupalExtension:
+      api_driver: "drupal"
+      drupal:
+        drupal_root: "sites/inea/web"
+      region_map: *drupal-region-map
+      selectors: *drupal-selectors
+
+energy:
+  suites:
+    default:
+      contexts: *site-contexts
+      filters: { tags: "@site-energy" }
+  extensions:
+    Behat\MinkExtension:
+      goutte: ~
+      browser_name: 'chrome'
+      javascript_session: 'selenium2'
+      selenium2: *slenium-settings
+      base_url: "${web.base_url}/sites/energy/web"
+    Drupal\DrupalExtension:
+      api_driver: "drupal"
+      drupal:
+        drupal_root: "sites/energy/web"
+      region_map: *drupal-region-map
+      selectors: *drupal-selectors
+
+info:
+  suites:
+    default:
+      contexts: *site-contexts
+      filters: { tags: "@site-info" }
+  extensions:
+    Behat\MinkExtension:
+      goutte: ~
+      browser_name: 'chrome'
+      javascript_session: 'selenium2'
+      selenium2: *slenium-settings
+      base_url: "${web.base_url}/sites/info/web"
+    Drupal\DrupalExtension:
+      api_driver: "drupal"
+      drupal:
+        drupal_root: "sites/info/web"
+      region_map: *drupal-region-map
+      selectors: *drupal-selectors

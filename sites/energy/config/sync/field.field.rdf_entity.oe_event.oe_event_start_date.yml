@@ -1,0 +1,23 @@
+uuid: 2943663d-82aa-499b-a50c-458ce6bc6f77
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.rdf_entity.oe_event_start_date
+    - rdf_entity.rdfentity.oe_event
+_core:
+  default_config_hash: FcmMaJSqzTX42HVeQbeS_KvH7w3pC_8bjGsfvrBZKfY
+id: rdf_entity.oe_event.oe_event_start_date
+field_name: oe_event_start_date
+entity_type: rdf_entity
+bundle: oe_event
+label: 'Start date'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: 1533728188
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

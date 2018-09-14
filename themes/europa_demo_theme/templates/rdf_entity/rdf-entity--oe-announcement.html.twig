@@ -1,0 +1,22 @@
+{#
+/**
+ * @file
+ * Themeing for rdf entities.
+ */
+#}
+<article{{ attributes }}>
+  <div class="ecl-row">
+    <div class="ecl-col-md-12">
+      {{ title_prefix }}
+      {% if not page %}
+        <h2{{ title_attributes }}>
+          <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+        </h2>
+      {% endif %}
+      {{ title_suffix }}
+      {{ content.oe_announcement_body }}
+      <h2>{{ 'Topics'|t }}</h2>
+      {{ content.oe_announcement_subject }}
+    </div>
+  </div>
+</article>

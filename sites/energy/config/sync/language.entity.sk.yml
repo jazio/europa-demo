@@ -1,0 +1,11 @@
+uuid: 2af7463e-64c8-421c-8de8-7d78cf1a35fd
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: MKZx2cOop-huVnPC8arQ2Lb1WqHERthJGWMo0wheaus
+id: sk
+label: Slovak
+direction: ltr
+weight: 14
+locked: false

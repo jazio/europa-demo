@@ -1,0 +1,11 @@
+uuid: 2bfa484d-ca76-4233-87a0-5e795ef88342
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_multilingual_selection_page
+id: config_sync.module.oe_multilingual_selection_page
+snapshotSet: config_sync
+extensionType: module
+extensionName: oe_multilingual_selection_page
+items: {  }

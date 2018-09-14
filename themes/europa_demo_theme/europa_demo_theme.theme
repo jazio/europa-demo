@@ -7,6 +7,8 @@
 
 declare(strict_types = 1);
 
+use Drupal\Core\Datetime\DrupalDateTime;
+
 /**
  * Implements hook_preprocess_menu__site_switcher().
  */
@@ -20,4 +22,125 @@ function europa_demo_theme_preprocess_menu__site_switcher(&$variables) {
       'is_active' => $item['in_active_trail'],
     ];
   }
+}
+
+/**
+ * Implements template_preprocess_rdf_entity() for the Department bundle.
+ */
+function europa_demo_theme_preprocess_rdf_entity__oe_department(&$variables) {
+  /** @var \Drupal\rdf_entity\RdfInterface $entity */
+  $entity = $variables['rdf_entity'];
+
+  $variables['in_page_links'] = [
+    [
+      'href' => '#responsibilities',
+      'label' => t('Responsibilities'),
+    ],
+  ];
+
+  // Responsibilities.
+  $variables['content']['oe_department_tasks_description'] = [
+    '#type' => 'processed_text',
+    '#text' => $entity->get('oe_department_tasks_description')->value,
+    '#format' => $entity->get('oe_department_tasks_description')->format,
+  ];
+}
+
+/**
+ * Implements template_preprocess_rdf_entity() for the Announcement bundle.
+ */
+function europa_demo_theme_preprocess_rdf_entity__oe_announcement(&$variables) {
+  /** @var \Drupal\rdf_entity\RdfInterface $entity */
+  $entity = $variables['rdf_entity'];
+
+  // Body.
+  $variables['content']['oe_announcement_body'] = [
+    '#type' => 'processed_text',
+    '#text' => $entity->get('oe_announcement_body')->value,
+    '#format' => $entity->get('oe_announcement_body')->format,
+  ];
+
+  // Subject.
+  /** @var \Drupal\taxonomy\TermInterface[] $subjects */
+  $subjects = $entity->get('oe_announcement_subject')->referencedEntities();
+  $labels = [];
+  foreach ($subjects as $subject) {
+    $labels[] = $subject->label();
+  }
+
+  $variables['content']['oe_announcement_subject'] = [
+    '#theme' => 'item_list',
+    '#items' => $labels,
+    '#attributes' => ['class' => ['ecl-list', 'ecl-list--inline']],
+  ];
+}
+
+/**
+ * Implements template_preprocess_rdf_entity() for the Event bundle.
+ */
+function europa_demo_theme_preprocess_rdf_entity__oe_event(&$variables) {
+  /** @var \Drupal\rdf_entity\RdfInterface $entity */
+  $entity = $variables['rdf_entity'];
+
+  // Description.
+  $variables['content']['oe_event_description'] = [
+    '#type' => 'processed_text',
+    '#text' => $entity->get('oe_event_description')->value,
+    '#format' => $entity->get('oe_event_description')->format,
+  ];
+
+  // Links.
+  $variables['content']['oe_event_links'] = [];
+  $links = [];
+  if (!$entity->get('oe_event_links')->isEmpty()) {
+    /** @var \Drupal\link\LinkItemInterface $link */
+    $link = $entity->get('oe_event_links')->first();
+    $url = $link->getUrl();
+    $classes = $url->isExternal() ? ['ecl-link', 'ecl-link--external'] : [];
+    $links[] = [
+      '#type' => 'link',
+      '#url' => $url,
+      '#title' => $link->title,
+      '#attributes' => ['class' => $classes],
+    ];
+  }
+
+  if (!$entity->get('oe_event_website')->isEmpty()) {
+    /** @var Drupal\Core\Url $url */
+    $url = $entity->get('oe_event_website')->first()->getUrl();
+    $classes = $url->isExternal() ? ['ecl-link', 'ecl-link--external'] : [];
+    $links[] = [
+      '#type' => 'link',
+      '#url' => $url,
+      '#title' => t('Website'),
+      '#attributes' => ['class' => $classes],
+    ];
+  }
+
+  if ($links) {
+    $variables['content']['oe_event_links'] = [
+      '#theme' => 'item_list',
+      '#items' => $links,
+      '#attributes' => ['class' => ['ecl-list', 'ecl-list--unstyled']],
+    ];
+  }
+
+  // Subject.
+  /** @var \Drupal\taxonomy\TermInterface[] $subjects */
+  $subjects = $entity->get('oe_event_subject')->referencedEntities();
+  $labels = [];
+  foreach ($subjects as $subject) {
+    $labels[] = $subject->label();
+  }
+
+  $variables['content']['oe_event_subject'] = [
+    '#theme' => 'item_list',
+    '#items' => $labels,
+    '#attributes' => ['class' => ['ecl-list', 'ecl-list--inline']],
+  ];
+
+  // Flag for passed events.
+  $now = new DrupalDateTime();
+  $end = DrupalDateTime::createFromTimestamp($entity->get('oe_event_end_date')->value);
+  $variables['passed'] = $now > $end;
 }

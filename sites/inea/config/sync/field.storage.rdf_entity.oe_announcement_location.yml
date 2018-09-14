@@ -1,0 +1,29 @@
+uuid: 4fdea8a9-ec8f-4931-bcc6-06e46032e9c6
+langcode: en
+status: true
+dependencies:
+  module:
+    - rdf_entity
+third_party_settings:
+  rdf_entity:
+    mapping:
+      value:
+        predicate: 'http://schema.org/releasedEvent'
+        format: t_literal
+_core:
+  default_config_hash: vCK3mopMuCyMM-tCNhapJ6XUOmHrLEVJJZO-PhJ0_ok
+id: rdf_entity.oe_announcement_location
+field_name: oe_announcement_location
+entity_type: rdf_entity
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

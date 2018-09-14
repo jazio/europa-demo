@@ -1,0 +1,11 @@
+uuid: c946d450-082c-4a60-98d8-8efca93468f2
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_webtools
+id: config_sync.module.oe_webtools
+snapshotSet: config_sync
+extensionType: module
+extensionName: oe_webtools
+items: {  }

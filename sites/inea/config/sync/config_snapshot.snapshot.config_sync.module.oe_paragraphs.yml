@@ -1,0 +1,2277 @@
+uuid: afbe26ed-1b12-4164-a739-8d058374c7fc
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_paragraphs
+id: config_sync.module.oe_paragraphs
+snapshotSet: config_sync
+extensionType: module
+extensionName: oe_paragraphs
+items:
+  -
+    collection: ''
+    name: core.entity_form_display.paragraph.oe_accordion.default
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.field.paragraph.oe_accordion.field_oe_paragraphs
+          - paragraphs.paragraphs_type.oe_accordion
+        module:
+          - paragraphs
+      id: paragraph.oe_accordion.default
+      targetEntityType: paragraph
+      bundle: oe_accordion
+      mode: default
+      content:
+        field_oe_paragraphs:
+          type: entity_reference_paragraphs
+          weight: 0
+          settings:
+            title: Paragraph
+            title_plural: Paragraphs
+            edit_mode: open
+            add_mode: dropdown
+            form_display_mode: default
+            default_paragraph_type: ''
+          third_party_settings: {  }
+          region: content
+        translation:
+          weight: 10
+          settings: {  }
+          third_party_settings: {  }
+          region: content
+      hidden:
+        created: true
+        status: true
+        uid: true
+  -
+    collection: ''
+    name: core.entity_form_display.paragraph.oe_accordion_item.default
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.field.paragraph.oe_accordion_item.field_oe_icon
+          - field.field.paragraph.oe_accordion_item.field_oe_text
+          - field.field.paragraph.oe_accordion_item.field_oe_text_long
+          - paragraphs.paragraphs_type.oe_accordion_item
+        module:
+          - text
+      id: paragraph.oe_accordion_item.default
+      targetEntityType: paragraph
+      bundle: oe_accordion_item
+      mode: default
+      content:
+        field_oe_icon:
+          weight: 1
+          settings: {  }
+          third_party_settings: {  }
+          type: options_select
+          region: content
+        field_oe_text:
+          weight: 2
+          settings:
+            size: 60
+            placeholder: ''
+          third_party_settings: {  }
+          type: string_textfield
+          region: content
+        field_oe_text_long:
+          weight: 3
+          settings:
+            rows: 5
+            placeholder: ''
+          third_party_settings: {  }
+          type: text_textarea
+          region: content
+        translation:
+          weight: 10
+          settings: {  }
+          third_party_settings: {  }
+          region: content
+      hidden:
+        created: true
+        status: true
+        uid: true
+  -
+    collection: ''
+    name: core.entity_form_display.paragraph.oe_content_row.default
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.field.paragraph.oe_content_row.field_oe_content_row_variant
+          - field.field.paragraph.oe_content_row.field_oe_paragraphs
+          - field.field.paragraph.oe_content_row.field_oe_title
+          - paragraphs.paragraphs_type.oe_content_row
+        module:
+          - paragraphs
+      id: paragraph.oe_content_row.default
+      targetEntityType: paragraph
+      bundle: oe_content_row
+      mode: default
+      content:
+        field_oe_content_row_variant:
+          weight: 0
+          settings: {  }
+          third_party_settings: {  }
+          type: options_select
+          region: content
+        field_oe_paragraphs:
+          weight: 2
+          settings:
+            title: Paragraph
+            title_plural: Paragraphs
+            edit_mode: closed
+            add_mode: dropdown
+            form_display_mode: default
+            default_paragraph_type: _none
+          third_party_settings: {  }
+          type: entity_reference_paragraphs
+          region: content
+        field_oe_title:
+          weight: 1
+          settings:
+            size: 60
+            placeholder: ''
+          third_party_settings: {  }
+          type: string_textfield
+          region: content
+      hidden:
+        created: true
+        status: true
+        uid: true
+  -
+    collection: ''
+    name: core.entity_form_display.paragraph.oe_links_block.default
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.field.paragraph.oe_links_block.field_oe_links
+          - field.field.paragraph.oe_links_block.field_oe_text
+          - paragraphs.paragraphs_type.oe_links_block
+        module:
+          - link
+      id: paragraph.oe_links_block.default
+      targetEntityType: paragraph
+      bundle: oe_links_block
+      mode: default
+      content:
+        field_oe_links:
+          weight: 1
+          settings:
+            placeholder_url: ''
+            placeholder_title: ''
+          third_party_settings: {  }
+          type: link_default
+          region: content
+        field_oe_text:
+          weight: 0
+          settings:
+            size: 60
+            placeholder: ''
+          third_party_settings: {  }
+          type: string_textfield
+          region: content
+        translation:
+          weight: 10
+          settings: {  }
+          third_party_settings: {  }
+          region: content
+      hidden:
+        created: true
+        status: true
+        uid: true
+  -
+    collection: ''
+    name: core.entity_form_display.paragraph.oe_list_item.default
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.field.paragraph.oe_list_item.field_oe_date
+          - field.field.paragraph.oe_list_item.field_oe_image
+          - field.field.paragraph.oe_list_item.field_oe_link
+          - field.field.paragraph.oe_list_item.field_oe_list_item_variant
+          - field.field.paragraph.oe_list_item.field_oe_meta
+          - field.field.paragraph.oe_list_item.field_oe_text_long
+          - field.field.paragraph.oe_list_item.field_oe_title
+          - image.style.thumbnail
+          - paragraphs.paragraphs_type.oe_list_item
+        module:
+          - allowed_formats
+          - datetime
+          - image
+          - link
+          - text
+      id: paragraph.oe_list_item.default
+      targetEntityType: paragraph
+      bundle: oe_list_item
+      mode: default
+      content:
+        field_oe_date:
+          weight: 5
+          settings:
+            date_order: DMY
+            time_type: none
+            increment: 15
+          third_party_settings: {  }
+          type: datetime_datelist
+          region: content
+        field_oe_image:
+          weight: 4
+          settings:
+            progress_indicator: throbber
+            preview_image_style: thumbnail
+          third_party_settings: {  }
+          type: image_image
+          region: content
+        field_oe_link:
+          weight: 1
+          settings:
+            placeholder_url: ''
+            placeholder_title: ''
+          third_party_settings: {  }
+          type: link_default
+          region: content
+        field_oe_list_item_variant:
+          weight: 0
+          settings: {  }
+          third_party_settings: {  }
+          type: options_select
+          region: content
+        field_oe_meta:
+          weight: 7
+          settings:
+            size: 60
+            placeholder: ''
+          third_party_settings: {  }
+          type: string_textfield
+          region: content
+        field_oe_text_long:
+          weight: 3
+          settings:
+            rows: 3
+            placeholder: ''
+          third_party_settings:
+            allowed_formats:
+              hide_help: '1'
+              hide_guidelines: '1'
+          type: text_textarea
+          region: content
+        field_oe_title:
+          weight: 2
+          settings:
+            size: 60
+            placeholder: ''
+          third_party_settings: {  }
+          type: string_textfield
+          region: content
+        translation:
+          weight: 6
+          region: content
+          settings: {  }
+          third_party_settings: {  }
+      hidden:
+        created: true
+        status: true
+        uid: true
+  -
+    collection: ''
+    name: core.entity_form_display.paragraph.oe_list_item_block.default
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.field.paragraph.oe_list_item_block.field_oe_link
+          - field.field.paragraph.oe_list_item_block.field_oe_list_item_block_variant
+          - field.field.paragraph.oe_list_item_block.field_oe_paragraphs
+          - field.field.paragraph.oe_list_item_block.field_oe_title
+          - paragraphs.paragraphs_type.oe_list_item_block
+        module:
+          - link
+          - paragraphs
+      id: paragraph.oe_list_item_block.default
+      targetEntityType: paragraph
+      bundle: oe_list_item_block
+      mode: default
+      content:
+        field_oe_link:
+          weight: 3
+          settings:
+            placeholder_url: ''
+            placeholder_title: ''
+          third_party_settings: {  }
+          type: link_default
+          region: content
+        field_oe_list_item_block_variant:
+          weight: 0
+          settings: {  }
+          third_party_settings: {  }
+          type: options_select
+          region: content
+        field_oe_paragraphs:
+          weight: 2
+          settings:
+            title: Paragraph
+            title_plural: Paragraphs
+            edit_mode: closed
+            add_mode: dropdown
+            form_display_mode: default
+            default_paragraph_type: oe_list_item
+          third_party_settings: {  }
+          type: entity_reference_paragraphs
+          region: content
+        field_oe_title:
+          weight: 1
+          settings:
+            size: 60
+            placeholder: ''
+          third_party_settings: {  }
+          type: string_textfield
+          region: content
+        translation:
+          weight: 10
+          settings: {  }
+          third_party_settings: {  }
+          region: content
+      hidden:
+        created: true
+        status: true
+        uid: true
+  -
+    collection: ''
+    name: core.entity_form_display.paragraph.oe_quote.default
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.field.paragraph.oe_quote.field_oe_text
+          - field.field.paragraph.oe_quote.field_oe_text_long
+          - paragraphs.paragraphs_type.oe_quote
+        module:
+          - text
+      id: paragraph.oe_quote.default
+      targetEntityType: paragraph
+      bundle: oe_quote
+      mode: default
+      content:
+        field_oe_text:
+          weight: 1
+          settings:
+            size: 60
+            placeholder: ''
+          third_party_settings: {  }
+          type: string_textfield
+          region: content
+        field_oe_text_long:
+          weight: 0
+          settings:
+            rows: 5
+            placeholder: ''
+          third_party_settings: {  }
+          type: text_textarea
+          region: content
+        translation:
+          weight: 10
+          settings: {  }
+          third_party_settings: {  }
+          region: content
+      hidden:
+        created: true
+        status: true
+        uid: true
+  -
+    collection: ''
+    name: core.entity_form_display.paragraph.oe_rich_text.default
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.field.paragraph.oe_rich_text.field_oe_text_long
+          - field.field.paragraph.oe_rich_text.field_oe_title
+          - paragraphs.paragraphs_type.oe_rich_text
+        module:
+          - text
+      id: paragraph.oe_rich_text.default
+      targetEntityType: paragraph
+      bundle: oe_rich_text
+      mode: default
+      content:
+        field_oe_text_long:
+          weight: 1
+          settings:
+            rows: 5
+            placeholder: ''
+          third_party_settings: {  }
+          type: text_textarea
+          region: content
+        field_oe_title:
+          weight: 0
+          settings:
+            size: 60
+            placeholder: ''
+          third_party_settings: {  }
+          type: string_textfield
+          region: content
+        translation:
+          weight: 2
+          region: content
+          settings: {  }
+          third_party_settings: {  }
+      hidden:
+        created: true
+        status: true
+        uid: true
+  -
+    collection: ''
+    name: core.entity_view_display.paragraph.oe_accordion.default
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.field.paragraph.oe_accordion.field_oe_paragraphs
+          - paragraphs.paragraphs_type.oe_accordion
+        module:
+          - entity_reference_revisions
+      id: paragraph.oe_accordion.default
+      targetEntityType: paragraph
+      bundle: oe_accordion
+      mode: default
+      content:
+        field_oe_paragraphs:
+          type: entity_reference_revisions_entity_view
+          weight: 0
+          label: above
+          settings:
+            view_mode: default
+            link: ''
+          third_party_settings: {  }
+          region: content
+      hidden: {  }
+  -
+    collection: ''
+    name: core.entity_view_display.paragraph.oe_accordion_item.default
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.field.paragraph.oe_accordion_item.field_oe_icon
+          - field.field.paragraph.oe_accordion_item.field_oe_text
+          - field.field.paragraph.oe_accordion_item.field_oe_text_long
+          - paragraphs.paragraphs_type.oe_accordion_item
+        module:
+          - options
+          - text
+      id: paragraph.oe_accordion_item.default
+      targetEntityType: paragraph
+      bundle: oe_accordion_item
+      mode: default
+      content:
+        field_oe_icon:
+          weight: 1
+          label: above
+          settings: {  }
+          third_party_settings: {  }
+          type: list_default
+          region: content
+        field_oe_text:
+          weight: 2
+          label: above
+          settings:
+            link_to_entity: false
+          third_party_settings: {  }
+          type: string
+          region: content
+        field_oe_text_long:
+          weight: 3
+          label: above
+          settings: {  }
+          third_party_settings: {  }
+          type: text_default
+          region: content
+      hidden: {  }
+  -
+    collection: ''
+    name: core.entity_view_display.paragraph.oe_content_row.default
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.field.paragraph.oe_content_row.field_oe_content_row_variant
+          - field.field.paragraph.oe_content_row.field_oe_paragraphs
+          - field.field.paragraph.oe_content_row.field_oe_title
+          - paragraphs.paragraphs_type.oe_content_row
+        module:
+          - entity_reference_revisions
+          - options
+      id: paragraph.oe_content_row.default
+      targetEntityType: paragraph
+      bundle: oe_content_row
+      mode: default
+      content:
+        field_oe_content_row_variant:
+          weight: 0
+          label: above
+          settings: {  }
+          third_party_settings: {  }
+          type: list_default
+          region: content
+        field_oe_paragraphs:
+          weight: 2
+          label: above
+          settings:
+            view_mode: default
+            link: ''
+          third_party_settings: {  }
+          type: entity_reference_revisions_entity_view
+          region: content
+        field_oe_title:
+          weight: 1
+          label: above
+          settings:
+            link_to_entity: false
+          third_party_settings: {  }
+          type: string
+          region: content
+      hidden: {  }
+  -
+    collection: ''
+    name: core.entity_view_display.paragraph.oe_links_block.default
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.field.paragraph.oe_links_block.field_oe_links
+          - field.field.paragraph.oe_links_block.field_oe_text
+          - paragraphs.paragraphs_type.oe_links_block
+        module:
+          - link
+      id: paragraph.oe_links_block.default
+      targetEntityType: paragraph
+      bundle: oe_links_block
+      mode: default
+      content:
+        field_oe_links:
+          weight: 1
+          label: above
+          settings:
+            trim_length: 80
+            url_only: false
+            url_plain: false
+            rel: ''
+            target: ''
+          third_party_settings: {  }
+          type: link
+          region: content
+        field_oe_text:
+          weight: 0
+          label: above
+          settings:
+            link_to_entity: false
+          third_party_settings: {  }
+          type: string
+          region: content
+      hidden: {  }
+  -
+    collection: ''
+    name: core.entity_view_display.paragraph.oe_list_item.default
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.field.paragraph.oe_list_item.field_oe_date
+          - field.field.paragraph.oe_list_item.field_oe_image
+          - field.field.paragraph.oe_list_item.field_oe_link
+          - field.field.paragraph.oe_list_item.field_oe_list_item_variant
+          - field.field.paragraph.oe_list_item.field_oe_meta
+          - field.field.paragraph.oe_list_item.field_oe_text_long
+          - field.field.paragraph.oe_list_item.field_oe_title
+          - paragraphs.paragraphs_type.oe_list_item
+        module:
+          - datetime
+          - image
+          - link
+          - options
+          - text
+      id: paragraph.oe_list_item.default
+      targetEntityType: paragraph
+      bundle: oe_list_item
+      mode: default
+      content:
+        field_oe_date:
+          weight: 5
+          label: above
+          settings:
+            format_type: medium
+            timezone_override: ''
+          third_party_settings: {  }
+          type: datetime_default
+          region: content
+        field_oe_image:
+          weight: 4
+          label: above
+          settings:
+            image_style: ''
+            image_link: ''
+          third_party_settings: {  }
+          type: image
+          region: content
+        field_oe_link:
+          weight: 1
+          label: above
+          settings:
+            trim_length: 80
+            url_only: false
+            url_plain: false
+            rel: ''
+            target: ''
+          third_party_settings: {  }
+          type: link
+          region: content
+        field_oe_list_item_variant:
+          weight: 2
+          label: above
+          settings: {  }
+          third_party_settings: {  }
+          type: list_default
+          region: content
+        field_oe_meta:
+          weight: 6
+          label: above
+          settings:
+            link_to_entity: false
+          third_party_settings: {  }
+          type: string
+          region: content
+        field_oe_text_long:
+          weight: 3
+          label: above
+          settings: {  }
+          third_party_settings: {  }
+          type: text_default
+          region: content
+        field_oe_title:
+          weight: 0
+          label: above
+          settings:
+            link_to_entity: false
+          third_party_settings: {  }
+          type: string
+          region: content
+      hidden: {  }
+  -
+    collection: ''
+    name: core.entity_view_display.paragraph.oe_list_item_block.default
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.field.paragraph.oe_list_item_block.field_oe_link
+          - field.field.paragraph.oe_list_item_block.field_oe_list_item_block_variant
+          - field.field.paragraph.oe_list_item_block.field_oe_paragraphs
+          - field.field.paragraph.oe_list_item_block.field_oe_title
+          - paragraphs.paragraphs_type.oe_list_item_block
+        module:
+          - entity_reference_revisions
+          - link
+          - options
+      id: paragraph.oe_list_item_block.default
+      targetEntityType: paragraph
+      bundle: oe_list_item_block
+      mode: default
+      content:
+        field_oe_link:
+          weight: 3
+          label: above
+          settings:
+            trim_length: 80
+            url_only: false
+            url_plain: false
+            rel: ''
+            target: ''
+          third_party_settings: {  }
+          type: link
+          region: content
+        field_oe_list_item_block_variant:
+          weight: 0
+          label: above
+          settings: {  }
+          third_party_settings: {  }
+          type: list_default
+          region: content
+        field_oe_paragraphs:
+          weight: 2
+          label: above
+          settings:
+            view_mode: default
+            link: ''
+          third_party_settings: {  }
+          type: entity_reference_revisions_entity_view
+          region: content
+        field_oe_title:
+          weight: 1
+          label: above
+          settings:
+            link_to_entity: false
+          third_party_settings: {  }
+          type: string
+          region: content
+      hidden: {  }
+  -
+    collection: ''
+    name: core.entity_view_display.paragraph.oe_quote.default
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.field.paragraph.oe_quote.field_oe_text
+          - field.field.paragraph.oe_quote.field_oe_text_long
+          - paragraphs.paragraphs_type.oe_quote
+        module:
+          - text
+      id: paragraph.oe_quote.default
+      targetEntityType: paragraph
+      bundle: oe_quote
+      mode: default
+      content:
+        field_oe_text:
+          weight: 1
+          label: above
+          settings:
+            link_to_entity: false
+          third_party_settings: {  }
+          type: string
+          region: content
+        field_oe_text_long:
+          weight: 0
+          label: above
+          settings: {  }
+          third_party_settings: {  }
+          type: text_default
+          region: content
+      hidden: {  }
+  -
+    collection: ''
+    name: core.entity_view_display.paragraph.oe_rich_text.default
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.field.paragraph.oe_rich_text.field_oe_text_long
+          - field.field.paragraph.oe_rich_text.field_oe_title
+          - paragraphs.paragraphs_type.oe_rich_text
+        module:
+          - text
+      id: paragraph.oe_rich_text.default
+      targetEntityType: paragraph
+      bundle: oe_rich_text
+      mode: default
+      content:
+        field_oe_text_long:
+          weight: 1
+          label: above
+          settings: {  }
+          third_party_settings: {  }
+          type: text_default
+          region: content
+        field_oe_title:
+          weight: 0
+          label: above
+          settings:
+            link_to_entity: false
+          third_party_settings: {  }
+          type: string
+          region: content
+      hidden: {  }
+  -
+    collection: ''
+    name: field.field.paragraph.oe_accordion.field_oe_paragraphs
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.paragraph.field_oe_paragraphs
+          - paragraphs.paragraphs_type.oe_accordion
+          - paragraphs.paragraphs_type.oe_accordion_item
+        module:
+          - entity_reference_revisions
+      id: paragraph.oe_accordion.field_oe_paragraphs
+      field_name: field_oe_paragraphs
+      entity_type: paragraph
+      bundle: oe_accordion
+      label: Paragraphs
+      description: ''
+      required: true
+      translatable: false
+      default_value: {  }
+      default_value_callback: ''
+      settings:
+        handler: 'default:paragraph'
+        handler_settings:
+          negate: 0
+          target_bundles:
+            oe_accordion_item: oe_accordion_item
+          target_bundles_drag_drop:
+            oe_accordion:
+              weight: 5
+              enabled: false
+            oe_accordion_item:
+              enabled: true
+              weight: 6
+            oe_links_block:
+              weight: 7
+              enabled: false
+            oe_rich_text:
+              weight: 8
+              enabled: false
+      field_type: entity_reference_revisions
+  -
+    collection: ''
+    name: field.field.paragraph.oe_accordion_item.field_oe_icon
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.paragraph.field_oe_icon
+          - paragraphs.paragraphs_type.oe_accordion_item
+        module:
+          - options
+      id: paragraph.oe_accordion_item.field_oe_icon
+      field_name: field_oe_icon
+      entity_type: paragraph
+      bundle: oe_accordion_item
+      label: Icon
+      description: 'The icons accordingly to the ECL.'
+      required: true
+      translatable: false
+      default_value:
+        -
+          value: arrow-down
+      default_value_callback: ''
+      settings: {  }
+      field_type: list_string
+  -
+    collection: ''
+    name: field.field.paragraph.oe_accordion_item.field_oe_text
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.paragraph.field_oe_text
+          - paragraphs.paragraphs_type.oe_accordion_item
+      id: paragraph.oe_accordion_item.field_oe_text
+      field_name: field_oe_text
+      entity_type: paragraph
+      bundle: oe_accordion_item
+      label: Title
+      description: 'Accordion title.'
+      required: true
+      translatable: true
+      default_value: {  }
+      default_value_callback: ''
+      settings: {  }
+      field_type: string
+  -
+    collection: ''
+    name: field.field.paragraph.oe_accordion_item.field_oe_text_long
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.paragraph.field_oe_text_long
+          - paragraphs.paragraphs_type.oe_accordion_item
+        module:
+          - text
+      id: paragraph.oe_accordion_item.field_oe_text_long
+      field_name: field_oe_text_long
+      entity_type: paragraph
+      bundle: oe_accordion_item
+      label: Body
+      description: ''
+      required: true
+      translatable: true
+      default_value: {  }
+      default_value_callback: ''
+      settings: {  }
+      field_type: text_long
+  -
+    collection: ''
+    name: field.field.paragraph.oe_content_row.field_oe_content_row_variant
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.paragraph.field_oe_content_row_variant
+          - paragraphs.paragraphs_type.oe_content_row
+        module:
+          - options
+      id: paragraph.oe_content_row.field_oe_content_row_variant
+      field_name: field_oe_content_row_variant
+      entity_type: paragraph
+      bundle: oe_content_row
+      label: Variant
+      description: 'Choose the type of the row. Select "inpage" to show an inpage navigation to the left of the content.'
+      required: true
+      translatable: true
+      default_value: {  }
+      default_value_callback: ''
+      settings: {  }
+      field_type: list_string
+  -
+    collection: ''
+    name: field.field.paragraph.oe_content_row.field_oe_paragraphs
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.paragraph.field_oe_paragraphs
+          - paragraphs.paragraphs_type.oe_accordion
+          - paragraphs.paragraphs_type.oe_content_row
+          - paragraphs.paragraphs_type.oe_links_block
+          - paragraphs.paragraphs_type.oe_list_item
+          - paragraphs.paragraphs_type.oe_list_item_block
+          - paragraphs.paragraphs_type.oe_quote
+          - paragraphs.paragraphs_type.oe_rich_text
+        module:
+          - entity_reference_revisions
+      id: paragraph.oe_content_row.field_oe_paragraphs
+      field_name: field_oe_paragraphs
+      entity_type: paragraph
+      bundle: oe_content_row
+      label: Paragraphs
+      description: ''
+      required: false
+      translatable: false
+      default_value: {  }
+      default_value_callback: ''
+      settings:
+        handler: 'default:paragraph'
+        handler_settings:
+          negate: 0
+          target_bundles:
+            oe_accordion: oe_accordion
+            oe_links_block: oe_links_block
+            oe_list_item: oe_list_item
+            oe_list_item_block: oe_list_item_block
+            oe_quote: oe_quote
+            oe_rich_text: oe_rich_text
+          target_bundles_drag_drop:
+            oe_accordion:
+              enabled: true
+              weight: 9
+            oe_accordion_item:
+              weight: 10
+              enabled: false
+            oe_content_row:
+              weight: 11
+              enabled: false
+            oe_links_block:
+              enabled: true
+              weight: 12
+            oe_list_item:
+              enabled: true
+              weight: 13
+            oe_list_item_block:
+              enabled: true
+              weight: 14
+            oe_quote:
+              enabled: true
+              weight: 15
+            oe_rich_text:
+              enabled: true
+              weight: 16
+      field_type: entity_reference_revisions
+  -
+    collection: ''
+    name: field.field.paragraph.oe_content_row.field_oe_title
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.paragraph.field_oe_title
+          - paragraphs.paragraphs_type.oe_content_row
+      id: paragraph.oe_content_row.field_oe_title
+      field_name: field_oe_title
+      entity_type: paragraph
+      bundle: oe_content_row
+      label: 'Navigation title'
+      description: 'The title to show for the inpage navigation. Used only for the inpage navigation variant.'
+      required: false
+      translatable: true
+      default_value: {  }
+      default_value_callback: ''
+      settings: {  }
+      field_type: string
+  -
+    collection: ''
+    name: field.field.paragraph.oe_links_block.field_oe_links
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.paragraph.field_oe_links
+          - paragraphs.paragraphs_type.oe_links_block
+        module:
+          - link
+      id: paragraph.oe_links_block.field_oe_links
+      field_name: field_oe_links
+      entity_type: paragraph
+      bundle: oe_links_block
+      label: Links
+      description: ''
+      required: false
+      translatable: true
+      default_value: {  }
+      default_value_callback: ''
+      settings:
+        link_type: 17
+        title: 2
+      field_type: link
+  -
+    collection: ''
+    name: field.field.paragraph.oe_links_block.field_oe_text
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.paragraph.field_oe_text
+          - paragraphs.paragraphs_type.oe_links_block
+      id: paragraph.oe_links_block.field_oe_text
+      field_name: field_oe_text
+      entity_type: paragraph
+      bundle: oe_links_block
+      label: Title
+      description: ''
+      required: false
+      translatable: true
+      default_value: {  }
+      default_value_callback: ''
+      settings: {  }
+      field_type: string
+  -
+    collection: ''
+    name: field.field.paragraph.oe_list_item.field_oe_date
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.paragraph.field_oe_date
+          - paragraphs.paragraphs_type.oe_list_item
+        module:
+          - datetime
+      id: paragraph.oe_list_item.field_oe_date
+      field_name: field_oe_date
+      entity_type: paragraph
+      bundle: oe_list_item
+      label: Date
+      description: 'Date information. Used only on date variant.'
+      required: false
+      translatable: true
+      default_value: {  }
+      default_value_callback: ''
+      settings: {  }
+      field_type: datetime
+  -
+    collection: ''
+    name: field.field.paragraph.oe_list_item.field_oe_image
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.paragraph.field_oe_image
+          - paragraphs.paragraphs_type.oe_list_item
+        module:
+          - content_translation
+          - image
+      third_party_settings:
+        content_translation:
+          translation_sync:
+            file: file
+            alt: '0'
+            title: '0'
+      id: paragraph.oe_list_item.field_oe_image
+      field_name: field_oe_image
+      entity_type: paragraph
+      bundle: oe_list_item
+      label: Image
+      description: 'List item image. Used only on thumbnail variants.'
+      required: false
+      translatable: true
+      default_value: {  }
+      default_value_callback: ''
+      settings:
+        file_directory: '[date:custom:Y]-[date:custom:m]'
+        file_extensions: 'png gif jpg jpeg'
+        max_filesize: ''
+        max_resolution: ''
+        min_resolution: ''
+        alt_field: true
+        alt_field_required: false
+        title_field: false
+        title_field_required: false
+        default_image:
+          uuid: ''
+          alt: ''
+          title: ''
+          width: null
+          height: null
+        handler: 'default:file'
+        handler_settings: {  }
+      field_type: image
+  -
+    collection: ''
+    name: field.field.paragraph.oe_list_item.field_oe_link
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.paragraph.field_oe_link
+          - paragraphs.paragraphs_type.oe_list_item
+        module:
+          - link
+      id: paragraph.oe_list_item.field_oe_link
+      field_name: field_oe_link
+      entity_type: paragraph
+      bundle: oe_list_item
+      label: Link
+      description: 'Internal or external link the list item links to. Used on all variants.'
+      required: true
+      translatable: true
+      default_value: {  }
+      default_value_callback: ''
+      settings:
+        link_type: 17
+        title: 0
+      field_type: link
+  -
+    collection: ''
+    name: field.field.paragraph.oe_list_item.field_oe_list_item_variant
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.paragraph.field_oe_list_item_variant
+          - paragraphs.paragraphs_type.oe_list_item
+        module:
+          - options
+      id: paragraph.oe_list_item.field_oe_list_item_variant
+      field_name: field_oe_list_item_variant
+      entity_type: paragraph
+      bundle: oe_list_item
+      label: Variant
+      description: 'Choose how the list item should be displayed.'
+      required: true
+      translatable: true
+      default_value: {  }
+      default_value_callback: ''
+      settings: {  }
+      field_type: list_string
+  -
+    collection: ''
+    name: field.field.paragraph.oe_list_item.field_oe_meta
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.paragraph.field_oe_meta
+          - paragraphs.paragraphs_type.oe_list_item
+      id: paragraph.oe_list_item.field_oe_meta
+      field_name: field_oe_meta
+      entity_type: paragraph
+      bundle: oe_list_item
+      label: Meta
+      description: 'Additional meta information to show above the title.'
+      required: false
+      translatable: true
+      default_value: {  }
+      default_value_callback: ''
+      settings: {  }
+      field_type: string
+  -
+    collection: ''
+    name: field.field.paragraph.oe_list_item.field_oe_text_long
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.paragraph.field_oe_text_long
+          - paragraphs.paragraphs_type.oe_list_item
+        module:
+          - allowed_formats
+          - text
+      third_party_settings:
+        allowed_formats:
+          plain_text: plain_text
+          basic_html: '0'
+          restricted_html: '0'
+          full_html: '0'
+      id: paragraph.oe_list_item.field_oe_text_long
+      field_name: field_oe_text_long
+      entity_type: paragraph
+      bundle: oe_list_item
+      label: Description
+      description: 'List item description, displayed below the title. Used only on the following variants: default, date, thumbnail primary and thumbnail secondary.'
+      required: false
+      translatable: true
+      default_value: {  }
+      default_value_callback: ''
+      settings: {  }
+      field_type: text_long
+  -
+    collection: ''
+    name: field.field.paragraph.oe_list_item.field_oe_title
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.paragraph.field_oe_title
+          - paragraphs.paragraphs_type.oe_list_item
+      id: paragraph.oe_list_item.field_oe_title
+      field_name: field_oe_title
+      entity_type: paragraph
+      bundle: oe_list_item
+      label: Title
+      description: 'Link item title. Used on all variants.'
+      required: true
+      translatable: true
+      default_value: {  }
+      default_value_callback: ''
+      settings: {  }
+      field_type: string
+  -
+    collection: ''
+    name: field.field.paragraph.oe_list_item_block.field_oe_link
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.paragraph.field_oe_link
+          - paragraphs.paragraphs_type.oe_list_item_block
+        module:
+          - link
+      id: paragraph.oe_list_item_block.field_oe_link
+      field_name: field_oe_link
+      entity_type: paragraph
+      bundle: oe_list_item_block
+      label: 'Call to action'
+      description: 'Internal or external link to use for a call to action button. Used on all variants.'
+      required: false
+      translatable: true
+      default_value: {  }
+      default_value_callback: ''
+      settings:
+        link_type: 17
+        title: 2
+      field_type: link
+  -
+    collection: ''
+    name: field.field.paragraph.oe_list_item_block.field_oe_list_item_block_variant
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.paragraph.field_oe_list_item_block_variant
+          - paragraphs.paragraphs_type.oe_list_item_block
+        module:
+          - options
+      id: paragraph.oe_list_item_block.field_oe_list_item_block_variant
+      field_name: field_oe_list_item_block_variant
+      entity_type: paragraph
+      bundle: oe_list_item_block
+      label: Variant
+      description: 'Choose in how many columns the list items should be organised.'
+      required: true
+      translatable: true
+      default_value: {  }
+      default_value_callback: ''
+      settings: {  }
+      field_type: list_string
+  -
+    collection: ''
+    name: field.field.paragraph.oe_list_item_block.field_oe_paragraphs
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.paragraph.field_oe_paragraphs
+          - paragraphs.paragraphs_type.oe_list_item
+          - paragraphs.paragraphs_type.oe_list_item_block
+        module:
+          - entity_reference_revisions
+      id: paragraph.oe_list_item_block.field_oe_paragraphs
+      field_name: field_oe_paragraphs
+      entity_type: paragraph
+      bundle: oe_list_item_block
+      label: Items
+      description: ''
+      required: true
+      translatable: false
+      default_value: {  }
+      default_value_callback: ''
+      settings:
+        handler: 'default:paragraph'
+        handler_settings:
+          negate: 0
+          target_bundles:
+            oe_list_item: oe_list_item
+          target_bundles_drag_drop:
+            oe_accordion:
+              weight: 8
+              enabled: false
+            oe_accordion_item:
+              weight: 9
+              enabled: false
+            oe_links_block:
+              weight: 10
+              enabled: false
+            oe_list_item:
+              enabled: true
+              weight: 11
+            oe_list_item_block:
+              weight: 12
+              enabled: false
+            oe_quote:
+              weight: 13
+              enabled: false
+            oe_rich_text:
+              weight: 14
+              enabled: false
+      field_type: entity_reference_revisions
+  -
+    collection: ''
+    name: field.field.paragraph.oe_list_item_block.field_oe_title
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.paragraph.field_oe_title
+          - paragraphs.paragraphs_type.oe_list_item_block
+      id: paragraph.oe_list_item_block.field_oe_title
+      field_name: field_oe_title
+      entity_type: paragraph
+      bundle: oe_list_item_block
+      label: Title
+      description: 'Block title. Optional. Used on all variants.'
+      required: false
+      translatable: true
+      default_value: {  }
+      default_value_callback: ''
+      settings: {  }
+      field_type: string
+  -
+    collection: ''
+    name: field.field.paragraph.oe_quote.field_oe_text
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.paragraph.field_oe_text
+          - paragraphs.paragraphs_type.oe_quote
+      id: paragraph.oe_quote.field_oe_text
+      field_name: field_oe_text
+      entity_type: paragraph
+      bundle: oe_quote
+      label: Attribution
+      description: 'Attribution: Acknowledgement of the use of someone else''s information, data, or other work (The quote author).'
+      required: true
+      translatable: true
+      default_value: {  }
+      default_value_callback: ''
+      settings: {  }
+      field_type: string
+  -
+    collection: ''
+    name: field.field.paragraph.oe_quote.field_oe_text_long
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.paragraph.field_oe_text_long
+          - paragraphs.paragraphs_type.oe_quote
+        module:
+          - allowed_formats
+          - text
+      third_party_settings:
+        allowed_formats:
+          plain_text: plain_text
+          basic_html: '0'
+          restricted_html: '0'
+          full_html: '0'
+      id: paragraph.oe_quote.field_oe_text_long
+      field_name: field_oe_text_long
+      entity_type: paragraph
+      bundle: oe_quote
+      label: 'Quote text'
+      description: 'The information/data goes here.'
+      required: true
+      translatable: true
+      default_value: {  }
+      default_value_callback: ''
+      settings: {  }
+      field_type: text_long
+  -
+    collection: ''
+    name: field.field.paragraph.oe_rich_text.field_oe_text_long
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.paragraph.field_oe_text_long
+          - paragraphs.paragraphs_type.oe_rich_text
+        module:
+          - text
+      id: paragraph.oe_rich_text.field_oe_text_long
+      field_name: field_oe_text_long
+      entity_type: paragraph
+      bundle: oe_rich_text
+      label: Text
+      description: ''
+      required: true
+      translatable: true
+      default_value: {  }
+      default_value_callback: ''
+      settings: {  }
+      field_type: text_long
+  -
+    collection: ''
+    name: field.field.paragraph.oe_rich_text.field_oe_title
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - field.storage.paragraph.field_oe_title
+          - paragraphs.paragraphs_type.oe_rich_text
+      id: paragraph.oe_rich_text.field_oe_title
+      field_name: field_oe_title
+      entity_type: paragraph
+      bundle: oe_rich_text
+      label: Title
+      description: 'An optional title to show above the text.'
+      required: false
+      translatable: true
+      default_value: {  }
+      default_value_callback: ''
+      settings: {  }
+      field_type: string
+  -
+    collection: ''
+    name: field.storage.paragraph.field_oe_content_row_variant
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - options
+          - paragraphs
+      id: paragraph.field_oe_content_row_variant
+      field_name: field_oe_content_row_variant
+      entity_type: paragraph
+      type: list_string
+      settings:
+        allowed_values:
+          -
+            value: standard
+            label: Standard
+          -
+            value: inpage
+            label: 'With inpage navigation'
+        allowed_values_function: ''
+      module: options
+      locked: false
+      cardinality: 1
+      translatable: true
+      indexes: {  }
+      persist_with_no_fields: false
+      custom_storage: false
+  -
+    collection: ''
+    name: field.storage.paragraph.field_oe_date
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - datetime
+          - paragraphs
+      id: paragraph.field_oe_date
+      field_name: field_oe_date
+      entity_type: paragraph
+      type: datetime
+      settings:
+        datetime_type: date
+      module: datetime
+      locked: false
+      cardinality: 1
+      translatable: true
+      indexes: {  }
+      persist_with_no_fields: false
+      custom_storage: false
+  -
+    collection: ''
+    name: field.storage.paragraph.field_oe_icon
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - options
+          - paragraphs
+      id: paragraph.field_oe_icon
+      field_name: field_oe_icon
+      entity_type: paragraph
+      type: list_string
+      settings:
+        allowed_values:
+          -
+            value: arrow-down
+            label: 'Arrow down'
+          -
+            value: external
+            label: External
+          -
+            value: arrow-up
+            label: 'Arrow up'
+          -
+            value: audio
+            label: Audio
+          -
+            value: book
+            label: Book
+          -
+            value: breadcrumb
+            label: Breadcrumb
+          -
+            value: brochure
+            label: Brochure
+          -
+            value: budget
+            label: Budget
+          -
+            value: calendar
+            label: Calendar
+          -
+            value: camera
+            label: Camera
+          -
+            value: check
+            label: Check
+          -
+            value: close
+            label: Close
+          -
+            value: close-dark
+            label: 'Close dark'
+          -
+            value: copy
+            label: Copy
+          -
+            value: data
+            label: Data
+          -
+            value: digital
+            label: Digital
+          -
+            value: down
+            label: Down
+          -
+            value: download
+            label: Download
+          -
+            value: edit
+            label: Edit
+          -
+            value: energy
+            label: Energy
+          -
+            value: error
+            label: Error
+          -
+            value: euro
+            label: Euro
+          -
+            value: facebook
+            label: Facebook
+          -
+            value: faq
+            label: Faq
+          -
+            value: feedback
+            label: Feedback
+          -
+            value: file
+            label: File
+          -
+            value: generic-lang
+            label: 'Generic language'
+          -
+            value: global
+            label: Global
+          -
+            value: googleplus
+            label: 'Google Plus'
+          -
+            value: growth
+            label: Growth
+          -
+            value: image
+            label: Image
+          -
+            value: in
+            label: In
+          -
+            value: info
+            label: Info
+          -
+            value: infographic
+            label: Infographic
+          -
+            value: language
+            label: Language
+          -
+            value: left
+            label: Left
+          -
+            value: linkedin
+            label: LinkedIn
+          -
+            value: livestreaming
+            label: 'Live streaming'
+          -
+            value: location
+            label: Location
+          -
+            value: multiple-files
+            label: 'Multiple files'
+          -
+            value: organigram
+            label: Organigram
+          -
+            value: package
+            label: Package
+          -
+            value: presentation
+            label: Presentation
+          -
+            value: regulation
+            label: Regulation
+          -
+            value: right
+            label: Right
+          -
+            value: rss
+            label: RSS
+          -
+            value: search
+            label: Search
+          -
+            value: share
+            label: Share
+          -
+            value: slides
+            label: Slides
+          -
+            value: spinner
+            label: Spinner
+          -
+            value: spreadsheet
+            label: Spreadsheet
+          -
+            value: success
+            label: Success
+          -
+            value: tag-close
+            label: 'Tag close'
+          -
+            value: twitter
+            label: Twitter
+          -
+            value: up
+            label: Up
+          -
+            value: video
+            label: Video
+          -
+            value: warning
+            label: Warning
+        allowed_values_function: ''
+      module: options
+      locked: false
+      cardinality: 1
+      translatable: true
+      indexes: {  }
+      persist_with_no_fields: false
+      custom_storage: false
+  -
+    collection: ''
+    name: field.storage.paragraph.field_oe_image
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - file
+          - image
+          - paragraphs
+      id: paragraph.field_oe_image
+      field_name: field_oe_image
+      entity_type: paragraph
+      type: image
+      settings:
+        uri_scheme: public
+        default_image:
+          uuid: ''
+          alt: ''
+          title: ''
+          width: null
+          height: null
+        target_type: file
+        display_field: false
+        display_default: false
+      module: image
+      locked: false
+      cardinality: 1
+      translatable: true
+      indexes: {  }
+      persist_with_no_fields: false
+      custom_storage: false
+  -
+    collection: ''
+    name: field.storage.paragraph.field_oe_link
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - link
+          - paragraphs
+      id: paragraph.field_oe_link
+      field_name: field_oe_link
+      entity_type: paragraph
+      type: link
+      settings: {  }
+      module: link
+      locked: false
+      cardinality: 1
+      translatable: true
+      indexes: {  }
+      persist_with_no_fields: false
+      custom_storage: false
+  -
+    collection: ''
+    name: field.storage.paragraph.field_oe_links
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - link
+          - paragraphs
+      id: paragraph.field_oe_links
+      field_name: field_oe_links
+      entity_type: paragraph
+      type: link
+      settings: {  }
+      module: link
+      locked: false
+      cardinality: -1
+      translatable: true
+      indexes: {  }
+      persist_with_no_fields: false
+      custom_storage: false
+  -
+    collection: ''
+    name: field.storage.paragraph.field_oe_list_item_block_variant
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - options
+          - paragraphs
+      id: paragraph.field_oe_list_item_block_variant
+      field_name: field_oe_list_item_block_variant
+      entity_type: paragraph
+      type: list_string
+      settings:
+        allowed_values:
+          -
+            value: one_column
+            label: 'One column'
+          -
+            value: two_columns
+            label: 'Two columns'
+          -
+            value: three_columns
+            label: 'Three columns'
+        allowed_values_function: ''
+      module: options
+      locked: false
+      cardinality: 1
+      translatable: true
+      indexes: {  }
+      persist_with_no_fields: false
+      custom_storage: false
+  -
+    collection: ''
+    name: field.storage.paragraph.field_oe_list_item_variant
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - options
+          - paragraphs
+      id: paragraph.field_oe_list_item_variant
+      field_name: field_oe_list_item_variant
+      entity_type: paragraph
+      type: list_string
+      settings:
+        allowed_values:
+          -
+            value: list_item_default
+            label: Default
+          -
+            value: list_item_date
+            label: Date
+          -
+            value: list_item_highlight
+            label: Highlight
+          -
+            value: list_item_thumbnail_primary
+            label: 'Thumbnail primary'
+          -
+            value: list_item_thumbnail_secondary
+            label: 'Thumbnail secondary'
+        allowed_values_function: ''
+      module: options
+      locked: false
+      cardinality: 1
+      translatable: true
+      indexes: {  }
+      persist_with_no_fields: false
+      custom_storage: false
+  -
+    collection: ''
+    name: field.storage.paragraph.field_oe_meta
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - paragraphs
+      id: paragraph.field_oe_meta
+      field_name: field_oe_meta
+      entity_type: paragraph
+      type: string
+      settings:
+        max_length: 255
+        is_ascii: false
+        case_sensitive: false
+      module: core
+      locked: false
+      cardinality: -1
+      translatable: true
+      indexes: {  }
+      persist_with_no_fields: false
+      custom_storage: false
+  -
+    collection: ''
+    name: field.storage.paragraph.field_oe_paragraphs
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - entity_reference_revisions
+          - paragraphs
+      id: paragraph.field_oe_paragraphs
+      field_name: field_oe_paragraphs
+      entity_type: paragraph
+      type: entity_reference_revisions
+      settings:
+        target_type: paragraph
+      module: entity_reference_revisions
+      locked: false
+      cardinality: -1
+      translatable: true
+      indexes: {  }
+      persist_with_no_fields: false
+      custom_storage: false
+  -
+    collection: ''
+    name: field.storage.paragraph.field_oe_text
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - paragraphs
+      id: paragraph.field_oe_text
+      field_name: field_oe_text
+      entity_type: paragraph
+      type: string
+      settings:
+        max_length: 255
+        is_ascii: false
+        case_sensitive: false
+      module: core
+      locked: false
+      cardinality: 1
+      translatable: true
+      indexes: {  }
+      persist_with_no_fields: false
+      custom_storage: false
+  -
+    collection: ''
+    name: field.storage.paragraph.field_oe_text_long
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - paragraphs
+          - text
+      id: paragraph.field_oe_text_long
+      field_name: field_oe_text_long
+      entity_type: paragraph
+      type: text_long
+      settings: {  }
+      module: text
+      locked: false
+      cardinality: 1
+      translatable: true
+      indexes: {  }
+      persist_with_no_fields: false
+      custom_storage: false
+  -
+    collection: ''
+    name: field.storage.paragraph.field_oe_title
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - paragraphs
+      id: paragraph.field_oe_title
+      field_name: field_oe_title
+      entity_type: paragraph
+      type: string
+      settings:
+        max_length: 255
+        is_ascii: false
+        case_sensitive: false
+      module: core
+      locked: false
+      cardinality: 1
+      translatable: true
+      indexes: {  }
+      persist_with_no_fields: false
+      custom_storage: false
+  -
+    collection: ''
+    name: language.content_settings.paragraph.oe_accordion
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - paragraphs.paragraphs_type.oe_accordion
+        module:
+          - content_translation
+      third_party_settings:
+        content_translation:
+          enabled: true
+          bundle_settings:
+            untranslatable_fields_hide: '0'
+      id: paragraph.oe_accordion
+      target_entity_type_id: paragraph
+      target_bundle: oe_accordion
+      default_langcode: site_default
+      language_alterable: true
+  -
+    collection: ''
+    name: language.content_settings.paragraph.oe_accordion_item
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - paragraphs.paragraphs_type.oe_accordion_item
+        module:
+          - content_translation
+      third_party_settings:
+        content_translation:
+          enabled: true
+          bundle_settings:
+            untranslatable_fields_hide: '0'
+      id: paragraph.oe_accordion_item
+      target_entity_type_id: paragraph
+      target_bundle: oe_accordion_item
+      default_langcode: site_default
+      language_alterable: true
+  -
+    collection: ''
+    name: language.content_settings.paragraph.oe_content_row
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - paragraphs.paragraphs_type.oe_content_row
+        module:
+          - content_translation
+      third_party_settings:
+        content_translation:
+          enabled: true
+          bundle_settings:
+            untranslatable_fields_hide: '0'
+      id: paragraph.oe_content_row
+      target_entity_type_id: paragraph
+      target_bundle: oe_content_row
+      default_langcode: site_default
+      language_alterable: true
+  -
+    collection: ''
+    name: language.content_settings.paragraph.oe_links_block
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - paragraphs.paragraphs_type.oe_links_block
+        module:
+          - content_translation
+      third_party_settings:
+        content_translation:
+          enabled: true
+          bundle_settings:
+            untranslatable_fields_hide: '0'
+      id: paragraph.oe_links_block
+      target_entity_type_id: paragraph
+      target_bundle: oe_links_block
+      default_langcode: site_default
+      language_alterable: true
+  -
+    collection: ''
+    name: language.content_settings.paragraph.oe_list_item
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - paragraphs.paragraphs_type.oe_list_item
+        module:
+          - content_translation
+      third_party_settings:
+        content_translation:
+          enabled: true
+          bundle_settings:
+            untranslatable_fields_hide: '0'
+      id: paragraph.oe_list_item
+      target_entity_type_id: paragraph
+      target_bundle: oe_list_item
+      default_langcode: site_default
+      language_alterable: true
+  -
+    collection: ''
+    name: language.content_settings.paragraph.oe_list_item_block
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - paragraphs.paragraphs_type.oe_list_item_block
+        module:
+          - content_translation
+      third_party_settings:
+        content_translation:
+          enabled: true
+          bundle_settings:
+            untranslatable_fields_hide: '0'
+      id: paragraph.oe_list_item_block
+      target_entity_type_id: paragraph
+      target_bundle: oe_list_item_block
+      default_langcode: site_default
+      language_alterable: true
+  -
+    collection: ''
+    name: language.content_settings.paragraph.oe_quote
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - paragraphs.paragraphs_type.oe_quote
+        module:
+          - content_translation
+      third_party_settings:
+        content_translation:
+          enabled: true
+          bundle_settings:
+            untranslatable_fields_hide: '0'
+      id: paragraph.oe_quote
+      target_entity_type_id: paragraph
+      target_bundle: oe_quote
+      default_langcode: site_default
+      language_alterable: true
+  -
+    collection: ''
+    name: language.content_settings.paragraph.oe_rich_text
+    data:
+      langcode: en
+      status: true
+      dependencies:
+        config:
+          - paragraphs.paragraphs_type.oe_rich_text
+        module:
+          - content_translation
+      third_party_settings:
+        content_translation:
+          enabled: true
+          bundle_settings:
+            untranslatable_fields_hide: '0'
+      id: paragraph.oe_rich_text
+      target_entity_type_id: paragraph
+      target_bundle: oe_rich_text
+      default_langcode: site_default
+      language_alterable: true
+  -
+    collection: ''
+    name: paragraphs.paragraphs_type.oe_accordion
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      id: oe_accordion
+      label: Accordion
+      icon_uuid: null
+      description: 'Accordions are a collection of collapsible items, each of which is composed by the following fields: an icon, a title and a long text.'
+      behavior_plugins: {  }
+  -
+    collection: ''
+    name: paragraphs.paragraphs_type.oe_accordion_item
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      id: oe_accordion_item
+      label: 'Accordion item'
+      icon_uuid: null
+      description: 'Single accordion, to be used exclusively in conjunction with the "Accordion" paragraph type.'
+      behavior_plugins: {  }
+  -
+    collection: ''
+    name: paragraphs.paragraphs_type.oe_content_row
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      id: oe_content_row
+      label: 'Content row'
+      icon_uuid: null
+      description: 'Allows to group multiple paragraphs together. An in-page navigation can be shown optionally.'
+      behavior_plugins: {  }
+  -
+    collection: ''
+    name: paragraphs.paragraphs_type.oe_links_block
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      id: oe_links_block
+      label: 'Links block'
+      icon_uuid: null
+      description: 'A set of links with an optional title.'
+      behavior_plugins: {  }
+  -
+    collection: ''
+    name: paragraphs.paragraphs_type.oe_list_item
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      id: oe_list_item
+      label: 'List item'
+      icon_uuid: null
+      description: 'Use a "List item" when you wish to display content teasers. A list item is available in the following variants: default, date item, highlighted and thumbnail with primary or secondary image.'
+      behavior_plugins: {  }
+  -
+    collection: ''
+    name: paragraphs.paragraphs_type.oe_list_item_block
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      id: oe_list_item_block
+      label: 'List item block'
+      icon_uuid: null
+      description: 'Display multiple list items organised in columns.'
+      behavior_plugins: {  }
+  -
+    collection: ''
+    name: paragraphs.paragraphs_type.oe_quote
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      id: oe_quote
+      label: Quote
+      icon_uuid: null
+      description: 'Editors will be able to add the quotation to the specific content type where Quote paragraph type is attached.'
+      behavior_plugins: {  }
+  -
+    collection: ''
+    name: paragraphs.paragraphs_type.oe_rich_text
+    data:
+      langcode: en
+      status: true
+      dependencies: {  }
+      id: oe_rich_text
+      label: 'Rich text'
+      icon_uuid: null
+      description: 'A simple paragraph containing rich text.'
+      behavior_plugins: {  }
