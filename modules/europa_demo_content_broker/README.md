@@ -15,11 +15,11 @@ Example of settings.php config override:
 ```
 $config['europa_demo_content_broker.settings']['topics'] = [
   [
-    'site' => 'http://web:8080/sites/rtd/web',
+    'site' => 'http://web:8080/sites/inea/web',
     'topics' => [],
   ],
   [
-    'site' => 'http://web:8080/sites/agri/web',
+    'site' => 'http://web:8080/sites/energy/web',
     'topics' => [
       'oe_announcement',
     ]
@@ -29,8 +29,8 @@ $config['europa_demo_content_broker.settings']['topics'] = [
 
 In the above example, the site will be able to consume RDF entities as such:
 
-* Any topics from the site with the Provenance URI: `http://web:8080/sites/rtd/web`
-* Announcements from site with the Provenance URI: 'http://web:8080/sites/agri/web'
+* Any topics from the site with the Provenance URI: `http://web:8080/sites/inea/web`
+* Announcements from site with the Provenance URI: 'http://web:8080/sites/energy/web'
 
 ### Notes
 

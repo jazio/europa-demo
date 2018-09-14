@@ -33,6 +33,14 @@ drupal:
     config:
       oe_content.settings:
         provenance_uri: 'http://ec.europa.eu/info'
+      europa_demo_content_broker.settings:
+        topics:
+          -
+            site: 'http://ec.europa.eu/inea'
+            topics: ['oe_announcement']
+          -
+            site: 'http://ec.europa.eu/info'
+            topics: []
       oe_webtools_laco_widget.settings:
         include: [ ".ecl-paragraph" ]
         exclude: [ ".ecl-button", ".nolaco", ".more-link", ".pager" ]
