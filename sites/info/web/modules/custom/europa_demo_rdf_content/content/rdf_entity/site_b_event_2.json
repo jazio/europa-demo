@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/web:8080\/en\/rdf_entity\/http_e_f_flocalhost_e8080_fsites_finea_fweb_frdf_aentity_foe_aevent_fe424d10b_be8bc_b49c9_ba9d1_bf64511d73e6f?_format=hal_json"
+            "href": "http:\/\/web:8080\/en\/rdf_entity\/http_e_f_flocalhost_e8080_fsites_finfo_fweb_frdf_aentity_foe_aevent_fe424d10b_be8bc_b49c9_ba9d1_bf64511d73e6f?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/rdf_entity\/oe_event"
@@ -29,7 +29,7 @@
     },
     "id": [
         {
-            "value": "http:\/\/localhost:8080\/sites\/inea\/web\/rdf_entity\/oe_event\/e424d10b-e8bc-49c9-a9d1-f64511d73e6f"
+            "value": "http:\/\/localhost:8080\/sites\/info\/web\/rdf_entity\/oe_event\/e424d10b-e8bc-49c9-a9d1-f64511d73e6f"
         }
     ],
     "rid": [
@@ -129,7 +129,7 @@
     ],
     "uuid": [
         {
-            "value": "http:\/\/localhost:8080\/sites\/inea\/web\/rdf_entity\/oe_event\/e424d10b-e8bc-49c9-a9d1-f64511d73e6f"
+            "value": "http:\/\/localhost:8080\/sites\/info\/web\/rdf_entity\/oe_event\/e424d10b-e8bc-49c9-a9d1-f64511d73e6f"
         }
     ],
     "langcode": [

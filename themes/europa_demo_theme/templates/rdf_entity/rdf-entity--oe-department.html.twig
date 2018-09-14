@@ -26,6 +26,12 @@
       <a id="responsibilities"></a>
       <h2 class="ecl-heading ecl-heading--h2">{{ 'Responsibilities'|t }}</h2>
       {{ content.oe_department_tasks_description }}
+
+      {% if announcements %}
+        <a id="announcements"></a>
+        <h2 class="ecl-heading ecl-heading--h2">{{ 'News'|t }}</h2>
+        {{ announcements }}
+      {% endif %}
     </div>
   </div>
 </article>
