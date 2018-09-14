@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Ec\Europa\ContentLayerDemo\TaskRunner\Commands;
+namespace Ec\Europa\EuropaDemo\TaskRunner\Commands;
 
 use OpenEuropa\TaskRunner\Commands\AbstractCommands;
 
@@ -27,7 +27,7 @@ class ContentLayerCommands extends AbstractCommands {
   /**
    * Run parallel composer update in site directories.
    *
-   * @command drupal:parallel-composer-update
+   * @command sites:parallel-composer-update
    */
   public function runParallelComposerUpdate(): void {
     $this->taskParallelExec()
@@ -40,7 +40,7 @@ class ContentLayerCommands extends AbstractCommands {
   /**
    * Run parallel site installs.
    *
-   * @command drupal:parallel-sites-setup
+   * @command sites:parallel-setup
    */
   public function runParallelSitesSetup(): void {
     $this->taskParallelExec()
@@ -53,7 +53,7 @@ class ContentLayerCommands extends AbstractCommands {
   /**
    * Run parallel site installs.
    *
-   * @command drupal:parallel-sites-install
+   * @command sites:parallel-install
    */
   public function runParallelSitesInstall(): void {
     $this->taskParallelExec()

@@ -106,16 +106,19 @@ The projects provides a set of convenience commands that can run useful Drupal/T
 the same time, namely:
 
 ```
-docker-compose exec web ./vendor/bin/run sites:composer-drupal-scaffold       
-docker-compose exec web ./vendor/bin/run sites:composer-install               
-docker-compose exec web ./vendor/bin/run sites:composer-update                
-docker-compose exec web ./vendor/bin/run sites:config-export                  
-docker-compose exec web ./vendor/bin/run sites:config-import                  
-docker-compose exec web ./vendor/bin/run sites:import-interface-translations  
-docker-compose exec web ./vendor/bin/run sites:install                        
+docker-compose exec web ./vendor/bin/run sites:composer-drupal-scaffold
+docker-compose exec web ./vendor/bin/run sites:composer-install
+docker-compose exec web ./vendor/bin/run sites:composer-update
+docker-compose exec web ./vendor/bin/run sites:config-export
+docker-compose exec web ./vendor/bin/run sites:config-import
+docker-compose exec web ./vendor/bin/run sites:import-interface-translations
+docker-compose exec web ./vendor/bin/run sites:install
+docker-compose exec web sites:parallel-composer-update
+docker-compose exec web sites:parallel-sites-install
+docker-compose exec web sites:parallel-sites-setup
 docker-compose exec web ./vendor/bin/run sites:setup
-docker-compose exec web ./vendor/bin/run sites:sql-drop                       
-docker-compose exec web ./vendor/bin/run sites:sql-dump                       
+docker-compose exec web ./vendor/bin/run sites:sql-drop
+docker-compose exec web ./vendor/bin/run sites:sql-dump
 docker-compose exec web ./vendor/bin/run sites:sql-restore
 ```
 
