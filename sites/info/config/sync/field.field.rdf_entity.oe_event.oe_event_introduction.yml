@@ -1,0 +1,23 @@
+uuid: 5f915eab-df3f-4054-85fb-6ac655c47485
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.rdf_entity.oe_event_introduction
+    - rdf_entity.rdfentity.oe_event
+  module:
+    - text
+_core:
+  default_config_hash: nrF8H_lOUr6y1BaeXou_8c3HimUvav7X9lHxpqsfv4A
+id: rdf_entity.oe_event.oe_event_introduction
+field_name: oe_event_introduction
+entity_type: rdf_entity
+bundle: oe_event
+label: Introduction
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

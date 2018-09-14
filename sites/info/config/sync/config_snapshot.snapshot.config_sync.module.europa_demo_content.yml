@@ -1,0 +1,11 @@
+uuid: 75e1b20c-2cd2-42ec-9ca3-5b491f8a77c8
+langcode: en
+status: true
+dependencies:
+  module:
+    - europa_demo_content
+id: config_sync.module.europa_demo_content
+snapshotSet: config_sync
+extensionType: module
+extensionName: europa_demo_content
+items: {  }

@@ -1,0 +1,26 @@
+uuid: 2e57ad54-e1c1-492b-b16e-bc4422d15b8b
+langcode: en
+status: true
+dependencies:
+  module:
+    - rdf_entity
+third_party_settings:
+  rdf_entity:
+    mapping:
+      value:
+        predicate: 'http://schema.org/endDate'
+        format: 'xsd:dateTime'
+_core:
+  default_config_hash: nHq-twzm8t53BHeS3WfxS3Zjb-3w_MJQH9n3QCroq5M
+id: rdf_entity.oe_event_end_date
+field_name: oe_event_end_date
+entity_type: rdf_entity
+type: timestamp
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

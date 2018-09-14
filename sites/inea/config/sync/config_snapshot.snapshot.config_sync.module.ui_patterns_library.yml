@@ -1,0 +1,11 @@
+uuid: fa286c25-81e0-46ee-987a-32f10f711b19
+langcode: en
+status: true
+dependencies:
+  module:
+    - ui_patterns_library
+id: config_sync.module.ui_patterns_library
+snapshotSet: config_sync
+extensionType: module
+extensionName: ui_patterns_library
+items: {  }

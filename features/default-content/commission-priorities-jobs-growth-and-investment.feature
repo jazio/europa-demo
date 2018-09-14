@@ -1,4 +1,4 @@
-@api
+@api @site-inea @site-energy @site-info
 Feature: Default content 'Commission / Priorities / Jobs, growth and investment'
   In order to be able to showcase the site's features
   As a developer
@@ -54,7 +54,6 @@ Feature: Default content 'Commission / Priorities / Jobs, growth and investment'
     Then the site switcher link "La Commission et ses priorités" is active
     But the site switcher link "Politiques, informations et services" is not active
 
-    And I should see the link "Accueil" in the "breadcrumb" region
     And I should see the link "Priorités" in the "breadcrumb" region
 
     And I should see the heading "Emploi, croissance et investissement" in the "page header" region

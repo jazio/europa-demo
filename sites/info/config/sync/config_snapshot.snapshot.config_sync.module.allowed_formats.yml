@@ -1,0 +1,11 @@
+uuid: 9913bfde-4b92-4941-b2e9-6d06dc6617b0
+langcode: en
+status: true
+dependencies:
+  module:
+    - allowed_formats
+id: config_sync.module.allowed_formats
+snapshotSet: config_sync
+extensionType: module
+extensionName: allowed_formats
+items: {  }

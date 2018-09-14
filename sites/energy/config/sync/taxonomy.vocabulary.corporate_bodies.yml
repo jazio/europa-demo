@@ -1,0 +1,11 @@
+uuid: bd4246a7-b905-4221-b026-558903de101e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: tK3D57V5naUmo7PxmoOTuNasR12tOjGopucdL6q9n_0
+name: 'Corporate Bodies'
+vid: corporate_bodies
+description: ''
+hierarchy: 0
+weight: 0

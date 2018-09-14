@@ -1,0 +1,11 @@
+uuid: ad4ff5ab-78f7-4069-b8cc-1fc2e04b3d7c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: qqOte7CVfmGVQ4FFm3tl9MOw-SnkCdv3YXSvmJ6JzW4
+name: 'Target Audiences'
+vid: target_audiences
+description: ''
+hierarchy: 0
+weight: 0

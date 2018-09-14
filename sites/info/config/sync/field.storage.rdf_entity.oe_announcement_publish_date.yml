@@ -1,0 +1,26 @@
+uuid: e38f21f2-071a-418b-baad-d88ce8c85388
+langcode: en
+status: true
+dependencies:
+  module:
+    - rdf_entity
+third_party_settings:
+  rdf_entity:
+    mapping:
+      value:
+        predicate: 'http://schema.org/datePublished'
+        format: 'xsd:dateTime'
+_core:
+  default_config_hash: hXbTYXmCT5LiS12qeDFiCj2C4xZCofV9QGkXdOkGamE
+id: rdf_entity.oe_announcement_publish_date
+field_name: oe_announcement_publish_date
+entity_type: rdf_entity
+type: timestamp
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,11 @@
+uuid: ac3a1801-47c8-48ed-8ca3-7f87dd24bbc4
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+id: config_sync.module.ctools
+snapshotSet: config_sync
+extensionType: module
+extensionName: ctools
+items: {  }

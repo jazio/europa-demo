@@ -1,0 +1,4 @@
+name: Europa Demo RDF Content
+description: Provides default RDF content
+core: 8.x
+type: module

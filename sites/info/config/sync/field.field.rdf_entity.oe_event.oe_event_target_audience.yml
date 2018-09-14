@@ -1,0 +1,31 @@
+uuid: f839fe4a-35f5-4eb1-889c-ea6b10397198
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.rdf_entity.oe_event_target_audience
+    - rdf_entity.rdfentity.oe_event
+    - taxonomy.vocabulary.target_audiences
+_core:
+  default_config_hash: Bm-8qk9-QrXGny5_F2YZpRkf9Pcp89TLBkdP6aGqu1s
+id: rdf_entity.oe_event.oe_event_target_audience
+field_name: oe_event_target_audience
+entity_type: rdf_entity
+bundle: oe_event
+label: 'Who should attend'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      target_audiences: target_audiences
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

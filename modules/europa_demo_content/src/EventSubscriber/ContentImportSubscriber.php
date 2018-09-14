@@ -43,7 +43,10 @@ class ContentImportSubscriber implements EventSubscriberInterface {
     // @link https://www.drupal.org/project/default_content/issues/2710421
     $entities = $event->getImportedEntities();
     foreach ($this->aliases as $uuid => $alias) {
-      $node = $entities[$uuid];
+      $node = isset($entities[$uuid]) ? $entities[$uuid] : NULL;
+      if (!$node) {
+        continue;
+      }
 
       foreach ($node->getTranslationLanguages() as $language) {
         $translation = $node->getTranslation($language->getId());

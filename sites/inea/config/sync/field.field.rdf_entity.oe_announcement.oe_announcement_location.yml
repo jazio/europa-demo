@@ -1,0 +1,21 @@
+uuid: a0d5ae94-ad9c-4424-86b6-a3ac740b9152
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.rdf_entity.oe_announcement_location
+    - rdf_entity.rdfentity.oe_announcement
+_core:
+  default_config_hash: LgMV0WtTs_CO6oGA7AT4FDgFwIm51za24mQfasEOxsE
+id: rdf_entity.oe_announcement.oe_announcement_location
+field_name: oe_announcement_location
+entity_type: rdf_entity
+bundle: oe_announcement
+label: Location
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

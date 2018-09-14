@@ -1,0 +1,28 @@
+uuid: 11c5a5db-ed73-42ab-9243-ae28e3881451
+langcode: en
+status: true
+dependencies:
+  module:
+    - rdf_entity
+    - taxonomy
+third_party_settings:
+  rdf_entity:
+    mapping:
+      target_id:
+        predicate: 'http://schema.org/audience'
+        format: resource
+_core:
+  default_config_hash: oB71d8_YXysmCvGP4DKzsWuW5GiWHuPkNMu1Jlod10o
+id: rdf_entity.oe_event_target_audience
+field_name: oe_event_target_audience
+entity_type: rdf_entity
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

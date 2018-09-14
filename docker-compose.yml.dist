@@ -4,10 +4,10 @@ services:
     image: fpfis/httpd-php-dev:7.1
     working_dir: /var/www/html
     ports:
-      - "8080:8080"
+    - "8080:8080"
     volumes:
-      - .:/var/www/html # Non Mac users.
-      # - nfsmount:/var/www/html # Mac Users with the nfsmount volume.
+    - .:/var/www/html # Non Mac users.
+    # - nfsmount:/var/www/html # Mac Users with the nfsmount volume.
     environment:
       XDEBUG_CONFIG: "remote_enable=1 remote_host=10.254.254.254 remote_port=9000 idekey=PHPSTORM remote_autostart=1"
       PHP_IDE_CONFIG: "serverName=Docker"
@@ -18,22 +18,28 @@ services:
     image: percona/percona-server:5.6
     environment:
       MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
-    # ports:
-    #   - "3306:3306"
-  # Spawn a Selenium server which also includes a VNC server on localhost:5900 (the password is "secret")
+#    ports:
+#      - "3306:3306"
   selenium:
     image: selenium/standalone-chrome-debug:3.11
     environment:
-      - DISPLAY=:99
-      - SE_OPTS=-debug
+    - DISPLAY=:99
+    - SE_OPTS=-debug
     ports:
-      - "5900:5900"
+    - "5900:5900"
     expose:
-      - "4444"
+    - "4444"
   authentication:
-    image: openeuropa/pcas-server:latest
+    image: openeuropa/pcas-server
+    expose:
+    - "8001"
+  sparql:
+    image: openeuropa/triple-store-dev
+    environment:
+    - SPARQL_UPDATE=true
+    - DBA_PASSWORD=dba
     ports:
-      - "8001:8001"
+    - "8890:8890"
 
 #### Mac users: uncomment the "volumes" key to enable the NFS file sharing. You can find more information about Docker for Mac here: https://github.com/openeuropa/openeuropa/blob/master/docs/starting/tooling.md#using-docker-on-macos
 

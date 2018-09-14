@@ -1,0 +1,11 @@
+uuid: 974da43c-f346-43c6-b42d-e5810fbc85d8
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: pdJvg26_1lElUuzmfhoWBCl0Ypnserh4RFdPgdf-61k
+name: 'Organisation Types'
+vid: organisation_types
+description: ''
+hierarchy: 0
+weight: 0

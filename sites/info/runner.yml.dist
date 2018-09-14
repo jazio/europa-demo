@@ -1,0 +1,43 @@
+drupal:
+  root: "web"
+  base_url: "${web.base_url}/sites/info/web"
+  database:
+    host: "mysql"
+    port: "3306"
+    name: "info"
+    user: "root"
+    password: ""
+  site:
+    profile: "oe_profile"
+    name: "Site INFO"
+    config_dir: "${drupal.config_dir}"
+  pre_install:
+  - { task: "chmod", permissions: 0775, file: "${drupal.root}/sites/default" }
+  - { task: "chmod", permissions: 0664, file: "${drupal.root}/sites/default/settings.php" }
+  post_install:
+  - { task: "chmod", permissions: 0775, file: "${drupal.root}/sites/default" }
+  - { task: "chmod", permissions: 0664, file: "${drupal.root}/sites/default/settings.php" }
+  - "./vendor/bin/run drupal:import-interface-translations"
+  - "./vendor/bin/drush en europa_demo_rdf_content -y"
+  - "./vendor/bin/drush cr"
+  settings:
+    config_directories:
+      sync: "${drupal.config_dir}"
+    databases:
+      sparql_default:
+        default:
+          prefix: ""
+          host: "${sparql.host}"
+          port: "${sparql.port}"
+          namespace: 'Drupal\Driver\Database\sparql'
+          driver: 'sparql'
+    config:
+      oe_content.settings:
+        provenance_uri: 'http://ec.europa.eu/info'
+commands:
+  drupal:site-setup:
+  - { task: "run", command: "drupal:drush-setup" }
+  - { task: "process-php", type: "append", config: "drupal.settings", source: "${drupal.root}/sites/default/default.settings.php", destination: "${drupal.root}/sites/default/settings.php" }
+  drupal:import-interface-translations:
+  - "./vendor/bin/drush language-import modules/custom/europa_demo_core/translations/fr.po"
+  - "./vendor/bin/drush language-import modules/custom/europa_demo_core/translations/it.po"

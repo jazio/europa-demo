@@ -1,0 +1,28 @@
+uuid: 204fce9a-793f-4ce8-990b-7a6fd3562ea8
+langcode: en
+status: true
+dependencies:
+  module:
+    - rdf_entity
+    - taxonomy
+third_party_settings:
+  rdf_entity:
+    mapping:
+      target_id:
+        predicate: 'https://schema.org/author'
+        format: resource
+_core:
+  default_config_hash: czHn7wqbLeTp4vRhrtNYGq5svNQfxeaYOOmZZAHlXqQ
+id: rdf_entity.oe_announcement_department
+field_name: oe_announcement_department
+entity_type: rdf_entity
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

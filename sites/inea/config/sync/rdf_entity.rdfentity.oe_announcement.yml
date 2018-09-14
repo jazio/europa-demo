@@ -1,0 +1,9 @@
+uuid: 1f829e0f-14d1-4e80-aa96-231f505e4cd1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: lYLXBa8u6N8eQqWrPWGRKgPbTaYtVE1zlVll1BU8l34
+name: Announcement
+rid: oe_announcement
+description: ''

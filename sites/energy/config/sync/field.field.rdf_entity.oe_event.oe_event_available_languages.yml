@@ -1,0 +1,21 @@
+uuid: a21016ec-39bb-4096-8867-d1e20be55f5f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.rdf_entity.oe_event_available_languages
+    - rdf_entity.rdfentity.oe_event
+_core:
+  default_config_hash: z9c2emYwLzIwaLiHnorhNs3V7zi7bb010DFXm_kL84s
+id: rdf_entity.oe_event.oe_event_available_languages
+field_name: oe_event_available_languages
+entity_type: rdf_entity
+bundle: oe_event
+label: 'Available languages'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

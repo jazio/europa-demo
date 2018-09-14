@@ -1,0 +1,23 @@
+uuid: ea09131f-d55b-4ed1-ad58-8d929bdc5b6f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.rdf_entity.oe_announcement_description
+    - rdf_entity.rdfentity.oe_announcement
+  module:
+    - text
+_core:
+  default_config_hash: PP22ZDEt_P3-T3G0Pi1IZoSxTZ3LijdkIbl4i6n66Hk
+id: rdf_entity.oe_announcement.oe_announcement_description
+field_name: oe_announcement_description
+entity_type: rdf_entity
+bundle: oe_announcement
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,30 @@
+uuid: ebea22cb-4560-4871-80e4-10b1bec86d5b
+langcode: en
+status: true
+dependencies:
+  module:
+    - rdf_entity
+    - text
+third_party_settings:
+  rdf_entity:
+    mapping:
+      value:
+        predicate: 'http://schema.org/alternativeHeadline'
+        format: t_literal
+      format:
+        predicate: 'http://europa.eu/oe_announcement_introduction/format'
+        format: 'xsd:string'
+_core:
+  default_config_hash: JfdiRh0K7w06hx34RwWkgLo5dTOtmgUgf-ejqKZkSOw
+id: rdf_entity.oe_announcement_introduction
+field_name: oe_announcement_introduction
+entity_type: rdf_entity
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

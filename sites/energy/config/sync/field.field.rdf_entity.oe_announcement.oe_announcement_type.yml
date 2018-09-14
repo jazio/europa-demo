@@ -1,0 +1,31 @@
+uuid: 775e2e90-f235-4688-b790-6449444e5644
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.rdf_entity.oe_announcement_type
+    - rdf_entity.rdfentity.oe_announcement
+    - taxonomy.vocabulary.resource_types
+_core:
+  default_config_hash: zvJoulriIGACahBMBfC9oCj1Te5hG1czIIFhKxxi1Ro
+id: rdf_entity.oe_announcement.oe_announcement_type
+field_name: oe_announcement_type
+entity_type: rdf_entity
+bundle: oe_announcement
+label: 'Announcement type'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      resource_types: resource_types
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

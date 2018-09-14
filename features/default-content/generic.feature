@@ -1,4 +1,4 @@
-@api
+@api @site-inea @site-energy @site-info
 Feature: Default content
   In order to be able to showcase the site's features
   As a developer
