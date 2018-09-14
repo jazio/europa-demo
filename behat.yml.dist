@@ -3,6 +3,20 @@ default:
     default:
       contexts:
       - Behat\MinkExtension\Context\MinkContext
+      - Ec\Europa\EuropaDemo\Behat\RdfExternalContext:
+          path_mappings:
+            'Over €300 million available now to energy projects': 'http_e_f_flocalhost_e8080_fsites_finea_fweb_frdf_aentity_foe_aannouncement_f2236b3d4_bb988_b4614_ba093_b920ba4633b97'
+            'EU-funded researchers set a new energy efficiency record for solar cells': 'http_e_f_flocalhost_e8080_fsites_finea_fweb_frdf_aentity_foe_aannouncement_f26f49f73_bb0b4_b4c84_b9606_ba0e3f678cd14'
+            "Spain's first self-installing offshore wind turbine arrives to the Canary Islands": 'http_e_f_flocalhost_e8080_fsites_finea_fweb_frdf_aentity_foe_aannouncement_f36f2e2a8_bf517_b4277_b901c_b1648de2c8363'
+            'Directorate-General for Environment': 'http_e_f_flocalhost_e8080_fsites_finfo_fweb_frdf_aentity_foe_adepartment_f02b660ea_b22af_b48e3_bbb62_bfead0269d1f6'
+            'Innovation and Networks Executive Agency': 'http_e_f_flocalhost_e8080_fsites_finfo_fweb_frdf_aentity_foe_adepartment_f587c717e_bcf1f_b4c74_b9b58_bd00bf04897d7'
+            'Directorate-General for Energy': 'http_e_f_flocalhost_e8080_fsites_finfo_fweb_frdf_aentity_foe_adepartment_f9d5ebd97_b408a_b4b85_bb177_bb691abcdf6ba'
+            'Horizon 2020 Energy info day': 'http_e_f_flocalhost_e8080_fsites_finea_fweb_frdf_aentity_foe_aevent_f5b829070_bbd2b_b4caa_b828c_b43342432b51a'
+            'EU Sustainable Energy Week (EUSEW) 2018': 'http_e_f_flocalhost_e8080_fsites_finea_fweb_frdf_aentity_foe_aevent_f8753edac_bf3b9_b45a7_b8c9f_b38ce9134f608'
+            'Financing Energy Efficiency in Malta and Italy': 'http_e_f_flocalhost_e8080_fsites_finfo_fweb_frdf_aentity_foe_aevent_fae827102_b2beb_b4338_b943e_b80f56358a6bf'
+            'EU Energy Day at COP24, COP24 EU Pavilion': 'http_e_f_flocalhost_e8080_fsites_finfo_fweb_frdf_aentity_foe_aevent_fd9a9d634_b13ac_b493f_bbc18_b7b750b9698ed'
+            'EU Green Week 2019': 'http_e_f_flocalhost_e8080_fsites_finfo_fweb_frdf_aentity_foe_aevent_fe424d10b_be8bc_b49c9_ba9d1_bf64511d73e6f'
+            'Horizon 2020 Transport virtual info day': 'http_e_f_flocalhost_e8080_fsites_finea_fweb_frdf_aentity_foe_aevent_ff8115b40_b12d7_b4c6d_bae4e_b0b9538a9bfc4'
       filters: { tags: "@sites-all" }
   extensions:
     Behat\MinkExtension:

@@ -32,7 +32,18 @@ drupal:
           driver: 'sparql'
     config:
       oe_content.settings:
-          provenance_uri: 'http://ec.europa.eu/energy'
+        provenance_uri: 'http://ec.europa.eu/energy'
+      europa_demo_content_broker.settings:
+        topics:
+          -
+            site: 'http://ec.europa.eu/inea'
+            topics: []
+          -
+            site: 'http://ec.europa.eu/info'
+            topics: ['oe_announcement']
+          -
+            site: 'http://ec.europa.eu/energy'
+            topics: []
 commands:
   drupal:site-setup:
   - { task: "run", command: "drupal:drush-setup" }

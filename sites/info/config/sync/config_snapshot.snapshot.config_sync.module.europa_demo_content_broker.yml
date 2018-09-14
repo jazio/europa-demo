@@ -1,0 +1,16 @@
+uuid: ffbc72d4-3741-4ad3-967d-69e8e45f55e0
+langcode: en
+status: true
+dependencies:
+  module:
+    - europa_demo_content_broker
+id: config_sync.module.europa_demo_content_broker
+snapshotSet: config_sync
+extensionType: module
+extensionName: europa_demo_content_broker
+items:
+  -
+    collection: ''
+    name: europa_demo_content_broker.settings
+    data:
+      topics: {  }
