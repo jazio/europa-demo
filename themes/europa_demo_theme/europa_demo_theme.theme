@@ -71,7 +71,9 @@ function europa_demo_theme_preprocess_rdf_entity__oe_department(&$variables) {
     $variables['announcements'] = [
       '#type' => 'pattern',
       '#id' => 'list_item_block_one_column',
-      '#items' => $items,
+      '#fields' => [
+        'items' => $items,
+      ],
     ];
 
     if (!$entity->get('oe_department_links')->isEmpty()) {
@@ -210,3 +212,4 @@ function europa_demo_theme_announcement_list_item(RdfInterface $entity) {
 
   return $build;
 }
+
