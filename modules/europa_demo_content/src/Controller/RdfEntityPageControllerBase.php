@@ -1,9 +1,12 @@
 <?php
 
+declare(strict_types = 1);
+
 namespace Drupal\europa_demo_content\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
+use Drupal\Core\Entity\Query\QueryInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
@@ -12,14 +15,14 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
 class RdfEntityPageControllerBase extends ControllerBase {
 
   /**
+   * Entity type manager service.
+   *
    * @var \Drupal\Core\Entity\EntityTypeManagerInterface
    */
   protected $entityTypeManager;
 
   /**
    * Constructs a RdfEntityPageControllerBase.
-   *
-   * @param \Drupal\Core\Entity\EntityTypeManagerInterface $entityTypeManager
    */
   public function __construct(EntityTypeManagerInterface $entityTypeManager) {
     $this->entityTypeManager = $entityTypeManager;
@@ -28,7 +31,7 @@ class RdfEntityPageControllerBase extends ControllerBase {
   /**
    * {@inheritdoc}
    */
-  public static function create(ContainerInterface $container) {
+  public static function create(ContainerInterface $container): RdfEntityPageControllerBase {
     return new static(
       $container->get('entity_type.manager')
     );
@@ -37,7 +40,7 @@ class RdfEntityPageControllerBase extends ControllerBase {
   /**
    * Creates a base query for RDF entities.
    */
-  protected function getQuery() {
+  protected function getQuery(): QueryInterface {
     return $this->entityTypeManager->getStorage('rdf_entity')->getQuery();
   }
 

@@ -9,7 +9,6 @@ declare(strict_types = 1);
 
 use Drupal\Core\Datetime\DrupalDateTime;
 use Drupal\Core\Url;
-use Drupal\rdf_entity\RdfInterface;
 
 /**
  * Implements hook_preprocess_menu__site_switcher().

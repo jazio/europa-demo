@@ -1,7 +1,8 @@
 <?php
 
+declare(strict_types = 1);
+
 namespace Drupal\europa_demo_content\Controller;
-use Drupal\Core\Url;
 
 /**
  * News controller.
@@ -11,7 +12,7 @@ class NewsController extends RdfEntityPageControllerBase {
   /**
    * Builds the News page.
    */
-  public function build() {
+  public function build(): array {
     $ids = $this->getQuery()
       ->condition('rid', 'oe_announcement')
       ->execute();
@@ -25,7 +26,7 @@ class NewsController extends RdfEntityPageControllerBase {
     $build = [
       '#cache' => [
         'tags' => ['rdf_entity_list'],
-      ]
+      ],
     ];
 
     $build[] = [
