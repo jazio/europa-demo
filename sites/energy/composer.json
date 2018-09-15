@@ -20,7 +20,7 @@
         "openeuropa/oe_paragraphs": "^0.2.2",
         "openeuropa/oe_profile": "dev-master",
         "openeuropa/oe_theme": "~0.4",
-        "openeuropa/oe_webtools": "^0.1.0",
+        "openeuropa/oe_webtools": "dev-master",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
     },

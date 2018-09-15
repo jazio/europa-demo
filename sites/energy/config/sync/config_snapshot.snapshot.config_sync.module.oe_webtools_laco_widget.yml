@@ -1,0 +1,25 @@
+uuid: ed8f9806-7eda-47ef-9337-c2f8bc1e8a89
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_webtools_laco_widget
+id: config_sync.module.oe_webtools_laco_widget
+snapshotSet: config_sync
+extensionType: module
+extensionName: oe_webtools_laco_widget
+items:
+  -
+    collection: ''
+    name: oe_webtools_laco_widget.settings
+    data:
+      include:
+        - body
+      exclude:
+        - .nolaco
+        - .more-link
+        - .pager
+      coverage:
+        document: any
+        page: any
+      icon: all
