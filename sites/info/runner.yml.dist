@@ -35,7 +35,7 @@ drupal:
         provenance_uri: 'http://ec.europa.eu/info'
       oe_webtools_laco_widget.settings:
         include: [ ".ecl-paragraph" ]
-        exclude: [ ".nolaco", ".more-link", ".pager" ]
+        exclude: [ ".ecl-button", ".nolaco", ".more-link", ".pager" ]
         coverage: { document: "any", page: "any" }
         icon: "all"
 
