@@ -28,6 +28,12 @@
       <div class="ecl-paragraph">
         {{ content.oe_department_tasks_description }}
       </div>
+
+      {% if announcements %}
+        <a id="announcements"></a>
+        <h2 class="ecl-heading ecl-heading--h2">{{ 'News'|t }}</h2>
+        {{ announcements }}
+      {% endif %}
     </div>
   </div>
 </article>

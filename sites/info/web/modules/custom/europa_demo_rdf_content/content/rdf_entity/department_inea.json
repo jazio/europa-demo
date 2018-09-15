@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/web:8080\/en\/rdf_entity\/http_e_f_flocalhost_e8080_fsites_finea_fweb_frdf_aentity_foe_adepartment_f587c717e_bcf1f_b4c74_b9b58_bd00bf04897d7?_format=hal_json"
+            "href": "http:\/\/web:8080\/en\/rdf_entity\/http_e_f_flocalhost_e8080_fsites_finfo_fweb_frdf_aentity_foe_adepartment_f587c717e_bcf1f_b4c74_b9b58_bd00bf04897d7?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/rdf_entity\/oe_department"
@@ -38,7 +38,7 @@
     },
     "id": [
         {
-            "value": "http:\/\/localhost:8080\/sites\/inea\/web\/rdf_entity\/oe_department\/587c717e-cf1f-4c74-9b58-d00bf04897d7"
+            "value": "http:\/\/localhost:8080\/sites\/info\/web\/rdf_entity\/oe_department\/587c717e-cf1f-4c74-9b58-d00bf04897d7"
         }
     ],
     "rid": [
@@ -183,7 +183,7 @@
     ],
     "uuid": [
         {
-            "value": "http:\/\/localhost:8080\/sites\/inea\/web\/rdf_entity\/oe_department\/587c717e-cf1f-4c74-9b58-d00bf04897d7"
+            "value": "http:\/\/localhost:8080\/sites\/info\/web\/rdf_entity\/oe_department\/587c717e-cf1f-4c74-9b58-d00bf04897d7"
         }
     ],
     "langcode": [

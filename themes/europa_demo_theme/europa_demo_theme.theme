@@ -8,6 +8,8 @@
 declare(strict_types = 1);
 
 use Drupal\Core\Datetime\DrupalDateTime;
+use Drupal\Core\Url;
+use Drupal\rdf_entity\RdfInterface;
 
 /**
  * Implements hook_preprocess_menu__site_switcher().
@@ -31,19 +33,53 @@ function europa_demo_theme_preprocess_rdf_entity__oe_department(&$variables) {
   /** @var \Drupal\rdf_entity\RdfInterface $entity */
   $entity = $variables['rdf_entity'];
 
-  $variables['in_page_links'] = [
-    [
-      'href' => '#responsibilities',
-      'label' => t('Responsibilities'),
-    ],
-  ];
+  $variables['in_page_links'] = [];
 
   // Responsibilities.
+  $variables['in_page_links'][] = [
+    'href' => '#responsibilities',
+    'label' => t('Responsibilities'),
+  ];
+
   $variables['content']['oe_department_tasks_description'] = [
     '#type' => 'processed_text',
     '#text' => $entity->get('oe_department_tasks_description')->value,
     '#format' => $entity->get('oe_department_tasks_description')->format,
   ];
+
+  // Announcements.
+  $entity_type_manager = \Drupal::entityTypeManager();
+  $terms = $entity_type_manager->getStorage('taxonomy_term')->loadByProperties(['name' => ['energy policy']]);
+  $ids = array_keys($terms);
+  $ids = $entity_type_manager->getStorage('rdf_entity')->getQuery()
+    ->condition('rid', 'oe_announcement')
+    ->condition('oe_announcement_subject', $ids, 'IN')
+    ->execute();
+
+  if ($ids) {
+    $variables['in_page_links'][] = [
+      'href' => '#announcements',
+      'label' => t('News'),
+    ];
+
+    $announcements = $entity_type_manager->getStorage('rdf_entity')->loadMultiple($ids);
+    $items = [];
+    foreach ($announcements as $announcement) {
+      $items[] = europa_demo_theme_announcement_list_item($announcement);
+    }
+
+    $variables['announcements'] = [
+      '#type' => 'pattern',
+      '#id' => 'list_item_block_one_column',
+      '#items' => $items,
+    ];
+
+    if (!$entity->get('oe_department_links')->isEmpty()) {
+      $link = $entity->get('oe_department_links')->first();
+      $variables['announcements']['#button_label'] = t('All news');
+      $variables['announcements']['#button_url'] = $link->uri;
+    }
+  }
 }
 
 /**
@@ -143,4 +179,34 @@ function europa_demo_theme_preprocess_rdf_entity__oe_event(&$variables) {
   $now = new DrupalDateTime();
   $end = DrupalDateTime::createFromTimestamp($entity->get('oe_event_end_date')->value);
   $variables['passed'] = $now > $end;
+}
+
+/**
+ * Renders an Announcement in list item form.
+ *
+ * @param \Drupal\rdf_entity\RdfInterface $entity
+ *   The RDF entity.
+ *
+ * @return array
+ *   The render array.
+ */
+function europa_demo_theme_announcement_list_item(RdfInterface $entity) {
+  $build = [
+    '#type' => 'pattern',
+    '#id' => 'list_item_default',
+    '#fields' => [
+      'url' => Url::fromUri($entity->id())->toString(),
+      'title' => $entity->label(),
+    ],
+  ];
+
+  $metas = [];
+  $metas[] = $entity->get('oe_announcement_type')->entity->label();
+  $metas[] = $entity->get('oe_announcement_department')->entity->label();
+  $build['#fields']['meta'] = $metas;
+  $build['#fields']['detail'] = [
+    '#plain_text' => $entity->get('oe_announcement_introduction')->value,
+  ];
+
+  return $build;
 }
