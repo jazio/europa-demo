@@ -106,6 +106,7 @@ The projects provides a set of convenience commands that can run useful Drupal/T
 the same time, namely:
 
 ```
+docker-compose exec web ./vendor/bin/run sites:cache-rebuild
 docker-compose exec web ./vendor/bin/run sites:composer-drupal-scaffold
 docker-compose exec web ./vendor/bin/run sites:composer-install
 docker-compose exec web ./vendor/bin/run sites:composer-update
