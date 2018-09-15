@@ -61,12 +61,11 @@ function europa_demo_theme_preprocess_rdf_entity__oe_department(&$variables) {
       'label' => t('News'),
     ];
 
-    $announcements = $entity_type_manager->getStorage('rdf_entity')->loadMultiple($ids);
-    $items = [];
-    foreach ($announcements as $announcement) {
-      $items[] = europa_demo_theme_announcement_list_item($announcement);
-    }
-
+    // Use list item block pattern to render announcement list.
+    // We set a custom pattern context so that we can get advantage of theme
+    // suggestions and preprocess set via hook_ui_patterns_suggestions_alter().
+    // @see europa_demo_core_ui_patterns_suggestions_alter()
+    // @see europa_demo_theme_preprocess_pattern_list_item_block_one_column__entity_list__rdf_entity__announcement()
     $variables['announcements'] = [
       '#type' => 'pattern',
       '#id' => 'list_item_block_one_column',
@@ -74,10 +73,7 @@ function europa_demo_theme_preprocess_rdf_entity__oe_department(&$variables) {
         'type' => 'entity_list',
         'entity_type' => 'rdf_entity',
         'bundle' => 'announcement',
-        'entities' => $announcements,
-      ],
-      '#fields' => [
-        'items' => $items,
+        'entities' => $entity_type_manager->getStorage('rdf_entity')->loadMultiple($ids),
       ],
     ];
 
@@ -189,31 +185,34 @@ function europa_demo_theme_preprocess_rdf_entity__oe_event(&$variables) {
 }
 
 /**
- * Renders an Announcement in list item form.
+ * Implements hook_preprocess_HOOK().
  *
- * @param \Drupal\rdf_entity\RdfInterface $entity
- *   The RDF entity.
- *
- * @return array
- *   The render array.
+ * Renders announcements using list item default patterns.
  */
-function europa_demo_theme_announcement_list_item(RdfInterface $entity) {
-  $build = [
-    '#type' => 'pattern',
-    '#id' => 'list_item_default',
-    '#fields' => [
-      'url' => Url::fromUri($entity->id())->toString(),
-      'title' => $entity->label(),
-    ],
-  ];
+function europa_demo_theme_preprocess_pattern_list_item_block_one_column__entity_list__rdf_entity__announcement(&$variables) {
+  /** @var \Drupal\ui_patterns\Element\PatternContext $context */
+  /** @var \Drupal\Core\Entity\ContentEntityBase $entity */
 
-  $metas = [];
-  $metas[] = $entity->get('oe_announcement_type')->entity->label();
-  $metas[] = $entity->get('oe_announcement_department')->entity->label();
-  $build['#fields']['meta'] = $metas;
-  $build['#fields']['detail'] = [
-    '#plain_text' => $entity->get('oe_announcement_introduction')->value,
-  ];
+  $variables['items'] = [];
+  $context = $variables['context'];
+  foreach ($context->getProperty('entities') as $entity) {
+    $build = [
+      '#type' => 'pattern',
+      '#id' => 'list_item_default',
+      '#fields' => [
+        'url' => Url::fromUri($entity->id())->toString(),
+        'title' => $entity->label(),
+      ],
+    ];
 
-  return $build;
+    $build['#fields']['meta'] = [
+      $entity->get('oe_announcement_type')->entity->label(),
+      $entity->get('oe_announcement_department')->entity->label(),
+    ];
+    $build['#fields']['detail'] = [
+      '#plain_text' => $entity->get('oe_announcement_introduction')->getString(),
+    ];
+
+    $variables['items'][] = $build;
+  }
 }
