@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Drupal\europa_demo_content\Controller;
+namespace Drupal\europa_demo_core\Controller;
 
 /**
  * News controller.

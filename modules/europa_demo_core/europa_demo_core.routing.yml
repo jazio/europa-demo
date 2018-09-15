@@ -2,7 +2,7 @@ europa_demo_content.news:
   path: '/news'
   defaults:
     _title: 'News'
-    _controller: '\Drupal\europa_demo_content\Controller\NewsController:build'
+    _controller: '\Drupal\europa_demo_core\Controller\NewsController:build'
   requirements:
     _permission: 'access content'
 
@@ -10,6 +10,6 @@ europa_demo_content.events:
   path: '/events'
   defaults:
     _title: 'Events'
-    _controller: '\Drupal\europa_demo_content\Controller\EventsController:build'
+    _controller: '\Drupal\europa_demo_core\Controller\EventsController:build'
   requirements:
     _permission: 'access content'
