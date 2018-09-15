@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a0db6f68542ef5012d84e57b3a8126bf",
+    "content-hash": "0fec6cec9d72225c2fa03b1be246dc07",
     "packages": [
         {
             "name": "behat/behat",
@@ -1646,12 +1646,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "97f8f0b6f693e5b13c63184a6e00210a46cd918e"
+                "reference": "c33865848352a5d853280daaffc35bea643877f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/97f8f0b6f693e5b13c63184a6e00210a46cd918e",
-                "reference": "97f8f0b6f693e5b13c63184a6e00210a46cd918e",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/c33865848352a5d853280daaffc35bea643877f8",
+                "reference": "c33865848352a5d853280daaffc35bea643877f8",
                 "shasum": ""
             },
             "require": {
@@ -1740,7 +1740,7 @@
             ],
             "description": "Drush is a command line shell and scripting interface for Drupal, a veritable Swiss Army knife designed to make life easier for those of us who spend some of our working hours hacking away at the command prompt.",
             "homepage": "http://www.drush.org",
-            "time": "2018-09-12T10:36:40+00:00"
+            "time": "2018-09-14T11:47:07+00:00"
         },
         {
             "name": "escapestudios/symfony2-coding-standard",
@@ -2772,23 +2772,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/openeuropa/task-runner.git",
-                "reference": "cb3b7d43af67a54d69c0b62ddd59674aa590afc9"
+                "reference": "574afa4e3a0804594161d482ff0d64a0d68025c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openeuropa/task-runner/zipball/cb3b7d43af67a54d69c0b62ddd59674aa590afc9",
-                "reference": "cb3b7d43af67a54d69c0b62ddd59674aa590afc9",
+                "url": "https://api.github.com/repos/openeuropa/task-runner/zipball/574afa4e3a0804594161d482ff0d64a0d68025c2",
+                "reference": "574afa4e3a0804594161d482ff0d64a0d68025c2",
                 "shasum": ""
             },
             "require": {
                 "consolidation/robo": "^1.2.2",
-                "gitonomy/gitlib": "~1",
-                "jakeasmith/http_build_url": "^1.0",
-                "nuvoleweb/robo-config": "~0.2"
+                "gitonomy/gitlib": "^1.0",
+                "jakeasmith/http_build_url": "^1.0.1",
+                "nuvoleweb/robo-config": "^0.2.1"
             },
             "require-dev": {
-                "openeuropa/code-review": "~0.3",
-                "phpunit/phpunit": "^5||^6.0"
+                "openeuropa/code-review": "~1.0",
+                "phpunit/phpunit": "~5.5|~6.0"
             },
             "bin": [
                 "bin/run"
@@ -2803,7 +2803,7 @@
             "license": [
                 "EUPL-1.2"
             ],
-            "time": "2018-09-05T13:31:02+00:00"
+            "time": "2018-09-14T12:09:26+00:00"
         },
         {
             "name": "paragonie/random_compat",
