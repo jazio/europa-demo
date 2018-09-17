@@ -187,14 +187,15 @@ function europa_demo_theme_preprocess_rdf_entity__oe_event(&$variables) {
 /**
  * Implements hook_preprocess_HOOK().
  *
- * Renders announcements using list item default patterns.
+ * Renders announcements using the list item default pattern.
  */
 function europa_demo_theme_preprocess_pattern_list_item_block_one_column__entity_list__rdf_entity__announcement(&$variables) {
-  /** @var \Drupal\ui_patterns\Element\PatternContext $context */
-  /** @var \Drupal\Core\Entity\ContentEntityBase $entity */
-
   $variables['items'] = [];
+
+  /** @var \Drupal\ui_patterns\Element\PatternContext $context */
   $context = $variables['context'];
+
+  /** @var \Drupal\Core\Entity\ContentEntityInterface $entity */
   foreach ($context->getProperty('entities') as $entity) {
     $build = [
       '#type' => 'pattern',
@@ -205,13 +206,57 @@ function europa_demo_theme_preprocess_pattern_list_item_block_one_column__entity
       ],
     ];
 
+    $timestamp = $entity->get('oe_announcement_publish_date')->value;
+
     $build['#fields']['meta'] = [
       $entity->get('oe_announcement_type')->entity->label(),
+      \Drupal::service('date.formatter')->format($timestamp, 'custom', 'F d, Y'),
       $entity->get('oe_announcement_department')->entity->label(),
     ];
     $build['#fields']['detail'] = [
       '#plain_text' => $entity->get('oe_announcement_introduction')->getString(),
     ];
+
+    $variables['items'][] = $build;
+  }
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ *
+ * Renders events using the list item date pattern.
+ */
+function europa_demo_theme_preprocess_pattern_list_item_block_one_column__entity_list__rdf_entity__event(&$variables) {
+  $variables['items'] = [];
+
+  /** @var \Drupal\ui_patterns\Element\PatternContext $context */
+  $context = $variables['context'];
+
+  /** @var \Drupal\Core\Entity\ContentEntityInterface $entity */
+  foreach ($context->getProperty('entities') as $entity) {
+    $build = [
+      '#type' => 'pattern',
+      '#id' => 'list_item_date',
+      '#fields' => [
+        'url' => Url::fromUri($entity->id())->toString(),
+        'title' => $entity->label(),
+      ],
+    ];
+
+    $build['#fields']['detail'] = [
+      '#plain_text' => $entity->get('oe_event_introduction')->getString(),
+    ];
+
+    $event_date = DrupalDateTime::createFromTimestamp($entity->get('oe_event_start_date')->value);
+
+    $date = [
+      'day' => $event_date->format('d'),
+      'month' => $event_date->format('M'),
+      'week_day' => $event_date->format('D'),
+      'year' => $event_date->format('Y'),
+    ];
+
+    $build['#fields'] += $date;
 
     $variables['items'][] = $build;
   }
