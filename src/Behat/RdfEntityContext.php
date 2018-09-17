@@ -105,4 +105,5 @@ class RdfEntityContext extends RawDrupalContext {
     $user = \Drupal::entityTypeManager()->getStorage('user')->load($object->uid);
     return $user;
   }
+
 }
