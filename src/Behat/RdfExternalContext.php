@@ -42,12 +42,12 @@ class RdfExternalContext extends RawMinkContext {
   }
 
   /**
-   * Asserts that the title is found in the ECL header region.
+   * Asserts that a String is found in a region.
    *
-   * @Then I should see the :title in the title region
+   * @Then I should see the :text in (the ):element( region)
    */
-  public function assertTitleInCorrectRegion(string $title): void {
-    $this->assertSession()->elementTextContains('css', '.ecl-page-header h1', $title);
+  public function assertTitleInCorrectRegion(string $text, string $element): void {
+    $this->assertSession()->elementTextContains('css', $element, $text);
   }
 
 }

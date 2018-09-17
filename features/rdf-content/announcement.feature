@@ -6,7 +6,7 @@ Feature: Announcements
 
   Scenario Outline: Announcements should be visible on all 3 sites
     Given I go to the RDF entity page "<title>" on the "<site>" site
-    Then I should see the "<title>" in the title region
+    Then I should see the "<title>" in the "header title"
 
     Examples:
     | title                                                                             | site |
