@@ -40,6 +40,7 @@ site:
       - Drupal\DrupalExtension\Context\MessageContext
       - Ec\Europa\EuropaDemo\Behat\MinkContext
       - Ec\Europa\EuropaDemo\Behat\DrupalContext
+      - Ec\Europa\EuropaDemo\Behat\RdfEntityContext
       - OpenEuropa\Behat\TransformationContext:
           elements:
             about dropdown menu: "#nav-menu-expandable-group-2 .ecl-navigation-menu__links"
@@ -65,6 +66,7 @@ site:
             priorities: "/en/commission/priorities"
             non-existing: "/non-existing"
             administrative: "/en/admin"
+            RDF content administration: "/en/admin/content/rdf"
             login: "/en/user/login"
             logout: "/en/user/logout"
   extensions:

@@ -46,6 +46,44 @@ class MinkContext extends DrupalExtensionMinkContext {
   }
 
   /**
+   * Assert links on page.
+   *
+   * @param \Behat\Gherkin\Node\TableNode $links
+   *   List of links.
+   *
+   * @throws \Exception
+   *
+   * @Then I should see the following links:
+   */
+  public function assertLinksOnPage(TableNode $links): void {
+    foreach ($links->getRows() as $row) {
+      $result = $this->getSession()->getPage()->findLink($row[0]);
+      if (empty($result)) {
+        throw new \Exception(sprintf('No link "%s" found on page %s', $row[0], $this->getSession()->getCurrentUrl()));
+      }
+    }
+  }
+
+  /**
+   * Assert missing links on page.
+   *
+   * @param \Behat\Gherkin\Node\TableNode $links
+   *   List of links.
+   *
+   * @throws \Exception
+   *
+   * @Then I should not see the following links:
+   */
+  public function assertMissingLinksOnPage(TableNode $links): void {
+    foreach ($links->getRows() as $row) {
+      $result = $this->getSession()->getPage()->findLink($row[0]);
+      if (!empty($result)) {
+        throw new \Exception(sprintf('Link to "%s" found on page %s', $row[0], $this->getSession()->getCurrentUrl()));
+      }
+    }
+  }
+
+  /**
    * Open language switcher dialog.
    *
    * @When I open the language switcher dialog
