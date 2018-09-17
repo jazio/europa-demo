@@ -36,9 +36,9 @@ When working on 3 concurrent builds, there are Task Runner parallel tasks availa
 `src\TaskRunner\Commands\ContentLayerCommands.php`:
 
 ```
-./vendor/bin/run drupal:parallel-composer-install
-./vendor/bin/run drupal:parallel-sites-setup
-./vendor/bin/run drupal:parallel-sites-install
+./vendor/bin/run sites:parallel-composer-install
+./vendor/bin/run sites:parallel-sites-setup
+./vendor/bin/run sites:parallel-sites-install
 ```
 
 ## Installation Using Docker Compose
@@ -114,9 +114,9 @@ docker-compose exec web ./vendor/bin/run sites:config-export
 docker-compose exec web ./vendor/bin/run sites:config-import
 docker-compose exec web ./vendor/bin/run sites:import-interface-translations
 docker-compose exec web ./vendor/bin/run sites:install
-docker-compose exec web sites:parallel-composer-update
-docker-compose exec web sites:parallel-sites-install
-docker-compose exec web sites:parallel-sites-setup
+docker-compose exec web ./vendor/bin/run sites:parallel-composer-update
+docker-compose exec web ./vendor/bin/run sites:parallel-sites-install
+docker-compose exec web ./vendor/bin/run sites:parallel-sites-setup
 docker-compose exec web ./vendor/bin/run sites:setup
 docker-compose exec web ./vendor/bin/run sites:sql-drop
 docker-compose exec web ./vendor/bin/run sites:sql-dump
