@@ -1,8 +1,0 @@
-settings:
-  allowed_values:
-    -
-      label: Predefinito
-    -
-      label: Data
-    -
-      label: 'In primo piano'
