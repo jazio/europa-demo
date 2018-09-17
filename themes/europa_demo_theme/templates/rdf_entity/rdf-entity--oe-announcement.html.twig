@@ -14,7 +14,9 @@
         </h2>
       {% endif %}
       {{ title_suffix }}
-      {{ content.oe_announcement_body }}
+      <div class="ecl-paragraph">
+        {{ content.oe_announcement_body }}
+      </div>
       <h2>{{ 'Topics'|t }}</h2>
       {{ content.oe_announcement_subject }}
     </div>
