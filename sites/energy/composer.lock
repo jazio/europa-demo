@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "de79d9970088ba2f39ac9e3b53a2a83c",
+    "content-hash": "552702c71282aa623ac2a2b5119d205c",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -151,16 +151,16 @@
         },
         {
             "name": "composer/installers",
-            "version": "v1.5.0",
+            "version": "v1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "049797d727261bf27f2690430d935067710049c2"
+                "reference": "cfcca6b1b60bc4974324efb5783c13dca6932b5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/049797d727261bf27f2690430d935067710049c2",
-                "reference": "049797d727261bf27f2690430d935067710049c2",
+                "url": "https://api.github.com/repos/composer/installers/zipball/cfcca6b1b60bc4974324efb5783c13dca6932b5b",
+                "reference": "cfcca6b1b60bc4974324efb5783c13dca6932b5b",
                 "shasum": ""
             },
             "require": {
@@ -267,7 +267,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2017-12-29T09:13:20+00:00"
+            "time": "2018-08-27T06:10:37+00:00"
         },
         {
             "name": "composer/semver",
@@ -1696,16 +1696,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.6.0",
+            "version": "8.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "4a2507b102fcedc74507fd372131f2ed72913429"
+                "reference": "1c8b96c89288daf4d145c6dbcf1e8f0d0c9d7970"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/4a2507b102fcedc74507fd372131f2ed72913429",
-                "reference": "4a2507b102fcedc74507fd372131f2ed72913429",
+                "url": "https://api.github.com/repos/drupal/core/zipball/1c8b96c89288daf4d145c6dbcf1e8f0d0c9d7970",
+                "reference": "1c8b96c89288daf4d145c6dbcf1e8f0d0c9d7970",
                 "shasum": ""
             },
             "require": {
@@ -1907,9 +1907,6 @@
                     "recurse": false,
                     "replace": false,
                     "merge-extra": false
-                },
-                "patches_applied": {
-                    "https://www.drupal.org/project/drupal/issues/2943172": "https://www.drupal.org/files/issues/2018-04-15/2943172-kernel-test-base-2.patch"
                 }
             },
             "autoload": {
@@ -1933,7 +1930,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2018-09-05T22:16:20+00:00"
+            "time": "2018-09-10T11:50:07+00:00"
         },
         {
             "name": "drupal/ctools",
@@ -2473,20 +2470,20 @@
         },
         {
             "name": "drupal/pathauto",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/pathauto",
-                "reference": "8.x-1.2"
+                "reference": "8.x-1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/pathauto-8.x-1.2.zip",
-                "reference": "8.x-1.2",
-                "shasum": "ba265dbafb27e93d4a61655d783441b653206c73"
+                "url": "https://ftp.drupal.org/files/projects/pathauto-8.x-1.3.zip",
+                "reference": "8.x-1.3",
+                "shasum": "115d5998d7636a03e26c7ce34261b65809d53965"
             },
             "require": {
-                "drupal/core": "*",
+                "drupal/core": "^8.5",
                 "drupal/ctools": "*",
                 "drupal/token": "*"
             },
@@ -2496,8 +2493,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.2",
-                    "datestamp": "1524421084",
+                    "version": "8.x-1.3",
+                    "datestamp": "1536407884",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2608,20 +2605,20 @@
         },
         {
             "name": "drupal/token",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/token",
-                "reference": "8.x-1.3"
+                "reference": "8.x-1.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/token-8.x-1.3.zip",
-                "reference": "8.x-1.3",
-                "shasum": "360f4f16985a2005b1ab5d8a8628b73a5012c902"
+                "url": "https://ftp.drupal.org/files/projects/token-8.x-1.4.zip",
+                "reference": "8.x-1.4",
+                "shasum": "fd8d854eaa3fd7698694f4d9a9d66dc437e19cd0"
             },
             "require": {
-                "drupal/core": "~8.0"
+                "drupal/core": "^8.5"
             },
             "type": "drupal-module",
             "extra": {
@@ -2629,8 +2626,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.3",
-                    "datestamp": "1527232684",
+                    "version": "8.x-1.4",
+                    "datestamp": "1536408480",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2788,12 +2785,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "85ac913765b1822536a92046a3905fa07f7977cd"
+                "reference": "c33865848352a5d853280daaffc35bea643877f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/85ac913765b1822536a92046a3905fa07f7977cd",
-                "reference": "85ac913765b1822536a92046a3905fa07f7977cd",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/c33865848352a5d853280daaffc35bea643877f8",
+                "reference": "c33865848352a5d853280daaffc35bea643877f8",
                 "shasum": ""
             },
             "require": {
@@ -2882,7 +2879,7 @@
             ],
             "description": "Drush is a command line shell and scripting interface for Drupal, a veritable Swiss Army knife designed to make life easier for those of us who spend some of our working hours hacking away at the command prompt.",
             "homepage": "http://www.drush.org",
-            "time": "2018-09-07T01:54:11+00:00"
+            "time": "2018-09-14T11:47:07+00:00"
         },
         {
             "name": "easyrdf/easyrdf",
@@ -4004,9 +4001,14 @@
         {
             "name": "openeuropa/oe_theme",
             "version": "0.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/openeuropa/oe_theme.git",
+                "reference": "d385d56e6a8402d33cf798118569e95e9e69bbd8"
+            },
             "dist": {
                 "type": "tar",
-                "url": "https://github.com/openeuropa/oe_theme/releases/download/0.6.2/oe_theme-0.6.2.tar.gz",
+                "url": "https://api.github.com/repos/openeuropa/oe_theme/zipball/d385d56e6a8402d33cf798118569e95e9e69bbd8",
                 "reference": "d385d56e6a8402d33cf798118569e95e9e69bbd8",
                 "shasum": ""
             },
@@ -4067,20 +4069,20 @@
         },
         {
             "name": "openeuropa/oe_webtools",
-            "version": "0.1.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/openeuropa/oe_webtools.git",
-                "reference": "25761cf69968f93d764d9b803f7af8b7400a57d1"
+                "reference": "70413e8b4e0e778f62d7cd140bc269facadd53c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openeuropa/oe_webtools/zipball/25761cf69968f93d764d9b803f7af8b7400a57d1",
-                "reference": "25761cf69968f93d764d9b803f7af8b7400a57d1",
+                "url": "https://api.github.com/repos/openeuropa/oe_webtools/zipball/70413e8b4e0e778f62d7cd140bc269facadd53c1",
+                "reference": "70413e8b4e0e778f62d7cd140bc269facadd53c1",
                 "shasum": ""
             },
             "require": {
-                "drupal/core": "~8.6",
+                "drupal/core": "~8.6@alpha",
                 "php": "^7.1"
             },
             "require-dev": {
@@ -4091,19 +4093,15 @@
                 "drupal/console": "^1.6",
                 "drush/drush": "^9",
                 "nikic/php-parser": "~3",
-                "openeuropa/code-review": "^0.2",
+                "openeuropa/code-review": "~0.3",
+                "openeuropa/drupal-core-require-dev": "~8.6",
                 "openeuropa/task-runner": "^0.5",
-                "symfony/dom-crawler": "^3",
-                "webflo/drupal-core-require-dev": "8.6.x"
+                "symfony/dom-crawler": "^3"
             },
             "type": "drupal-module",
             "extra": {
                 "composer-exit-on-patch-failure": true,
-                "patches": {
-                    "drupal/core": {
-                        "https://www.drupal.org/project/drupal/issues/2943172": "https://www.drupal.org/files/issues/2018-04-15/2943172-kernel-test-base-2.patch"
-                    }
-                },
+                "enable-patching": true,
                 "installer-paths": {
                     "build/core": [
                         "type:drupal-core"
@@ -4129,7 +4127,7 @@
                 "EUPL-1.2"
             ],
             "description": "OpenEuropa Webtools integration.",
-            "time": "2018-06-14T12:04:27+00:00"
+            "time": "2018-08-23T08:01:23+00:00"
         },
         {
             "name": "openeuropa/pcas",
@@ -7450,16 +7448,16 @@
         },
         {
             "name": "dflydev/dot-access-configuration",
-            "version": "v1.0.2",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dflydev/dflydev-dot-access-configuration.git",
-                "reference": "ae6e7138b1d9063d343322cca63994ee1ac5161d"
+                "reference": "2e6eb0c8b8830b26bb23defcfc38d4276508fc49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dflydev/dflydev-dot-access-configuration/zipball/ae6e7138b1d9063d343322cca63994ee1ac5161d",
-                "reference": "ae6e7138b1d9063d343322cca63994ee1ac5161d",
+                "url": "https://api.github.com/repos/dflydev/dflydev-dot-access-configuration/zipball/2e6eb0c8b8830b26bb23defcfc38d4276508fc49",
+                "reference": "2e6eb0c8b8830b26bb23defcfc38d4276508fc49",
                 "shasum": ""
             },
             "require": {
@@ -7506,7 +7504,7 @@
                 "config",
                 "configuration"
             ],
-            "time": "2016-12-12T17:43:40+00:00"
+            "time": "2018-09-08T23:00:17+00:00"
         },
         {
             "name": "dflydev/placeholder-resolver",
@@ -7944,17 +7942,17 @@
         },
         {
             "name": "drupal/config_sync",
-            "version": "2.0.0-alpha10",
+            "version": "2.0.0-beta1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/config_sync",
-                "reference": "8.x-2.0-alpha10"
+                "reference": "8.x-2.0-beta1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/config_sync-8.x-2.0-alpha10.zip",
-                "reference": "8.x-2.0-alpha10",
-                "shasum": "5d2fe07d21ace51aaf740bca79db16b7b1478e5d"
+                "url": "https://ftp.drupal.org/files/projects/config_sync-8.x-2.0-beta1.zip",
+                "reference": "8.x-2.0-beta1",
+                "shasum": "b185acec2e958b6aa6e9999767043a620be22859"
             },
             "require": {
                 "drupal/config_distro": "*",
@@ -7972,8 +7970,8 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.0-alpha10",
-                    "datestamp": "1534954380",
+                    "version": "8.x-2.0-beta1",
+                    "datestamp": "1536339780",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -8396,89 +8394,6 @@
             "homepage": "https://www.drupal.org/project/default_content",
             "support": {
                 "source": "http://cgit.drupalcode.org/default_content"
-            }
-        },
-        {
-            "name": "drupal/styleguide",
-            "version": "1.0.0-alpha3",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/styleguide",
-                "reference": "8.x-1.0-alpha3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/styleguide-8.x-1.0-alpha3.zip",
-                "reference": "8.x-1.0-alpha3",
-                "shasum": "dea391d05465da7a8c4104dcf0fb418a2a2ab680"
-            },
-            "require": {
-                "drupal/core": "~8.0"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.0-alpha3",
-                    "datestamp": "1496239743",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Alpha releases are not covered by Drupal security advisories."
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL 2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Bevan",
-                    "homepage": "https://www.drupal.org/user/49989"
-                },
-                {
-                    "name": "Dave Reid",
-                    "homepage": "https://www.drupal.org/user/53892"
-                },
-                {
-                    "name": "Oleksiy",
-                    "homepage": "https://www.drupal.org/user/2744301"
-                },
-                {
-                    "name": "agentrickard",
-                    "homepage": "https://www.drupal.org/user/20975"
-                },
-                {
-                    "name": "dead_arm",
-                    "homepage": "https://www.drupal.org/user/597730"
-                },
-                {
-                    "name": "geerlingguy",
-                    "homepage": "https://www.drupal.org/user/389011"
-                },
-                {
-                    "name": "irakli",
-                    "homepage": "https://www.drupal.org/user/96826"
-                },
-                {
-                    "name": "markabur",
-                    "homepage": "https://www.drupal.org/user/217822"
-                },
-                {
-                    "name": "mfer",
-                    "homepage": "https://www.drupal.org/user/25701"
-                },
-                {
-                    "name": "psynaptic",
-                    "homepage": "https://www.drupal.org/user/93429"
-                }
-            ],
-            "description": "Generates a theme style guide for proofing common elements.",
-            "homepage": "https://www.drupal.org/project/styleguide",
-            "support": {
-                "source": "http://cgit.drupalcode.org/styleguide"
             }
         },
         {
@@ -8984,23 +8899,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/openeuropa/task-runner.git",
-                "reference": "cb3b7d43af67a54d69c0b62ddd59674aa590afc9"
+                "reference": "574afa4e3a0804594161d482ff0d64a0d68025c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openeuropa/task-runner/zipball/cb3b7d43af67a54d69c0b62ddd59674aa590afc9",
-                "reference": "cb3b7d43af67a54d69c0b62ddd59674aa590afc9",
+                "url": "https://api.github.com/repos/openeuropa/task-runner/zipball/574afa4e3a0804594161d482ff0d64a0d68025c2",
+                "reference": "574afa4e3a0804594161d482ff0d64a0d68025c2",
                 "shasum": ""
             },
             "require": {
                 "consolidation/robo": "^1.2.2",
-                "gitonomy/gitlib": "~1",
-                "jakeasmith/http_build_url": "^1.0",
-                "nuvoleweb/robo-config": "~0.2"
+                "gitonomy/gitlib": "^1.0",
+                "jakeasmith/http_build_url": "^1.0.1",
+                "nuvoleweb/robo-config": "^0.2.1"
             },
             "require-dev": {
-                "openeuropa/code-review": "~0.3",
-                "phpunit/phpunit": "^5||^6.0"
+                "openeuropa/code-review": "~1.0",
+                "phpunit/phpunit": "~5.5|~6.0"
             },
             "bin": [
                 "bin/run"
@@ -9015,7 +8930,7 @@
             "license": [
                 "EUPL-1.2"
             ],
-            "time": "2018-09-05T13:31:02+00:00"
+            "time": "2018-09-14T12:09:26+00:00"
         },
         {
             "name": "phar-io/manifest",
@@ -9585,16 +9500,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "6.5.12",
+            "version": "6.5.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "24da433d7384824d65ea93fbb462e2f31bbb494e"
+                "reference": "0973426fb012359b2f18d3bd1e90ef1172839693"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/24da433d7384824d65ea93fbb462e2f31bbb494e",
-                "reference": "24da433d7384824d65ea93fbb462e2f31bbb494e",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/0973426fb012359b2f18d3bd1e90ef1172839693",
+                "reference": "0973426fb012359b2f18d3bd1e90ef1172839693",
                 "shasum": ""
             },
             "require": {
@@ -9665,7 +9580,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2018-08-22T06:32:48+00:00"
+            "time": "2018-09-08T15:10:43+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -10683,24 +10598,13 @@
         },
         {
             "name": "webflo/drupal-core-require-dev",
-            "version": "8.6.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/webflo/drupal-core-require-dev.git",
-                "reference": "26775125d6b974a84c3618f8e0d8f1cd9a4091ef"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/webflo/drupal-core-require-dev/zipball/26775125d6b974a84c3618f8e0d8f1cd9a4091ef",
-                "reference": "26775125d6b974a84c3618f8e0d8f1cd9a4091ef",
-                "shasum": ""
-            },
+            "version": "8.6.1",
             "require": {
                 "behat/mink": "1.7.x-dev",
                 "behat/mink-goutte-driver": "^1.2",
                 "behat/mink-selenium2-driver": "1.3.x-dev",
                 "drupal/coder": "^8.2.12",
-                "drupal/core": "8.6.0",
+                "drupal/core": "8.6.1",
                 "jcalderonzumba/gastonjs": "^1.0.2",
                 "jcalderonzumba/mink-phantomjs-driver": "^0.3.1",
                 "mikey179/vfsstream": "^1.2",
@@ -10716,7 +10620,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "require-dev dependencies from drupal/core",
-            "time": "2018-09-05T22:31:48+00:00"
+            "time": "2018-09-10T13:31:43+00:00"
         }
     ],
     "aliases": [
@@ -10735,6 +10639,7 @@
         "openeuropa/oe_authorisation": 20,
         "openeuropa/oe_content": 20,
         "openeuropa/oe_profile": 20,
+        "openeuropa/oe_webtools": 20,
         "drupal/config_distro": 15,
         "drupal/config_sync": 15,
         "drupal/default_content": 15,

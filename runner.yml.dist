@@ -63,6 +63,10 @@ commands:
   - "./vendor/bin/drush --root='${runner.working_dir}/sites/inea' cim -y"
   - "./vendor/bin/drush --root='${runner.working_dir}/sites/energy' cim -y"
   - "./vendor/bin/drush --root='${runner.working_dir}/sites/info' cim -y"
+  sites:cache-rebuild:
+  - "./vendor/bin/drush --root='${runner.working_dir}/sites/inea' cr"
+  - "./vendor/bin/drush --root='${runner.working_dir}/sites/energy' cr"
+  - "./vendor/bin/drush --root='${runner.working_dir}/sites/info' cr"
 
   setup:behat:
   - { task: "process", source: "behat.yml.dist", destination: "behat.yml" }

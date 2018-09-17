@@ -47,6 +47,8 @@ module:
   oe_theme_helper: 0
   oe_webtools: 0
   oe_webtools_analytics: 0
+  oe_webtools_laco_service: 0
+  oe_webtools_laco_widget: 0
   options: 0
   page_cache: 0
   path: 0

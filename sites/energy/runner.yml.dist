@@ -44,6 +44,12 @@ drupal:
           -
             site: 'http://ec.europa.eu/energy'
             topics: []
+      oe_webtools_laco_widget.settings:
+        include: [ ".ecl-paragraph" ]
+        exclude: [ ".ecl-button", ".nolaco", ".more-link", ".pager" ]
+        coverage: { document: "any", page: "any" }
+        icon: "all"
+
 commands:
   drupal:site-setup:
   - { task: "run", command: "drupal:drush-setup" }

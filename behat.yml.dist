@@ -17,6 +17,9 @@ default:
             'EU Energy Day at COP24, COP24 EU Pavilion': 'http_e_f_flocalhost_e8080_fsites_finfo_fweb_frdf_aentity_foe_aevent_fd9a9d634_b13ac_b493f_bbc18_b7b750b9698ed'
             'EU Green Week 2019': 'http_e_f_flocalhost_e8080_fsites_finfo_fweb_frdf_aentity_foe_aevent_fe424d10b_be8bc_b49c9_ba9d1_bf64511d73e6f'
             'Horizon 2020 Transport virtual info day': 'http_e_f_flocalhost_e8080_fsites_finea_fweb_frdf_aentity_foe_aevent_ff8115b40_b12d7_b4c6d_bae4e_b0b9538a9bfc4'
+      - OpenEuropa\Behat\TransformationContext:
+          elements:
+            header title: '.ecl-page-header h1'
       filters: { tags: "@sites-all" }
   extensions:
     Behat\MinkExtension:

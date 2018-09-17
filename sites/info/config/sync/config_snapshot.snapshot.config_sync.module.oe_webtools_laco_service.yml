@@ -1,0 +1,11 @@
+uuid: 3f7bf98e-2265-4ec3-9dd3-0a3748cdc611
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_webtools_laco_service
+id: config_sync.module.oe_webtools_laco_service
+snapshotSet: config_sync
+extensionType: module
+extensionName: oe_webtools_laco_service
+items: {  }

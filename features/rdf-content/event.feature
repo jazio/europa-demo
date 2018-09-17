@@ -6,7 +6,7 @@ Feature: Events
 
   Scenario Outline: Events from the Info site should be visible on the Info site
     Given I go to the RDF entity page "<title>" on the "<site>" site
-    Then I should see the "<title>" in the title region
+    Then I should see the "<title>" in the "header title"
 
     Examples:
       | title                                          | site |
@@ -16,7 +16,7 @@ Feature: Events
 
   Scenario Outline: Events from the Info site should not be visible on the INEA or Energy sites
     Given I go to the RDF entity page "<title>" on the "<site>" site
-    Then I should see the "Access denied" in the title region
+    Then I should see the "Access denied" in the "header title"
 
     Examples:
       | title                                          | site |
@@ -29,7 +29,7 @@ Feature: Events
 
   Scenario Outline: Events from the Inea site should be visible on the Inea and Energy sites
     Given I go to the RDF entity page "<title>" on the "<site>" site
-    Then I should see the "<title>" in the title region
+    Then I should see the "<title>" in the "header title"
 
     Examples:
       | title                                   | site |
@@ -42,7 +42,7 @@ Feature: Events
 
   Scenario Outline: Events from the Inea site should not be visible on the Info site
     Given I go to the RDF entity page "<title>" on the "<site>" site
-    Then I should see the "Access denied" in the title region
+    Then I should see the "Access denied" in the "header title"
 
     Examples:
       | title                                   | site |

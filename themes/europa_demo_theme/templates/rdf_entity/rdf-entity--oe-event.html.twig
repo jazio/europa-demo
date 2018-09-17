@@ -19,7 +19,9 @@
           <div class="ecl-message__body"><h4>{{ 'This event has ended.'|t }}</h4></div>
         </div>
       {% endif %}
-      {{ content.oe_event_description }}
+      <div class="ecl-paragraph">
+        {{ content.oe_event_description }}
+      </div>
       {% if content.oe_event_links %}
         <h2>{{ 'Related links'|t }}</h2>
         {{ content.oe_event_links }}
