@@ -14,7 +14,7 @@ class ContentLayerCommands extends AbstractCommands {
   /**
    * Run parallel composer install in site directories.
    *
-   * @command drupal:parallel-composer-install
+   * @command sites:parallel-composer-install
    */
   public function runParallelComposerInstall(): void {
     $this->taskParallelExec()
