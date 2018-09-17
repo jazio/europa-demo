@@ -8,18 +8,23 @@
 declare(strict_types = 1);
 
 use Drupal\Core\Access\AccessResult;
-use Drupal\Core\Database\Query\AlterableInterface;
 use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Session\AccountInterface;
+use Drupal\Core\Database\Query\AlterableInterface;
 
 /**
- * Implements hook_query_TAG_alter() for the "content_broker" tag.
+ * Implements hook_query_alter().
  *
- * This tag is used by queries made against the RDF entities found inside the
- * triples store. The goal is to filter out content which is not specified as
- * consumable on this given site.
+ * The goal is to filter out content which is not specified as consumable on
+ * this given site.
  */
-function europa_demo_content_broker_query_content_broker_alter(AlterableInterface $query): void {
+function europa_demo_content_broker_query_alter(AlterableInterface $query) {
+  if (!$query->hasTag('rdf_entity') || $query->hasTag('no_content_broker')) {
+    // We are targeting queries against the RDF entities but we also allow
+    // the "no_content_broker" to allow bypassing this logic.
+    return;
+  }
+
   $config = \Drupal::configFactory()->get('europa_demo_content_broker.settings');
   $topics = $config->get('topics');
   if (!$topics) {
