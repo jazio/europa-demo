@@ -114,10 +114,11 @@ docker-compose exec web ./vendor/bin/run sites:config-export
 docker-compose exec web ./vendor/bin/run sites:config-import
 docker-compose exec web ./vendor/bin/run sites:import-interface-translations
 docker-compose exec web ./vendor/bin/run sites:install
+docker-compose exec web ./vendor/bin/run sites:parallel-composer-install
 docker-compose exec web ./vendor/bin/run sites:parallel-composer-update
-docker-compose exec web ./vendor/bin/run sites:parallel-sites-install
-docker-compose exec web ./vendor/bin/run sites:parallel-sites-setup
-docker-compose exec web ./vendor/bin/run sites:setup
+docker-compose exec web ./vendor/bin/run sites:parallel-drush
+docker-compose exec web ./vendor/bin/run sites:parallel-install
+docker-compose exec web ./vendor/bin/run sites:parallel-setup
 docker-compose exec web ./vendor/bin/run sites:sql-drop
 docker-compose exec web ./vendor/bin/run sites:sql-dump
 docker-compose exec web ./vendor/bin/run sites:sql-restore

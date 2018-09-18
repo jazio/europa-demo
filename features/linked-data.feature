@@ -4,7 +4,7 @@ Feature: Linked data
   I should be able to navigate to the actual content pages on their respective producer sites
 
   @sites-all
-  Scenario Outline: Consumed content on the ENERGY site should be linked to its provenience page
+  Scenario Outline: Consumed content on the ENERGY site should be linked to their provenience page
     When I am on "the <page> page" page of the "energy" site
 
     And I follow "<title>"
@@ -20,7 +20,7 @@ Feature: Linked data
       | news   | Spain's first self-installing offshore wind turbine arrives to the Canary Islands | inea |
 
   @sites-all
-  Scenario Outline: Consumed announcements on the INFO site should be linked to its provenience page
+  Scenario Outline: Consumed announcements on the INFO site should be linked to their provenience page
     When I am on "the news page" page of the "info" site
 
     And I follow "<title>"
