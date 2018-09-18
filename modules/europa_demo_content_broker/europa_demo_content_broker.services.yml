@@ -1,0 +1,6 @@
+services:
+  europa_demo_content_broker.default_department_referencing_subscruber:
+    class: Drupal\europa_demo_content_broker\EventSubscriber\DepartmentReferencingSubscriber
+    arguments: ['@entity_type.manager']
+    tags:
+      - { name: event_subscriber }
