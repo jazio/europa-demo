@@ -6,10 +6,10 @@ default:
       - Ec\Europa\EuropaDemo\Behat\MinkContext
       - Ec\Europa\EuropaDemo\Behat\SitesMinkContext:
           sites:
-            info:
-              base_url: "${web.base_url}/sites/info/web"
             inea:
               base_url: "${web.base_url}/sites/inea/web"
+            info:
+              base_url: "${web.base_url}/sites/info/web"
             energy:
               base_url: "${web.base_url}/sites/energy/web"
       - Ec\Europa\EuropaDemo\Behat\RdfExternalContext:
@@ -52,13 +52,12 @@ site:
     default:
       contexts: &site-contexts
       - Drupal\DrupalExtension\Context\DrupalContext
-      - Drupal\DrupalExtension\Context\MessageContext
       - Drupal\DrupalExtension\Context\MarkupContext
       - Drupal\DrupalExtension\Context\MessageContext
-      - Ec\Europa\EuropaDemo\Behat\DrupalMinkContext
       - Ec\Europa\EuropaDemo\Behat\DrupalContext
-      - Ec\Europa\EuropaDemo\Behat\RdfEntityContext
+      - Ec\Europa\EuropaDemo\Behat\DrupalMinkContext
       - Ec\Europa\EuropaDemo\Behat\MinkContext
+      - Ec\Europa\EuropaDemo\Behat\RdfEntityContext
       - OpenEuropa\Behat\TransformationContext:
           elements:
             about dropdown menu: "#nav-menu-expandable-group-2 .ecl-navigation-menu__links"
