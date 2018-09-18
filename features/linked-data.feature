@@ -1,9 +1,9 @@
-@sites-all
 Feature: Linked data
   In order to showcase how content is consumed on the different sites
   As a site visitor
   I should be able to navigate to the actual content pages on their respective producer sites
 
+  @sites-all
   Scenario Outline: Consumed content on the ENERGY site should be linked to its provenience page
     When I am on "the <page> page" page of the "energy" site
 
@@ -19,6 +19,7 @@ Feature: Linked data
       | news   | Over €300 million available now to energy projects                                | inea |
       | news   | Spain's first self-installing offshore wind turbine arrives to the Canary Islands | inea |
 
+  @sites-all
   Scenario Outline: Consumed announcements on the INFO site should be linked to its provenience page
     When I am on "the news page" page of the "info" site
 
@@ -32,6 +33,7 @@ Feature: Linked data
       | Spain's first self-installing offshore wind turbine arrives to the Canary Islands | inea |
       | EU-funded researchers set a new energy efficiency record for solar cells          | inea |
 
+  @sites-all
   Scenario Outline: Departments on the INFO site should contain announcements coming from INEA
     Given I go to the RDF entity page "<department>" on the "info" site
     When I follow "<announcement>"
@@ -47,6 +49,7 @@ Feature: Linked data
     | Directorate-General for Energy           | Over €300 million available now to energy projects                                |
     | Directorate-General for Energy           | Spain's first self-installing offshore wind turbine arrives to the Canary Islands |
 
+  @sites-all
   Scenario Outline: Announcements and events contains a link to their related department page
     Given I go to the RDF entity page "<title>" on the "<site>" site
     And I follow "<department>"
@@ -64,3 +67,25 @@ Feature: Linked data
       | inea | Horizon 2020 Energy info day                                                      | Innovation and Networks Executive Agency |
       | inea | EU Sustainable Energy Week (EUSEW) 2018                                           | Directorate-General for Energy           |
       | inea | Horizon 2020 Transport virtual info day                                           | Innovation and Networks Executive Agency |
+
+    @api @site-inea
+    Scenario Outline: New INEA announcements tagged with "energy policy" will be displayed on INFO site's department pages
+
+      Given the following announcements:
+        | title                            | subject       |
+        | Announcement about energy policy | energy policy |
+        | Announcement about innovation    | innovation    |
+
+      When I go to the RDF entity page "<department>" on the "info" site
+      Then I should not see the following links:
+        | Announcement about energy policy                                                  |
+        | Over €300 million available now to energy projects                                |
+        | Spain's first self-installing offshore wind turbine arrives to the Canary Islands |
+      But I should not see the following links:
+        | Announcement about innovation |
+
+      Examples:
+        | department                               |
+        | Directorate-General for Environment      |
+        | Innovation and Networks Executive Agency |
+        | Directorate-General for Energy           |

@@ -15,7 +15,7 @@ default:
       - Ec\Europa\EuropaDemo\Behat\RdfExternalContext:
           # @todo port this to TransformationContext as soon as issue below is fixed.
           # @link https://webgate.ec.europa.eu/CITnet/jira/browse/OPENEUROPA-1224
-          path_mappings:
+          path_mappings: &rdf-path-mappings
             'Over €300 million available now to energy projects': 'http_e_f_flocalhost_e8080_fsites_finea_fweb_frdf_aentity_foe_aannouncement_f2236b3d4_bb988_b4614_ba093_b920ba4633b97'
             'EU-funded researchers set a new energy efficiency record for solar cells': 'http_e_f_flocalhost_e8080_fsites_finea_fweb_frdf_aentity_foe_aannouncement_f26f49f73_bb0b4_b4c84_b9606_ba0e3f678cd14'
             "Spain's first self-installing offshore wind turbine arrives to the Canary Islands": 'http_e_f_flocalhost_e8080_fsites_finea_fweb_frdf_aentity_foe_aannouncement_f36f2e2a8_bf517_b4277_b901c_b1648de2c8363'
@@ -87,6 +87,10 @@ site:
             RDF content administration: "/en/admin/content/rdf"
             login: "/en/user/login"
             logout: "/en/user/logout"
+      - Ec\Europa\EuropaDemo\Behat\RdfExternalContext:
+          # @todo port this to TransformationContext as soon as issue below is fixed.
+          # @link https://webgate.ec.europa.eu/CITnet/jira/browse/OPENEUROPA-1224
+          path_mappings: *rdf-path-mappings
   extensions:
     Drupal\DrupalExtension:
       api_driver: "drupal"
