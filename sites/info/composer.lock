@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eb7c90786fe0cc91ffd2994c545a5ece",
+    "content-hash": "0bd4441f0da82ffeb929a77ee636f10f",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -60,16 +60,16 @@
         },
         {
             "name": "chi-teck/drupal-code-generator",
-            "version": "1.26.0",
+            "version": "1.26.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Chi-teck/drupal-code-generator.git",
-                "reference": "3090fabdbf3dd4b66e0fa0e4ed5d8adab6deb974"
+                "reference": "b026b08e0414d85409ad2875202983a3aaa96f64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Chi-teck/drupal-code-generator/zipball/3090fabdbf3dd4b66e0fa0e4ed5d8adab6deb974",
-                "reference": "3090fabdbf3dd4b66e0fa0e4ed5d8adab6deb974",
+                "url": "https://api.github.com/repos/Chi-teck/drupal-code-generator/zipball/b026b08e0414d85409ad2875202983a3aaa96f64",
+                "reference": "b026b08e0414d85409ad2875202983a3aaa96f64",
                 "shasum": ""
             },
             "require": {
@@ -82,6 +82,11 @@
                 "bin/dcg"
             ],
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
             "autoload": {
                 "files": [
                     "src/bootstrap.php"
@@ -95,7 +100,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal code generator",
-            "time": "2018-08-06T08:54:16+00:00"
+            "time": "2018-09-16T05:32:56+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -2785,16 +2790,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "c33865848352a5d853280daaffc35bea643877f8"
+                "reference": "5e47ec938e4fd81bb8df94e7c97327c66c817338"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/c33865848352a5d853280daaffc35bea643877f8",
-                "reference": "c33865848352a5d853280daaffc35bea643877f8",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/5e47ec938e4fd81bb8df94e7c97327c66c817338",
+                "reference": "5e47ec938e4fd81bb8df94e7c97327c66c817338",
                 "shasum": ""
             },
             "require": {
-                "chi-teck/drupal-code-generator": "^1.24.0",
+                "chi-teck/drupal-code-generator": "^1.26.1",
                 "composer/semver": "^1.4",
                 "consolidation/annotated-command": "^2.8.1",
                 "consolidation/config": "^1.1.0",
@@ -2818,16 +2823,53 @@
                 "webmozart/path-util": "^2.1.0"
             },
             "require-dev": {
+                "composer/installers": "^1.2",
+                "cweagans/composer-patches": "~1.0",
+                "drupal/alinks": "1.0.0",
+                "drupal/devel": "^1.0@RC",
+                "drupal/empty_theme": "1.0",
                 "g1a/composer-test-scenarios": "^2.2.0",
                 "lox/xhprof": "dev-master",
                 "phpunit/phpunit": "^4.8.36|^5.5.4",
-                "squizlabs/php_codesniffer": "^2.7"
+                "squizlabs/php_codesniffer": "^2.7",
+                "webflo/drupal-core-strict": "8.6.x-dev"
             },
             "bin": [
                 "drush"
             ],
             "type": "library",
             "extra": {
+                "installer-paths": {
+                    "sut/core": [
+                        "type:drupal-core"
+                    ],
+                    "sut/libraries/{$name}": [
+                        "type:drupal-library"
+                    ],
+                    "sut/modules/unish/{$name}": [
+                        "drupal/devel"
+                    ],
+                    "sut/themes/unish/{$name}": [
+                        "drupal/empty_theme"
+                    ],
+                    "sut/modules/contrib/{$name}": [
+                        "type:drupal-module"
+                    ],
+                    "sut/profiles/contrib/{$name}": [
+                        "type:drupal-profile"
+                    ],
+                    "sut/themes/contrib/{$name}": [
+                        "type:drupal-theme"
+                    ],
+                    "sut/drush/contrib/{$name}": [
+                        "type:drupal-drush"
+                    ]
+                },
+                "patches": {
+                    "drupal/core": {
+                        "Allow updating modules with new service dependencies https://www.drupal.org/project/drupal/issues/2863986": "https://www.drupal.org/files/issues/2863986-2-49.patch"
+                    }
+                },
                 "branch-alias": {
                     "dev-master": "9.x-dev"
                 }
@@ -2879,7 +2921,7 @@
             ],
             "description": "Drush is a command line shell and scripting interface for Drupal, a veritable Swiss Army knife designed to make life easier for those of us who spend some of our working hours hacking away at the command prompt.",
             "homepage": "http://www.drush.org",
-            "time": "2018-09-14T11:47:07+00:00"
+            "time": "2018-09-18T13:23:28+00:00"
         },
         {
             "name": "easyrdf/easyrdf",
@@ -3528,16 +3570,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.0.3",
+            "version": "v4.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "bd088dc940a418f09cda079a9b5c7c478890fb8d"
+                "reference": "fa6ee28600d21d49b2b4e1006b48426cec8e579c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/bd088dc940a418f09cda079a9b5c7c478890fb8d",
-                "reference": "bd088dc940a418f09cda079a9b5c7c478890fb8d",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/fa6ee28600d21d49b2b4e1006b48426cec8e579c",
+                "reference": "fa6ee28600d21d49b2b4e1006b48426cec8e579c",
                 "shasum": ""
             },
             "require": {
@@ -3575,7 +3617,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2018-07-15T17:25:16+00:00"
+            "time": "2018-09-18T07:03:24+00:00"
         },
         {
             "name": "openeuropa/ecl-twig-loader",
@@ -3680,16 +3722,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/openeuropa/oe_authorisation.git",
-                "reference": "21f64283ed3260310585923a613261e79d7aa05e"
+                "reference": "406474e807a5c6a6f2ffc9a635ac1f156f87e5f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openeuropa/oe_authorisation/zipball/21f64283ed3260310585923a613261e79d7aa05e",
-                "reference": "21f64283ed3260310585923a613261e79d7aa05e",
+                "url": "https://api.github.com/repos/openeuropa/oe_authorisation/zipball/406474e807a5c6a6f2ffc9a635ac1f156f87e5f0",
+                "reference": "406474e807a5c6a6f2ffc9a635ac1f156f87e5f0",
                 "shasum": ""
             },
             "require": {
                 "drupal/core": "~8.6@alpha",
+                "openeuropa/syncope-php-client": "dev-master",
                 "php": "^7.1"
             },
             "require-dev": {
@@ -3734,20 +3777,20 @@
                 "EUPL-1.2"
             ],
             "description": "User authorisation features for the OpenEuropa project.",
-            "time": "2018-08-22T16:17:10+00:00"
+            "time": "2018-09-17T09:47:34+00:00"
         },
         {
             "name": "openeuropa/oe_content",
-            "version": "dev-master",
+            "version": "dev-OPENEUROPA-1188",
             "source": {
                 "type": "git",
                 "url": "https://github.com/openeuropa/oe_content.git",
-                "reference": "89bcdbdb06f8019508d8176b60c636736f019921"
+                "reference": "cfa859cf8de1d2a57b58aad1d5414746cce289e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openeuropa/oe_content/zipball/89bcdbdb06f8019508d8176b60c636736f019921",
-                "reference": "89bcdbdb06f8019508d8176b60c636736f019921",
+                "url": "https://api.github.com/repos/openeuropa/oe_content/zipball/cfa859cf8de1d2a57b58aad1d5414746cce289e7",
+                "reference": "cfa859cf8de1d2a57b58aad1d5414746cce289e7",
                 "shasum": ""
             },
             "require": {
@@ -3806,7 +3849,7 @@
                 "EUPL-1.2"
             ],
             "description": "OpenEuropa Drupal module that contains the EC corporate entity types.",
-            "time": "2018-09-11T07:45:42+00:00"
+            "time": "2018-09-18T13:58:22+00:00"
         },
         {
             "name": "openeuropa/oe_multilingual",
@@ -4177,6 +4220,44 @@
             ],
             "description": "pCas, a PHP CAS library",
             "time": "2018-08-24T09:33:54+00:00"
+        },
+        {
+            "name": "openeuropa/syncope-php-client",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/openeuropa/syncope-php-client.git",
+                "reference": "e3e3b2a1f99b4ae89a1b4a1d302e074a3925585d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/openeuropa/syncope-php-client/zipball/e3e3b2a1f99b4ae89a1b4a1d302e074a3925585d",
+                "reference": "e3e3b2a1f99b4ae89a1b4a1d302e074a3925585d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "guzzlehttp/guzzle": "^6.2",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "openeuropa/code-review": "~0.2",
+                "openeuropa/task-runner": "~0.8",
+                "phpunit/phpunit": "~5.0|~6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "OpenEuropa\\SyncopePhpClient\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "EUPL-1.2"
+            ],
+            "time": "2018-09-18T09:15:39+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -8899,12 +8980,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/openeuropa/task-runner.git",
-                "reference": "574afa4e3a0804594161d482ff0d64a0d68025c2"
+                "reference": "c897ccc6e2d8145557154529d2173ef5a1fe18f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openeuropa/task-runner/zipball/574afa4e3a0804594161d482ff0d64a0d68025c2",
-                "reference": "574afa4e3a0804594161d482ff0d64a0d68025c2",
+                "url": "https://api.github.com/repos/openeuropa/task-runner/zipball/c897ccc6e2d8145557154529d2173ef5a1fe18f2",
+                "reference": "c897ccc6e2d8145557154529d2173ef5a1fe18f2",
                 "shasum": ""
             },
             "require": {
@@ -8914,8 +8995,8 @@
                 "nuvoleweb/robo-config": "^0.2.1"
             },
             "require-dev": {
-                "openeuropa/code-review": "~1.0",
-                "phpunit/phpunit": "~5.5|~6.0"
+                "openeuropa/code-review": "~1.0.0-alpha3",
+                "phpunit/phpunit": "~5.5||~6.0"
             },
             "bin": [
                 "bin/run"
@@ -8930,7 +9011,7 @@
             "license": [
                 "EUPL-1.2"
             ],
-            "time": "2018-09-14T12:09:26+00:00"
+            "time": "2018-09-18T10:09:01+00:00"
         },
         {
             "name": "phar-io/manifest",
