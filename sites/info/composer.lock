@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0bd4441f0da82ffeb929a77ee636f10f",
+    "content-hash": "eb7c90786fe0cc91ffd2994c545a5ece",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1912,6 +1912,9 @@
                     "recurse": false,
                     "replace": false,
                     "merge-extra": false
+                },
+                "patches_applied": {
+                    "Allow updating modules with new service dependencies https://www.drupal.org/project/drupal/issues/2863986": "https://www.drupal.org/files/issues/2863986-2-49.patch"
                 }
             },
             "autoload": {
@@ -3781,16 +3784,16 @@
         },
         {
             "name": "openeuropa/oe_content",
-            "version": "dev-OPENEUROPA-1188",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/openeuropa/oe_content.git",
-                "reference": "cfa859cf8de1d2a57b58aad1d5414746cce289e7"
+                "reference": "db77781bb5c73cf146a11ccd2733d2e819e1a4ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openeuropa/oe_content/zipball/cfa859cf8de1d2a57b58aad1d5414746cce289e7",
-                "reference": "cfa859cf8de1d2a57b58aad1d5414746cce289e7",
+                "url": "https://api.github.com/repos/openeuropa/oe_content/zipball/db77781bb5c73cf146a11ccd2733d2e819e1a4ed",
+                "reference": "db77781bb5c73cf146a11ccd2733d2e819e1a4ed",
                 "shasum": ""
             },
             "require": {
@@ -3849,7 +3852,7 @@
                 "EUPL-1.2"
             ],
             "description": "OpenEuropa Drupal module that contains the EC corporate entity types.",
-            "time": "2018-09-18T13:58:22+00:00"
+            "time": "2018-09-18T14:46:59+00:00"
         },
         {
             "name": "openeuropa/oe_multilingual",
