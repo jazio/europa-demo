@@ -34,6 +34,7 @@ default:
           pages:
             news: "/en/news"
             events: "/en/events"
+            front: "/en"
       filters: { tags: "@sites-all" }
   extensions:
     Behat\MinkExtension:
