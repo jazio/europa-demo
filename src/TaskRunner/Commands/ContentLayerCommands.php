@@ -63,4 +63,20 @@ class ContentLayerCommands extends AbstractCommands {
       ->run();
   }
 
+  /**
+   * Drush commands on all sites at once.
+   *
+   * @param string $drush_command
+   *   The Drush command.
+   *
+   * @command sites:parallel-drush
+   */
+  public function runParallelDrush(string $drush_command): void {
+    $this->taskParallelExec()
+      ->process('cd sites/info;./vendor/bin/drush ' . $drush_command)
+      ->process('cd sites/inea;./vendor/bin/drush ' . $drush_command)
+      ->process('cd sites/energy;./vendor/bin/drush ' . $drush_command)
+      ->run();
+  }
+
 }
