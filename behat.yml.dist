@@ -43,9 +43,10 @@ site:
       - Drupal\DrupalExtension\Context\MessageContext
       - Drupal\DrupalExtension\Context\MarkupContext
       - Drupal\DrupalExtension\Context\MessageContext
-      - Ec\Europa\EuropaDemo\Behat\MinkContext
+      - Ec\Europa\EuropaDemo\Behat\DrupalMinkContext
       - Ec\Europa\EuropaDemo\Behat\DrupalContext
       - Ec\Europa\EuropaDemo\Behat\RdfEntityContext
+      - Ec\Europa\EuropaDemo\Behat\MinkContext
       - OpenEuropa\Behat\TransformationContext:
           elements:
             about dropdown menu: "#nav-menu-expandable-group-2 .ecl-navigation-menu__links"
