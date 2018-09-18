@@ -49,3 +49,48 @@ Feature: Events
       | Horizon 2020 Transport virtual info day | info |
       | Horizon 2020 Energy info day            | info |
       | EU Sustainable Energy Week (EUSEW) 2018 | info |
+
+  Scenario: The ENERGY site should lists events from the INEA but not from the INFO site on its events listing page
+    Given I am on "the events page" page of the "energy" site
+
+    # Events produced by the INEA site
+    Then I should see the following links:
+      | Horizon 2020 Energy info day	        |
+      | EU Sustainable Energy Week (EUSEW) 2018 |
+      | Horizon 2020 Transport virtual info day |
+
+    # Events produced by the INFO site
+    But I should not see the following links:
+      | Financing Energy Efficiency in Malta and Italy |
+      | EU Energy Day at COP24, COP24 EU Pavilion      |
+      | EU Green Week 2019                             |
+
+  Scenario: The INFO site should lists only its own events on the events listing page
+    Given I am on "the events page" page of the "info" site
+
+    # Events produced by the INFO site
+    Then I should see the following links:
+      | Financing Energy Efficiency in Malta and Italy |
+      | EU Energy Day at COP24, COP24 EU Pavilion      |
+      | EU Green Week 2019                             |
+
+    # Events produced by the INEA site
+    But I should not see the following links:
+      | Horizon 2020 Energy info day	        |
+      | EU Sustainable Energy Week (EUSEW) 2018 |
+      | Horizon 2020 Transport virtual info day |
+
+  Scenario: The INEA site should lists only its own events on its events listing page
+    Given I am on "the events page" page of the "energy" site
+
+    # Events produced by the INEA site
+    Then I should see the following links:
+      | Horizon 2020 Energy info day	        |
+      | EU Sustainable Energy Week (EUSEW) 2018 |
+      | Horizon 2020 Transport virtual info day |
+
+    # Events produced by the INFO site
+    But I should not see the following links:
+      | Financing Energy Efficiency in Malta and Italy |
+      | EU Energy Day at COP24, COP24 EU Pavilion      |
+      | EU Green Week 2019                             |

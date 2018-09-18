@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a0db6f68542ef5012d84e57b3a8126bf",
+    "content-hash": "81ca0800e24970945f63b7f2bd27c9e2",
     "packages": [
         {
             "name": "behat/behat",
@@ -1248,6 +1248,50 @@
             "time": "2017-02-14T19:40:03+00:00"
         },
         {
+            "name": "cweagans/composer-patches",
+            "version": "1.6.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cweagans/composer-patches.git",
+                "reference": "2ec4f00ff5fb64de584c8c4aea53bf9053ecb0b3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/2ec4f00ff5fb64de584c8c4aea53bf9053ecb0b3",
+                "reference": "2ec4f00ff5fb64de584c8c4aea53bf9053ecb0b3",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "composer/composer": "~1.0",
+                "phpunit/phpunit": "~4.6"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "cweagans\\Composer\\Patches"
+            },
+            "autoload": {
+                "psr-4": {
+                    "cweagans\\Composer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Cameron Eagans",
+                    "email": "me@cweagans.net"
+                }
+            ],
+            "description": "Provides a way to patch Composer packages.",
+            "time": "2018-05-11T18:00:16+00:00"
+        },
+        {
             "name": "dflydev/dot-access-data",
             "version": "v1.1.0",
             "source": {
@@ -1646,12 +1690,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "97f8f0b6f693e5b13c63184a6e00210a46cd918e"
+                "reference": "c33865848352a5d853280daaffc35bea643877f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/97f8f0b6f693e5b13c63184a6e00210a46cd918e",
-                "reference": "97f8f0b6f693e5b13c63184a6e00210a46cd918e",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/c33865848352a5d853280daaffc35bea643877f8",
+                "reference": "c33865848352a5d853280daaffc35bea643877f8",
                 "shasum": ""
             },
             "require": {
@@ -1740,7 +1784,7 @@
             ],
             "description": "Drush is a command line shell and scripting interface for Drupal, a veritable Swiss Army knife designed to make life easier for those of us who spend some of our working hours hacking away at the command prompt.",
             "homepage": "http://www.drush.org",
-            "time": "2018-09-12T10:36:40+00:00"
+            "time": "2018-09-14T11:47:07+00:00"
         },
         {
             "name": "escapestudios/symfony2-coding-standard",
@@ -2732,26 +2776,27 @@
         },
         {
             "name": "openeuropa/code-review",
-            "version": "0.3.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/openeuropa/code-review.git",
-                "reference": "f21bebeacd33a0d414c89f7508a8b47551ec7119"
+                "reference": "cfabebfa0bfea5843c153d59784b39c60c674ea0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openeuropa/code-review/zipball/f21bebeacd33a0d414c89f7508a8b47551ec7119",
-                "reference": "f21bebeacd33a0d414c89f7508a8b47551ec7119",
+                "url": "https://api.github.com/repos/openeuropa/code-review/zipball/cfabebfa0bfea5843c153d59784b39c60c674ea0",
+                "reference": "cfabebfa0bfea5843c153d59784b39c60c674ea0",
                 "shasum": ""
             },
             "require": {
+                "cweagans/composer-patches": "^1.0",
                 "drupal/coder": "^8.2",
-                "escapestudios/symfony2-coding-standard": "^2.11",
                 "phpmd/phpmd": "^2.6",
-                "phpro/grumphp": "~0.12"
+                "phpro/grumphp": "^0.14.2",
+                "squizlabs/php_codesniffer": "^2.9"
             },
             "require-dev": {
-                "phpunit/phpunit": "^5.5.0|^6.0"
+                "phpunit/phpunit": "^5.5|^6.0"
             },
             "type": "library",
             "autoload": {
@@ -2764,7 +2809,7 @@
                 "EUPL-1.2"
             ],
             "description": "OpenEuropa code review component.",
-            "time": "2018-07-13T15:33:02+00:00"
+            "time": "2018-09-17T07:59:17+00:00"
         },
         {
             "name": "openeuropa/task-runner",
@@ -2772,23 +2817,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/openeuropa/task-runner.git",
-                "reference": "cb3b7d43af67a54d69c0b62ddd59674aa590afc9"
+                "reference": "574afa4e3a0804594161d482ff0d64a0d68025c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openeuropa/task-runner/zipball/cb3b7d43af67a54d69c0b62ddd59674aa590afc9",
-                "reference": "cb3b7d43af67a54d69c0b62ddd59674aa590afc9",
+                "url": "https://api.github.com/repos/openeuropa/task-runner/zipball/574afa4e3a0804594161d482ff0d64a0d68025c2",
+                "reference": "574afa4e3a0804594161d482ff0d64a0d68025c2",
                 "shasum": ""
             },
             "require": {
                 "consolidation/robo": "^1.2.2",
-                "gitonomy/gitlib": "~1",
-                "jakeasmith/http_build_url": "^1.0",
-                "nuvoleweb/robo-config": "~0.2"
+                "gitonomy/gitlib": "^1.0",
+                "jakeasmith/http_build_url": "^1.0.1",
+                "nuvoleweb/robo-config": "^0.2.1"
             },
             "require-dev": {
-                "openeuropa/code-review": "~0.3",
-                "phpunit/phpunit": "^5||^6.0"
+                "openeuropa/code-review": "~1.0",
+                "phpunit/phpunit": "~5.5|~6.0"
             },
             "bin": [
                 "bin/run"
@@ -2803,7 +2848,7 @@
             "license": [
                 "EUPL-1.2"
             ],
-            "time": "2018-09-05T13:31:02+00:00"
+            "time": "2018-09-14T12:09:26+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -4840,6 +4885,7 @@
         "behat/mink-selenium2-driver": 20,
         "drupal/drupal-extension": 15,
         "drush/drush": 20,
+        "openeuropa/code-review": 20,
         "openeuropa/task-runner": 20
     },
     "prefer-stable": true,

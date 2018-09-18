@@ -9,6 +9,7 @@ declare(strict_types = 1);
 
 use Drupal\Component\Utility\Html;
 use Drupal\Core\Url;
+use Drupal\ui_patterns\Element\PatternContext;
 
 /**
  * Implements hook_theme().
@@ -55,4 +56,26 @@ function template_preprocess_europa_demo_site_banner(array &$variables): void {
   ];
 
   $variables['background'] = $base_root . $base_path . Html::escape($variables['background']);
+}
+
+/**
+ * Implements hook_ui_patterns_theme_suggestions_alter().
+ */
+function europa_demo_core_ui_patterns_suggestions_alter(array &$suggestions, array $variables, PatternContext $context) {
+
+  // Provide suggestions for patterns with context type set to "entity_list".
+  // This hooks assumes that contexts will provide "entity_type" and "bundle"
+  // properties. Also, the actual list of entities must be provided in a
+  // "entities" context property.
+  if ($context->isOfType('entity_list')) {
+    $hook = $variables['theme_hook_original'];
+
+    /** @var \Drupal\Core\Entity\ContentEntityBase $entity */
+    $entity_type = $context->getProperty('entity_type');
+    $bundle = $context->getProperty('bundle');
+
+    $suggestions[] = $hook . '__entity_list';
+    $suggestions[] = $hook . '__entity_list__' . $entity_type;
+    $suggestions[] = $hook . '__entity_list__' . $entity_type . '__' . $bundle;
+  }
 }
