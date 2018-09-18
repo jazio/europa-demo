@@ -30,6 +30,7 @@ pipeline:
   composer-install:
     group: prepare
     image: fpfis/httpd-php-dev:7.1
+    network_mode: host
     volumes:
       - /cache:/cache
     commands:
@@ -38,6 +39,7 @@ pipeline:
   build-site-info:
     group: build-site
     image: fpfis/httpd-php-dev:7.1
+    network_mode: host
     volumes:
       - /cache:/cache
     commands:
@@ -46,6 +48,7 @@ pipeline:
   build-site-inea:
     group: build-site
     image: fpfis/httpd-php-dev:7.1
+    network_mode: host
     volumes:
       - /cache:/cache
     commands:
@@ -54,6 +57,7 @@ pipeline:
   build-site-energy:
     group: build-site
     image: fpfis/httpd-php-dev:7.1
+    network_mode: host
     volumes:
       - /cache:/cache
     commands:
@@ -62,48 +66,56 @@ pipeline:
   install-site-info:
     group: install-site
     image: fpfis/httpd-php-dev:7.1
+    network_mode: host
     commands:
       - ./vendor/bin/run --working-dir='/test/europa-demo/sites/info' drupal:site-install
 
   install-site-inea:
     group: install-site
     image: fpfis/httpd-php-dev:7.1
+    network_mode: host
     commands:
       - ./vendor/bin/run --working-dir='/test/europa-demo/sites/inea' drupal:site-install
 
   install-site-energy:
     group: install-site
     image: fpfis/httpd-php-dev:7.1
+    network_mode: host
     commands:
       - ./vendor/bin/run --working-dir='/test/europa-demo/sites/energy' drupal:site-install
 
   grumphp:
     group: test
     image: fpfis/httpd-php-dev:7.1
+    network_mode: host
     commands:
       - ./vendor/bin/grumphp run
 
   behat-general:
     group: test
     image: fpfis/httpd-php-dev:7.1
+    network_mode: host
     commands:
       - ./vendor/bin/behat
 
   behat-inea:
     group: test
     image: fpfis/httpd-php-dev:7.1
+    network_mode: host
     commands:
       - ./vendor/bin/behat -p inea
 
   behat-energy:
     group: test
     image: fpfis/httpd-php-dev:7.1
+    network_mode: host
     commands:
       - ./vendor/bin/behat -p energy
 
   behat-info:
     group: test
     image: fpfis/httpd-php-dev:7.1
+    network_mode: host
     commands:
       - ./vendor/bin/behat -p info
 
