@@ -19,7 +19,7 @@ Feature: Linked data
       | news   | Over €300 million available now to energy projects                                | inea |
       | news   | Spain's first self-installing offshore wind turbine arrives to the Canary Islands | inea |
 
-  Scenario Outline: Consumed content on the INFO site should be linked to its provenience page
+  Scenario Outline: Consumed announcements on the INFO site should be linked to its provenience page
     When I am on "the news page" page of the "info" site
 
     And I follow "<title>"
@@ -31,6 +31,21 @@ Feature: Linked data
       | Over €300 million available now to energy projects                                | inea |
       | Spain's first self-installing offshore wind turbine arrives to the Canary Islands | inea |
       | EU-funded researchers set a new energy efficiency record for solar cells          | inea |
+
+  Scenario Outline: Departments on the INFO site should contain announcements coming from INEA
+    Given I go to the RDF entity page "<department>" on the "info" site
+    When I follow "<announcement>"
+    Then I should be on the "inea" site
+    And I should see the "<announcement>" in the "header title"
+
+    Examples:
+    | department                               | announcement                                                                      |
+    | Directorate-General for Environment      | Over €300 million available now to energy projects                                |
+    | Directorate-General for Environment      | Spain's first self-installing offshore wind turbine arrives to the Canary Islands |
+    | Innovation and Networks Executive Agency | Over €300 million available now to energy projects                                |
+    | Innovation and Networks Executive Agency | Spain's first self-installing offshore wind turbine arrives to the Canary Islands |
+    | Directorate-General for Energy           | Over €300 million available now to energy projects                                |
+    | Directorate-General for Energy           | Spain's first self-installing offshore wind turbine arrives to the Canary Islands |
 
   Scenario Outline: Announcements and events contains a link to their related department page
     Given I go to the RDF entity page "<title>" on the "<site>" site
