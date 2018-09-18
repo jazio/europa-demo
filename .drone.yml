@@ -5,6 +5,8 @@ workspace:
 services:
   web:
     image: fpfis/httpd-php-dev:7.1
+    ports:
+    - "8080:8080"
     environment:
       - DOCUMENT_ROOT=/test/europa-demo
   mysql:
