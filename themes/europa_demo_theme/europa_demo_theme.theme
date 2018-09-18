@@ -112,6 +112,11 @@ function europa_demo_theme_preprocess_rdf_entity__oe_announcement(&$variables) {
     '#items' => $labels,
     '#attributes' => ['class' => ['ecl-list', 'ecl-list--inline']],
   ];
+
+  // Department.
+  $view_builder = \Drupal::entityTypeManager()->getViewBuilder('rdf_entity');
+  $department = $entity->get('oe_announcement_department');
+  $variables['department'] = $view_builder->viewField($department, ['type' => 'rdf_entity_reference_department_url', 'label' => 'hidden']);
 }
 
 /**
@@ -182,6 +187,11 @@ function europa_demo_theme_preprocess_rdf_entity__oe_event(&$variables) {
   $now = new DrupalDateTime();
   $end = DrupalDateTime::createFromTimestamp($entity->get('oe_event_end_date')->value);
   $variables['passed'] = $now > $end;
+
+  // Department.
+  $view_builder = \Drupal::entityTypeManager()->getViewBuilder('rdf_entity');
+  $department = $entity->get('oe_event_organiser');
+  $variables['department'] = $view_builder->viewField($department, ['type' => 'rdf_entity_reference_department_url', 'label' => 'hidden']);
 }
 
 /**
