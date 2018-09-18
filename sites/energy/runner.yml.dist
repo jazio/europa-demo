@@ -2,7 +2,7 @@ drupal:
   root: "web"
   base_url: "${web.base_url}/sites/energy/web"
   database:
-    host: "mysql"
+    host: "${database.host}"
     port: "3306"
     name: "energy"
     user: "root"

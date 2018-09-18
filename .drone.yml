@@ -5,8 +5,6 @@ workspace:
 services:
   web:
     image: fpfis/httpd-php-dev:7.1
-    ports:
-    - "8080:8080"
     environment:
       - DOCUMENT_ROOT=/test/europa-demo
   mysql:
@@ -30,16 +28,16 @@ pipeline:
   composer-install:
     group: prepare
     image: fpfis/httpd-php-dev:7.1
-    network_mode: host
     volumes:
       - /cache:/cache
     commands:
       - composer install
+      - ./vendor/bin/run setup:behat -D web.base_url=http://localhost:8080 -D authentication.server.base_url=http://localhost:8001 -D selenium.host=http://localhost -D sparql.host=localhost
+      - ./vendor/bin/run setup:runner -D web.base_url=http://localhost:8080 -D database.host=localhost -D authentication.server.base_url=http://localhost:8001 -D selenium.host=http://localhost -D sparql.host=localhost
 
   build-site-info:
     group: build-site
     image: fpfis/httpd-php-dev:7.1
-    network_mode: host
     volumes:
       - /cache:/cache
     commands:
@@ -48,7 +46,6 @@ pipeline:
   build-site-inea:
     group: build-site
     image: fpfis/httpd-php-dev:7.1
-    network_mode: host
     volumes:
       - /cache:/cache
     commands:
@@ -57,7 +54,6 @@ pipeline:
   build-site-energy:
     group: build-site
     image: fpfis/httpd-php-dev:7.1
-    network_mode: host
     volumes:
       - /cache:/cache
     commands:
@@ -87,7 +83,6 @@ pipeline:
   grumphp:
     group: test
     image: fpfis/httpd-php-dev:7.1
-    network_mode: host
     commands:
       - ./vendor/bin/grumphp run
 

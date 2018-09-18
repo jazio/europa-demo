@@ -1,6 +1,9 @@
 web:
   base_url: "http://web:8080"
 
+database:
+  host: "mysql"
+
 authentication:
   server:
     base_url: "http://authentication:8001"
