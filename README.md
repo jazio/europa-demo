@@ -37,8 +37,8 @@ When working on 3 concurrent builds, there are Task Runner parallel tasks availa
 
 ```
 ./vendor/bin/run sites:parallel-composer-install
-./vendor/bin/run sites:parallel-sites-setup
-./vendor/bin/run sites:parallel-sites-install
+./vendor/bin/run sites:parallel-setup
+./vendor/bin/run sites:parallel-install
 ```
 
 ## Installation Using Docker Compose
