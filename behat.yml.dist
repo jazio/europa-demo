@@ -3,6 +3,15 @@ default:
     default:
       contexts:
       - Behat\MinkExtension\Context\MinkContext
+      - Ec\Europa\EuropaDemo\Behat\MinkContext
+      - Ec\Europa\EuropaDemo\Behat\SitesMinkContext:
+          sites:
+            info:
+              base_url: "${web.base_url}/sites/info/web"
+            inea:
+              base_url: "${web.base_url}/sites/inea/web"
+            energy:
+              base_url: "${web.base_url}/sites/energy/web"
       - Ec\Europa\EuropaDemo\Behat\RdfExternalContext:
           # @todo port this to TransformationContext as soon as issue below is fixed.
           # @link https://webgate.ec.europa.eu/CITnet/jira/browse/OPENEUROPA-1224
@@ -22,6 +31,9 @@ default:
       - OpenEuropa\Behat\TransformationContext:
           elements:
             header title: '.ecl-page-header h1'
+          pages:
+            news: "/en/news"
+            events: "/en/events"
       filters: { tags: "@sites-all" }
   extensions:
     Behat\MinkExtension:
