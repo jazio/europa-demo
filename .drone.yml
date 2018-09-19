@@ -85,25 +85,25 @@ pipeline:
     group: test
     image: fpfis/httpd-php-dev:7.1
     commands:
-      - ./vendor/bin/behat
+      - ./vendor/bin/behat --tags=~wip
 
   behat-inea:
     group: test
     image: fpfis/httpd-php-dev:7.1
     commands:
-      - ./vendor/bin/behat -p inea
+      - ./vendor/bin/behat -p inea --tags=~wip
 
   behat-energy:
     group: test
     image: fpfis/httpd-php-dev:7.1
     commands:
-      - ./vendor/bin/behat -p energy
+      - ./vendor/bin/behat -p energy --tags=~wip
 
   behat-info:
     group: test
     image: fpfis/httpd-php-dev:7.1
     commands:
-      - ./vendor/bin/behat -p info
+      - ./vendor/bin/behat -p info --tags=~wip
 
   start-demo:
     group: test
