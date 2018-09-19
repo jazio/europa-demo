@@ -45,8 +45,7 @@ class RdfEntityContext extends RawDrupalContext {
    * A custom step that creates a user that has the permissions to manage and
    * view RDF entities of a give type.
    *
-   * @Given I am logged in with a user that can access the RDF content overview
-   *   page
+   * @Given I am logged in with a user that can access the RDF content overview page
    */
   public function assertLoggedInWithRdfEntityTypePermissions(): void {
     $permissions = [
