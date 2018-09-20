@@ -18,6 +18,7 @@ drupal:
   - { task: "chmod", permissions: 0775, file: "${drupal.root}/sites/default" }
   - { task: "chmod", permissions: 0664, file: "${drupal.root}/sites/default/settings.php" }
   - "./vendor/bin/run drupal:import-interface-translations"
+  - "./vendor/bin/drush en oe_authentication -y"
   - "./vendor/bin/drush cr"
   settings:
     config_directories:
@@ -49,6 +50,15 @@ drupal:
         exclude: [ ".ecl-button", ".nolaco", ".more-link", ".pager" ]
         coverage: { document: "any", page: "any" }
         icon: "all"
+      cas.settings:
+        server:
+          prototol: "http"
+          hostname: "authentication"
+          port: "8001"
+          path: "/"
+      oe_authentication.settings:
+        register_path: "register"
+        validation_path: "serviceValidate"
 
 commands:
   drupal:site-setup:
