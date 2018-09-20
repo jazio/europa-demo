@@ -1,0 +1,8 @@
+services:
+  drupal.authentication_manager:
+    class: Ec\Europa\EuropaDemo\Behat\Services\CasAuthenticationManager
+    arguments:
+    - "@mink"
+    - "@drupal.user_manager"
+    - "%mink.parameters%"
+    - "%drupal.parameters%"
