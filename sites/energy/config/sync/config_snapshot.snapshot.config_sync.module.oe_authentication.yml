@@ -1,0 +1,16 @@
+uuid: 0a28e90f-3cc8-434d-9c65-2df7f93dff1e
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_authentication
+id: config_sync.module.oe_authentication
+snapshotSet: config_sync
+extensionType: module
+extensionName: oe_authentication
+items:
+  -
+    collection: ''
+    name: oe_authentication.settings
+    data:
+      base_url: 'http://authentication:8001'
