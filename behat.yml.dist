@@ -3,6 +3,7 @@ default:
     default:
       contexts:
       - Behat\MinkExtension\Context\MinkContext
+      - Ec\Europa\EuropaDemo\Behat\AuthenticationContext
       - Ec\Europa\EuropaDemo\Behat\MinkContext
       - Ec\Europa\EuropaDemo\Behat\SitesMinkContext:
           sites:
@@ -55,6 +56,7 @@ site:
       - Drupal\DrupalExtension\Context\DrupalContext
       - Drupal\DrupalExtension\Context\MarkupContext
       - Drupal\DrupalExtension\Context\MessageContext
+      - Ec\Europa\EuropaDemo\Behat\AuthenticationContext
       - Ec\Europa\EuropaDemo\Behat\DrupalContext
       - Ec\Europa\EuropaDemo\Behat\DrupalMinkContext
       - Ec\Europa\EuropaDemo\Behat\MinkContext

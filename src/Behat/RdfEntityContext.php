@@ -64,6 +64,11 @@ class RdfEntityContext extends RawDrupalContext {
     $user->mail = "{$user->name}@example.com";
     $this->userCreate($user);
 
+    // Once the user is created assign the CAS username for the account.
+    $cas_user_manager = \Drupal::service('cas.user_manager');
+    $account = user_load($user->uid);
+    $cas_user_manager->setCasUsernameForAccount($account, $user->name);
+
     // Assign the temporary role with given permissions.
     $this->getDriver()->userAddRole($user, $role);
     $this->roles[] = $role;

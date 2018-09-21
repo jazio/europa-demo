@@ -4,8 +4,6 @@ declare(strict_types = 1);
 
 namespace Ec\Europa\EuropaDemo\Behat;
 
-use Behat\Behat\Hook\Scope\AfterScenarioScope;
-use Behat\Behat\Hook\Scope\BeforeScenarioScope;
 use Drupal\DrupalExtension\Context\RawDrupalContext;
 
 /**
@@ -14,34 +12,39 @@ use Drupal\DrupalExtension\Context\RawDrupalContext;
 class AuthenticationContext extends RawDrupalContext {
 
   /**
-   * Enable OpenEuropa Authentication module.
+   * Creates and authenticates a user with the given role(s) in EU Login.
    *
-   * @param \Behat\Behat\Hook\Scope\BeforeScenarioScope $scope
-   *   The Hook scope.
-   *
-   * @throws \Exception
-   *
-   * @BeforeScenario @authentication
+   * @Given I am logged in in EU Login as a user with the :role role(s)
+   * @Given I am logged in in EU Login as a/an :role
    */
-  public function enableAuthentication(BeforeScenarioScope $scope): void {
-    if (!\Drupal::service('module_installer')->install(['oe_authentication'])) {
-      throw new \Exception('Could not enable the OpenEuropa Authentication module.');
-    }
-  }
+  public function assertAuthenticatedByRole($role) {
+    // Check if a user with this role is already logged in.
+    if (!$this->loggedInWithRole($role)) {
+      // Create user (and project)
+      $user = (object) array(
+        'name' => $this->getRandom()->name(8),
+        'pass' => $this->getRandom()->name(16),
+        'role' => $role,
+      );
+      $user->mail = "{$user->name}@example.com";
+      $user = $this->userCreate($user);
 
-  /**
-   * Disable OpenEuropa Authentication module.
-   *
-   * @param \Behat\Behat\Hook\Scope\AfterScenarioScope $scope
-   *   The Hook scope.
-   *
-   * @throws \Exception
-   *
-   * @AfterScenario @authentication
-   */
-  public function disableAuthentication(AfterScenarioScope $scope): void {
-    if (!\Drupal::service('module_installer')->uninstall(['oe_authentication'])) {
-      throw new \Exception('Could not disable the OpenEuropa Authentication module.');
+      // Once the user is created assign the CAS username for the account.
+      $cas_user_manager = \Drupal::service('cas.user_manager');
+      $account = user_load($user->uid);
+      $cas_user_manager->setCasUsernameForAccount($account, $user->name);
+
+      $roles = explode(',', $role);
+      $roles = array_map('trim', $roles);
+      foreach ($roles as $role) {
+        if (!in_array(strtolower($role), array('authenticated', 'authenticated user'))) {
+          // Only add roles other than 'authenticated user'.
+          $this->getDriver()->userAddRole($user, $role);
+        }
+      }
+
+      // Login.
+      $this->login($user);
     }
   }
 
