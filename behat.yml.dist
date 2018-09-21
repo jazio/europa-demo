@@ -3,7 +3,6 @@ default:
     default:
       contexts:
       - Behat\MinkExtension\Context\MinkContext
-      - Ec\Europa\EuropaDemo\Behat\AuthenticationContext
       - Ec\Europa\EuropaDemo\Behat\MinkContext
       - Ec\Europa\EuropaDemo\Behat\SitesMinkContext:
           sites:
