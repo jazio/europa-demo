@@ -45,7 +45,7 @@ drupal:
         icon: "all"
       cas.settings:
         server:
-          prototol: "http"
+          protocol: "http"
           hostname: "authentication"
           port: "8001"
           path: "/"

@@ -1,3 +1,6 @@
-base_url: 'http://authentication:8001'
+register_path: eim/external/register.cgi
+validation_path: TicketValidationService
+assurance_level: TOP
+ticket_types: 'SERVICE,PROXY'
 _core:
-  default_config_hash: ytz-0l1HB2OkuvikN5UZJG5zcKjdkqJ3fMh7EoekxiE
+  default_config_hash: Bvk7u50w0gz6tW5lhzvZ_P8k6HoMx-ua5OEo6CEccWQ

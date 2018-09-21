@@ -1,4 +1,4 @@
-uuid: d6bc9033-1460-4439-b0da-4b6ea61219e1
+uuid: 2fa5560d-4a7e-4fab-a9c6-67815e0c3181
 langcode: en
 status: true
 dependencies:
@@ -13,4 +13,7 @@ items:
     collection: ''
     name: oe_authentication.settings
     data:
-      base_url: 'http://authentication:8001'
+      register_path: eim/external/register.cgi
+      validation_path: TicketValidationService
+      assurance_level: TOP
+      ticket_types: 'SERVICE,PROXY'

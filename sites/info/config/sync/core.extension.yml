@@ -4,6 +4,7 @@ module:
   block: 0
   block_content: 0
   breakpoint: 0
+  cas: 0
   config: 0
   config_distro: 0
   config_filter: 0
@@ -24,6 +25,7 @@ module:
   europa_demo_content_broker: 0
   europa_demo_core: 0
   europa_demo_rdf_content: 0
+  externalauth: 0
   field: 0
   field_group: 0
   field_ui: 0
