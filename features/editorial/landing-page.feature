@@ -5,7 +5,7 @@ Feature: Landing page
   I want to make sure that I can create landing pages that contain fully functional page headers.
 
   Scenario: I can create and translate a Landing page content
-    Given I am logged in in EU Login as a user with the "authenticated user" role
+    Given I am logged in as a user with the "authenticated user" role
     # Create a Landing page content.
     When I am on "the create Landing page"
     And I fill in "Title" with "Homepage"

@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Ec\Europa\EuropaDemo\Behat\Services;
+namespace Ec\Europa\EuropaDemo\Behat\Services\Manager;
 
 use Drupal\DrupalExtension\Manager\DrupalAuthenticationManager;
 
