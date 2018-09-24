@@ -1,0 +1,150 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_rich_text"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_rich_text\/uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_rich_text\/revision_uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 99
+        }
+    ],
+    "uuid": [
+        {
+            "value": "fea2f745-2805-479b-a2fe-1a1cd28dca0b"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 1819
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "oe_rich_text"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_rich_text\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2afdcb05-3d24-41e8-bf22-2bc7e39e6a01"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_rich_text\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2afdcb05-3d24-41e8-bf22-2bc7e39e6a01"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-24T11:47:57+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "5"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_landing_page_body"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": "a:0:{}"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "content_translation_changed": [
+        {
+            "value": "2018-09-24T11:50:22+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "field_oe_text_long": [
+        {
+            "value": "<p>The <a href=\"\/inea\/mission-objectives\" title=\"Mission &amp; Objectives\">Innovation and Networks Executive Agency (INEA)<\/a> is the successor of the Trans-European Transport Network Executive Agency (TEN-T EA), which was created by the European Commission in 2006 to manage the technical and financial implementation of its TEN-T programme.<\/p>\r\n<p>INEA officially started its activities on 1 January 2014 in order to implement the following EU programmes:<\/p>\r\n<ul>\r\n\t<li>Connecting Europe Facility (CEF)<\/li>\r\n\t<li>Parts of Horizon 2020 \u2013 Smart, green and integrated transport + Secure, clean and efficient energy<\/li>\r\n\t<li>Legacy programmes: TEN-T and Marco Polo 2007-2013<\/li>\r\n<\/ul>\r\n<p>INEA's main objective is to increase the efficiency of the technical and financial management of the programmes it manages.\r\n\t<ul>\r\n\t\t<li>Connecting Europe Facility (CEF)<\/li>\r\n\t<li>Parts of Horizon 2020 \u2013 Smart, green and integrated transport + Secure, clean and efficient energy<\/li>\r\n\t<li>Legacy programmes: TEN-T and Marco Polo 2007-2013<\/li>\r\n<\/ul>\r\n<\/p>",
+            "format": "html",
+            "processed": "<p>The <a href=\"\/inea\/mission-objectives\" title=\"Mission &amp; Objectives\">Innovation and Networks Executive Agency (INEA)<\/a> is the successor of the Trans-European Transport Network Executive Agency (TEN-T EA), which was created by the European Commission in 2006 to manage the technical and financial implementation of its TEN-T programme.<\/p>\n<p>INEA officially started its activities on 1 January 2014 in order to implement the following EU programmes:<\/p>\n<ul>\n\t<li>Connecting Europe Facility (CEF)<\/li>\n\t<li>Parts of Horizon 2020 \u2013 Smart, green and integrated transport + Secure, clean and efficient energy<\/li>\n\t<li>Legacy programmes: TEN-T and Marco Polo 2007-2013<\/li>\n<\/ul>\n<p>INEA's main objective is to increase the efficiency of the technical and financial management of the programmes it manages.\n\t<\/p><ul>\n\t\t<li>Connecting Europe Facility (CEF)<\/li>\n\t<li>Parts of Horizon 2020 \u2013 Smart, green and integrated transport + Secure, clean and efficient energy<\/li>\n\t<li>Legacy programmes: TEN-T and Marco Polo 2007-2013<\/li>\n<\/ul>\n",
+            "lang": "en"
+        }
+    ]
+}
