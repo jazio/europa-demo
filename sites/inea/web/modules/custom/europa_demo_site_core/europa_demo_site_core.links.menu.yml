@@ -1,0 +1,40 @@
+europa_demo_site_core.main.home:
+  title: 'Home'
+  route_name: "<front>"
+  menu_name: "main"
+  weight: 0
+europa_demo_site_core.main.connecting_europe_facility:
+  title: 'Connecting Europe facility'
+  route_name: "<none>"
+  menu_name: "main"
+  weight: 1
+europa_demo_site_core.main.horizon_2020:
+  title: 'Horizon 2020'
+  route_name: "<none>"
+  menu_name: "main"
+  weight: 2
+europa_demo_site_core.main.ten_t:
+  title: 'Ten-T'
+  route_name: "<none>"
+  menu_name: "main"
+  weight: 4
+europa_demo_site_core.main.marco_polo:
+  title: 'Marco Polo'
+  route_name: "<none>"
+  menu_name: "main"
+  weight: 5
+europa_demo_site_core.main.news:
+  title: 'News'
+  route_name: "europa_demo_content.news"
+  menu_name: "main"
+  weight: 6
+europa_demo_site_core.main.events:
+  title: 'Events'
+  route_name: "europa_demo_content.events"
+  menu_name: "main"
+  weight: 7
+europa_demo_site_core.main.about_us:
+  title: 'About Us'
+  route_name: "<none>"
+  menu_name: "main"
+  weight: 8

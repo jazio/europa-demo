@@ -1,0 +1,8 @@
+name: Europa Demo Site Core
+type: module
+description: Contains core functinoalities for a specific site.
+package: Custom
+core: 8.x
+
+dependencies:
+- europa_demo_core:europa_demo_core

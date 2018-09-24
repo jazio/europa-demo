@@ -23,7 +23,8 @@ module:
   europa_demo_content: 0
   europa_demo_content_broker: 0
   europa_demo_core: 0
-  europa_demo_rdf_content: 0
+  europa_demo_site_content: 0
+  europa_demo_site_core: 0
   field: 0
   field_group: 0
   field_ui: 0
