@@ -1,13 +1,12 @@
-@api @site-inea @site-energy @site-info
-Feature: Default content 'Policies, information and services'
+@api @site-info
+Feature: Default content for INFO site
   In order to be able to showcase the site's features
   As a developer
   I want to make sure that the exported default content is correctly imported
 
-  Scenario: Priorities landing page content is correctly imported
+  Scenario: INFO homepage is correctly imported
     When I am on the homepage
     And I click "English"
-    And I click "Policies, information and services"
 
     Then the site switcher link "Policies, information and services" is active
     But the site switcher link "Commission and its priorities" is not active
