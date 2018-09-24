@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/web:8080\/en\/energy-frontpage?_format=hal_json"
+            "href": "http:\/\/web:8080\/en\/directorate-general-energy?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/landing_page"
@@ -35,7 +35,7 @@
     ],
     "vid": [
         {
-            "value": 111
+            "value": 112
         }
     ],
     "langcode": [
@@ -51,7 +51,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2018-09-24T09:33:42+00:00",
+            "value": "2018-09-24T10:02:45+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -106,7 +106,7 @@
                         "value": "6936d0c4-5554-43cf-844f-ce369673f1c6"
                     }
                 ],
-                "target_revision_id": "1817"
+                "target_revision_id": "1823"
             }
         ]
     },
@@ -118,7 +118,7 @@
     ],
     "title": [
         {
-            "value": "Energy frontpage",
+            "value": "Directorate-General for Energy",
             "lang": "en"
         }
     ],
@@ -131,7 +131,7 @@
     ],
     "changed": [
         {
-            "value": "2018-09-24T09:33:42+00:00",
+            "value": "2018-09-24T10:02:45+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -162,7 +162,7 @@
     ],
     "path": [
         {
-            "alias": "\/energy-frontpage",
+            "alias": "\/directorate-general-energy",
             "pid": 29,
             "langcode": "en",
             "lang": "en"
