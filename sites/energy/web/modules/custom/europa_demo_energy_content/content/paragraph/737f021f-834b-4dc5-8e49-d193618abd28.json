@@ -1,0 +1,210 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/field_oe_image": [
+            {
+                "href": "http:\/\/web:8080\/en\/file\/35?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 102
+        }
+    ],
+    "uuid": [
+        {
+            "value": "737f021f-834b-4dc5-8e49-d193618abd28"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 1814
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "oe_list_item"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7e066c14-3971-423f-8f07-1c2936ff7b8a"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7e066c14-3971-423f-8f07-1c2936ff7b8a"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/field_oe_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/file\/35?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a902c123-6725-4ca6-a9ca-445e1d3d41b4"
+                    }
+                ],
+                "lang": "en",
+                "alt": "",
+                "title": "",
+                "width": "306",
+                "height": "204"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-24T09:31:23+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "100"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "paragraph"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_oe_paragraphs"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": "a:0:{}"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "content_translation_changed": [
+        {
+            "value": "2018-09-24T09:31:23+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "field_oe_link": [
+        {
+            "uri": "internal:\/",
+            "title": "",
+            "options": [],
+            "lang": "en"
+        }
+    ],
+    "field_oe_list_item_variant": [
+        {
+            "value": "list_item_thumbnail_secondary",
+            "lang": "en"
+        }
+    ],
+    "field_oe_meta": [
+        {
+            "value": "13 September 2018",
+            "lang": "en"
+        }
+    ],
+    "field_oe_text_long": [
+        {
+            "value": "New initiative will support the efforts of European Commission\u2019s Platform for Coal Regions in Transition",
+            "format": "plain_text",
+            "processed": "New initiative will support the efforts of European Commission\u2019s Platform for Coal Regions in Transition",
+            "lang": "en"
+        }
+    ],
+    "field_oe_title": [
+        {
+            "value": "Michael R. Bloomberg partners with Commissioner Arias Ca\u00f1ete to support European transition from coal power",
+            "lang": "en"
+        }
+    ]
+}
