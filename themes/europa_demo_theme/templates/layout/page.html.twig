@@ -1,0 +1,25 @@
+{#
+/**
+ * @file
+ * Theme override to display a single page.
+ *
+ * @see ./core/themes/stable/templates/layout/page.html.twig
+ */
+#}
+
+{% extends '@oe_theme/layout/page.html.twig' %}
+
+{# @todo remove this customisation after the following issue is resolved #}
+{# @link https://webgate.ec.europa.eu/CITnet/jira/browse/OPENEUROPA-1236 #}
+{% block page_header %}
+<div class="ecl-page-header">
+    <div class="ecl-container">
+        {{ page.breadcrumb }}
+    </div>
+    {% if page.page_header %}
+      <div class="ecl-page-header__body">
+        {{ page.page_header }}
+      </div>
+    {% endif %}
+    </div>
+{% endblock %}
