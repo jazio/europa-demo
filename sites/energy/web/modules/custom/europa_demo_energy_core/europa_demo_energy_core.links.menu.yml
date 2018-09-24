@@ -1,0 +1,45 @@
+europa_demo_energy_core.main.home:
+  title: 'Home'
+  route_name: "<front>"
+  menu_name: "main"
+  weight: 0
+europa_demo_energy_core.main.data_analysis:
+  title: 'Data & Analysis'
+  route_name: "<none>"
+  menu_name: "main"
+  weight: 1
+europa_demo_energy_core.main.consultations:
+  title: 'Consultations'
+  route_name: "<none>"
+  menu_name: "main"
+  weight: 2
+europa_demo_energy_core.main.news:
+  title: 'News'
+  route_name: "europa_demo_content.news"
+  menu_name: "main"
+  weight: 3
+europa_demo_energy_core.main.events:
+  title: 'Events'
+  route_name: "europa_demo_content.events"
+  menu_name: "main"
+  weight: 4
+europa_demo_energy_core.main.funding:
+  title: 'Funding'
+  route_name: "<none>"
+  menu_name: "main"
+  weight: 5
+europa_demo_energy_core.main.studies:
+  title: 'Studies'
+  route_name: "<none>"
+  menu_name: "main"
+  weight: 6
+europa_demo_energy_core.main.publications:
+  title: 'Publications'
+  route_name: "<none>"
+  menu_name: "main"
+  weight: 7
+europa_demo_energy_core.main.about_us:
+  title: 'About Us'
+  route_name: "<none>"
+  menu_name: "main"
+  weight: 8

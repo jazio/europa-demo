@@ -1,0 +1,24 @@
+uuid: ae835316-65c8-4537-8a05-b74f5509bc49
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - europa_demo_theme
+id: main_navigation
+theme: europa_demo_theme
+region: navigation
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }
