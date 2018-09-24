@@ -4,6 +4,7 @@ status: true
 dependencies:
   module:
     - oe_theme_helper
+    - system
   theme:
     - europa_demo_theme
 _core:
@@ -11,7 +12,7 @@ _core:
 id: europa_demo_theme_page_header
 theme: europa_demo_theme
 region: page_header
-weight: -3
+weight: -5
 provider: null
 plugin: oe_theme_helper_page_header
 settings:
@@ -21,4 +22,9 @@ settings:
   label_display: '0'
   context_mapping:
     page_header: '@oe_theme_helper.page_header_context:page_header'
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: /commission
+    negate: true
+    context_mapping: {  }
