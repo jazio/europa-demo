@@ -1,0 +1,3 @@
+parameters:
+  drupal.authentication_manager.class: Ec\Europa\EuropaDemo\Behat\Services\Manager\CasAuthenticationManager
+  drupal.driver.cores.8.class: Ec\Europa\EuropaDemo\Behat\Services\Driver\Cores\Drupal8

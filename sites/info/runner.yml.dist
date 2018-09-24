@@ -46,6 +46,15 @@ drupal:
         exclude: [ ".ecl-button", ".nolaco", ".more-link", ".pager" ]
         coverage: { document: "any", page: "any" }
         icon: "all"
+      cas.settings:
+        server:
+          protocol: "http"
+          hostname: "authentication"
+          port: "8001"
+          path: "/"
+      oe_authentication.settings:
+        register_path: "register"
+        validation_path: "serviceValidate"
 
 commands:
   drupal:site-setup:
