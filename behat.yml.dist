@@ -7,10 +7,13 @@ default:
       - Ec\Europa\EuropaDemo\Behat\SitesMinkContext:
           sites:
             inea:
+              name: "INEA"
               base_url: "${web.base_url}/sites/inea/web"
             info:
+              name: "INFO"
               base_url: "${web.base_url}/sites/info/web"
             energy:
+              name: "ENERGY"
               base_url: "${web.base_url}/sites/energy/web"
       - Ec\Europa\EuropaDemo\Behat\RdfExternalContext:
           # @todo port this to TransformationContext as soon as issue below is fixed.

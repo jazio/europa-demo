@@ -36,16 +36,20 @@ class SitesMinkContext extends RawMinkContext {
   }
 
   /**
-   * Assert that current URL belongs to given site.
+   * Assert that user is on given site.
    *
    * @Then I should be on the :site site
    */
   public function assertSite(string $site): void {
+    // Assert being on given site by comparing current and site's URL.
     $site_path = parse_url($this->sites[$site]['base_url'])['path'];
     $current_path = parse_url($this->getSession()->getCurrentUrl())['path'];
     if (strpos($current_path, $site_path) !== 0) {
       throw new \Exception("Current page '{$current_path}' does not belong to the '{$site}' site");
     }
+
+    // Make sure that the site displays the site ribbon.
+    $this->assertSession()->elementContains('css', '.europa-demo-ribbon__content', $this->sites[$site]['name']);
   }
 
 }
