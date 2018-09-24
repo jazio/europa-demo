@@ -4,7 +4,6 @@ status: true
 dependencies:
   module:
     - oe_theme_helper
-    - system
   theme:
     - europa_demo_theme
 _core:
@@ -22,9 +21,4 @@ settings:
   label_display: '0'
   context_mapping:
     page_header: '@oe_theme_helper.page_header_context:page_header'
-visibility:
-  request_path:
-    id: request_path
-    pages: '<front>'
-    negate: true
-    context_mapping: {  }
+visibility: {  }
