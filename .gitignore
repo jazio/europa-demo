@@ -15,6 +15,7 @@ docker-compose.yml
 
 # Ignore user entity export
 /modules/europa_demo_content/content/user
+/sites/*/web/modules/custom/europa_demo_site_content/content/user/
 
 # Ignore config translations
 sites/*/config/sync/language

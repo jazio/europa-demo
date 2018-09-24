@@ -9,7 +9,6 @@ drupal:
     password: ""
   site:
     profile: "oe_profile"
-    name: "Site ENERGY"
     config_dir: "${drupal.config_dir}"
   pre_install:
   - { task: "chmod", permissions: 0775, file: "${drupal.root}/sites/default" }
