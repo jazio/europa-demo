@@ -5,3 +5,44 @@ Style sheet for Europa Demo sub-theme.
 .ecl-list-item--highlight .ecl-heading {
   margin-top: 1rem;
 }
+
+.europa-demo-ribbon {
+  position: fixed;
+  width: 200px;
+  height: 200px;
+  transform: rotate(45deg);
+  text-align: center;
+  background: black;
+  color: white;
+  vertical-align: unset;
+  top: -100px;
+  right: -100px;
+  z-index: 100;
+  text-transform: uppercase;
+}
+.europa-demo-ribbon__info {
+  background: darkcyan;
+}
+.europa-demo-ribbon__inea {
+  background: orangered;
+}
+.europa-demo-ribbon__energy {
+  background: limegreen;
+}
+.europa-demo-ribbon__content {
+  position: absolute;
+  bottom: 15px;
+  text-align: center;
+  width: 200px;
+  font-weight: bold;
+  font-size: 20px;
+}
+body.toolbar-fixed .europa-demo-ribbon {
+  top: -62px;
+}
+body.toolbar-fixed.toolbar-horizontal .europa-demo-ribbon {
+  top: -62px;
+}
+body.toolbar-fixed.toolbar-horizontal.toolbar-tray-open .europa-demo-ribbon {
+  top: -23px;
+}

@@ -12,14 +12,14 @@
 {# @todo remove this customisation after the following issue is resolved #}
 {# @link https://webgate.ec.europa.eu/CITnet/jira/browse/OPENEUROPA-1236 #}
 {% block page_header %}
-<div class="ecl-page-header">
+  <div class="ecl-page-header">
     <div class="ecl-container">
-        {{ page.breadcrumb }}
+      {{ page.breadcrumb }}
     </div>
     {% if page.page_header %}
       <div class="ecl-page-header__body">
         {{ page.page_header }}
       </div>
     {% endif %}
-    </div>
+  </div>
 {% endblock %}
