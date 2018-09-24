@@ -5,7 +5,7 @@ Feature: Default content for INFO site
   I want to make sure that the exported default content is correctly imported
 
   Scenario: INFO homepage is correctly imported
-    When I am on the homepage
+    When I am on "the front page"
     And I click "English"
 
     Then the site switcher link "Policies, information and services" is active
