@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Europa Demo RDF Content install file.
+ * Europa Demo Site Content install file.
  */
 
 declare(strict_types = 1);
@@ -10,7 +10,7 @@ declare(strict_types = 1);
 /**
  * Implements hook_uninstall().
  */
-function europa_demo_rdf_content_uninstall() {
+function europa_demo_site_content_uninstall() {
   $uris = \Drupal::entityTypeManager()->getStorage('rdf_entity')->getQuery()
     ->condition('rid', ['oe_event', 'oe_department'], 'IN')
     ->condition('provenance_uri', 'http://ec.europa.eu/info')
