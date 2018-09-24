@@ -112,6 +112,9 @@ site:
         language dialog: ".ecl-dialog"
       selectors: &drupal-selectors
         success_message_selector: ".ecl-message--success"
+    FriendsOfBehat\ServiceContainerExtension: &service-container-extension
+      imports:
+      - "./behat.services.yml"
 
 inea:
   suites:
@@ -131,6 +134,7 @@ inea:
         drupal_root: "sites/inea/web"
       region_map: *drupal-region-map
       selectors: *drupal-selectors
+    FriendsOfBehat\ServiceContainerExtension: *service-container-extension
 
 energy:
   suites:
@@ -150,6 +154,7 @@ energy:
         drupal_root: "sites/energy/web"
       region_map: *drupal-region-map
       selectors: *drupal-selectors
+    FriendsOfBehat\ServiceContainerExtension: *service-container-extension
 
 info:
   suites:
@@ -169,3 +174,4 @@ info:
         drupal_root: "sites/info/web"
       region_map: *drupal-region-map
       selectors: *drupal-selectors
+    FriendsOfBehat\ServiceContainerExtension: *service-container-extension

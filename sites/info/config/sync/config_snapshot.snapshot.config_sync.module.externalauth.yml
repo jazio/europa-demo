@@ -1,0 +1,11 @@
+uuid: c6208806-444c-46d2-994e-0f5a1f3f6a05
+langcode: en
+status: true
+dependencies:
+  module:
+    - externalauth
+id: config_sync.module.externalauth
+snapshotSet: config_sync
+extensionType: module
+extensionName: externalauth
+items: {  }
