@@ -70,6 +70,10 @@ commands:
   - "./vendor/bin/drush --root='${runner.working_dir}/sites/inea' cr"
   - "./vendor/bin/drush --root='${runner.working_dir}/sites/energy' cr"
   - "./vendor/bin/drush --root='${runner.working_dir}/sites/info' cr"
+  sites:uli:
+  - "./vendor/bin/drush --root='${runner.working_dir}/sites/inea' uli"
+  - "./vendor/bin/drush --root='${runner.working_dir}/sites/energy' uli"
+  - "./vendor/bin/drush --root='${runner.working_dir}/sites/info' uli"
 
   setup:behat:
   - { task: "process", source: "behat.yml.dist", destination: "behat.yml" }
