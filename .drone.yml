@@ -52,10 +52,7 @@ pipeline:
   syncope-provisioning:
     image: fpfis/httpd-php-dev:7.1
     commands:
-    - ./vendor/bin/run oe-authorisation-service:setup
-    - ./vendor/bin/run oe-authorisation-service:site-setup --site_id=siteinfo
-    - ./vendor/bin/run oe-authorisation-service:site-setup --site_id=siteinea
-    - ./vendor/bin/run oe-authorisation-service:site-setup --site_id=siteenergy
+    - ./vendor/bin/run sites:syncope-install
 
   build-site-info:
     group: build-site

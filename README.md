@@ -62,6 +62,7 @@ $ docker-compose up -d
 docker-compose exec web composer install
 docker-compose exec web ./vendor/bin/run sites:composer-install
 docker-compose exec web ./vendor/bin/run sites:setup
+docker-compose exec web ./vendor/bin/run sites:syncope-install
 docker-compose exec web ./vendor/bin/run sites:install
 ```
 

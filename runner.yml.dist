@@ -27,6 +27,11 @@ drupal:
   config_dir: "../config/sync"
 
 commands:
+  sites:syncope-install:
+  - "./vendor/bin/run oe-authorisation-service:setup"
+  - "./vendor/bin/run oe-authorisation-service:site-setup --site_id=inea"
+  - "./vendor/bin/run oe-authorisation-service:site-setup --site_id=energy"
+  - "./vendor/bin/run oe-authorisation-service:site-setup --site_id=info"
   sites:composer-install:
   - "composer --working-dir=sites/inea install"
   - "composer --working-dir=sites/energy install"
