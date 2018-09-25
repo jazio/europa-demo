@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Drupal\europa_demo_content\EventSubscriber;
+namespace Drupal\europa_demo_site_content\EventSubscriber;
 
 use Drupal\default_content\Event\DefaultContentEvents;
 use Drupal\default_content\Event\ImportEvent;
