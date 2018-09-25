@@ -1,0 +1,20 @@
+uuid: bb43ae66-a3da-4101-b075-47275d2c55b8
+langcode: en
+status: true
+dependencies:
+  module:
+    - europa_demo_core
+  theme:
+    - europa_demo_theme
+id: siteribbon
+theme: europa_demo_theme
+region: site_top_bar
+weight: 0
+provider: null
+plugin: europa_demo_site_ribbon
+settings:
+  id: europa_demo_site_ribbon
+  label: 'Site ribbon'
+  provider: europa_demo_core
+  label_display: '0'
+visibility: {  }

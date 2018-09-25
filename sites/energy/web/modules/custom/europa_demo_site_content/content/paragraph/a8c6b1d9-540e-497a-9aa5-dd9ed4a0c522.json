@@ -1,0 +1,204 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/oe_list_item"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
+            {
+                "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/field_oe_image": [
+            {
+                "href": "http:\/\/web:8080\/en\/file\/33?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 99
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a8c6b1d9-540e-497a-9aa5-dd9ed4a0c522"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 1818
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "oe_list_item"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7e066c14-3971-423f-8f07-1c2936ff7b8a"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7e066c14-3971-423f-8f07-1c2936ff7b8a"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/oe_list_item\/field_oe_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/web:8080\/en\/file\/33?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c367d496-3eab-4aaa-94b8-c0d80f81f379"
+                    }
+                ],
+                "lang": "en",
+                "alt": "",
+                "title": "",
+                "width": "306",
+                "height": "204"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-24T09:27:40+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "100"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "paragraph"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_oe_paragraphs"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": "a:0:{}"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "content_translation_changed": [
+        {
+            "value": "2018-09-24T09:33:42+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "field_oe_link": [
+        {
+            "uri": "internal:\/",
+            "title": "",
+            "options": [],
+            "lang": "en"
+        }
+    ],
+    "field_oe_list_item_variant": [
+        {
+            "value": "list_item_thumbnail_secondary",
+            "lang": "en"
+        }
+    ],
+    "field_oe_meta": [
+        {
+            "value": "Dublin, 20 \u2013 21 of September",
+            "lang": "en"
+        }
+    ],
+    "field_oe_text_long": [
+        {
+            "value": "Commissioner for Climate Action and Energy Miguel Arias Ca\u00f1ete and Vice President for the Energy Union Maro\u0161 \u0160ef\u010dovi\u010d, will attend the 10th Citizens\u2019 Energy Forum in Dublin, Ireland, respectively on 20 and 21 of September.",
+            "format": "plain_text",
+            "processed": "Commissioner for Climate Action and Energy Miguel Arias Ca\u00f1ete and Vice President for the Energy Union Maro\u0161 \u0160ef\u010dovi\u010d, will attend the 10th Citizens\u2019 Energy Forum in Dublin, Ireland, respectively on 20 and 21 of September.",
+            "lang": "en"
+        }
+    ],
+    "field_oe_title": [
+        {
+            "value": "Vice-President \u0160ef\u010dovi\u010d and Commissioner Arias Ca\u00f1ete to attend 10th Citizens' Energy Forum",
+            "lang": "en"
+        }
+    ]
+}

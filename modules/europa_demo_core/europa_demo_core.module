@@ -32,6 +32,11 @@ function europa_demo_core_theme($existing, $type, $theme, $path): array {
         'background' => NULL,
       ],
     ],
+    'europa_demo_site_ribbon' => [
+      'variables' => [
+        'name' => NULL,
+      ],
+    ],
   ];
 }
 

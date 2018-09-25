@@ -1,0 +1,28 @@
+<?php
+
+/**
+ * @file
+ * Europa Demo Site Content install file.
+ */
+
+declare(strict_types = 1);
+
+/**
+ * Implements hook_uninstall().
+ */
+function europa_demo_site_content_uninstall() {
+  $uris = \Drupal::entityTypeManager()->getStorage('rdf_entity')->getQuery()
+    ->condition('rid', ['oe_announcement', 'oe_event'], 'IN')
+    ->condition('provenance_uri', 'http://ec.europa.eu/inea')
+    ->execute();
+
+  if (!$uris) {
+    return;
+  }
+
+  // Delete all the RDF entities upon uninstall.
+  $rdf_entities = \Drupal::entityTypeManager()->getStorage('rdf_entity')->loadMultiple($uris);
+  if ($rdf_entities) {
+    \Drupal::entityTypeManager()->getStorage('rdf_entity')->delete($rdf_entities);
+  }
+}

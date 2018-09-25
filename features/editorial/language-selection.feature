@@ -1,4 +1,4 @@
-@api @selection-page @site-inea @site-energy @site-info
+@api @selection-page @site-info
 Feature: Language selection
   In order to be able choose the initial language of the site
   As a visitor

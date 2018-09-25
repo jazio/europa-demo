@@ -1,0 +1,13 @@
+parameters:
+  europa_demo_site_content.url_aliases:
+    a28cd5b4-8435-4cea-b209-ffe5995f7ee4: '/commission'
+    830f5f18-fa0d-42af-8d7d-b8e99e76869b: '/commission/priorities'
+    b128d3b0-d610-4266-93d6-bfe7141e01e1: '/commission/priorities/jobs-growth-and-investment'
+    8c314e2d-9a5b-49b8-af19-eeda8610badd: '/info'
+
+services:
+  europa_demo_site_content.event_subscriber.content_import:
+    class: '\Drupal\europa_demo_site_content\EventSubscriber\ContentImportSubscriber'
+    arguments: ['%europa_demo_site_content.url_aliases%']
+    tags:
+      - { name: 'event_subscriber' }

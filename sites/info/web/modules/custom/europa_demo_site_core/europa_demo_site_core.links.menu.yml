@@ -1,0 +1,35 @@
+# Default Content cannot export menu link content entities yet due to a Drupal core issue.
+# @todo: Fix this once the following issues have been resolved.
+# @link https://www.drupal.org/project/default_content/issues/2885285
+# @link https://www.drupal.org/project/drupal/issues/2577923
+europa_demo_site_core.commission:
+  title: 'Commission and its priorities'
+  route_name: 'entity.node.canonical'
+  route_parameters:
+    node: 1
+  menu_name: "site-switcher"
+  weight: 0
+
+europa_demo_site_core.commission.priorities:
+  title: 'More about the priorities'
+  route_name: 'entity.node.canonical'
+  route_parameters:
+    node: 4
+  menu_name: "main"
+  parent: "europa_demo_site_core.commission"
+
+europa_demo_site_core.commission.priorities.jobs:
+  title: 'Jobs, growth and investment'
+  route_name: 'entity.node.canonical'
+  route_parameters:
+    node: 3
+  menu_name: "main"
+  parent: "europa_demo_site_core.commission.priorities"
+
+europa_demo_site_core.info:
+  title: 'Policies, information and services'
+  route_name: 'entity.node.canonical'
+  route_parameters:
+    node: 2
+  menu_name: "site-switcher"
+  weight: 1

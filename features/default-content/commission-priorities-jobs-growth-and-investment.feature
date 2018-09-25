@@ -1,4 +1,4 @@
-@api @site-inea @site-energy @site-info
+@api @site-info
 Feature: Default content 'Commission / Priorities / Jobs, growth and investment'
   In order to be able to showcase the site's features
   As a developer

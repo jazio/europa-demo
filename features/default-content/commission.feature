@@ -1,11 +1,11 @@
-@api @site-inea @site-energy @site-info
+@api @site-info
 Feature: Default content 'Commission and its priorities'
   In order to be able to showcase the site's features
   As a developer
   I want to make sure that the exported default content is correctly imported
 
   Scenario: Commission landing page content is correctly imported
-    When I am on the homepage
+    When I am on "/commission"
     And I click "English"
 
     Then the site switcher link "Commission and its priorities" is active

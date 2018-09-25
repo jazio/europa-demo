@@ -21,9 +21,10 @@ module:
   dynamic_page_cache: 0
   editor: 0
   entity_reference_revisions: 0
-  europa_demo_content: 0
   europa_demo_content_broker: 0
   europa_demo_core: 0
+  europa_demo_site_content: 0
+  europa_demo_site_core: 0
   externalauth: 0
   field: 0
   field_group: 0
