@@ -26,7 +26,7 @@ services:
     environment:
       - SPARQL_UPDATE=true
       - DBA_PASSWORD=dba
-   syncope:
+  syncope:
     depends_on:
     - mysql
     image: apache/syncope:2.1.1
@@ -39,6 +39,7 @@ services:
       DB_POOL_MAX: "10"
       DB_POOL_MIN: "2"
       OPENJPA_REMOTE_COMMIT: sjvm
+
 pipeline:
   composer-install:
     group: prepare

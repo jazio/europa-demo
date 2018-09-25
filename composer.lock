@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "de823d0ddbfd17e2232bea541de296dc",
+    "content-hash": "814da34d6a2011cd2cd6fb90a1b51837",
     "packages": [
         {
             "name": "behat/behat",
@@ -1701,12 +1701,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "d39847d56425887477d328eadafe31b272489c4b"
+                "reference": "809660628fe11f52d7ad8786bf03c0ffb6d8a155"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/d39847d56425887477d328eadafe31b272489c4b",
-                "reference": "d39847d56425887477d328eadafe31b272489c4b",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/809660628fe11f52d7ad8786bf03c0ffb6d8a155",
+                "reference": "809660628fe11f52d7ad8786bf03c0ffb6d8a155",
                 "shasum": ""
             },
             "require": {
@@ -1832,7 +1832,7 @@
             ],
             "description": "Drush is a command line shell and scripting interface for Drupal, a veritable Swiss Army knife designed to make life easier for those of us who spend some of our working hours hacking away at the command prompt.",
             "homepage": "http://www.drush.org",
-            "time": "2018-09-24T13:08:03+00:00"
+            "time": "2018-09-24T14:45:03+00:00"
         },
         {
             "name": "fabpot/goutte",
@@ -2855,6 +2855,44 @@
             ],
             "description": "OpenEuropa code review component.",
             "time": "2018-09-21T10:53:56+00:00"
+        },
+        {
+            "name": "openeuropa/syncope-php-client",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/openeuropa/syncope-php-client.git",
+                "reference": "e3e3b2a1f99b4ae89a1b4a1d302e074a3925585d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/openeuropa/syncope-php-client/zipball/e3e3b2a1f99b4ae89a1b4a1d302e074a3925585d",
+                "reference": "e3e3b2a1f99b4ae89a1b4a1d302e074a3925585d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "guzzlehttp/guzzle": "^6.2",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "openeuropa/code-review": "~0.2",
+                "openeuropa/task-runner": "~0.8",
+                "phpunit/phpunit": "~5.0|~6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "OpenEuropa\\SyncopePhpClient\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "EUPL-1.2"
+            ],
+            "time": "2018-09-18T09:15:39+00:00"
         },
         {
             "name": "openeuropa/task-runner",
@@ -4843,7 +4881,8 @@
         "drupal/drupal-extension": 15,
         "drush/drush": 20,
         "openeuropa/code-review": 20,
-        "openeuropa/task-runner": 20
+        "openeuropa/task-runner": 20,
+        "openeuropa/syncope-php-client": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
