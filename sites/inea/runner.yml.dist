@@ -32,6 +32,13 @@ drupal:
     config:
       oe_content.settings:
         provenance_uri: 'http://ec.europa.eu/inea'
+      oe_authorisation_syncope.settings:
+        credentials:
+          username: 'system-account-inea'
+          password: 'password'
+        endpoint: 'http://syncope:8080/syncope/rest'
+        domain: 'Master'
+        site_realm_name: 'siteinea'
       europa_demo_content_broker.settings:
         topics:
           -

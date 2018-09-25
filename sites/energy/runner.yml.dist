@@ -43,6 +43,13 @@ drupal:
           -
             site: 'http://ec.europa.eu/energy'
             topics: []
+      oe_authorisation_syncope.settings:
+        credentials:
+          username: 'system-account-energy'
+          password: 'password'
+        endpoint: 'http://syncope:8080/syncope/rest'
+        domain: 'Master'
+        site_realm_name: 'siteenergy'
       oe_webtools_laco_widget.settings:
         include: [ ".ecl-paragraph" ]
         exclude: [ ".ecl-button", ".nolaco", ".more-link", ".pager" ]
