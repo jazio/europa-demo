@@ -1,4 +1,4 @@
-@api @site-inea @site-energy @site-info
+@api @site-info
 Feature: Default content 'Commission and its priorities'
   In order to be able to showcase the site's features
   As a developer
