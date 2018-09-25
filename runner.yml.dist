@@ -8,6 +8,12 @@ authentication:
   server:
     base_url: "http://authentication:8001"
 
+authorisation:
+  server:
+    username: "admin"
+    password: "password"
+    endpoint: "http://syncope:8080/syncope/rest"
+
 selenium:
   host: "http://selenium"
   port: "4444"
