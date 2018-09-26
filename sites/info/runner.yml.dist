@@ -51,6 +51,8 @@ drupal:
           hostname: "authentication"
           port: "8001"
           path: "/"
+        forced_login:
+          enabled: false
       oe_authentication.settings:
         register_path: "register"
         validation_path: "serviceValidate"
