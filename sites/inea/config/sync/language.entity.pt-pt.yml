@@ -4,7 +4,7 @@ status: true
 dependencies: {  }
 _core:
   default_config_hash: J6ue4DkfS135i5e5-5CMn4PXFWzzEP0KQxwpadR-V50
-id: pt
+id: pt-pt
 label: Portuguese
 direction: ltr
 weight: 12
