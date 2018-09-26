@@ -28,8 +28,8 @@ connection details. For installation using docker, see below.
 ```
 composer install
 ./vendor/bin/run sites:composer-install
-./vendor/bin/run sites:setup
-./vendor/bin/run sites:install
+./vendor/bin/run sites:run drupal:site-setup
+./vendor/bin/run sites:run drupal:site-install
 ```
 
 When working on 3 concurrent builds, there are Task Runner parallel tasks available in
@@ -61,8 +61,8 @@ Run:
 $ docker-compose up -d
 docker-compose exec web composer install
 docker-compose exec web ./vendor/bin/run sites:composer-install
-docker-compose exec web ./vendor/bin/run sites:setup
-docker-compose exec web ./vendor/bin/run sites:install
+docker-compose exec web ./vendor/bin/run sites:run drupal:site-setup
+docker-compose exec web ./vendor/bin/run sites:run drupal:site-install
 ```
 
 The three site will then be available at the following URLs:
@@ -102,26 +102,43 @@ docker-compose exec web ./vendor/bin/run --working-dir=/var/www/html/sites/inea 
 
 ### Convenience commands
 
-The projects provides a set of convenience commands that can run useful Drupal/Task Runner tasks on all three sites at
-the same time, namely:
+To run a Task Runner command on all sites use: 
 
 ```
-docker-compose exec web ./vendor/bin/run sites:cache-rebuild
+docker-compose exec web ./vendor/bin/run sites:run [COMMAND]
+```
+
+To run a Drush command on all sites use:
+
+```
+docker-compose exec web ./vendor/bin/run sites:drush [COMMAND]
+```
+
+Both only accept the `-y` option.
+
+To run common Composer commands on all sites use:
+
+```
 docker-compose exec web ./vendor/bin/run sites:composer-drupal-scaffold
 docker-compose exec web ./vendor/bin/run sites:composer-install
 docker-compose exec web ./vendor/bin/run sites:composer-update
-docker-compose exec web ./vendor/bin/run sites:config-export
-docker-compose exec web ./vendor/bin/run sites:config-import
-docker-compose exec web ./vendor/bin/run sites:import-interface-translations
-docker-compose exec web ./vendor/bin/run sites:install
+```
+
+The projects also provides a set of convenience commands that can run useful Drupal/Task Runner tasks on all three sites
+at the same time, such as:
+
+```
 docker-compose exec web ./vendor/bin/run sites:parallel-composer-install
 docker-compose exec web ./vendor/bin/run sites:parallel-composer-update
 docker-compose exec web ./vendor/bin/run sites:parallel-drush
 docker-compose exec web ./vendor/bin/run sites:parallel-install
 docker-compose exec web ./vendor/bin/run sites:parallel-setup
+
 docker-compose exec web ./vendor/bin/run sites:sql-drop
 docker-compose exec web ./vendor/bin/run sites:sql-dump
 docker-compose exec web ./vendor/bin/run sites:sql-restore
+
+docker-compose exec web ./vendor/bin/run sites:import-interface-translations
 ```
 
 Also, after any change on the sites' `runner.yml.dist` run:

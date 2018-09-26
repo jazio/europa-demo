@@ -39,7 +39,7 @@ pipeline:
     volumes:
       - /cache:/cache
     commands:
-      - composer --working-dir=sites/info install
+      - composer --working-dir=sites/info --ansi --no-progress install
 
   build-site-inea:
     group: build-site
@@ -47,7 +47,7 @@ pipeline:
     volumes:
       - /cache:/cache
     commands:
-      - composer --working-dir=sites/inea install
+      - composer --working-dir=sites/inea --ansi --no-progress install
 
   build-site-energy:
     group: build-site
@@ -55,7 +55,7 @@ pipeline:
     volumes:
       - /cache:/cache
     commands:
-      - composer --working-dir=sites/energy install
+      - composer --working-dir=sites/energy --ansi --no-progress install
 
   install-site-info:
     group: install-site
